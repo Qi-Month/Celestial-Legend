@@ -1,0 +1,28 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "misc",
+	"key": {
+		"c": {
+			"tag": "forge:ingots/copper"
+		},
+		"g": {
+			"item": "createaddition:capacitor"
+		},
+		"i": {
+			"tag": "forge:sheetmetals/iron"
+		},
+		"v":{
+			"item": "immersiveengineering:component_iron"
+		}
+	},
+	"pattern": [
+		"ivi",
+		"gcg",
+		"ivi"
+	],
+	"result": {
+		"count": 5,
+		"item": "immersiveengineering:light_engineering"
+	},
+	"show_notification": true
+}

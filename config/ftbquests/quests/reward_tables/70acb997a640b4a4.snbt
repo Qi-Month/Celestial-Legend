@@ -1,0 +1,30 @@
+{
+	id: "70ACB997A640B4A4"
+	loot_size: 1
+	order_index: 7
+	rewards: [
+		{ item: "minecraft:oak_sapling", weight: 1.5f }
+		{ item: "twilightforest:twilight_oak_sapling", weight: 1.5f }
+		{ item: "twilightforest:rainbow_oak_sapling", weight: 1.5f }
+		{ item: "minecraft:acacia_sapling", weight: 1.5f }
+		{ item: "minecraft:jungle_sapling", weight: 1.5f }
+		{ item: "minecraft:birch_sapling", weight: 1.5f }
+		{ item: "alexscaves:pewen_sapling" }
+		{ item: "alexscaves:ancient_sapling" }
+		{ item: "ars_nouveau:blue_archwood_sapling" }
+		{ item: "minecraft:cherry_sapling", weight: 1.5f }
+		{ item: "ars_nouveau:red_archwood_sapling" }
+		{ item: "ars_nouveau:purple_archwood_sapling" }
+		{ item: "ars_nouveau:green_archwood_sapling" }
+		{ item: "twilightforest:canopy_sapling" }
+		{ item: "twilightforest:mangrove_sapling" }
+		{ item: "twilightforest:darkwood_sapling" }
+		{ item: "vinery:cherry_sapling" }
+		{ item: "minecraft:azalea" }
+		{ item: "twilightforest:time_sapling", weight: 0.01f }
+		{ item: "twilightforest:transformation_sapling", weight: 0.01f }
+		{ item: "twilightforest:mining_sapling", weight: 0.01f }
+		{ item: "twilightforest:sorting_sapling", weight: 0.01f }
+	]
+	title: "随机树苗"
+}

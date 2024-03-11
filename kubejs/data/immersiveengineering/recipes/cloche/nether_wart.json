@@ -1,0 +1,1 @@
+{"type":"immersiveengineering:cloche","input":{"item":"minecraft:nether_wart"},"render":{"type":"crop","block":"minecraft:nether_wart"},"results":[{"count":2,"item":"minecraft:nether_wart"}],"soil":{"item":"minecraft:soul_sand"},"time":800}

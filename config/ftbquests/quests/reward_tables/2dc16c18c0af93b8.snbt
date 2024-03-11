@@ -1,0 +1,20 @@
+{
+	id: "2DC16C18C0AF93B8"
+	loot_size: 1
+	order_index: 30
+	rewards: [
+		{ count: 16, item: "the_forgotten_dimensions:snowincho_fur" }
+		{ count: 16, item: "the_forgotten_dimensions:icyllium" }
+		{ count: 10, item: "the_forgotten_dimensions:true_ice_fragment" }
+		{ count: 2, item: "the_forgotten_dimensions:true_icyllium" }
+		{ count: 16, item: "the_forgotten_dimensions:lesser_redstone_nucleus" }
+		{ count: 8, item: "the_forgotten_dimensions:redstone_nucleus" }
+		{ count: 16, item: "the_forgotten_dimensions:forgotten_shard" }
+		{ count: 8, item: "the_forgotten_dimensions:metallic_snow_ingot" }
+		{ count: 5, item: "the_forgotten_dimensions:thunderite_ingot" }
+		{ item: "the_forgotten_dimensions:vex_ectoplasm" }
+		{ count: 5, item: "the_forgotten_dimensions:skylite_gemstone" }
+		{ count: 4, item: "the_forgotten_dimensions:skylite_ingot" }
+	]
+	title: "元素"
+}

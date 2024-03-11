@@ -1,0 +1,32 @@
+{
+	id: "53F1550DB2772266"
+	loot_size: 1
+	order_index: 28
+	rewards: [
+		{ item: "celestial_artifacts:hidden_bracelet" }
+		{ item: "celestial_artifacts:knight_shelter" }
+		{ item: "celestial_artifacts:soul_box" }
+		{ item: "celestial_artifacts:demon_heart" }
+		{ item: "celestial_artifacts:cursed_talisman" }
+		{ item: "celestial_artifacts:gluttony_badge" }
+		{ item: "celestial_artifacts:corrupt_badge" }
+		{ item: "celestial_artifacts:holy_talisman" }
+		{ item: "cataclysm:sandstorm_in_a_bottle" }
+		{ item: "celestial_artifacts:abyss_core" }
+		{ item: "celestial_artifacts:titan_scabbard" }
+		{ item: "celestial_artifacts:war_dead_badge" }
+		{ item: "celestial_artifacts:angel_pearl" }
+		{ item: "celestial_artifacts:angel_heart" }
+		{ item: "celestial_artifacts:bearing_stamen" }
+		{ item: "celestial_artifacts:greedy_heart" }
+		{ item: "celestial_artifacts:unowned_pendant" }
+		{ item: "celestial_artifacts:twisted_scabbard" }
+		{ item: "celestial_artifacts:lock_of_abyss" }
+		{ item: "celestial_artifacts:leech_scabbard" }
+		{ item: "celestial_artifacts:abyss_will_badge" }
+		{ item: "botania:dice" }
+		{ item: "ec_lec_plugin:witherite_quiver" }
+		{ item: "ec_lec_plugin:ignitium_quiver" }
+	]
+	title: "高级饰品"
+}

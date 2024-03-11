@@ -1,0 +1,1 @@
+{"type":"immersiveengineering:arc_furnace","additives":[],"energy":230400,"input":{"tag":"forge:storage_blocks/raw_lead"},"results":[{"base_ingredient":{"tag":"forge:ingots/lead"},"count":13}],"secondaries":[{"chance":0.5,"output":{"tag":"forge:ingots/lead"}}],"time":900}

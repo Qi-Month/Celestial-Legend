@@ -1,0 +1,60 @@
+#This value determines how many enemies with maximum health you need to defeat in order to possibly drop it
+#Range: > 1
+etching_of_life_drop_condition = 499
+
+[catastrophe_scroll]
+	#When true, when the player enters the world, the accessory will be directly worn in the accessory bar
+	catastrophe_scroll_start = false
+	#This value determines how much explosive damage you will receive due to the Chaos Curse
+	#Range: 0.01 ~ 2.147483647E9
+	catastrophe_scroll_explosion_damage = 0.75
+	#This value determines how much other damage you will receive due to the Chaos Curse
+	#Range: 0.01 ~ 2.147483647E9
+	catastrophe_scroll_other_damage = 0.5
+	#This value determines how much damage is negatively affected
+	#Range: 0.01 ~ 1.0
+	catastrophe_scroll_end_curse_damage = 0.25
+	#This value determines how much your damage will be reduced due to the Origin Curse
+	#Range: 0.01 ~ 1.0
+	catastrophe_scroll_origin_curse_damage = 0.5
+
+[holy_sword]
+	#This value determines the maximum damage increase
+	#Range: 0.0 ~ 2.147483647E9
+	holy_sword_max_add_damage = 0.5
+	#This value determines how much life you lose and how much damage you inflict once
+	#Range: 1.0 ~ 2.147483647E9
+	holy_sword_lost_life_add_damage = 1.0
+
+[hidden_bracelet]
+	#This value determines how many ticks you will receive a stealth effect once
+	#Range: > 1
+	hidden_bracelet_effect_interval = 140
+
+[angle_heart]
+	#This value determines how many ticks remove negative effects once
+	#Range: > 1
+	angel_heart_remove_interval = 600
+	#This value determines how many ticks restore health once
+	#Range: > 1
+	angel_heart_blood_interval = 30
+	#This value determines how much health is restored at once
+	#Range: > 1
+	angel_heart_heal_amount = 1
+
+[cursed_protector]
+	#This value determines how much health is greater than the current one in order to trigger damage reduction
+	#Range: 0.01 ~ 1.0
+	cursed_protector_judging_life = 0.35
+	#This value determines its damage reduction amount
+	#Range: 0.01 ~ 1.0
+	cursed_protector_reduce_injury = 0.25
+
+[cursed_talisman]
+	#This value determines the critical hit rate increased by each enchantment
+	#Range: 0.01 ~ 1.0
+	cursed_talisman_crit_rate_add = 0.04
+	#This value determines the critical hit damage increased by each enchantment
+	#Range: 0.01 ~ 1.0
+	cursed_talisman_crit_damage_add = 0.08
+

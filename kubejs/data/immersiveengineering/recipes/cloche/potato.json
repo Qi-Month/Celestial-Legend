@@ -1,0 +1,1 @@
+{"type":"immersiveengineering:cloche","input":{"item":"minecraft:potato"},"render":{"type":"crop","block":"minecraft:potatoes"},"results":[{"count":2,"item":"minecraft:potato"}],"soil":{"item":"minecraft:dirt"},"time":800}

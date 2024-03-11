@@ -1,0 +1,270 @@
+{
+	id: "30225CA79B8B90A7"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:leather_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "botania:manaweave_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "rats:fisherman_hat" }
+		{ item: "rats:chef_toque" }
+		{
+			item: {
+				Count: 1b
+				id: "the_forgotten_dimensions:padded_leather_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "candlelight:cooking_hat"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "rats:farmer_hat" }
+		{ item: "rats:military_hat" }
+		{ item: "rats:ghost_pirat_hat" }
+		{ item: "rats:aviator_hat" }
+		{ item: "rats:exterminator_hat" }
+		{ item: "rats:santa_hat" }
+		{ item: "rats:top_hat" }
+		{ item: "rats:rat_fez" }
+		{
+			item: {
+				Count: 1b
+				id: "alexsmobs:novelty_hat"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.9f
+		}
+		{
+			item: {
+				Count: 1b
+				id: "twilightforest:arctic_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.5f
+		}
+		{
+			item: {
+				Count: 1b
+				id: "rats:piper_hat"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "alexsmobs:sombrero"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.7f
+		}
+		{
+			item: {
+				Count: 1b
+				id: "alexsmobs:frontier_cap"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.7f
+		}
+		{
+			item: {
+				Count: 1b
+				id: "alexsmobs:fedora"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.7f
+		}
+		{
+			item: {
+				Count: 1b
+				id: "alexscaves:diving_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.7f
+		}
+		{
+			item: {
+				Count: 1b
+				id: "create:copper_diving_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.5f
+		}
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:iron_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.7f
+		}
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:chainmail_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.9f
+		}
+		{
+			item: {
+				Count: 1b
+				id: "the_forgotten_dimensions:redstone_powered_copper_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "thermal:diving_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "aquamirae:abyssal_tiara"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.1f
+		}
+		{
+			item: {
+				Count: 1b
+				id: "the_forgotten_dimensions:metal_snow_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.7f
+		}
+		{
+			item: {
+				Count: 1b
+				id: "alexscaves:primordial_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.2f
+		}
+		{
+			item: {
+				Count: 1b
+				id: "thermal:beekeeper_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "ad_astra:space_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.7f
+		}
+		{
+			item: {
+				Count: 1b
+				id: "alexscaves:hazmat_mask"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.7f
+		}
+		{
+			item: {
+				Count: 1b
+				id: "alexsmobs:moose_headgear"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.1f
+		}
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:golden_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "the_forgotten_dimensions:light_skylite_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.5f
+		}
+		{ item: "rats:party_hat" }
+		{ item: "rats:halo_hat" }
+		{
+			item: {
+				Count: 1b
+				id: "the_forgotten_dimensions:spy_glasses_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+	]
+	title: "随机头盔"
+}

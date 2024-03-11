@@ -1,0 +1,1 @@
+{"type":"immersiveengineering:sawmill","energy":800,"input":{"item":"minecraft:warped_door"},"result":{"item":"minecraft:warped_planks"},"secondaries":[{"output":{"tag":"forge:dusts/wood"},"stripping":false}]}

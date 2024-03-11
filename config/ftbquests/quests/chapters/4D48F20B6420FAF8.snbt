@@ -1,0 +1,604 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "4D48F20B6420FAF8"
+	group: "09EE0DA8FC2DE922"
+	icon: "thermal:enderium_ingot"
+	id: "4D48F20B6420FAF8"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			id: "0B994FB21886ABFB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "41C03DDA04237B76"
+				table_id: 523424714767025876L
+				type: "random"
+			}]
+			shape: "square"
+			tasks: [{
+				dimension: "minecraft:the_end"
+				id: "684F24E5E91225B2"
+				type: "dimension"
+			}]
+			title: "前往末地"
+			x: 3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0B994FB21886ABFB"]
+			icon: {
+				Count: 1b
+				id: "minecraft:netherite_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "325F769AC1E22E60"
+			rewards: [{
+				id: "5858C3CFFA713453"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [
+				{
+					entity: "minecraft:ender_dragon"
+					id: "2858877B77BE7C27"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "5852B3C82B0F4B56"
+					item: "minecraft:dragon_egg"
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["7CBADD249A5C3296"]
+			id: "54F8550892C3FC71"
+			rewards: [{
+				id: "599490F483F7EB18"
+				item: "minecraft:popped_chorus_fruit"
+				type: "item"
+			}]
+			tasks: [{
+				id: "516EC411D4471FC2"
+				item: "minecraft:chorus_fruit"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["54F8550892C3FC71"]
+			id: "44DB12DA7FFB510E"
+			rewards: [{
+				id: "0CA5FE51E879BC67"
+				item: "thermal:enderium_dust"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7D05EDFAF483BBFD"
+				item: "thermal:enderium_ingot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 9.5d
+		}
+		{
+			dependencies: [
+				"4821B9E751212406"
+				"10D7AEA0D648B134"
+				"44DB12DA7FFB510E"
+			]
+			description: ["需要与磁力灯和磁力采石场粉碎机组合使用"]
+			id: "2FE200B916B89CF5"
+			rewards: [
+				{
+					count: 2
+					id: "30CE563401AE95DE"
+					item: "alexscaves:scarlet_neodymium_ingot"
+					type: "item"
+				}
+				{
+					id: "799DCC53D209A4A2"
+					item: "alexscaves:azure_neodymium_ingot"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "44276DD0E493CDAC"
+				item: "alexscaves:quarry"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["00069C28C2A9C153"]
+			id: "10D7AEA0D648B134"
+			rewards: [{
+				count: 3
+				id: "5D82B183EB2CB97E"
+				item: "alexscaves:raw_azure_neodymium"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4D7CC1751F337F03"
+				item: "alexscaves:azure_neodymium_ingot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["5DD4337FE9082577"]
+			id: "4821B9E751212406"
+			tasks: [{
+				id: "578079F501655452"
+				item: "alexscaves:heart_of_iron"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["348FADEB4500A9F0"]
+			id: "00069C28C2A9C153"
+			tasks: [{
+				id: "13679E4B85B437D2"
+				item: "alexscaves:raw_azure_neodymium"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["348FADEB4500A9F0"]
+			icon: {
+				Count: 1b
+				id: "minecraft:iron_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5DD4337FE9082577"
+			tasks: [{
+				entity: "alexscaves:magnetron"
+				id: "0F5C4EB454DD405F"
+				type: "kill"
+				value: 1L
+			}]
+			title: "杀死磁控机兵"
+			x: -2.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["6EA458C42BABEBEF"]
+			id: "348FADEB4500A9F0"
+			tasks: [{
+				biome: "alexscaves:magnetic_caves"
+				id: "7298B54736B51452"
+				type: "biome"
+			}]
+			title: "前往磁场洞穴"
+			x: -2.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["287AB1730CF655B6"]
+			id: "5FC1242544BB7729"
+			tasks: [{
+				id: "6B945845771479E7"
+				item: "alexscaves:scarlet_neodymium_ingot"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["348FADEB4500A9F0"]
+			id: "287AB1730CF655B6"
+			rewards: [{
+				count: 3
+				id: "0C1CFAAB4E1B18BD"
+				item: "alexscaves:raw_scarlet_neodymium"
+				type: "item"
+			}]
+			tasks: [{
+				id: "27543C6762940CC0"
+				item: "alexscaves:raw_scarlet_neodymium"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["407240AA59D9CC27"]
+			id: "2B5961D1415AF2E3"
+			rewards: [{
+				id: "38DFDC76A0BEDDF9"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "1033DBCEA4D792DA"
+				item: "alexscaves:heavyweight"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"2B5961D1415AF2E3"
+				"5FC1242544BB7729"
+			]
+			description: [
+				"磁力采石场的组件之一，放下后为实体状态，需要在磁力采石场搭建的最后一步完成激活才可正常使用"
+				"可以被破坏，破坏后只会掉落一个赤钕合金和青钕合金"
+			]
+			id: "352BFCB3989999D5"
+			rewards: [{
+				id: "2157B2913B34F74F"
+				item: "kubejs:mooncoin"
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [{
+				id: "5288DF0D2B7492F2"
+				item: "alexscaves:quarry_smasher"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["348FADEB4500A9F0"]
+			icon: {
+				Count: 1b
+				id: "minecraft:iron_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "407240AA59D9CC27"
+			tasks: [{
+				entity: "alexscaves:boundroid"
+				id: "21F1C8E79ED717DD"
+				type: "kill"
+				value: 1L
+			}]
+			x: -4.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["348FADEB4500A9F0"]
+			id: "4A30ED24676204AC"
+			tasks: [{
+				entity: "alexscaves:notor"
+				icon: {
+					Count: 1b
+					id: "minecraft:iron_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "32637D2449414BD8"
+				type: "kill"
+				value: 1L
+			}]
+			x: -4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4A30ED24676204AC"]
+			id: "34289E94E40A517D"
+			rewards: [{
+				id: "6A19F35018BAB45A"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "30B7138BB7E263FA"
+				item: "alexscaves:notor_gizmo"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["34289E94E40A517D"]
+			description: ["用于照明与激活磁力采石场"]
+			id: "2C1A1249A64D6C09"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4A4A566B0E2F2AC5"
+				table_id: 523424714767025876L
+				type: "random"
+			}]
+			tasks: [{
+				count: 4L
+				id: "4FD947C67D3E7815"
+				item: { Count: 4b, id: "alexscaves:magnetic_light" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["325F769AC1E22E60"]
+			id: "7CBADD249A5C3296"
+			rewards: [{
+				id: "1BCC3ED993E8F415"
+				item: "kubejs:mooncoin"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "minecraft:end/enter_end_gateway"
+				criterion: ""
+				id: "25616989B3D354B1"
+				type: "advancement"
+			}]
+			x: 3.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["7CBADD249A5C3296"]
+			id: "5F186C770D3A0E54"
+			tasks: [{
+				id: "5DF6395A0332ABB6"
+				structure: "cataclysm:ruined_citadel"
+				type: "structure"
+			}]
+			title: "前往废弃工厂"
+			x: 4.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["5F186C770D3A0E54"]
+			icon: {
+				Count: 1b
+				id: "minecraft:netherite_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "50D44BF0750644DD"
+			rewards: [{
+				count: 4
+				id: "7635E14185332678"
+				item: "minecraft:ender_pearl"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "cataclysm:ender_guardian"
+				id: "6EF6BFBF28F6B179"
+				type: "kill"
+				value: 1L
+			}]
+			x: 5.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["50D44BF0750644DD"]
+			id: "169D6FF300F7E6EE"
+			subtitle: "隐藏掉落物"
+			tasks: [{
+				id: "199EAE1F4C661D7B"
+				item: "cataclysm:enderite_ingot"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 10.5d
+		}
+		{
+			dependencies: [
+				"169D6FF300F7E6EE"
+				"44DB12DA7FFB510E"
+				"41DD6BDD5DC00C6F"
+			]
+			id: "45F29D2CE1EE1968"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4B437655270C3C6E"
+				table_id: 8695861683220912716L
+				title: "哦豁！自选五星！"
+				type: "choice"
+			}]
+			subtitle: "过于城市化了"
+			tasks: [{
+				id: "5A45887248EB7CA5"
+				item: "create:shadow_steel"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 10.5d
+		}
+		{
+			dependencies: [
+				"45F29D2CE1EE1968"
+				"44DB12DA7FFB510E"
+				"0DA035CDD1D5C78B"
+			]
+			id: "204C9FA83ACAF888"
+			rewards: [{
+				count: 4
+				id: "5AA51B8E170C5EF2"
+				item: "kubejs:mooncoin"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "0F2D63CE6FD01AA9"
+				item: "create:shadow_steel_casing"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["204C9FA83ACAF888"]
+			id: "4D776396817DDCDB"
+			tasks: [{
+				id: "281DB942BBFC1AAA"
+				item: "createendertransmission:fluid_transmitter"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 11.5d
+		}
+		{
+			dependencies: ["204C9FA83ACAF888"]
+			id: "25898C50EDB036E9"
+			tasks: [{
+				id: "66498457B1B9E454"
+				item: "createendertransmission:item_transmitter"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["45F29D2CE1EE1968"]
+			id: "0DA035CDD1D5C78B"
+			rewards: [{
+				count: 3
+				id: "192DB2EDE47797FD"
+				item: "kubejs:mooncoin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "75421B8CA00662B6"
+				item: "rftoolsbase:infused_enderpearl"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["0DA035CDD1D5C78B"]
+			id: "546D9FA2B7804E6B"
+			tasks: [{
+				id: "6504480220F8804E"
+				item: "ae2:condenser"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["546D9FA2B7804E6B"]
+			id: "6C33250D43CF11F4"
+			tasks: [{
+				id: "07ADFB882BD9161D"
+				item: "ae2:singularity"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 15.5d
+		}
+		{
+			dependencies: ["0E3F458D45A8F641"]
+			id: "3136764CA5E3947E"
+			rewards: [{
+				count: 10
+				id: "37CF0FE3B7151F0D"
+				item: "kubejs:mooncoin"
+				type: "item"
+			}]
+			tasks: [{
+				count: 2L
+				id: "119FC3FB60A658C4"
+				item: { Count: 2b, id: "ae2:quantum_entangled_singularity" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 17.0d
+		}
+		{
+			dependencies: ["6C33250D43CF11F4"]
+			id: "0E3F458D45A8F641"
+			tasks: [{
+				id: "781C4DD9982C342B"
+				item: "ae2:ender_dust"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["3136764CA5E3947E"]
+			id: "7BDCDAFD4F4241D3"
+			tasks: [{
+				count: 8L
+				id: "0B69CF825E926863"
+				item: "ae2:quantum_link"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 15.5d
+		}
+		{
+			dependencies: [
+				"7BDCDAFD4F4241D3"
+				"0DA035CDD1D5C78B"
+			]
+			id: "6C1F25E76A36DE19"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0E12F83607AE849D"
+				table_id: 1059738892163851710L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "451BB96A18099EE9"
+				item: "ae2:quantum_ring"
+				type: "item"
+			}]
+			title: "量子链接"
+			x: 1.5d
+			y: 13.5d
+		}
+		{
+			dependencies: ["45F29D2CE1EE1968"]
+			description: ["使用电磁快围着它摆放其本身会旋转，你还可以使用碳网链接它以输出电能"]
+			id: "24E2565634D110CE"
+			rewards: [{
+				count: 8
+				id: "6FAAC33D85D2D5AD"
+				item: "create_new_age:magnetite_block"
+				type: "item"
+			}]
+			tasks: [{
+				id: "536C6ED4A1F47E23"
+				item: "create_new_age:generator_coil"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["24E2565634D110CE"]
+			id: "7D8DCB2B76D65A00"
+			rewards: [{
+				count: 4
+				id: "0DC9ACD87E1178D7"
+				item: "create_new_age:heat_pipe"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4964ADCF449086C4"
+				item: "create_new_age:carbon_brushes"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 12.5d
+		}
+	]
+	title: "末影科技"
+}

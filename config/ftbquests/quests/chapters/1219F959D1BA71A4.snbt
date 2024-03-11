@@ -1,0 +1,472 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "1219F959D1BA71A4"
+	group: "09EE0DA8FC2DE922"
+	icon: "rats:chunky_cheese_token"
+	id: "1219F959D1BA71A4"
+	order_index: 8
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["77C90C64BB8C698F"]
+			id: "1F208D6F1D210FE8"
+			rewards: [{
+				id: "1221C7699B5B0F79"
+				item: "rats:gem_of_ratlantis"
+				type: "item"
+			}]
+			tasks: [{
+				id: "61E0BBEB69801326"
+				item: "rats:gem_of_ratlantis"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["77C90C64BB8C698F"]
+			id: "7E1CEB5D94E59358"
+			tasks: [{
+				id: "025EFAD653F21065"
+				item: "rats:raw_oratchalcum"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7E1CEB5D94E59358"]
+			id: "31AD25077C738481"
+			rewards: [{
+				id: "34B6CFEE777A9527"
+				item: "rats:oratchalcum_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "31228A475B659F51"
+				item: "rats:oratchalcum_ingot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["77C90C64BB8C698F"]
+			icon: {
+				Count: 1b
+				id: "minecraft:diamond_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "4D48EA20F61CE6F2"
+			tasks: [{
+				entity: "rats:feral_ratlantean"
+				id: "2DF87A5CA417BB2D"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["77C90C64BB8C698F"]
+			id: "0EF4BDC5E5384BBB"
+			rewards: [{
+				id: "3033D591DAE2908D"
+				item: "botania:ancient_will_guthan"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0A8C5AE0F352CF93"
+				item: "rats:archeologist_hat"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4D48EA20F61CE6F2"]
+			id: "68F60D4BA9771126"
+			rewards: [{
+				id: "3C9AB6E1DCB77C27"
+				item: "rats:rat_skull"
+				type: "item"
+			}]
+			tasks: [{
+				id: "525A740D2A15D3D4"
+				item: "rats:feral_rat_claw"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0EF4BDC5E5384BBB"]
+			id: "53A3C97B49BDA56D"
+			rewards: [{
+				count: 8
+				id: "4DA928246245E976"
+				item: "rats:cheese"
+				type: "item"
+			}]
+			tasks: [{
+				id: "790BC209DF6C9418"
+				item: "rats:rat_upgrade_basic"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["731C2E9B11218C0E"]
+			id: "28CEC01E5E50918D"
+			rewards: [{
+				id: "4B9D104108F71932"
+				item: "rats:ratlantean_flame"
+				type: "item"
+			}]
+			tasks: [{
+				id: "62DDAC61AE25F946"
+				item: "rats:ratlantean_flame"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"68F60D4BA9771126"
+				"28CEC01E5E50918D"
+				"07605B18E3D10402"
+			]
+			id: "109F5EC637E2C37F"
+			rewards: [{
+				count: 2
+				id: "59FCE899CA2C73CC"
+				item: "kubejs:mooncoin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "12AF4E281467ED2E"
+				item: "rats:vial_of_sentience"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"53A3C97B49BDA56D"
+				"7AE73F1CCDFAE186"
+			]
+			id: "731C2E9B11218C0E"
+			rewards: [{
+				id: "01F2949D2948EAE8"
+				item: "rats:archeologist_hat"
+				type: "item"
+			}]
+			tasks: [{
+				id: "044709762B2913EF"
+				item: "rats:rat_upgrade_archeologist"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			id: "7AE73F1CCDFAE186"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "034D4B84BAA0D24F"
+				table_id: 523424714767025876L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7008D16C78E105D6"
+				item: "rats:chunky_cheese_token"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["731C2E9B11218C0E"]
+			id: "09EB58539A53EDCF"
+			rewards: [{
+				id: "30A20E39947AA0A4"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "6A8D22CED689BCDE"
+				item: "rats:ratglove_flower"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["09EB58539A53EDCF"]
+			id: "07605B18E3D10402"
+			rewards: [{
+				id: "59D1BFFF5E195694"
+				item: "rats:ratglove_petals"
+				type: "item"
+			}]
+			tasks: [{
+				id: "19ABD2AD4CC605FD"
+				item: "rats:ratglove_petals"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["1F208D6F1D210FE8"]
+			id: "3E4759A676732ED0"
+			tasks: [{
+				id: "617E4FA029D05772"
+				item: "rats:marbled_cheese_raw"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"3E4759A676732ED0"
+				"317D85085938A97C"
+			]
+			id: "7F99C9C38C7B61AA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "29F5CD0A787769A2"
+				table_id: 8695861683220912716L
+				type: "random"
+			}]
+			tasks: [{
+				id: "10A9D52688AD4054"
+				item: "rats:marbled_cheese_golem_core"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["731C2E9B11218C0E"]
+			id: "7EA446C52A97AE90"
+			rewards: [{
+				count: 2
+				id: "6CAA5A1518F4D7F9"
+				item: "kubejs:mooncoin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "14FC270E7B42CC42"
+				item: "rats:marbled_cheese_rat_head"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"7F99C9C38C7B61AA"
+				"7EA446C52A97AE90"
+			]
+			icon: {
+				Count: 1b
+				id: "minecraft:netherite_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "643C61D4CD43942D"
+			rewards: [{
+				count: 3
+				id: "6AF6793637B2EE22"
+				item: "kubejs:mooncoin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "rats:ratlantean_automaton"
+				id: "72E8007B9A834A6C"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"31AD25077C738481"
+				"6243F7512C872670"
+			]
+			id: "1B82E588426651EA"
+			tasks: [{
+				id: "2727B89E853AA7F1"
+				item: "ad_astra:ostrum_engine"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["643C61D4CD43942D"]
+			id: "6243F7512C872670"
+			rewards: [{
+				id: "58893FA119663AEE"
+				item: {
+					Count: 1b
+					id: "rats:ratlantis_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "74B60D1CA079D126"
+				item: "rats:arcane_technology"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1B82E588426651EA"]
+			id: "6896E24EC02505D2"
+			tasks: [{
+				id: "3DA7C8A8EDCA7011"
+				item: "ad_astra:ostrum_tank"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["6896E24EC02505D2"]
+			id: "7DA2C424C83F1B42"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "37EC8603D8544166"
+					table_id: 8695861683220912716L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4952F86465F24DF3"
+					table_id: 523424714767025876L
+					type: "choice"
+				}
+				{
+					count: 4
+					id: "6528E271F3C40B6C"
+					item: "kubejs:mooncoin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7375805BF44A7648"
+				item: {
+					Count: 1b
+					id: "ad_astra:tier_3_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["20BFE5CC212846A1"]
+			id: "317D85085938A97C"
+			rewards: [
+				{
+					id: "0606DB82D2E2C0C4"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "581935800203F70C"
+					item: "ec_lec_plugin:ignitium_quiver"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "0B1B2BFA8D75684A"
+				item: "cataclysm:ignitium_ingot"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["66F5AAD171F0DAEF"]
+			id: "20BFE5CC212846A1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4443F40210520B74"
+				table_id: 1059738892163851710L
+				type: "loot"
+			}]
+			tasks: [{
+				entity: "cataclysm:ignis"
+				icon: {
+					Count: 1b
+					id: "minecraft:netherite_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "5304B64C89F400D5"
+				type: "kill"
+				value: 1L
+			}]
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["109F5EC637E2C37F"]
+			id: "235F152EDD7DFA88"
+			rewards: [{
+				count: 4
+				id: "1DC97F225FE947DC"
+				item: "kubejs:mooncoin"
+				type: "item"
+			}]
+			tasks: [{
+				entity: "rats:neo_ratlantean"
+				icon: {
+					Count: 1b
+					id: "minecraft:netherite_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "557BFEB4032C19F3"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["3404A51BDD44F573"]
+			id: "77C90C64BB8C698F"
+			shape: "square"
+			tasks: [{
+				dimension: "rats:ratlantis"
+				id: "5027D14C0265B6F6"
+				type: "dimension"
+			}]
+			title: "访问维度：鼠博坦星"
+			x: -3.0d
+			y: 0.0d
+		}
+	]
+	title: "老鼠圣地"
+}

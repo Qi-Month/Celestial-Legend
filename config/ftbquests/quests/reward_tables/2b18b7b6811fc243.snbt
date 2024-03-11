@@ -1,0 +1,27 @@
+{
+	id: "2B18B7B6811FC243"
+	loot_size: 1
+	order_index: 16
+	rewards: [
+		{ item: "alexscaves:pewen_boat" }
+		{ item: "minecraft:cherry_boat" }
+		{ item: "minecraft:mangrove_boat" }
+		{ item: "minecraft:dark_oak_boat" }
+		{ item: "minecraft:acacia_boat" }
+		{ item: "minecraft:jungle_boat" }
+		{ item: "minecraft:birch_boat" }
+		{ item: "minecraft:spruce_boat" }
+		{ item: "minecraft:oak_boat" }
+		{ item: "twilightforest:twilight_oak_boat" }
+		{ item: "alexscaves:thornwood_boat" }
+		{ item: "twilightforest:mangrove_boat" }
+		{ item: "twilightforest:dark_boat" }
+		{ item: "twilightforest:time_boat" }
+		{ item: "twilightforest:mining_boat" }
+		{ item: "twilightforest:transformation_boat" }
+		{ item: "twilightforest:sorting_boat" }
+		{ item: "thermal:rubberwood_boat" }
+		{ item: "minecraft:bamboo_raft" }
+	]
+	title: "随机船"
+}

@@ -1,0 +1,23 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"P",
+		"B",
+		"T"
+	],
+	"key": {
+		"B": {
+			"tag": "forge:plates/brass"
+		},
+		"P": {
+			"tag": "forge:plates/steel"
+		},
+		"T": {
+			"item": "minecraft:redstone_torch"
+		}
+	},
+	"result": {
+		"item": "createaddition:capacitor",
+		"count": 1
+	}
+}

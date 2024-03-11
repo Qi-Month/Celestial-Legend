@@ -1,0 +1,15 @@
+{
+	id: "528FFAE5F309CB22"
+	loot_size: 1
+	order_index: 20
+	rewards: [
+		{ item: "the_forgotten_dimensions:training_dummy_spawn_egg" }
+		{ item: "the_forgotten_dimensions:armored_training_dummy_spawn_egg" }
+		{ item: "the_forgotten_dimensions:training_ice_dummy_spawn_egg" }
+		{ item: "the_forgotten_dimensions:armored_training_ice_dummy_spawn_egg" }
+		{ item: "the_forgotten_dimensions:training_fire_dummy_spawn_egg" }
+		{ item: "the_forgotten_dimensions:armored_training_fire_dummy_spawn_egg" }
+		{ item: "the_forgotten_dimensions:training_electrical_dummy_spawn_egg" }
+	]
+	title: "人偶"
+}

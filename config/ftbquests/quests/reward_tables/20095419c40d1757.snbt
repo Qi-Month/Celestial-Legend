@@ -1,0 +1,14 @@
+{
+	id: "20095419C40D1757"
+	loot_size: 1
+	order_index: 26
+	rewards: [
+		{ item: "blue_skies:aquite" }
+		{ item: "blue_skies:diopside_gem" }
+		{ item: "blue_skies:charoite" }
+		{ item: "blue_skies:moonstone_shard" }
+		{ item: "blue_skies:moonstone" }
+		{ item: "blue_skies:pyrope_gem" }
+	]
+	title: "蔚蓝宝石"
+}

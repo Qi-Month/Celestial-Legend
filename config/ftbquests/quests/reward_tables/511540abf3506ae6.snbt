@@ -1,0 +1,463 @@
+{
+	id: "511540ABF3506AE6"
+	loot_size: 1
+	order_index: 31
+	rewards: [
+		{
+			item: {
+				Count: 1b
+				id: "aquamirae:music_disc_forsaken_drownage"
+				tag: {
+					AttributeModifiers: [
+						{
+							Amount: -0.9d
+							AttributeName: "celestial_core:reply_effect"
+							Name: "generic.attack_damage"
+							Operation: 2
+							Slot: "offhand"
+							UUID: [I;
+								1804643370
+								523128141
+								-1648149268
+								-515743362
+							]
+						}
+						{
+							Amount: 0.5d
+							AttributeName: "obscure_api:dodge"
+							Name: "generic.attack_damage"
+							Operation: 1
+							Slot: "offhand"
+							UUID: [I;
+								1416827951
+								-2026025556
+								-1486446682
+								-2115181158
+							]
+						}
+						{
+							Amount: 1.0d
+							AttributeName: "forge:swim_speed"
+							Name: "generic.attack_damage"
+							Operation: 2
+							Slot: "offhand"
+							UUID: [I;
+								-1015671830
+								-1228717479
+								-2026072876
+								-1409155232
+							]
+						}
+						{
+							Amount: 0.5d
+							AttributeName: "generic.movement_speed"
+							Name: "generic.movement_speed"
+							Operation: 2
+							Slot: "offhand"
+							UUID: [I;
+								-1461912968
+								1504004589
+								-1775302710
+								-822962943
+							]
+						}
+					]
+					Unbreakable: 1b
+					display: {
+						Lore: ["{\"text\":\"\\u00A77有50%概率闪避任何攻击\"}"]
+						Name: "{\"text\":\"\\u00A7c深渊之歌\"}"
+					}
+				}
+			}
+			only_one: true
+		}
+		{
+			item: {
+				Count: 1b
+				id: "ars_nouveau:music_disc_firel_the_wild_hunt"
+				tag: {
+					AttributeModifiers: [
+						{
+							Amount: -1.0d
+							AttributeName: "forge:entity_gravity"
+							Name: "generic.max_health"
+							Operation: 2
+							Slot: "offhand"
+							UUID: [I;
+								-328959127
+								91180309
+								-2077347114
+								-1139024491
+							]
+						}
+						{
+							Amount: 0.5d
+							AttributeName: "l2damagetracker:bow_strength"
+							Name: "generic.max_health"
+							Operation: 2
+							Slot: "offhand"
+							UUID: [I;
+								-994199884
+								-1735045735
+								-1810174550
+								212398910
+							]
+						}
+					]
+					display: {
+						Name: "{\"text\":\"\\u00A7d重力乐章\"}"
+					}
+				}
+			}
+			only_one: true
+		}
+		{
+			item: {
+				Count: 1b
+				id: "cataclysm:music_disc_the_leviathan"
+				tag: {
+					AttributeModifiers: [
+						{
+							Amount: 0.2d
+							AttributeName: "generic.max_health"
+							Name: "generic.max_health"
+							Operation: 2
+							Slot: "offhand"
+							UUID: [I;
+								294258739
+								-1455667227
+								-2012050093
+								1714143686
+							]
+						}
+						{
+							Amount: -0.5d
+							AttributeName: "forge:entity_gravity"
+							Name: "generic.max_health"
+							Operation: 2
+							Slot: "offhand"
+							UUID: [I;
+								1162476852
+								-1782431484
+								-1626707036
+								228564767
+							]
+						}
+					]
+					display: {
+						Name: "{\"text\":\"\\u00A7d迷航镇魂曲\"}"
+					}
+				}
+			}
+			only_one: true
+		}
+		{
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					Parent: {
+						Items: [ ]
+						Size: 2
+					}
+				}
+				id: "immersiveengineering:shield"
+				tag: {
+					AttributeModifiers: [
+						{
+							Amount: -0.2d
+							AttributeName: "generic.attack_damage"
+							Name: "generic.attack_damage"
+							Operation: 1
+							Slot: "offhand"
+							UUID: [I;
+								1266657573
+								-1362869116
+								-2109727577
+								2102436310
+							]
+						}
+						{
+							Amount: -0.25d
+							AttributeName: "generic.movement_speed"
+							Name: "generic.movement_speed"
+							Operation: 2
+							Slot: "offhand"
+							UUID: [I;
+								279140152
+								-1505931394
+								-1746352473
+								858674830
+							]
+						}
+						{
+							Amount: 0.5d
+							AttributeName: "celestial_core:damage_reduction"
+							Name: "generic.max_health"
+							Operation: 1
+							Slot: "offhand"
+							UUID: [I;
+								1347386678
+								-1503379144
+								-1212657961
+								-1573813344
+							]
+						}
+					]
+					Damage: 0
+					Unbreakable: 1b
+					display: {
+						Name: "{\"text\":\"\\u00A7d黑耀守护\"}"
+					}
+				}
+			}
+			only_one: true
+		}
+		{
+			item: {
+				Count: 1b
+				id: "aquamirae:poisoned_chakra"
+				tag: {
+					AttributeModifiers: [
+						{
+							Amount: 20.0d
+							AttributeName: "generic.max_health"
+							Name: "generic.max_health"
+							Operation: 0
+							Slot: "offhand"
+							UUID: [I;
+								-1943203420
+								343884453
+								-1580657242
+								907783466
+							]
+						}
+						{
+							Amount: 0.25d
+							AttributeName: "celestial_core:reply_effect"
+							Name: "generic.attack_damage"
+							Operation: 1
+							Slot: "offhand"
+							UUID: [I;
+								-109497738
+								-1419229001
+								-1335049560
+								-1110704493
+							]
+						}
+						{
+							Amount: 5.0d
+							AttributeName: "obscure_api:regeneration"
+							Name: "generic.attack_damage"
+							Operation: 0
+							Slot: "offhand"
+							UUID: [I;
+								-2131810231
+								-1692841080
+								-1718633090
+								-509619606
+							]
+						}
+						{
+							Amount: -0.4d
+							AttributeName: "generic.attack_damage"
+							Name: "generic.attack_damage"
+							Operation: 2
+							Slot: "offhand"
+							UUID: [I;
+								-1206230785
+								330976257
+								-1744664607
+								253667792
+							]
+						}
+					]
+					Damage: 0
+					Unbreakable: 1b
+					display: {
+						Name: "{\"text\":\"\\u00A7a生息环刃\"}"
+					}
+				}
+			}
+			only_one: true
+		}
+		{
+			item: {
+				Count: 1b
+				id: "aquamirae:maze_rose"
+				tag: {
+					AttributeModifiers: [
+						{
+							Amount: 2.0d
+							AttributeName: "generic.attack_damage"
+							Name: "generic.attack_damage"
+							Operation: 2
+							Slot: "offhand"
+							UUID: [I;
+								156919172
+								-1001963133
+								-1819349120
+								-1960128223
+							]
+						}
+						{
+							Amount: -1.0d
+							AttributeName: "generic.armor"
+							Name: "generic.armor"
+							Operation: 2
+							Slot: "offhand"
+							UUID: [I;
+								813135305
+								-343979442
+								-2127928745
+								-179890703
+							]
+						}
+						{
+							Amount: -1.0d
+							AttributeName: "generic.armor_toughness"
+							Name: "generic.armor_toughness"
+							Operation: 2
+							Slot: "offhand"
+							UUID: [I;
+								-859876538
+								932399058
+								-1517464286
+								-713114846
+							]
+						}
+						{
+							Amount: -0.5d
+							AttributeName: "celestial_core:damage_reduction"
+							Name: "Extra 34"
+							Operation: 2
+							Slot: "offhand"
+							UUID: [I;
+								819380810
+								-443921517
+								-1543907442
+								927725923
+							]
+						}
+					]
+					Damage: 0
+					Unbreakable: 1b
+					display: {
+						Name: "{\"text\":\"\\u00A7d真·迷雾玫瑰\"}"
+					}
+				}
+			}
+			only_one: true
+		}
+		{
+			item: {
+				Count: 1b
+				id: "ec_lec_plugin:witherite_quiver"
+				tag: {
+					AttributeModifiers: [{
+						Amount: 1.5d
+						AttributeName: "l2damagetracker:bow_strength"
+						Name: "Extra C30.1"
+						Operation: 2
+						Slot: "offhand"
+						UUID: [I;
+							-1150384809
+							471289574
+							-1905895533
+							-1649841348
+						]
+					}]
+					Unbreakable: 1b
+					display: {
+						Name: "{\"text\":\"\\u00A7d凋零弹药库\"}"
+					}
+				}
+			}
+			only_one: true
+		}
+		{
+			item: {
+				Count: 1b
+				id: "alexsmobs:shield_of_the_deep"
+				tag: {
+					AttributeModifiers: [
+						{
+							Amount: 5.0d
+							AttributeName: "celestial_core:crit_damage"
+							Name: "generic.attack_damage"
+							Operation: 1
+							Slot: "offhand"
+							UUID: [I;
+								1416827951
+								-2026025556
+								-1486446682
+								-2115181158
+							]
+						}
+						{
+							Amount: -0.2d
+							AttributeName: "celestial_core:crit_rate"
+							Name: "generic.attack_damage"
+							Operation: 1
+							Slot: "offhand"
+							UUID: [I;
+								1416827951
+								-2026025556
+								-1486446682
+								-2115181158
+							]
+						}
+					]
+					Damage: 0
+					Unbreakable: 1b
+					display: {
+						Name: "{\"text\":\"\\u00A7e邃澜之盾\"}"
+					}
+				}
+			}
+			only_one: true
+		}
+		{
+			item: {
+				Count: 1b
+				id: "twilightforest:knightmetal_shield"
+				tag: {
+					AttributeModifiers: [
+						{
+							Amount: -0.5d
+							AttributeName: "celestial_core:crit_damage"
+							Name: "generic.attack_damage"
+							Operation: 1
+							Slot: "offhand"
+							UUID: [I;
+								1416827951
+								-2026025556
+								-1486446682
+								-2115181158
+							]
+						}
+						{
+							Amount: 1.0d
+							AttributeName: "celestial_core:crit_rate"
+							Name: "generic.attack_damage"
+							Operation: 1
+							Slot: "offhand"
+							UUID: [I;
+								1416827951
+								-2026025556
+								-1486446682
+								-2115181158
+							]
+						}
+					]
+					Damage: 0
+					Unbreakable: 1b
+					display: {
+						Name: "{\"text\":\"\\u00A7d骑兵之盾\"}"
+					}
+				}
+			}
+			only_one: true
+		}
+	]
+	title: "副手"
+}

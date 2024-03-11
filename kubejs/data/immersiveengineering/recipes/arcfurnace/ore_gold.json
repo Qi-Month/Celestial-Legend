@@ -1,0 +1,20 @@
+{
+	"type": "immersiveengineering:arc_furnace",
+	"additives": [],
+	"energy": 102400,
+	"input": {
+		"tag": "forge:ores/gold"
+	},
+	"results": [
+		{
+			"base_ingredient": {
+				"tag": "forge:ingots/gold"
+			},
+			"count": 2
+		}
+	],
+	"slag": {
+		"tag": "forge:slag"
+	},
+	"time": 200
+}

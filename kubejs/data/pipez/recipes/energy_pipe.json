@@ -1,0 +1,23 @@
+{
+	"type": "create:mechanical_crafting",
+	"pattern": [
+		"III",
+		"BRB",
+		"III"
+	],
+	"key": {
+		"B": {
+			"tag": "forge:storage_blocks/redstone"
+		},
+		"I": {
+			"tag": "forge:ingots/iron"
+		},
+		"R": {
+			"item": "thermal:energy_cell"
+		}
+	},
+	"result": {
+		"item": "pipez:energy_pipe",
+		"count": 16
+	}
+}

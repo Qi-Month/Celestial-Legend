@@ -1,0 +1,1 @@
+{"type":"immersiveengineering:crusher","energy":3200,"input":{"tag":"forge:sandstone/colorless"},"result":{"count":2,"item":"minecraft:sand"},"secondaries":[{"chance":0.5,"output":{"tag":"forge:dusts/saltpeter"}}]}

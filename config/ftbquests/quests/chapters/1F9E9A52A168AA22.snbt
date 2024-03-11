@@ -1,0 +1,936 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "1F9E9A52A168AA22"
+	group: "09EE0DA8FC2DE922"
+	icon: "twilightforest:twilight_portal_miniature_structure"
+	id: "1F9E9A52A168AA22"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7F87C7048E3E50A2"]
+			id: "4065C12986A553E0"
+			rewards: [{
+				id: "40E8D6B0F991AC3F"
+				item: "twilightforest:twilight_portal_miniature_structure"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				dimension: "twilightforest:twilight_forest"
+				id: "7C419F2DD5ACDE51"
+				type: "dimension"
+			}]
+			title: "前往暮色"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4065C12986A553E0"]
+			icon: {
+				Count: 1b
+				id: "minecraft:stone_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "3E13F72BCD497B82"
+			tasks: [{
+				id: "01737F964ECE327F"
+				item: "twilightforest:raven_feather"
+				type: "item"
+			}]
+			title: "薅薅你的毛"
+			x: 2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3E13F72BCD497B82"]
+			description: ["在洞穴中探寻"]
+			id: "1EF929F0BD8D7B37"
+			tasks: [{
+				id: "1962EAF6C5CAFB28"
+				item: "twilightforest:torchberries"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1EF929F0BD8D7B37"]
+			id: "75E1C9F8CE92E5FB"
+			rewards: [
+				{
+					id: "5A4ABF5464B72616"
+					type: "xp"
+					xp: 35
+				}
+				{
+					count: 6
+					id: "6C1FDE830A90E782"
+					item: "minecraft:sugar_cane"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "2FB535BFC6AF0406"
+					item: "twilightforest:magic_map"
+					type: "item"
+				}
+				{
+					id: "158D85BAB820F317"
+					item: "twilightforest:magic_map_focus"
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["75E1C9F8CE92E5FB"]
+			icon: "twilightforest:naga_trophy"
+			id: "3E9160783F6C20A0"
+			rewards: [
+				{
+					count: 4
+					id: "0C5E8332C8E9726C"
+					item: "twilightforest:naga_scale"
+					type: "item"
+				}
+				{
+					id: "51EC1A441D266121"
+					item: "kubejs:mooncoin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "twilightforest:naga"
+					id: "35E06F0DFF94AB4F"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "64AA43231944AE09"
+					item: "twilightforest:naga_trophy"
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["3E9160783F6C20A0"]
+			id: "53799760FDA37D79"
+			rewards: [
+				{
+					id: "0CFF550DC45F3D16"
+					item: {
+						Count: 1b
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:protection"
+								lvl: 4s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5794C2390C658306"
+					item: {
+						Count: 1b
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:fire_protection"
+								lvl: 4s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0C43DE017C06AE02"
+					item: "twilightforest:naga_courtyard_miniature_structure"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "51F7CE8E5C86DE6F"
+					item: {
+						Count: 1b
+						id: "twilightforest:naga_leggings"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:protection"
+								lvl: 3s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "44EF94C132CD2662"
+					item: {
+						Count: 1b
+						id: "twilightforest:naga_chestplate"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:fire_protection"
+								lvl: 3s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "一点都不燃"
+			x: 1.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["3E9160783F6C20A0"]
+			icon: "twilightforest:lich_trophy"
+			id: "3A9222313CC2E7D9"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5DFA39F1F6010B47"
+					table_id: 523424714767025876L
+					type: "random"
+				}
+				{
+					count: 2
+					id: "4DB9F0BE6174234B"
+					item: "kubejs:mooncoin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "twilightforest:lich"
+					id: "7F8FC216A3DBFD2D"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "486D4A3CFAB65614"
+					item: "twilightforest:lich_trophy"
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 9.5d
+		}
+		{
+			dependencies: ["4065C12986A553E0"]
+			id: "78DDA938E4AAF54F"
+			subtitle: "藏于矿洞中的植物"
+			tasks: [{
+				id: "1F17FBE78C74517E"
+				item: "twilightforest:liveroot"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["78DDA938E4AAF54F"]
+			id: "0249EAC54BF83F5A"
+			rewards: [{
+				count: 3
+				id: "5D3A53899E598634"
+				item: "twilightforest:liveroot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "398B484D0019EB50"
+				item: "twilightforest:raw_ironwood"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3B0C50CD96D370B2"]
+			icon: "twilightforest:knight_phantom_trophy"
+			id: "4E5CF2B4AFD91F7A"
+			rewards: [
+				{
+					id: "2C36C1B9DB77268E"
+					type: "xp"
+					xp: 25
+				}
+				{
+					count: 2
+					id: "6E26D7AC23BE2CA0"
+					item: "kubejs:mooncoin"
+					type: "item"
+				}
+			]
+			size: 1.2d
+			tasks: [
+				{
+					entity: "twilightforest:knight_phantom"
+					id: "7A6FCDAC94BF4724"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "29A0EE10EF716B33"
+					item: "twilightforest:knight_phantom_trophy"
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["4E5CF2B4AFD91F7A"]
+			id: "2E8D38DCCF6F6C95"
+			rewards: [
+				{
+					id: "61600D81F25AE658"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "179A316FBA0C2701"
+					item: "twilightforest:steeleaf_block"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "0125A7C83BAC4182"
+					item: {
+						Count: 1b
+						id: "twilightforest:phantom_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6B2ABF626F9707B0"
+					item: {
+						Count: 1b
+						id: "twilightforest:phantom_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "幻影套装"
+			x: 1.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["4DAE6D18883B9E0A"]
+			icon: "twilightforest:ur_ghast_trophy"
+			id: "6082309C0EBA5370"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "273BF834AA9C6FC6"
+					table_id: 8695861683220912716L
+					type: "random"
+				}
+				{
+					count: 3
+					id: "1AE6B8B5EB424784"
+					item: "kubejs:mooncoin"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "twilightforest:ur_ghast"
+					id: "72456485EE1813D0"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "5605806F11A61F48"
+					item: "twilightforest:ur_ghast_trophy"
+					type: "item"
+				}
+				{
+					id: "00AF9D784B3FBBF9"
+					item: "twilightforest:fiery_tears"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 17.5d
+		}
+		{
+			dependencies: ["4065C12986A553E0"]
+			description: ["与主世界不同，在暮色生成着大量的神秘花，所以可以开始发展植物魔法了"]
+			id: "5800A3ECE18047D7"
+			subtitle: "开始你的植物魔法表演"
+			tasks: [{
+				id: "22C05F58F644956F"
+				item: "botania:lexicon"
+				type: "item"
+			}]
+			title: "植物魔法启动"
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["5800A3ECE18047D7"]
+			id: "18371900137C5D5C"
+			rewards: [{
+				id: "4D6AB82CC1EDD58F"
+				item: "minecraft:water_bucket"
+				type: "item"
+			}]
+			tasks: [{
+				id: "63786615E4A186C9"
+				item: "botania:apothecary_default"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["18371900137C5D5C"]
+			description: ["第一朵功能花"]
+			id: "249D526E4956F9F7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7D0721E7D0B8D835"
+				table_id: 4236974058116730865L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2EDBE55BB6F9BF92"
+				item: "botania:pure_daisy"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["249D526E4956F9F7"]
+			id: "469687CE99C43B1B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2F503BBB1ADC02DC"
+				table_id: 7403914013358416124L
+				type: "choice"
+			}]
+			tasks: [
+				{
+					count: 4L
+					id: "48D5759ADA946DFF"
+					item: { Count: 4b, id: "botania:livingrock" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "27B4F60521E897F1"
+					item: { Count: 4b, id: "botania:livingwood" }
+					type: "item"
+				}
+			]
+			title: "植物魔法基础物资"
+			x: -3.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["5800A3ECE18047D7"]
+			id: "636FD06EB49B43D4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "52C9744837DD2202"
+				table_id: 4236974058116730865L
+				type: "choice"
+			}]
+			subtitle: "操纵植物"
+			tasks: [{
+				id: "152A885FCDB73DE4"
+				item: {
+					Count: 1b
+					id: "botania:twig_wand"
+					tag: {
+						color1: 0
+						color2: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "森林法杖"
+			x: 1.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["469687CE99C43B1B"]
+			id: "1B98FCE33EC19992"
+			tasks: [
+				{
+					id: "2A0AAB7235190F90"
+					item: "botania:mana_spreader"
+					type: "item"
+				}
+				{
+					id: "150221023111DBCB"
+					item: "botania:mana_pool"
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["1B98FCE33EC19992"]
+			id: "32390E2A97DA2833"
+			tasks: [{
+				id: "70FEC0E4D0A67B21"
+				item: "botania:mana_pearl"
+				type: "item"
+			}]
+			title: "魔力转换材料"
+			x: -3.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["1B98FCE33EC19992"]
+			id: "0E871A26EA656A4D"
+			tasks: [{
+				id: "71651653EB57B511"
+				item: "botania:mana_diamond"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["1B98FCE33EC19992"]
+			id: "11106551A40F24C2"
+			tasks: [{
+				id: "08E4D942C8139321"
+				item: "botania:manasteel_ingot"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 8.5d
+		}
+		{
+			dependencies: [
+				"11106551A40F24C2"
+				"0FF68A6EAA9A69E3"
+			]
+			id: "1C55D1005EFDF854"
+			tasks: [{
+				id: "14FB56DF8AB5C3FF"
+				item: "botania:mana_ring"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["3D3EB51F5230EA29"]
+			id: "4D68D5C9CA8AF630"
+			rewards: [{
+				id: "00870473EDDB3518"
+				item: {
+					Count: 1b
+					id: "botania:mana_tablet"
+					tag: {
+						mana: 500000
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "35AFE5367AE17500"
+					item: "botania:terra_plate"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "708385ED73EB1619"
+					item: { Count: 4b, id: "minecraft:lapis_block" }
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "385659A3A6C3741C"
+					item: { Count: 5b, id: "botania:livingrock" }
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["0E871A26EA656A4D"]
+			id: "2852597AF1BC36D7"
+			rewards: [{
+				id: "0243A9C978F13F21"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [{
+				id: "3D5ED212C1C8BFBB"
+				item: "botania:runic_altar"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["32390E2A97DA2833"]
+			id: "0FF68A6EAA9A69E3"
+			rewards: [{
+				id: "418BD58C0819A6E2"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "161B46257D0F00A7"
+				item: "botania:mana_tablet"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["2852597AF1BC36D7"]
+			id: "3D3EB51F5230EA29"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "361CC45DAB21DFF3"
+				table_id: 6633768108276111212L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "337948A4A19B32C3"
+					item: "botania:rune_water"
+					type: "item"
+				}
+				{
+					id: "4F38DAE0BF4613D4"
+					item: "botania:rune_fire"
+					type: "item"
+				}
+				{
+					id: "206848602BB79E08"
+					item: "botania:rune_earth"
+					type: "item"
+				}
+				{
+					id: "01BE1D634F103255"
+					item: "botania:rune_air"
+					type: "item"
+				}
+				{
+					id: "5176560F687EAA2E"
+					item: "botania:rune_mana"
+					type: "item"
+				}
+			]
+			title: "基础符文"
+			x: -5.5d
+			y: 12.5d
+		}
+		{
+			dependencies: ["3B0C50CD96D370B2"]
+			id: "04FD0349D6476C75"
+			tasks: [{
+				id: "69D862CE3280471A"
+				item: "twilightforest:armor_shard_cluster"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["4D68D5C9CA8AF630"]
+			description: ["将火花放置于泰拉凝聚板与魔力池上，如此制作泰拉钢时，泰拉凝聚板会自动向该魔力池索取魔力"]
+			id: "26B4CEB634DF8D0B"
+			rewards: [{
+				id: "5D1521F9B6E3F992"
+				item: "botania:spark_upgrade_dominant"
+				type: "item"
+			}]
+			tasks: [{
+				count: 2L
+				id: "3FC7B3046C427564"
+				item: { Count: 2b, id: "botania:spark" }
+				type: "item"
+			}]
+			title: "不一样的魔力传输"
+			x: -1.0d
+			y: 12.5d
+		}
+		{
+			dependencies: ["26B4CEB634DF8D0B"]
+			id: "602F1BF7C6F92B12"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7417E74B975C9510"
+					table_id: 6633768108276111212L
+					type: "choice"
+				}
+				{
+					id: "3A196DDEC02A609D"
+					item: "botania:mana_pearl"
+					type: "item"
+				}
+				{
+					id: "6258C9063DD2BC02"
+					item: "botania:mana_diamond"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			tasks: [{
+				id: "35DA9F94877682D7"
+				item: "botania:terrasteel_ingot"
+				type: "item"
+			}]
+			title: "泰拉凝结"
+			x: -1.0d
+			y: 15.0d
+		}
+		{
+			dependencies: ["4E5CF2B4AFD91F7A"]
+			id: "4DAE6D18883B9E0A"
+			tasks: [{
+				id: "2DCA810E6E02ABE9"
+				structure: "twilightforest:dark_tower"
+				type: "structure"
+			}]
+			title: "前往暮色恶魂高塔"
+			x: 1.5d
+			y: 16.0d
+		}
+		{
+			dependencies: ["4DAE6D18883B9E0A"]
+			icon: {
+				Count: 1b
+				id: "minecraft:iron_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "6D37AEFC7C3B759E"
+			rewards: [{
+				count: 6
+				id: "618E579B053791DE"
+				item: "twilightforest:borer_essence"
+				type: "item"
+			}]
+			tasks: [
+				{
+					entity: "twilightforest:towerwood_borer"
+					id: "544A78B31BF8917B"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "498FA3B58DB3A5DF"
+					item: "twilightforest:borer_essence"
+					type: "item"
+				}
+			]
+			title: "该死的蛀虫"
+			x: 3.0d
+			y: 17.5d
+		}
+		{
+			dependencies: ["6D37AEFC7C3B759E"]
+			id: "068391F3F24B1278"
+			rewards: [{
+				count: 4
+				id: "1B0C945154DC0353"
+				item: "minecraft:ghast_tear"
+				type: "item"
+			}]
+			tasks: [{
+				id: "048147FC6887CD79"
+				item: "twilightforest:carminite"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 19.0d
+		}
+		{
+			dependencies: ["3A9222313CC2E7D9"]
+			id: "3B0C50CD96D370B2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2D905FFE12B96D2E"
+				table_id: 7383894001746634703L
+				type: "random"
+			}]
+			tasks: [{
+				id: "01402315D4F7555F"
+				structure: "twilightforest:knight_stronghold"
+				type: "structure"
+			}]
+			title: "前往骑士要塞"
+			x: 3.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["6663AD79384C8D64"]
+			id: "2D8996D9D3FDB22F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "231C0C1231C4DC11"
+				table_id: 523424714767025876L
+				type: "random"
+			}]
+			tasks: [{
+				id: "2D8F8F9C40BFFA1E"
+				item: "botania:alfheim_portal"
+				type: "item"
+			}]
+			title: "搭建精灵门"
+			x: -3.5d
+			y: 17.0d
+		}
+		{
+			dependencies: ["602F1BF7C6F92B12"]
+			id: "6663AD79384C8D64"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0F040BE096B2F9B7"
+					table_id: 6633768108276111212L
+					type: "choice"
+				}
+				{
+					id: "151534C31E16976D"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				count: 2L
+				id: "29CA77F60E7C4157"
+				item: { Count: 2b, id: "botania:natura_pylon" }
+				type: "item"
+			}]
+			x: -3.5d
+			y: 15.0d
+		}
+		{
+			dependencies: ["0249EAC54BF83F5A"]
+			id: "41DD6BDD5DC00C6F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1AB4DEEDC62C8CC0"
+					table_id: 4260801656984015447L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1DF3D2A799F3856A"
+					table_id: 4260801656984015447L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "6ADACB4C6BABD96F"
+				item: "twilightforest:ironwood_ingot"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"469687CE99C43B1B"
+				"18371900137C5D5C"
+			]
+			id: "26A84220A32A8DC7"
+			tasks: [{
+				id: "4475DC0C003BDF8A"
+				item: "botania:endoflame"
+				type: "item"
+			}]
+			title: "火力发魔机？"
+			x: -1.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["04FD0349D6476C75"]
+			id: "3E3F0E0F325BEE16"
+			rewards: [{
+				id: "3880A438D835AEED"
+				item: "twilightforest:knightmetal_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "36F22993F08CBDAB"
+				item: "twilightforest:knightmetal_ingot"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["6082309C0EBA5370"]
+			id: "24E82073F2F671DD"
+			rewards: [{
+				count: 4
+				id: "6360357EF1B974A5"
+				item: "twilightforest:fiery_tears"
+				type: "item"
+			}]
+			tasks: [{
+				id: "31309C1698154AA6"
+				item: "twilightforest:fiery_tears"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 19.0d
+		}
+		{
+			dependencies: ["3A9222313CC2E7D9"]
+			id: "06451FBC2918A4A9"
+			rewards: [
+				{
+					id: "296C02C1C1456A7E"
+					item: "twilightforest:lich_tower_miniature_structure"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5D5894941E7B91C2"
+					table_id: 1059738892163851710L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				advancement: "twilightforest:lich_scepters"
+				criterion: ""
+				id: "20D0BA953CBC456F"
+				type: "advancement"
+			}]
+			x: 6.0d
+			y: 9.5d
+		}
+	]
+	title: "暮光魔法"
+}

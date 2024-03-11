@@ -1,0 +1,123 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "52B8C726C8AA0861"
+	group: ""
+	icon: "aquamirae:dead_sea_scroll"
+	id: "52B8C726C8AA0861"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"    由于冰川融化，整合包的地形以海洋为主，辅以少量陆地。"
+				"    村庄和城市沉入海底，原先的人民化作溺尸和渊灵，终日徘徊于曾经的家园。"
+				"    幸存者在海上建立了营地，如果走投无路，寻找海上村庄是个好主意。"
+				"    &c不是所有幸存者都热情好客&r，海盗们比灾难来临前更为猖獗。"
+			]
+			icon: "minecraft:seagrass"
+			id: "5D08838AFFBF8E47"
+			tasks: [{
+				id: "1F4ADCB7A1933098"
+				title: "点击"
+				type: "checkmark"
+			}]
+			title: "世界生成"
+			x: -4.0d
+			y: -2.5d
+		}
+		{
+			description: [
+				"寒冰不死鸟飞离地球后，使用魔力在海平面上生成了一些空岛。"
+				"要注意，这都是不死鸟设下的陷阱。"
+				"任何触碰空岛建筑内部黑色方块的人都会永远离开这个世界。"
+				"即使是高维生物，也会为因此&4&l失去存档&r&r而头痛。"
+			]
+			icon: "botania:floating_clayconia"
+			id: "0FC3C329D094DA64"
+			tasks: [{
+				id: "552FEFA04F54F994"
+				title: "关于空岛"
+				type: "checkmark"
+			}]
+			x: -4.0d
+			y: -0.5d
+		}
+		{
+			description: ["由于海陆变迁，沉船里找出的旧时代的藏宝图大部分都失去了作用。"]
+			icon: {
+				Count: 1b
+				id: "alexscaves:cave_map"
+				tag: {
+					BiomeTargetResourceKey: "alexscaves:magnetic_caves"
+				}
+			}
+			id: "4871043143265311"
+			tasks: [{
+				id: "74148669A36560C0"
+				type: "checkmark"
+			}]
+			title: "藏宝图"
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			description: [
+				"对于高维生物来说，有几个方法可以修改屏幕上显示的数据。"
+				"位于小地图右下角的各项数据通过摁下两个分别印着[&bH&r]和[&bC&r]的按钮进行配置，"
+				"而通过选项-视频设置-其他则可以修改另一份数据显示。"
+			]
+			icon: "thermal:netherite_gear"
+			id: "3960F94F4D39BD37"
+			tasks: [{
+				id: "039D1D0AC6915F48"
+				title: "设置"
+				type: "checkmark"
+			}]
+			x: -6.0d
+			y: -0.5d
+		}
+		{
+			description: [
+				"高维生物似乎有着非同寻常的&l&c思考能力&r&r"
+				""
+				"当他们把一种叫做[&b光标&r]的东西"
+				""
+				"放在某些物品或者方块上面时"
+				""
+				"摁住一个印着[&aW&r]图案的按钮似乎可以进入异界"
+				""
+				"那是一个名为[&b思索&r]的精神宇宙,他们似乎可以在这里查看该物品的用法或者某些机器的搭建方式..."
+				""
+				"我们长期的研究发现,似乎不是所有的东西都可以进行[&b思索&r]..."
+				""
+				"我们大胆的猜想,或许会有着&4&l更高级的生命体&r&r可以给指定的物品添加新的[&b思索&r],并且会随着时间的推移会越来越多...并且我们或许可以和这些&4&l高级生命体&r&r对话,或许他们会听取我们的建议添加更多的[&b思索&r]..."
+				""
+				"这或许会失败,但凡事都得&a尝试&r争取一下不是吗..."
+				"{image:kubejs:textures/images/2.png width:75 height:75 align:1}"
+			]
+			icon: "create:empty_schematic"
+			id: "7727B8515E568B1D"
+			rewards: [{
+				id: "501E6585011C82C9"
+				item: {
+					Count: 1b
+					id: "kubejs:final_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "记录日志 编号10086"
+			tasks: [{
+				id: "40BD5E4ECEB95BEB"
+				type: "checkmark"
+			}]
+			title: "是时候发动[&b俺寻思&7]之力了!"
+			x: -4.0d
+			y: 1.5d
+		}
+	]
+	title: "前言"
+}

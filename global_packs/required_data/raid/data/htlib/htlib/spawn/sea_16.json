@@ -1,0 +1,7 @@
+{
+  "type": "htlib:once",
+  "setting": {
+    "entity_type": "cataclysm:deepling"
+  },
+  "spawn_count": 2
+}

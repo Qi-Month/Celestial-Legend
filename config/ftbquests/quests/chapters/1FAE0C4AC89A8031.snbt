@@ -1,0 +1,563 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "1FAE0C4AC89A8031"
+	group: "09EE0DA8FC2DE922"
+	icon: "botania:life_essence"
+	id: "1FAE0C4AC89A8031"
+	order_index: 6
+	quest_links: [{
+		id: "5DF9C668EA613483"
+		linked_quest: "3F23DE9577D8DA28"
+		x: 2.0d
+		y: -3.5d
+	}]
+	quests: [
+		{
+			dependencies: [
+				"1A5CAFF4AF5F092E"
+				"504A1AD0A3AF6936"
+				"6D980A5A10D7863C"
+				"5AA25122CC79271A"
+			]
+			id: "5C743CAAD084BE88"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7CE828F336053F08"
+				table_id: 523424714767025876L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7FF5A3C80FC3F421"
+				item: "botania:gaia_pylon"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"26569585B49470F3"
+				"4B55C0F87B11D114"
+			]
+			dependency_requirement: "one_completed"
+			icon: {
+				Count: 1b
+				id: "minecraft:diamond_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "26641E486986F859"
+			tasks: [{
+				entity: "blue_skies:summoner"
+				id: "15AA26D58B357908"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"26569585B49470F3"
+				"4B55C0F87B11D114"
+			]
+			dependency_requirement: "one_completed"
+			id: "02E4A19979E7496F"
+			tasks: [{
+				entity: "blue_skies:starlit_crusher"
+				icon: {
+					Count: 1b
+					id: "minecraft:diamond_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "2639E43F13CA9D8D"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["02E4A19979E7496F"]
+			id: "1A5CAFF4AF5F092E"
+			rewards: [{
+				count: 3
+				id: "5D4A329C55C54604"
+				item: "kubejs:mooncoin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "16FEAF698030EF69"
+				item: {
+					Count: 1b
+					id: "blue_skies:starlit_crusher_trophy"
+					tag: {
+						BlockStateTag: {
+							tier: "gold"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["26641E486986F859"]
+			id: "504A1AD0A3AF6936"
+			rewards: [{
+				count: 3
+				id: "0258D963956610E6"
+				item: "kubejs:mooncoin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "02D2E06DFA2400BC"
+				item: {
+					Count: 1b
+					id: "blue_skies:summoner_trophy"
+					tag: {
+						BlockStateTag: {
+							tier: "gold"
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5A7DE4F8A9C26457"]
+			id: "0C026876435D214C"
+			tasks: [{
+				entity: "minecraft:wither"
+				icon: {
+					Count: 1b
+					id: "minecraft:netherite_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "514047784E6A9F5F"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0C026876435D214C"]
+			id: "3D689F3C7BBD13B1"
+			tasks: [{
+				id: "38CBC7CD76A8907D"
+				item: "minecraft:nether_star"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["68697A3CE1F51C0F"]
+			id: "5A7DE4F8A9C26457"
+			rewards: [{
+				id: "0DF71FABFB4EF51F"
+				item: {
+					Count: 1b
+					id: "twilightforest:wither_skeleton_skull_candle"
+					tag: {
+						BlockEntityTag: {
+							CandleAmount: 1
+							CandleColor: 0
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 3L
+				id: "7D9A276CFD19B5ED"
+				item: { Count: 3b, id: "minecraft:wither_skeleton_skull" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"3D689F3C7BBD13B1"
+				"5C743CAAD084BE88"
+				"45F29D2CE1EE1968"
+			]
+			id: "0C5E680EF51CFD6E"
+			rewards: [{
+				id: "1A70101BD102A116"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "582F386AB0C6435D"
+				item: "minecraft:beacon"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0C5E680EF51CFD6E"]
+			icon: {
+				Count: 1b
+				id: "minecraft:netherite_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "6C0ADFFF4AD756C4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "38FCCB6446750ADE"
+				table_id: 1059738892163851710L
+				type: "loot"
+			}]
+			tasks: [{
+				entity: "botania:doppleganger"
+				id: "47C2BDABCB8D684C"
+				type: "kill"
+				value: 1L
+			}]
+			x: 8.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6C0ADFFF4AD756C4"]
+			id: "72A01B01115D4C01"
+			rewards: [
+				{
+					id: "746C09827283E564"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5E3BB60F04EEF7F1"
+					table_id: 2462882013908997816L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "682A4E4209CFC633"
+				item: "botania:life_essence"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["72A01B01115D4C01"]
+			id: "268A88EB5739A74E"
+			rewards: [{
+				id: "4A13E565ECE27449"
+				item: "botania:dice"
+				type: "item"
+			}]
+			tasks: [{
+				id: "366F6D76BDD4628D"
+				item: "botania:gaia_ingot"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["72A01B01115D4C01"]
+			id: "497A73629915ABE2"
+			tasks: [{
+				id: "6436B0BC940B6AE2"
+				item: {
+					Count: 1b
+					id: "botania:flight_tiara"
+					tag: {
+						variant: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 12.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["72A01B01115D4C01"]
+			id: "4180F6026B65FAD7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "15F9784977B4450A"
+				table_id: 8695861683220912716L
+				type: "random"
+			}]
+			tasks: [{
+				id: "495FDDFA35ADA38C"
+				item: "botania:gaia_spreader"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["66F5AAD171F0DAEF"]
+			icon: "minecraft:nether_bricks"
+			id: "04845413E3541D51"
+			tasks: [{
+				id: "631A24D1DD116623"
+				structure: "#betterfortresses:better_fortresses"
+				title: "前往下界要塞"
+				type: "structure"
+			}]
+			x: 0.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["2D8996D9D3FDB22F"]
+			id: "6D980A5A10D7863C"
+			tasks: [{
+				id: "2F865988FD077320"
+				item: "botania:elementium_ingot"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"72A01B01115D4C01"
+				"6D980A5A10D7863C"
+			]
+			id: "19097B0567EC1FB3"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6D23F2C0A13DD101"
+					table_id: 3704315905234356950L
+					type: "random"
+				}
+				{
+					count: 8
+					id: "1C02C556B4FBDEB7"
+					item: "botania:dreamwood"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2BED0428B3857A28"
+				item: "botania:astrolabe"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"226B78252A0F0E89"
+				"268A88EB5739A74E"
+			]
+			id: "58CC968B520276A5"
+			rewards: [
+				{
+					id: "1DF70BF6A78DFECF"
+					item: "cataclysm:witherite_ingot"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5768E3FA40512790"
+					table_id: 1059738892163851710L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "5B219C250EF499C2"
+				item: "cataclysm:witherite_ingot"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -1.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "minecraft:netherite_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "226B78252A0F0E89"
+			tasks: [{
+				entity: "cataclysm:the_harbinger"
+				id: "1836ECF654B74AE9"
+				type: "kill"
+				value: 1L
+			}]
+			title: "古代的强大科技"
+			x: 14.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["58CC968B520276A5"]
+			description: ["准备制作火箭吧"]
+			id: "08B46CB89465F5F8"
+			rewards: [{
+				id: "34FDBE55000AB309"
+				item: "celestial_artifacts:thunder_ring"
+				type: "item"
+			}]
+			tasks: [{
+				id: "12E4FDC0068A63C0"
+				item: "ad_astra:nasa_workbench"
+				type: "item"
+			}]
+			x: 16.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2D8996D9D3FDB22F"]
+			id: "5AA25122CC79271A"
+			tasks: [{
+				id: "143F26B964E842F3"
+				item: "botania:pixie_dust"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6D980A5A10D7863C"]
+			id: "021E3EAD43EE59EA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4E6ABED069ADCD42"
+				table_id: 3704315905234356950L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0FCB4B13BD50D2B4"
+				item: "botania:elven_spreader"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["72A01B01115D4C01"]
+			id: "0BE2F820C8B0BC23"
+			tasks: [{
+				id: "21CEFFBFAC823E31"
+				item: "botania:spawner_mover"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["58CC968B520276A5"]
+			id: "5A593A4DB7C0DF83"
+			tasks: [{
+				id: "2D8C1503DFF170CA"
+				item: "cataclysm:meat_shredder"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["58CC968B520276A5"]
+			id: "32A80585607ADE1F"
+			tasks: [{
+				id: "0E7DA4FB9D3F4A78"
+				item: {
+					Count: 1b
+					id: "cataclysm:laser_gatling"
+					tag: {
+						Charged: 0b
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 16.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6D980A5A10D7863C"]
+			id: "61109B24F690E22B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7D2A8137E58F822A"
+				table_id: 3704315905234356950L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3BF8B38AB06FD794"
+				item: "botania:open_bucket"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["58CC968B520276A5"]
+			id: "70731E2FB1E61AF2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0453A2A768F76300"
+				table_id: 8695861683220912716L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5430BBDEBE828DD4"
+				item: "cataclysm:mechanical_fusion_anvil"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["04845413E3541D51"]
+			id: "68697A3CE1F51C0F"
+			tasks: [{
+				entity: "minecraft:wither_skeleton"
+				icon: {
+					Count: 1b
+					id: "minecraft:stone_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "1F56FF9296ABF718"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["0C5E680EF51CFD6E"]
+			id: "10015DF4D428C004"
+			rewards: [{
+				id: "73A11C0D82D8FDFD"
+				item: "minecraft:nether_star"
+				type: "item"
+			}]
+			tasks: [{
+				id: "52C38D440A0C8F54"
+				item: "createendertransmission:chunk_loader"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -3.0d
+		}
+	]
+	title: "盖亚挑战"
+}

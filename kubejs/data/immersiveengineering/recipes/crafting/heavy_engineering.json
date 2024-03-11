@@ -1,0 +1,28 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "misc",
+	"key": {
+		"e": {
+			"tag": "forge:ingots/electrum"
+		},
+		"g": {
+			"item": "createaddition:capacitor"
+		},
+		"i": {
+			"tag": "forge:sheetmetals/steel"
+		},
+		"v":{
+			"item": "immersiveengineering:component_steel"
+		}
+	},
+	"pattern": [
+		"ivi",
+		"geg",
+		"ivi"
+	],
+	"result": {
+		"count": 5,
+		"item": "immersiveengineering:heavy_engineering"
+	},
+	"show_notification": true
+}

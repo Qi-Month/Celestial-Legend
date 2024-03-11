@@ -1,0 +1,8 @@
+{
+  "type": "htlib:once",
+  "setting": {
+    "entity_type": "minecraft:ravager",
+  "nbt":"Passengers:[{id:\"minecraft:evoker\"}]"
+  },
+  "spawn_count": 1
+}

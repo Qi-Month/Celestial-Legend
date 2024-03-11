@@ -1,0 +1,1 @@
+{"type":"immersiveengineering:sawmill","energy":800,"input":{"item":"minecraft:jungle_door"},"result":{"item":"minecraft:jungle_planks"},"secondaries":[{"output":{"tag":"forge:dusts/wood"},"stripping":false}]}

@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","category":"misc","key":{"i":{"item":"immersiveengineering:coal_coke"},"s":{"tag":"forge:coal_coke"}},"pattern":["sss","sis","sss"],"result":{"item":"immersiveengineering:coke"},"show_notification":true}

@@ -1,0 +1,72 @@
+{
+	id: "1E0EC266727F33D7"
+	loot_size: 1
+	order_index: 14
+	rewards: [
+		{
+			item: {
+				Count: 1b
+				id: "the_forgotten_dimensions:skylite_feather_launcher"
+				tag: {
+					Damage: 0
+				}
+			}
+			only_one: true
+		}
+		{
+			item: {
+				Count: 1b
+				id: "the_forgotten_dimensions:core_staff"
+				tag: {
+					Damage: 0
+				}
+			}
+			only_one: true
+		}
+		{
+			item: {
+				Count: 1b
+				id: "the_forgotten_dimensions:permafrost_claws"
+				tag: {
+					Damage: 0
+				}
+			}
+			only_one: true
+		}
+		{
+			item: {
+				Count: 1b
+				id: "the_forgotten_dimensions:lightning_bolt"
+				tag: {
+					Damage: 0
+				}
+			}
+			only_one: true
+		}
+		{
+			item: {
+				Count: 1b
+				id: "twilightforest:twilight_scepter"
+				tag: {
+					Damage: 0
+					Unbreakable: 1b
+				}
+			}
+			only_one: true
+		}
+		{
+			item: {
+				Count: 1b
+				id: "twilightforest:zombie_scepter"
+				tag: {
+					Damage: 0
+					Unbreakable: 1b
+				}
+			}
+			only_one: true
+			weight: 0.5f
+		}
+		{ item: "ars_nouveau:creative_spell_book", only_one: true }
+	]
+	title: "神奇法器"
+}

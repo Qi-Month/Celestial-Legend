@@ -1,0 +1,8 @@
+{
+	chapter_groups: [
+		{ id: "09EE0DA8FC2DE922", title: "主线章节" }
+		{ id: "3E4ABC156F52F7D4", title: "支线章节" }
+		{ id: "7A8EB4FE1BB624E8", title: "挑战章节" }
+		{ id: "58502FCADDE9F276", title: "商店" }
+	]
+}

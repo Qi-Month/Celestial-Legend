@@ -1,0 +1,226 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "511FB3BA83CFE92F"
+	group: "3E4ABC156F52F7D4"
+	icon: "the_forgotten_dimensions:structure_fixer"
+	id: "511FB3BA83CFE92F"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["3A9222313CC2E7D9"]
+			id: "08E457CA71B97AE6"
+			rewards: [{
+				id: "18A35400EC57FADC"
+				item: {
+					Count: 1b
+					id: "ec_tf_plugin:arctic_gauntlet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				biome: "twilightforest:snowy_forest"
+				icon: "the_forgotten_dimensions:snowy_sapling"
+				id: "7C1F99C646F5B561"
+				title: "访问生物群系：积雪森林"
+				type: "biome"
+			}]
+			title: "林间积雪"
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["08E457CA71B97AE6"]
+			id: "11D2E8428E0A8054"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "60417037BFFE2ADC"
+				table_id: 2462882013908997816L
+				type: "random"
+			}]
+			tasks: [{
+				count: 2L
+				id: "23CDB99AD98DCC3B"
+				item: "twilightforest:arctic_fur"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["11D2E8428E0A8054"]
+			id: "7BDB68F2264ADF09"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "36D923608535FE5F"
+					table_id: 7716256906768172413L
+					type: "random"
+				}
+				{
+					count: 2
+					id: "6FF67B8C7B4DF9FC"
+					item: "twilightforest:ice_bomb"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "3757FA7CD27604BA"
+					item: {
+						Count: 1b
+						id: "twilightforest:arctic_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "45169528D07737DF"
+					item: {
+						Count: 1b
+						id: "twilightforest:arctic_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5BFC14E70DA66716"
+					item: {
+						Count: 1b
+						id: "twilightforest:arctic_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3B2FC28D3D73D73D"
+					item: {
+						Count: 1b
+						id: "twilightforest:arctic_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["08E457CA71B97AE6"]
+			description: [
+				"“我手举火把深入了雪怪巢穴这个寒冷的洞窟。”"
+				""
+				"“在洞穴四周数百只雪怪正在进行它们永无休止的竞争，而那位雪怪之王正居于中间的蓝冰之上。”"
+				""
+				"“洞穴昏暗无光，我快速地将火把插在周围，然后拔出带有火焰符咒的长剑，一步步地走向那头高大的雪怪之王。”"
+				""
+				"“它笨拙的躯体却有强大的力量，数块巨大冰块已是裹挟着恶风砸来。”"
+				"{@pagebreak}"
+				""
+				"“我向后闪避，却不小心滑倒在地，随即一个侧滚翻躲过了一发袭来的冰块炸弹。”"
+				""
+				"“几头倒霉的雪怪被它们首领的攻击打中，随着一声怒吼，在我惊诧的目光下，这些小型雪怪竟是直接向它们的首领冲锋。”"
+				""
+				"“随着抛掷声和冰层被重物砸碎的声音，那头强壮的雪怪被一众普通雪怪抛起然后砸到地上。”"
+				""
+				"“我大喜过望，拄剑从地上站起，拿出了那柄黄昏权杖，对着雪怪首领那边不断施法。”"
+				""
+				"{@pagebreak}"
+				"“一段时间后，我靠近战团，满意地看着首领早已死去的躯体。”"
+				""
+				"“完整的毛皮可是能卖个好价钱的，遑论是首领的高级毛皮。”"
+				""
+				"“下一步就是爬到冰川上看看了，那里应该也有神秘的遗迹，毕竟那缕极光做不得假。”"
+				""
+				"《行商手札·三》"
+			]
+			id: "1A293A18141854C3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7194B88144914042"
+				table_id: 6126013995516383768L
+				type: "random"
+			}]
+			subtitle: "体型巨大的雪怪之王，但它的臣下并不服从王的号召。"
+			tasks: [{
+				id: "5C93C4502973F367"
+				item: "twilightforest:alpha_yeti_trophy"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1A293A18141854C3"]
+			id: "47378595BD2F5A94"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "423D55A71E9C0AD4"
+				table_id: 2462882013908997816L
+				type: "random"
+			}]
+			subtitle: "“根据前人笔记所载，此处居住着一位强大的天气法师，她布下了冰川这一伟大的奇迹作为结界的防御，不解除这里的魔咒，那么高地上的酸雨将永无止息。”"
+			tasks: [{
+				icon: "twilightforest:aurora_block"
+				id: "686B0575DEC543FF"
+				structure: "twilightforest:aurora_palace"
+				type: "structure"
+			}]
+			title: "发现结构：极光宫殿"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["47378595BD2F5A94"]
+			id: "7EF8D64BF74F0641"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "58F2FEEC99C60309"
+					table_id: 8695861683220912716L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "03EBBD418E2176AB"
+					table_id: 7383894001746634703L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "08AB069331C0A481"
+					table_id: 3297035255779660728L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3F6B36F56BAD3CC0"
+					table_id: 1059738892163851710L
+					type: "random"
+				}
+			]
+			subtitle: "“她苍白的皮肤如细雪般柔腻，星蓝的长发如流瀑般垂落至胸前，头顶那璀璨如寒空之月辉的王冠，更是让人目眩神摇。”“但她一挥手，一道雪花魔法便是直接袭来。”"
+			tasks: [{
+				id: "649D85D184853222"
+				item: "twilightforest:snow_queen_trophy"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+	]
+	subtitle: ["她将自己隐于冰川之上，鸟儿也飞不到的地方。"]
+	title: "冷若冰霜"
+}

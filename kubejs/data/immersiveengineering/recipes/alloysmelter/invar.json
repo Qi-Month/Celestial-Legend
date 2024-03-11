@@ -1,0 +1,1 @@
+{"type":"immersiveengineering:alloy","conditions":[{"type":"forge:not","value":{"type":"forge:tag_empty","tag":"forge:ingots/invar"}}],"input0":{"base_ingredient":{"tag":"forge:ingots/iron"},"count":2},"input1":{"tag":"forge:ingots/nickel"},"result":{"base_ingredient":{"tag":"forge:ingots/invar"},"count":3},"time":200}

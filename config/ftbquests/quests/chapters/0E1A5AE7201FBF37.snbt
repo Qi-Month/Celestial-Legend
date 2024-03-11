@@ -1,0 +1,323 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "0E1A5AE7201FBF37"
+	group: "3E4ABC156F52F7D4"
+	icon: "alexscaves:pure_darkness"
+	id: "0E1A5AE7201FBF37"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "27F1D4AA842FB466"
+			rewards: [{
+				id: "49E0F1D7FB7D7F03"
+				item: {
+					Count: 1b
+					id: "alexscaves:cave_tablet"
+					tag: {
+						CaveBiome: "alexscaves:forlorn_hollows"
+						Rainbow: 1b
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "1262494D0F467CB2"
+				item: "alexscaves:spelunkery_table"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["27F1D4AA842FB466"]
+			id: "4228E56E7C3F776F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "65A049C2B6987434"
+					table_id: 2462882013908997816L
+					type: "random"
+				}
+				{
+					id: "753FABB747F9EF07"
+					item: "alexscaves:cave_book"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "6AF599112EFCFFA3"
+					item: {
+						Count: 1b
+						id: "alexscaves:cave_map"
+						tag: {
+							BiomeTargetResourceKey: "alexscaves:forlorn_hollows"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6A6EB99B30692E11"
+					item: {
+						Count: 1b
+						id: "alexscaves:cave_codex"
+						tag: {
+							CaveBiome: "alexscaves:forlorn_hollows"
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4228E56E7C3F776F"]
+			id: "260BF71FB01FA63B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "48C72F9626AC032E"
+				table_id: 2462882013908997816L
+				type: "random"
+			}]
+			subtitle: "访问异寂空谷"
+			tasks: [{
+				biome: "alexscaves:forlorn_hollows"
+				icon: "alexscaves:dark_tatters"
+				id: "50BDDC1FDE6158B7"
+				title: "人生最寂寥的一天"
+				type: "biome"
+			}]
+			x: 0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["260BF71FB01FA63B"]
+			id: "32A4708630122A80"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "48E712A9F4FCA8F2"
+				table_id: 2462882013908997816L
+				type: "choice"
+			}]
+			tasks: [{
+				count: 5L
+				id: "36BB39257C46E23D"
+				item: "alexscaves:moth_dust"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["58DE4CB57505F336"]
+			id: "48C704FC488129FF"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "18E72FFA319190DC"
+				table_id: 2462882013908997816L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4362A8B071152F08"
+				item: "alexscaves:vesper_wing"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1A29FDD5015CEA4B"]
+			id: "6A88095F73F5FEA0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "01E361E3A3C6A4F6"
+				table_id: 2462882013908997816L
+				type: "random"
+			}]
+			tasks: [{
+				id: "76E53F40818C1957"
+				item: "alexscaves:dark_tatters"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["604ACB5AFC07ED0A"]
+			id: "38BBEF64193F343E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1F71D9C3059E5EE7"
+				table_id: 7383894001746634703L
+				type: "random"
+			}]
+			tasks: [{
+				id: "348756AEAEEE8253"
+				item: "alexscaves:shadow_silk"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["38BBEF64193F343E"]
+			id: "1A29FDD5015CEA4B"
+			tasks: [{
+				id: "408B07608336FEF5"
+				item: "alexscaves:occult_gem"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6A88095F73F5FEA0"]
+			id: "5746D91400691087"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "20FC233DC6054121"
+				table_id: 4573175559703144126L
+				type: "random"
+			}]
+			tasks: [{
+				id: "047DAFC31D3CED1D"
+				item: {
+					Count: 1b
+					id: "alexscaves:totem_of_possession"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["32A4708630122A80"]
+			id: "58DE4CB57505F336"
+			tasks: [{
+				id: "383545E4FC69D6CA"
+				item: "alexscaves:moth_ball"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["5746D91400691087"]
+			id: "723D29C6E867516E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "737B1004B12DC45B"
+				table_id: 2462882013908997816L
+				type: "random"
+			}]
+			tasks: [{
+				id: "7C41D42B3832DD43"
+				item: "alexscaves:beholder"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["48C704FC488129FF"]
+			icon: "alexscaves:burrowing_arrow"
+			id: "604ACB5AFC07ED0A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "518F23755435065A"
+				table_id: 523424714767025876L
+				type: "random"
+			}]
+			tasks: [{
+				count: 4L
+				id: "790E4D3FB850573C"
+				item: "alexscaves:burrowing_arrow"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["171695DC9226F252"]
+			id: "396476FAD580D3C9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5C26C155C1464386"
+				table_id: 8695861683220912716L
+				type: "random"
+			}]
+			tasks: [{
+				id: "066501AF081C559F"
+				item: "alexscaves:pure_darkness"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["396476FAD580D3C9"]
+			id: "57C3D9983DBCA313"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "610977EF15C39372"
+					table_id: 8695861683220912716L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "041611192C302712"
+					table_id: 1059738892163851710L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "636EC6E0AB6F354E"
+					table_id: 1059738892163851710L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "69ED5683397B4297"
+				item: "alexscaves:darkened_apple"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["723D29C6E867516E"]
+			id: "171695DC9226F252"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0E2229C21B85E912"
+					table_id: 1059738892163851710L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3A7B3079DBC08255"
+					table_id: 523424714767025876L
+					type: "random"
+				}
+			]
+			tasks: [{
+				entity: "alexscaves:forsaken"
+				icon: "alexscaves:gazing_pearl"
+				id: "74497CB0E21D2741"
+				type: "kill"
+				value: 1L
+			}]
+			x: 3.5d
+			y: 1.5d
+		}
+	]
+	title: "窥心夺命"
+}

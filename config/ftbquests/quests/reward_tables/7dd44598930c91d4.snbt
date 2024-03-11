@@ -1,0 +1,1130 @@
+{
+	id: "7DD44598930C91D4"
+	loot_size: 1
+	order_index: 6
+	rewards: [
+		{
+			item: {
+				Count: 1b
+				id: "expanded_combat:gold_battle_staff"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "expanded_combat:gold_dagger"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "expanded_combat:gold_glaive"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "expanded_combat:gold_cutlass"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "expanded_combat:stone_great_hammer"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "expanded_combat:stone_battle_staff"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "expanded_combat:gold_scythe"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "expanded_combat:stone_dancer_s_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "expanded_combat:gold_great_hammer"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "expanded_combat:stone_sickle"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "expanded_combat:stone_flail"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "expanded_combat:stone_katana"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "expanded_combat:gold_broad_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "expanded_combat:gold_spear"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "expanded_combat:gold_katana"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "the_forgotten_dimensions:skyrium_stone_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "blue_skies:turquoise_stone_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "blue_skies:lunar_stone_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "expanded_combat:stone_glaive"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "expanded_combat:stone_dagger"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "expanded_combat:stone_mace"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "expanded_combat:stone_cutlass"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "expanded_combat:stone_scythe"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "expanded_combat:stone_claymore"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "expanded_combat:stone_spear"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "expanded_combat:stone_katana"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "expanded_combat:warped_plank_great_hammer"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "expanded_combat:warped_plank_claymore"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "expanded_combat:warped_plank_scythe"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "expanded_combat:warped_plank_cutlass"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "expanded_combat:birch_plank_dagger"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "expanded_combat:birch_plank_dancer_s_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "expanded_combat:birch_plank_sickle"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "expanded_combat:crimson_plank_dancer_s_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "expanded_combat:crimson_plank_scythe"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "expanded_combat:acacia_plank_katana"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "expanded_combat:jungle_plank_claymore"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "expanded_combat:jungle_plank_spear"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "expanded_combat:spruce_plank_broad_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "expanded_combat:dark_oak_plank_battle_staff"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "expanded_combat:oak_plank_katana"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "expanded_combat:oak_plank_battle_staff"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "expanded_combat:oak_plank_scythe"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "expanded_combat:acacia_plank_great_hammer"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "expanded_combat:jungle_plank_dancer_s_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "expanded_combat:jungle_plank_katana"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "expanded_combat:spruce_plank_flail"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "expanded_combat:spruce_plank_mace"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "expanded_combat:dark_oak_plank_scythe"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "expanded_combat:dark_oak_plank_sickle"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "expanded_combat:dark_oak_plank_mace"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "expanded_combat:dark_oak_plank_sickle"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "expanded_combat:dark_oak_plank_cutlass"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "expanded_combat:acacia_plank_scythe"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "expanded_combat:acacia_plank_cutlass"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "expanded_combat:acacia_plank_cutlass"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "expanded_combat:crimson_plank_broad_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "expanded_combat:birch_plank_broad_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "expanded_combat:crimson_plank_glaive"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "expanded_combat:mangrove_plank_great_hammer"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "expanded_combat:cherry_plank_broad_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "expanded_combat:cherry_plank_glaive"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "expanded_combat:mangrove_plank_battle_staff"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "expanded_combat:mangrove_plank_scythe"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "expanded_combat:mangrove_plank_dancer_s_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "expanded_combat:cherry_plank_spear"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "expanded_combat:cherry_plank_katana"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "cataclysm:coral_bardiche"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "cataclysm:coral_spear"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "cataclysm:khopesh"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "cataclysm:athame"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "expanded_combat:cherry_plank_katana"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "expanded_combat:bamboo_plank_flail"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "expanded_combat:bamboo_plank_sickle"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "expanded_combat:cherry_plank_mace"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "the_forgotten_dimensions:permafrost_amalgamated_blade"
+				tag: {
+					Damage: 0
+					itemModifier: "celestial_forge:fast"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "the_forgotten_dimensions:skylite_cutlass"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "the_forgotten_dimensions:pigmy_knife"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "the_forgotten_dimensions:froslog_spear"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "the_forgotten_dimensions:techno_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "the_forgotten_dimensions:redstone_powered_copper_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "the_forgotten_dimensions:forgotten_blade"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "the_forgotten_dimensions:spectralism_blade" }
+		{
+			item: {
+				Count: 1b
+				id: "the_forgotten_dimensions:blazing_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "aquaculture:stone_fillet_knife"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "alexscaves:limestone_spear" }
+		{
+			item: {
+				Count: 1b
+				id: "aquamirae:poisoned_blade"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "aquaculture:iron_fillet_knife"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "aquamirae:dagger_of_greed"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "aquamirae:remnants_saber"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "alexsmobs:skelewag_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "expanded_combat:cherry_plank_dancer_s_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "expanded_combat:bamboo_plank_great_hammer"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "expanded_combat:heartstealer"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.95f
+		}
+		{
+			item: {
+				Count: 1b
+				id: "expanded_combat:heat_glaive"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.9f
+		}
+		{
+			item: {
+				Count: 1b
+				id: "expanded_combat:frost_claymore"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.9f
+		}
+		{
+			item: {
+				Count: 1b
+				id: "expanded_combat:heat_scythe"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.95f
+		}
+		{
+			item: {
+				Count: 1b
+				id: "expanded_combat:void_touched_great_hammer"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.95f
+		}
+		{
+			item: {
+				Count: 1b
+				id: "expanded_combat:soul_scythe"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 0.95f
+		}
+		{
+			item: {
+				Count: 1b
+				id: "expanded_combat:void_touched_cutlass"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "twilightforest:block_and_chain"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "aquamirae:poisoned_chakra"
+				tag: {
+					Damage: 0
+					Enchantments: [
+						{
+							id: "obscure_api:distance"
+							lvl: 3s
+						}
+						{
+							id: "obscure_api:fast_spin"
+							lvl: 5s
+						}
+					]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "aquamirae:maze_rose"
+				tag: {
+					Damage: 0
+					Enchantments: [
+						{
+							id: "obscure_api:distance"
+							lvl: 3s
+						}
+						{
+							id: "obscure_api:fast_spin"
+							lvl: 5s
+						}
+					]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					Parent: {
+						Items: [
+							{
+								Count: 1b
+								Slot: 0
+								id: "immersiveengineering:silver"
+							}
+							{
+								Count: 1b
+								Slot: 1
+								id: "immersiveengineering:armor_piercing"
+							}
+							{
+								Count: 1b
+								Slot: 2
+								id: "immersiveengineering:dragons_breath"
+							}
+							{
+								Count: 1b
+								Slot: 3
+								id: "immersiveengineering:he"
+							}
+							{
+								Count: 1b
+								Slot: 4
+								id: "immersiveengineering:firework"
+							}
+							{
+								Count: 1b
+								Slot: 5
+								id: "immersiveengineering:flare"
+							}
+							{
+								Count: 1b
+								Slot: 6
+								id: "immersiveengineering:homing"
+							}
+							{
+								Count: 1b
+								Slot: 7
+								id: "immersiveengineering:casull"
+							}
+						]
+						Size: 21
+					}
+				}
+				id: "immersiveengineering:revolver"
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "ars_nouveau:enchanters_sword"
+				tag: {
+					Damage: 0
+					"ars_nouveau:caster": {
+						current_slot: 0
+						flavor: ""
+						hidden_recipe: ""
+						is_hidden: 0b
+						spell_count: 1
+						spells: {
+							spell0: {
+								name: ""
+								recipe: {
+									part0: "ars_nouveau:glyph_touch"
+									part1: "ars_nouveau:glyph_fangs"
+									part2: "ars_nouveau:glyph_amplify"
+									size: 3
+								}
+								sound: {
+									pitch: 1.0f
+									soundTag: {
+										id: "ars_nouveau:fire_family"
+									}
+									volume: 1.0f
+								}
+								spellColor: {
+									b: 180
+									g: 25
+									r: 255
+									type: "ars_nouveau:constant"
+								}
+							}
+						}
+					}
+					itemModifier: "celestial_forge:reckless"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "ars_nouveau:enchanters_sword"
+				tag: {
+					Damage: 0
+					"ars_nouveau:caster": {
+						current_slot: 0
+						flavor: ""
+						hidden_recipe: ""
+						is_hidden: 0b
+						spell_count: 1
+						spells: {
+							spell0: {
+								name: ""
+								recipe: {
+									part0: "ars_nouveau:glyph_touch"
+									part1: "ars_nouveau:glyph_ignite"
+									part2: "ars_nouveau:glyph_extend_time"
+									part3: "ars_nouveau:glyph_harm"
+									part4: "ars_nouveau:glyph_flare"
+									part5: "ars_nouveau:glyph_amplify"
+									part6: "ars_nouveau:glyph_amplify"
+									size: 7
+								}
+								sound: {
+									pitch: 1.0f
+									soundTag: {
+										id: "ars_nouveau:fire_family"
+									}
+									volume: 1.0f
+								}
+								spellColor: {
+									b: 180
+									g: 25
+									r: 255
+									type: "ars_nouveau:constant"
+								}
+							}
+						}
+					}
+					itemModifier: "celestial_forge:reckless"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "ars_nouveau:enchanters_sword"
+				tag: {
+					Damage: 0
+					"ars_nouveau:caster": {
+						current_slot: 0
+						flavor: ""
+						hidden_recipe: ""
+						is_hidden: 0b
+						spell_count: 1
+						spells: {
+							spell0: {
+								name: ""
+								recipe: {
+									part0: "ars_nouveau:glyph_touch"
+									part1: "ars_nouveau:glyph_freeze"
+									part2: "ars_nouveau:glyph_amplify"
+									part3: "ars_nouveau:glyph_harm"
+									part4: "ars_nouveau:glyph_cold_snap"
+									part5: "ars_nouveau:glyph_amplify"
+									part6: "ars_nouveau:glyph_amplify"
+									size: 7
+								}
+								sound: {
+									pitch: 1.0f
+									soundTag: {
+										id: "ars_nouveau:fire_family"
+									}
+									volume: 1.0f
+								}
+								spellColor: {
+									b: 180
+									g: 25
+									r: 255
+									type: "ars_nouveau:constant"
+								}
+							}
+						}
+					}
+					itemModifier: "celestial_forge:reckless"
+				}
+			}
+		}
+	]
+	title: "随机武器"
+}

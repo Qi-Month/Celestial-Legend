@@ -1,0 +1,511 @@
+{
+	id: "6678DC79193EE7CF"
+	loot_size: 1
+	order_index: 21
+	rewards: [
+		{
+			item: {
+				Count: 1b
+				id: "twilightforest:fortification_scepter"
+				tag: {
+					Damage: 0
+					Unbreakable: 1b
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "the_forgotten_dimensions:blaze_staff"
+				tag: {
+					Damage: 0
+					Shoot: 1.0d
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "the_forgotten_dimensions:icicle_staff"
+				tag: {
+					geckoAnim: ""
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "alexscaves:sea_staff"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "twilightforest:lifedrain_scepter"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "ars_nouveau:wand"
+				tag: {
+					"ars_nouveau:caster": {
+						current_slot: 0
+						flavor: ""
+						hidden_recipe: ""
+						is_hidden: 0b
+						spell_count: 1
+						spells: {
+							spell0: {
+								name: ""
+								recipe: {
+									part0: "ars_nouveau:glyph_projectile"
+									part1: "ars_nouveau:glyph_accelerate"
+									part10: "ars_nouveau:glyph_amplify"
+									part11: "ars_nouveau:glyph_explosion"
+									part2: "ars_nouveau:glyph_ignite"
+									part3: "ars_nouveau:glyph_aoe"
+									part4: "ars_nouveau:glyph_extend_time"
+									part5: "ars_nouveau:burst"
+									part6: "ars_nouveau:glyph_aoe"
+									part7: "ars_nouveau:glyph_delay"
+									part8: "ars_nouveau:glyph_flare"
+									part9: "ars_nouveau:glyph_amplify"
+									size: 12
+								}
+								sound: {
+									pitch: 1.0f
+									soundTag: {
+										id: "ars_nouveau:fire_family"
+									}
+									volume: 1.0f
+								}
+								spellColor: {
+									b: 180
+									g: 25
+									r: 255
+									type: "ars_nouveau:constant"
+								}
+							}
+						}
+					}
+				}
+			}
+			weight: 0.1f
+		}
+		{
+			item: {
+				Count: 1b
+				id: "ars_nouveau:wand"
+				tag: {
+					"ars_nouveau:caster": {
+						current_slot: 0
+						flavor: ""
+						hidden_recipe: ""
+						is_hidden: 0b
+						spell_count: 1
+						spells: {
+							spell0: {
+								name: ""
+								recipe: {
+									part0: "ars_nouveau:glyph_projectile"
+									part1: "ars_nouveau:glyph_accelerate"
+									part2: "ars_nouveau:glyph_harm"
+									part3: "ars_nouveau:glyph_amplify"
+									part4: "ars_nouveau:glyph_amplify"
+									part5: "ars_nouveau:glyph_fangs"
+									part6: "ars_nouveau:glyph_amplify"
+									part7: "ars_nouveau:glyph_amplify"
+									size: 8
+								}
+								sound: {
+									pitch: 1.0f
+									soundTag: {
+										id: "ars_nouveau:fire_family"
+									}
+									volume: 1.0f
+								}
+								spellColor: {
+									b: 180
+									g: 25
+									r: 255
+									type: "ars_nouveau:constant"
+								}
+							}
+						}
+					}
+				}
+			}
+			weight: 0.1f
+		}
+		{
+			item: {
+				Count: 1b
+				id: "ars_nouveau:wand"
+				tag: {
+					"ars_nouveau:caster": {
+						current_slot: 0
+						flavor: ""
+						hidden_recipe: ""
+						is_hidden: 0b
+						spell_count: 1
+						spells: {
+							spell0: {
+								name: ""
+								recipe: {
+									part0: "ars_nouveau:glyph_projectile"
+									part1: "ars_nouveau:glyph_accelerate"
+									part10: "ars_nouveau:glyph_amplify"
+									part11: "ars_nouveau:glyph_amplify"
+									part2: "ars_nouveau:glyph_summon_undead"
+									part3: "ars_nouveau:glyph_split"
+									part4: "ars_nouveau:glyph_split"
+									part5: "ars_nouveau:glyph_split"
+									part6: "ars_nouveau:glyph_split"
+									part7: "ars_nouveau:glyph_split"
+									part8: "ars_nouveau:glyph_pierce"
+									part9: "ars_nouveau:glyph_amplify"
+									size: 12
+								}
+								sound: {
+									pitch: 1.0f
+									soundTag: {
+										id: "ars_nouveau:fire_family"
+									}
+									volume: 1.0f
+								}
+								spellColor: {
+									b: 180
+									g: 25
+									r: 255
+									type: "ars_nouveau:constant"
+								}
+							}
+						}
+					}
+				}
+			}
+			weight: 0.1f
+		}
+		{
+			item: {
+				Count: 1b
+				id: "ec_tf_plugin:fiery_battle_staff"
+				tag: {
+					Damage: 0
+					Unbreakable: 1b
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "the_forgotten_dimensions:ice_ray_cast"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "twilightforest:twilight_scepter"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "twilightforest:zombie_scepter"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "ars_nouveau:caster_tome"
+				tag: {
+					"ars_nouveau:caster": {
+						current_slot: 0
+						flavor: ""
+						hidden_recipe: ""
+						is_hidden: 0b
+						spell_count: 1
+						spells: {
+							spell0: {
+								name: ""
+								recipe: {
+									part0: "ars_nouveau:glyph_projectile"
+									part1: "ars_nouveau:glyph_split"
+									part2: "ars_nouveau:glyph_hex"
+									part3: "ars_nouveau:glyph_extend_time"
+									part4: "ars_nouveau:glyph_amplify"
+									part5: "ars_nouveau:glyph_harm"
+									part6: "ars_nouveau:glyph_amplify"
+									part7: "ars_nouveau:glyph_amplify"
+									part8: "ars_nouveau:glyph_wither"
+									part9: "ars_nouveau:glyph_amplify"
+									size: 10
+								}
+								sound: {
+									pitch: 1.0f
+									soundTag: {
+										id: "ars_nouveau:fire_family"
+									}
+									volume: 1.0f
+								}
+								spellColor: {
+									b: 180
+									g: 25
+									r: 255
+									type: "ars_nouveau:constant"
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "ars_nouveau:caster_tome"
+				tag: {
+					"ars_nouveau:caster": {
+						current_slot: 0
+						flavor: ""
+						hidden_recipe: ""
+						is_hidden: 0b
+						spell_count: 1
+						spells: {
+							spell0: {
+								name: ""
+								recipe: {
+									part0: "ars_nouveau:glyph_self"
+									part1: "ars_nouveau:glyph_launch"
+									part2: "ars_nouveau:glyph_amplify"
+									part3: "ars_nouveau:glyph_amplify"
+									part4: "ars_nouveau:glyph_leap"
+									part5: "ars_nouveau:glyph_amplify"
+									part6: "ars_nouveau:glyph_amplify"
+									part7: "ars_nouveau:glyph_glide"
+									part8: "ars_nouveau:glyph_extend_time"
+									part9: "ars_nouveau:glyph_extend_time"
+									size: 10
+								}
+								sound: {
+									pitch: 1.0f
+									soundTag: {
+										id: "ars_nouveau:fire_family"
+									}
+									volume: 1.0f
+								}
+								spellColor: {
+									b: 180
+									g: 25
+									r: 255
+									type: "ars_nouveau:constant"
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "ars_nouveau:caster_tome"
+				tag: {
+					"ars_nouveau:caster": {
+						current_slot: 0
+						flavor: ""
+						hidden_recipe: ""
+						is_hidden: 0b
+						spell_count: 1
+						spells: {
+							spell0: {
+								name: ""
+								recipe: {
+									part0: "ars_nouveau:glyph_self"
+									part1: "ars_nouveau:glyph_heal"
+									part2: "ars_nouveau:glyph_amplify"
+									part3: "ars_nouveau:glyph_amplify"
+									part4: "ars_nouveau:glyph_amplify"
+									part5: "ars_nouveau:burst"
+									part6: "ars_nouveau:glyph_aoe"
+									part7: "ars_nouveau:glyph_aoe"
+									part8: "ars_nouveau:glyph_aoe"
+									part9: "ars_nouveau:glyph_bounce"
+									size: 10
+								}
+								sound: {
+									pitch: 1.0f
+									soundTag: {
+										id: "ars_nouveau:fire_family"
+									}
+									volume: 1.0f
+								}
+								spellColor: {
+									b: 180
+									g: 25
+									r: 255
+									type: "ars_nouveau:constant"
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "ars_nouveau:caster_tome"
+				tag: {
+					"ars_nouveau:caster": {
+						current_slot: 0
+						flavor: ""
+						hidden_recipe: ""
+						is_hidden: 0b
+						spell_count: 1
+						spells: {
+							spell0: {
+								name: ""
+								recipe: {
+									part0: "ars_nouveau:glyph_projectile"
+									part1: "ars_nouveau:glyph_split"
+									part2: "ars_nouveau:glyph_split"
+									part3: "ars_nouveau:glyph_split"
+									part4: "ars_nouveau:glyph_split"
+									part5: "ars_nouveau:glyph_split"
+									part6: "ars_nouveau:glyph_split"
+									part7: "ars_nouveau:glyph_split"
+									part8: "ars_nouveau:glyph_split"
+									part9: "ars_nouveau:glyph_blink"
+									size: 10
+								}
+								sound: {
+									pitch: 1.0f
+									soundTag: {
+										id: "ars_nouveau:fire_family"
+									}
+									volume: 1.0f
+								}
+								spellColor: {
+									b: 180
+									g: 25
+									r: 255
+									type: "ars_nouveau:constant"
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "ars_nouveau:caster_tome"
+				tag: {
+					"ars_nouveau:caster": {
+						current_slot: 0
+						flavor: ""
+						hidden_recipe: ""
+						is_hidden: 0b
+						spell_count: 1
+						spells: {
+							spell0: {
+								name: ""
+								recipe: {
+									part0: "ars_nouveau:glyph_touch"
+									part1: "ars_nouveau:glyph_summon_undead"
+									part2: "ars_nouveau:glyph_amplify"
+									part3: "ars_nouveau:glyph_amplify"
+									part4: "ars_nouveau:glyph_amplify"
+									part5: "ars_nouveau:glyph_split"
+									part6: "ars_nouveau:glyph_split"
+									part7: "ars_nouveau:glyph_split"
+									part8: "ars_nouveau:glyph_split"
+									part9: "ars_nouveau:glyph_split"
+									size: 10
+								}
+								sound: {
+									pitch: 1.0f
+									soundTag: {
+										id: "ars_nouveau:fire_family"
+									}
+									volume: 1.0f
+								}
+								spellColor: {
+									b: 180
+									g: 25
+									r: 255
+									type: "ars_nouveau:constant"
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "ars_nouveau:caster_tome"
+				tag: {
+					"ars_nouveau:caster": {
+						current_slot: 0
+						flavor: ""
+						hidden_recipe: ""
+						is_hidden: 0b
+						spell_count: 1
+						spells: {
+							spell0: {
+								name: ""
+								recipe: {
+									part0: "ars_nouveau:glyph_projectile"
+									part1: "ars_nouveau:glyph_summon_vex"
+									part2: "ars_nouveau:glyph_extend_time"
+									part3: "ars_nouveau:glyph_extend_time"
+									part4: "ars_nouveau:glyph_summon_wolves"
+									part5: "ars_nouveau:glyph_summon_undead"
+									part6: "ars_nouveau:glyph_split"
+									part7: "ars_nouveau:glyph_pierce"
+									part8: "ars_nouveau:glyph_amplify"
+									part9: "ars_nouveau:glyph_animate_block"
+									size: 10
+								}
+								sound: {
+									pitch: 1.0f
+									soundTag: {
+										id: "ars_nouveau:fire_family"
+									}
+									volume: 1.0f
+								}
+								spellColor: {
+									b: 180
+									g: 25
+									r: 255
+									type: "ars_nouveau:constant"
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	]
+	title: "法杖"
+}

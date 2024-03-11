@@ -1,0 +1,9 @@
+{
+  "type": "htlib:item_stack",
+  "rewards": [
+    {
+      "Count": 3,
+      "id": "kubejs:award_ticket"
+    }
+  ]
+}

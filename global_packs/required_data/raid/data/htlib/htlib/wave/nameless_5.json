@@ -1,0 +1,33 @@
+{
+  "type": "htlib:common",
+  "setting": {
+    "can_skip_wave": true,
+    "wave_duration": 15000
+  },
+  "spawns": [
+    {
+      "spawn": "htlib:nameless_1",
+      "start_tick": 10
+    },
+    {
+      "spawn": "htlib:nameless_2",
+      "start_tick": 10
+    },
+    {
+      "spawn": "htlib:nameless_2",
+      "start_tick": 10
+    },
+    {
+      "spawn": "htlib:nameless_6",
+      "start_tick": 10
+    },
+    {
+      "spawn": "htlib:nameless_5",
+      "start_tick": 10
+    },
+    {
+      "spawn": "htlib:ice_1",
+      "start_tick": 10
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+{"type":"immersiveengineering:metal_press","conditions":[{"type":"forge:not","value":{"type":"forge:tag_empty","tag":"forge:ingots/invar"}},{"type":"forge:not","value":{"type":"forge:tag_empty","tag":"forge:gears/invar"}}],"energy":2400,"input":{"base_ingredient":{"tag":"forge:ingots/invar"},"count":4},"mold":"immersiveengineering:mold_gear","result":{"tag":"forge:gears/invar"}}

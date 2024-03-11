@@ -1,0 +1,24 @@
+{
+	id: "24F24AB122729FD1"
+	loot_size: 1
+	order_index: 32
+	rewards: [
+		{ item: "waystones:waystone" }
+		{ item: "waystones:mossy_waystone" }
+		{ item: "waystones:sandy_waystone" }
+		{ item: "waystones:sharestone" }
+		{ count: 2, item: "waystones:warp_plate" }
+		{ item: "waystones:portstone" }
+		{
+			item: {
+				Count: 1b
+				id: "waystones:warp_stone"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "waystones:warp_scroll", random_bonus: 5 }
+	]
+	title: "随机指路石"
+}

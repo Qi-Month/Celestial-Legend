@@ -1,0 +1,1 @@
+{"type":"immersiveengineering:sawmill","energy":1600,"input":{"item":"minecraft:spruce_stairs"},"result":{"item":"minecraft:spruce_planks"},"secondaries":[{"output":{"tag":"forge:dusts/wood"},"stripping":false}]}

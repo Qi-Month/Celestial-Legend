@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","category":"misc","key":{"i":{"tag":"forge:ingots/iron"},"w":{"item":"immersiveengineering:wirecoil_copper"}},"pattern":["www","wiw","www"],"result":{"item":"immersiveengineering:coil_lv"},"show_notification":true}

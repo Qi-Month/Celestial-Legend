@@ -1,0 +1,23 @@
+{
+	id: "631C00302CD921F9"
+	loot_size: 1
+	order_index: 15
+	rewards: [
+		{ item: "celestial_artifacts:chaotic_etching", only_one: true }
+		{ item: "celestial_artifacts:origin_etching", only_one: true }
+		{ item: "celestial_artifacts:etching_of_life", only_one: true }
+		{ item: "celestial_artifacts:desire_etching", only_one: true }
+		{
+			item: {
+				Count: 1b
+				id: "celestial_artifacts:nihility_etching"
+				tag: {
+					itemModifier: "celestial_forge:violence"
+				}
+			}
+			only_one: true
+		}
+		{ item: "celestial_artifacts:end_etching", only_one: true }
+	]
+	title: "刻蚀"
+}

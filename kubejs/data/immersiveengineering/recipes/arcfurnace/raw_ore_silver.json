@@ -1,0 +1,1 @@
+{"type":"immersiveengineering:arc_furnace","additives":[],"energy":25600,"input":{"tag":"forge:raw_materials/silver"},"results":[{"tag":"forge:ingots/silver"}],"secondaries":[{"chance":0.5,"output":{"tag":"forge:ingots/silver"}}],"time":100}

@@ -1,0 +1,14 @@
+{
+	id: "31EA7A1DC7B102FC"
+	loot_size: 1
+	order_index: 23
+	rewards: [
+		{ count: 8, item: "minecraft:coal" }
+		{ count: 4, item: "minecraft:quartz" }
+		{ count: 4, item: "minecraft:lapis_lazuli" }
+		{ item: "minecraft:amethyst_shard" }
+		{ item: "minecraft:diamond" }
+		{ item: "minecraft:emerald" }
+	]
+	title: "原版其他矿物"
+}

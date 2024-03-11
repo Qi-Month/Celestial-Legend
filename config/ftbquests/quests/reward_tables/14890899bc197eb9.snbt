@@ -1,0 +1,59 @@
+{
+	id: "14890899BC197EB9"
+	loot_size: 1
+	order_index: 27
+	rewards: [
+		{
+			item: {
+				Count: 1b
+				id: "the_forgotten_dimensions:arkhalis_blade"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "the_forgotten_dimensions:elemental_aspect"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "the_forgotten_dimensions:void_blade"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "cataclysm:gauntlet_of_bulwark" }
+		{ item: "the_forgotten_dimensions:ice_phoenix_bow" }
+		{
+			item: {
+				Count: 1b
+				id: "the_forgotten_dimensions:baldr_rapier"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "twilightforest:glass_sword"
+				tag: {
+					Damage: 0
+					Unbreakable: 1b
+					display: {
+						Lore: ["{\"translate\":\"item.twilightforest.glass_sword.desc\",\"italic\":false,\"color\":\"gray\"}"]
+					}
+				}
+			}
+		}
+	]
+	title: "顶级武器"
+}

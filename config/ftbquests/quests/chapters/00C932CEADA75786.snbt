@@ -1,0 +1,534 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "00C932CEADA75786"
+	group: "58502FCADDE9F276"
+	icon: "kubejs:mooncoin"
+	id: "00C932CEADA75786"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: true
+			icon: "rftoolsbase:dimensionalshard_overworld"
+			id: "31DB37AFE08D2013"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "395028CF6F7A7F68"
+				table_id: 4260801656984015447L
+				team_reward: true
+				type: "choice"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "7DC959E94609B29A"
+				item: "kubejs:mooncoin"
+				type: "item"
+			}]
+			title: "基础矿石"
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2852597AF1BC36D7"]
+			icon: "botania:rune_mana"
+			id: "0EBF6F5AB84873B9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2C49C1C5A9361756"
+				table_id: 6633768108276111212L
+				team_reward: true
+				type: "choice"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 6L
+				id: "7F2BEB633B0446D0"
+				item: "kubejs:mooncoin"
+				type: "item"
+			}]
+			title: "基础符文"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1b
+				id: "celestial_forge:modifier_book"
+				tag: {
+					bookModifier: "celestial_forge:none"
+				}
+			}
+			id: "169848FEA1EC89FE"
+			rewards: [{
+				id: "0472C65D926C67FD"
+				table_id: 8695861683220912716L
+				team_reward: true
+				type: "random"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "505C461CCACE5A65"
+				item: "kubejs:mooncoin"
+				type: "item"
+			}]
+			title: "抽取属性书"
+			x: -1.5d
+			y: 3.5d
+		}
+		{
+			can_repeat: true
+			icon: "blue_skies:frostbright_sapling"
+			id: "40CFB84E06DFF4B5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "22284A72839F41FB"
+				table_id: 8119068289222620324L
+				team_reward: true
+				type: "random"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "41397D940DAFA5CF"
+				item: "kubejs:mooncoin"
+				type: "item"
+			}]
+			title: "抽取树苗"
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			can_repeat: true
+			icon: "botania:bauble_box"
+			id: "2B0BB1BF264BA69E"
+			rewards: [{
+				id: "607AB394112B0CEA"
+				table_id: 523424714767025876L
+				team_reward: true
+				type: "random"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "652E7F2B778CCC9F"
+				item: "kubejs:mooncoin"
+				type: "item"
+			}]
+			title: "低级随机饰品"
+			x: 1.5d
+			y: 3.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1b
+				id: "ec_tf_plugin:knight_metal_katana"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "1A4A94A4DA9344BD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6254B62F594FB2A2"
+				table_id: 9066948471408071124L
+				team_reward: true
+				type: "random"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "602330AA587CCA93"
+				item: "kubejs:mooncoin"
+				type: "item"
+			}]
+			title: "低级随机武器"
+			x: 3.0d
+			y: 3.5d
+		}
+		{
+			can_repeat: true
+			icon: "aquamirae:pirate_pouch"
+			id: "68F8F31CBB6ACE39"
+			rewards: [{
+				id: "48BF6E72887DFBC1"
+				item: "aquamirae:pirate_pouch"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "54024EC7AD9CF18F"
+				item: "kubejs:mooncoin"
+				type: "item"
+			}]
+			title: "随机海灵物语基础防具"
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["6C3FAE63F2B0B497"]
+			icon: "aquamirae:abyssal_amethyst"
+			id: "55DA80DD8592909A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "20B7E6123964B683"
+				table_id: 2972091187935729991L
+				team_reward: true
+				type: "choice"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "35759C2373424C2C"
+				item: "kubejs:mooncoin"
+				type: "item"
+			}]
+			title: "海灵物语材料"
+			x: -3.0d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["5800A3ECE18047D7"]
+			icon: "botania:magenta_double_flower"
+			id: "31EC6BF5CFC40513"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2AE145AF2D84A0AF"
+					table_id: 4236974058116730865L
+					team_reward: true
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "252CB9FD3BBC4C21"
+					table_id: 4236974058116730865L
+					team_reward: true
+					type: "choice"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "06D563DD11019320"
+				item: "kubejs:mooncoin"
+				type: "item"
+			}]
+			title: "植物魔法花朵"
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			icon: "minecraft:diamond"
+			id: "0F4490FE31A055E9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5F21DDFE8DD75CD6"
+				table_id: 3596821520731669244L
+				team_reward: true
+				type: "choice"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "1D9C8F6609256321"
+				item: "kubejs:mooncoin"
+				type: "item"
+			}]
+			title: "原版其他矿物"
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			can_repeat: true
+			icon: "expanded_combat:allay"
+			id: "531E5823FB06A644"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7999C3545221A18D"
+				table_id: 7716256906768172413L
+				team_reward: true
+				type: "choice"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 10L
+				id: "36761B328C5F6CCB"
+				item: { Count: 4b, id: "kubejs:mooncoin" }
+				type: "item"
+			}]
+			title: "基础动物"
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["6082309C0EBA5370"]
+			icon: "twilightforest:knightmetal_block"
+			id: "485F4D03C61E2CA0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5BAAD826560C7ABF"
+				table_id: 4231850079045254133L
+				team_reward: true
+				type: "choice"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 6L
+				id: "1932516411696A1F"
+				item: { Count: 2b, id: "kubejs:mooncoin" }
+				type: "item"
+			}]
+			title: "暮色矿材"
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2CBB98B4FA73EF7E"]
+			icon: "blue_skies:raw_aquite"
+			id: "534E78CBCA0FC914"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "448434463EE3CEA4"
+				table_id: 2308468753644197719L
+				team_reward: true
+				type: "choice"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "0D70A0A72446A12A"
+				item: { Count: 4b, id: "kubejs:mooncoin" }
+				type: "item"
+			}]
+			title: "蔚蓝宝石"
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			icon: "ars_nouveau:source_gem"
+			id: "59F6195B13AAA69E"
+			rewards: [{
+				count: 4
+				id: "52D324A11B0A189D"
+				item: "ars_nouveau:source_gem"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "5EF2A2B2EAFD7784"
+				item: { Count: 3b, id: "kubejs:mooncoin" }
+				type: "item"
+			}]
+			title: "魔源宝石"
+			x: 4.5d
+			y: -0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2D8996D9D3FDB22F"]
+			icon: "botania:elven_spreader"
+			id: "2F7E32A0856CA254"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "463ADE6B47959B1A"
+				table_id: 3704315905234356950L
+				team_reward: true
+				type: "choice"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 5L
+				id: "6190FBCD0D9B4B1F"
+				item: { Count: 7b, id: "kubejs:mooncoin" }
+				type: "item"
+			}]
+			title: "精灵门矿材"
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1b
+				id: "the_forgotten_dimensions:ice_ray_cast"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "2436669FA1E8A6A9"
+			rewards: [{
+				id: "0981158C64AB1069"
+				table_id: 7383894001746634703L
+				team_reward: true
+				title: "低级法杖"
+				type: "random"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 4L
+				id: "7446C2762DC3B006"
+				item: "kubejs:mooncoin"
+				type: "item"
+			}]
+			title: "低级随机法杖"
+			x: 4.5d
+			y: 3.5d
+		}
+		{
+			can_repeat: true
+			id: "52603657CF6D48DC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "648737B92DF820B4"
+				table_id: 1059738892163851710L
+				team_reward: true
+				type: "loot"
+			}]
+			shape: "gear"
+			tasks: [{
+				consume_items: true
+				id: "506BF5982AA60981"
+				item: "kubejs:award_ticket"
+				type: "item"
+			}]
+			title: "钱箱"
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			can_repeat: true
+			icon: "thermal:machine_centrifuge"
+			id: "4AA7841BAB4FE7BF"
+			rewards: [{
+				icon: "kubejs:rainbow_mooncoin"
+				id: "53CE71D2A67F12DD"
+				table_id: 1059738892163851710L
+				team_reward: true
+				title: "搏一搏，单车变宝马"
+				type: "random"
+			}]
+			shape: "gear"
+			subtitle: "最高可开出100月币或彩虹月币大奖！！"
+			tasks: [{
+				consume_items: true
+				count: 10L
+				id: "3A7E848C66BEDFD0"
+				item: "kubejs:mooncoin"
+				type: "item"
+			}]
+			title: "老虎机"
+			x: 3.5d
+			y: -2.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["2D99333393EF9A7B"]
+			icon: "ae2:singularity"
+			id: "6E1510207DC789BE"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "079D9F9DEF222388"
+				table_id: 3297035255779660728L
+				team_reward: true
+				type: "choice"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 6L
+				id: "71EAB5B1D957CFF4"
+				item: "kubejs:mooncoin"
+				type: "item"
+			}]
+			title: "元素材料"
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			icon: "immersiveengineering:empty_casing"
+			id: "5139D7364BA9D9CC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6615F369FD9F7B55"
+				table_id: 4573175559703144126L
+				team_reward: true
+				type: "choice"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "71DBD7A12E39DC46"
+				item: "kubejs:mooncoin"
+				type: "item"
+			}]
+			title: "简单弹药"
+			x: 6.0d
+			y: -0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["7B61C9362B765165"]
+			icon: "ad_astra:mars_globe"
+			id: "246CEB3D5C3407B2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "60051C4CADB478E7"
+				table_id: 6370167231344993546L
+				team_reward: true
+				type: "choice"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 5L
+				id: "091B7068D143F1CB"
+				item: "kubejs:mooncoin"
+				type: "item"
+			}]
+			title: "外星矿物"
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1b
+				id: "waystones:warp_stone"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "35E782F12555F4B9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6D95B2D3B005E31E"
+				table_id: 2662272454376988625L
+				team_reward: true
+				type: "choice"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "63B5CF24D92E0A8C"
+				item: "kubejs:mooncoin"
+				type: "item"
+			}]
+			title: "传送物品购买"
+			x: 6.0d
+			y: 3.5d
+		}
+	]
+	title: "基础物资"
+}

@@ -1,0 +1,156 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "5B19156184D5FF2F"
+	group: "58502FCADDE9F276"
+	icon: "kubejs:rainbow_mooncoin"
+	id: "5B19156184D5FF2F"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: true
+			icon: "celestial_artifacts:origin_etching"
+			id: "3D52CEF1300A9412"
+			rewards: [{
+				id: "7A4D123E5084A5E5"
+				table_id: 7141583316013621753L
+				team_reward: true
+				type: "random"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "6AC4CDBE50FCB99A"
+				item: "kubejs:rainbow_mooncoin"
+				type: "item"
+			}]
+			title: "刻蚀"
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1b
+				id: "the_forgotten_dimensions:skylite_feather_launcher"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "769687F6B9D008B0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "171C9CF0F4E3E9D6"
+				table_id: 2165882216075178967L
+				team_reward: true
+				type: "random"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "2590F22952358867"
+				item: "kubejs:rainbow_mooncoin"
+				type: "item"
+			}]
+			title: "究极法器"
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1b
+				id: "celestial_forge:modifier_book"
+				tag: {
+					bookModifier: "celestial_forge:none"
+				}
+			}
+			id: "310E62D7B09DE4C8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "171059E9F6B623BA"
+				table_id: 8695861683220912716L
+				team_reward: true
+				type: "choice"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "09289FA4C30F178E"
+				item: "kubejs:rainbow_mooncoin"
+				type: "item"
+			}]
+			title: "选择属性书"
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1b
+				id: "the_forgotten_dimensions:void_blade"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5D485818460E1329"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "74495D6F7D194133"
+				table_id: 1479723408946724537L
+				team_reward: true
+				type: "random"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "505F05345B1EBCC5"
+				item: "kubejs:rainbow_mooncoin"
+				type: "item"
+			}]
+			title: "顶级武器"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			icon: "celestial_artifacts:holy_talisman"
+			id: "03A33C19D748D777"
+			rewards: [{
+				id: "0BF45D971A1D744B"
+				table_id: 6048709291852374630L
+				team_reward: true
+				type: "random"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "59BE516CED85D519"
+				item: "kubejs:rainbow_mooncoin"
+				type: "item"
+			}]
+			title: "高级饰品"
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			icon: "alexsmobs:falconry_glove"
+			id: "0DFC84F392F56C2B"
+			rewards: [{
+				icon: "botania:dice"
+				id: "0D8EC769B6C7EF2D"
+				table_id: 5842647198848805606L
+				team_reward: true
+				type: "random"
+			}]
+			subtitle: "这是什么？我也不知道"
+			tasks: [{
+				consume_items: true
+				id: "6E7FC10750F0EFCE"
+				item: "kubejs:rainbow_mooncoin"
+				type: "item"
+			}]
+			title: "神奇副手"
+			x: 5.0d
+			y: 0.0d
+		}
+	]
+	title: "高阶物资"
+}

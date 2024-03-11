@@ -1,0 +1,12 @@
+{
+	id: "19A1FB2F8B939DBB"
+	loot_size: 1
+	order_index: 19
+	rewards: [
+		{ count: 4, item: "blue_skies:raw_horizonite" }
+		{ count: 4, item: "blue_skies:raw_ventium" }
+		{ count: 4, item: "blue_skies:raw_falsite" }
+		{ count: 4, item: "minecraft:raw_iron" }
+	]
+	title: "蔚蓝铁"
+}

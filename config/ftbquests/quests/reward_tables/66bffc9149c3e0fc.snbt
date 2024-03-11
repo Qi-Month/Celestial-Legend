@@ -1,0 +1,10 @@
+{
+	id: "66BFFC9149C3E0FC"
+	loot_size: 1
+	order_index: 9
+	rewards: [
+		{ count: 4, item: "botania:livingrock" }
+		{ count: 4, item: "botania:livingwood" }
+	]
+	title: "活石与木"
+}

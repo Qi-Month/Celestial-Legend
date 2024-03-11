@@ -1,0 +1,24 @@
+{
+	id: "3ACCC1751897CFF1"
+	loot_size: 1
+	order_index: 18
+	rewards: [
+		{ item: "botania:cyan_mystical_flower" }
+		{ item: "botania:light_gray_mystical_flower" }
+		{ item: "botania:magenta_mystical_flower" }
+		{ item: "botania:orange_mystical_flower" }
+		{ item: "botania:white_mystical_flower" }
+		{ item: "botania:light_blue_mystical_flower" }
+		{ item: "botania:yellow_mystical_flower" }
+		{ item: "botania:lime_mystical_flower" }
+		{ item: "botania:pink_mystical_flower" }
+		{ item: "botania:gray_mystical_flower" }
+		{ item: "botania:red_mystical_flower" }
+		{ item: "botania:black_mystical_flower" }
+		{ item: "botania:green_mystical_flower" }
+		{ item: "botania:brown_mystical_flower" }
+		{ item: "botania:blue_mystical_flower" }
+		{ item: "botania:purple_mystical_flower" }
+	]
+	title: "神秘花"
+}

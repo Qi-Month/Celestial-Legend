@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","category":"misc","key":{"a":{"tag":"forge:plates/lead"},"e":{"type":"immersiveengineering:fluid","amount":1000,"tag":"forge:redstone_acid"},"f":{"tag":"forge:ingots/iron"},"w":{"tag":"forge:treated_wood"}},"pattern":["waw","fef","waw"],"result":{"item":"immersiveengineering:capacitor_lv"},"show_notification":true}

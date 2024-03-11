@@ -1,0 +1,1 @@
+{"type":"immersiveengineering:arc_furnace","additives":[],"energy":25600,"input":{"tag":"forge:raw_materials/copper"},"results":[{"tag":"forge:ingots/copper"}],"secondaries":[{"chance":0.5,"output":{"tag":"forge:ingots/copper"}}],"time":100}

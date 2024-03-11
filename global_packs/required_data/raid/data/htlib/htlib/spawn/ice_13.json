@@ -1,0 +1,7 @@
+{
+  "type": "htlib:once",
+  "setting": {
+    "entity_type": "twilightforest:ice_crystal"
+  },
+  "spawn_count": 2
+}

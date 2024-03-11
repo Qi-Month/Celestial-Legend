@@ -1,0 +1,214 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "094BF5237A93CD09"
+	group: "7A8EB4FE1BB624E8"
+	id: "094BF5237A93CD09"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: true
+			description: [
+				"讲真的，我建议你在水中打。不是为了提升难度，是为了有完成挑战的可能"
+				"显然，海族们对陆战也不生疏，"
+				"若实在不想在水中开启任务，"
+				"那么至少在水边吧。"
+			]
+			icon: "celestial_artifacts:sea_god_crown"
+			id: "72705A59B5AA0033"
+			rewards: [{
+				auto: "enabled"
+				command: "/htlib create raid htlib:default_raid htlib:sea ~2 ~2 ~-6"
+				elevate_perms: true
+				icon: "celestial_core:ocean_essence"
+				id: "202D445B20C66563"
+				title: "准备登陆！"
+				type: "command"
+			}]
+			shape: "gear"
+			size: 2.0d
+			subtitle: "这次淹没全球的灾难，对部分生物来说似乎不算什么。"
+			tasks: [
+				{
+					consume_items: true
+					id: "72A71682FB2D1BA8"
+					item: "cataclysm:music_disc_the_leviathan"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "5FEADE2BA77CB796"
+					item: "celestial_artifacts:sea_god_scroll"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "504EAA9B02D4D573"
+					item: "celestial_artifacts:sea_god_crown"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "5005984CED84A24D"
+					item: "aquamirae:poseidons_breakfast"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "7C44CCF85C422D5C"
+					item: "alexscaves:deep_sea_sushi_roll"
+					type: "item"
+				}
+			]
+			title: "海族入侵"
+			x: -6.0d
+			y: -2.0d
+		}
+		{
+			can_repeat: true
+			description: [
+				"和虚空蠕虫一样，推荐在空间站战斗。"
+				"因为如果你在空间站以外的维度触发该任务"
+				"会将你强行传送至空间站。"
+			]
+			icon: "celestial_artifacts:evil_eye"
+			id: "7E02A1704A32B97D"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/execute in ad_astra:earth_orbit run tp ~ ~ ~"
+					elevate_perms: true
+					icon: "botania:lens_warp"
+					id: "5FB9771CEBB8C285"
+					title: "调整弹道"
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					command: "/htlib create raid htlib:default_raid htlib:space ~ ~6 ~"
+					elevate_perms: true
+					icon: {
+						Count: 1b
+						id: "cataclysm:laser_gatling"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "0C0C5C7F2C8FF26E"
+					title: "他们来了"
+					type: "command"
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			subtitle: "我们果然不是这宇宙唯一的生命星球"
+			tasks: [
+				{
+					consume_items: true
+					id: "3D6E20425DFE7D41"
+					item: {
+						Count: 1b
+						id: "alexsmobs:dimensional_carver"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "5A4D8A12725246AB"
+					item: "ad_astra:fuel_bucket"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "14C20FB087EA3711"
+					item: "celestial_artifacts:evil_eye"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "350C2927BDCC97F1"
+					item: "celestial_artifacts:abyss_core"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "2B541547DD0F10A7"
+					item: "cataclysm:music_disc_the_harbinger"
+					type: "item"
+				}
+			]
+			title: "太空海盗来袭"
+			x: -6.0d
+			y: -6.0d
+		}
+		{
+			icon: "celestial_artifacts:cursed_totem"
+			id: "3F23DE9577D8DA28"
+			rewards: [{
+				auto: "enabled"
+				command: "/htlib create raid htlib:default_raid htlib:mage ~2 ~2 ~-6"
+				elevate_perms: true
+				icon: {
+					Count: 1b
+					id: "ars_nouveau:enchanters_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "4F824E9AE4C99A41"
+				title: "法力过剩！"
+				type: "command"
+			}]
+			shape: "gear"
+			size: 2.0d
+			subtitle: "被你打败过的施法者们卷土重来了！"
+			tasks: [
+				{
+					id: "5F18B4E33BF03A39"
+					item: "celestial_artifacts:cursed_totem"
+					type: "item"
+				}
+				{
+					id: "482E5FE13BBACC54"
+					item: {
+						Count: 1b
+						id: "blue_skies:alchemist_trophy"
+						tag: {
+							BlockStateTag: {
+								tier: "bronze"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "558E83539F472180"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+				{
+					id: "6054214FD8469445"
+					item: "kubejs:nether_totem"
+					type: "item"
+				}
+				{
+					id: "6799A0C5040A297D"
+					item: "minecraft:totem_of_undying"
+					type: "item"
+				}
+			]
+			title: "巫师联盟的复仇"
+			x: -6.0d
+			y: -4.0d
+		}
+	]
+	subtitle: [
+		"做这些任务前，最好买个保险先~"
+		"如若逃过一死，则可以获得大量奖券"
+	]
+	title: "袭击挑战"
+}

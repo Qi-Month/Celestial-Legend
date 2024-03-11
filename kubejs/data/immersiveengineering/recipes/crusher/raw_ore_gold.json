@@ -1,0 +1,1 @@
+{"type":"immersiveengineering:crusher","energy":6000,"input":{"tag":"forge:raw_materials/gold"},"result":{"tag":"forge:dusts/gold"},"secondaries":[{"chance":0.33333334,"output":{"tag":"forge:dusts/gold"}}]}

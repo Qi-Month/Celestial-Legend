@@ -1,0 +1,1 @@
+{"type":"immersiveengineering:sawmill","energy":1600,"input":{"item":"minecraft:dark_oak_wood"},"result":{"count":6,"item":"minecraft:dark_oak_planks"},"secondaries":[{"output":{"tag":"forge:dusts/wood"},"stripping":true},{"output":{"tag":"forge:dusts/wood"},"stripping":false}],"stripped":{"item":"minecraft:stripped_dark_oak_wood"}}

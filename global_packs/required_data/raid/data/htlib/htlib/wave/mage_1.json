@@ -1,0 +1,21 @@
+{
+  "type": "htlib:common",
+  "setting": {
+    "can_skip_wave": true,
+    "wave_duration": 13000
+  },
+  "spawns": [
+    {
+      "spawn": "htlib:mage_4",
+      "start_tick": 10
+    },
+    {
+      "spawn": "htlib:mage_6",
+      "start_tick": 10
+    },
+    {
+      "spawn": "htlib:mage_5",
+      "start_tick": 10
+    }
+  ]
+}

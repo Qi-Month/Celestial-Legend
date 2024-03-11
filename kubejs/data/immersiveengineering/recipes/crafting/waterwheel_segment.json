@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","category":"misc","key":{"b":{"tag":"forge:treated_wood"},"s":{"tag":"forge:rods/treated_wood"}},"pattern":[" s ","sbs","bsb"],"result":{"item":"immersiveengineering:waterwheel_segment"},"show_notification":true}

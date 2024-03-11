@@ -1,0 +1,11 @@
+{
+	"music.test": {
+		"sounds": [
+			{
+				"name": "kubejs:test",
+				"stream": true
+			}
+		],
+		"subtitle": "Test"
+	}
+}

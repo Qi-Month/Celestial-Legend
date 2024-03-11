@@ -1,0 +1,1 @@
+{"type":"immersiveengineering:arc_furnace","additives":[{"tag":"forge:ingots/nickel"}],"energy":51200,"input":{"tag":"forge:ingots/copper"},"results":[{"base_ingredient":{"tag":"forge:ingots/constantan"},"count":2}],"time":100}

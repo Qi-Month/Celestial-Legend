@@ -1,0 +1,10 @@
+{
+	id: "0C434477791FD7A8"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{ item: "create:depot" }
+		{ item: "create:basin" }
+	]
+	title: "盆与台子"
+}

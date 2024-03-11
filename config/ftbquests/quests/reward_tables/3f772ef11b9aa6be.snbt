@@ -1,0 +1,133 @@
+{
+	id: "3F772EF11B9AA6BE"
+	loot_size: 1
+	order_index: 34
+	rewards: [
+		{ count: 64, item: "minecraft:arrow" }
+		{
+			count: 32
+			item: {
+				Count: 1b
+				id: "minecraft:firework_rocket"
+				tag: {
+					Fireworks: {
+						Flight: 1b
+					}
+				}
+			}
+		}
+		{ count: 16, item: "immersiveengineering:he" }
+		{ count: 16, item: "immersiveengineering:buckshot" }
+		{ count: 16, item: "immersiveengineering:armor_piercing" }
+		{ count: 16, item: "immersiveengineering:casull" }
+		{ count: 32, item: "alexscaves:ink_bomb" }
+		{ count: 32, item: "alexscaves:glow_ink_bomb" }
+		{ count: 16, item: "alexscaves:depth_charge" }
+		{ count: 16, item: "immersiveengineering:homing" }
+		{ count: 16, item: "immersiveengineering:flare" }
+		{
+			count: 8
+			item: {
+				Count: 1b
+				id: "expanded_combat:tipped_netherite_arrow"
+				tag: {
+					Potion: "ars_nouveau:freezing_potion"
+				}
+			}
+		}
+		{
+			count: 4
+			item: {
+				Count: 1b
+				id: "expanded_combat:tipped_netherite_arrow"
+				tag: {
+					Potion: "ars_nouveau:blasting_potion_strong"
+				}
+			}
+		}
+		{
+			count: 4
+			item: {
+				Count: 1b
+				id: "expanded_combat:tipped_netherite_arrow"
+				tag: {
+					Potion: "minecraft:strong_poison"
+				}
+			}
+		}
+		{
+			count: 16
+			item: {
+				Count: 1b
+				id: "expanded_combat:tipped_iron_arrow"
+				tag: {
+					Potion: "minecraft:strong_harming"
+				}
+			}
+		}
+		{
+			count: 8
+			item: {
+				Count: 1b
+				id: "expanded_combat:tipped_diamond_arrow"
+				tag: {
+					Potion: "minecraft:strong_harming"
+				}
+			}
+		}
+		{
+			count: 32
+			item: {
+				Count: 1b
+				id: "expanded_combat:tipped_iron_arrow"
+				tag: {
+					Potion: "celestial_artifacts:crit_damage_log"
+				}
+			}
+		}
+		{
+			count: 32
+			item: {
+				Count: 1b
+				id: "expanded_combat:tipped_iron_arrow"
+				tag: {
+					Potion: "celestial_artifacts:reply_power_log"
+				}
+			}
+		}
+		{
+			count: 32
+			item: {
+				Count: 1b
+				id: "expanded_combat:tipped_iron_arrow"
+				tag: {
+					Potion: "celestial_artifacts:crit_rate_log"
+				}
+			}
+		}
+		{ count: 16, item: "cataclysm:void_scatter_arrow" }
+		{ count: 16, item: "the_forgotten_dimensions:metallic_snow_arrow" }
+		{ count: 8, item: "the_forgotten_dimensions:true_ice_arrow" }
+		{ count: 8, item: "the_forgotten_dimensions:thunderite_arrow" }
+		{ count: 16, item: "the_forgotten_dimensions:skylite_arrow" }
+		{ count: 32, item: "ars_nouveau:pierce_arrow" }
+		{ count: 32, item: "expanded_combat:iron_arrow" }
+		{ count: 16, item: "expanded_combat:diamond_arrow" }
+		{ count: 8, item: "expanded_combat:netherite_arrow" }
+		{ count: 32, item: "minecraft:spectral_arrow" }
+		{ count: 8, item: "alexscaves:seeking_arrow" }
+		{
+			count: 16
+			item: {
+				Count: 1b
+				id: "minecraft:tipped_arrow"
+				tag: {
+					Potion: "ars_nouveau:freezing_potion_strong"
+				}
+			}
+		}
+		{ count: 32, item: "ars_nouveau:amplify_arrow" }
+		{ count: 32, item: "ars_nouveau:split_arrow" }
+	]
+	title: "弹药"
+}

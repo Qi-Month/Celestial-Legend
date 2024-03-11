@@ -1,0 +1,21 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "misc",
+	"key": {
+		"s": {
+			"tag": "forge:ingots/steel"
+		},
+		"p": {
+			"item": "immersiveengineering:windmill_blade"
+		}
+	},
+	"pattern": [
+		"ppp",
+		"psp",
+		"ppp"
+	],
+	"result": {
+		"item": "immersiveengineering:windmill"
+	},
+	"show_notification": true
+}

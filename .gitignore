@@ -1,0 +1,37 @@
+/.crossnote
+/.vscode
+/backups
+/Celestial Legend-natives
+/Celestial Legend.jar
+/Celestial Legend.json
+/coremods
+/crash-reports
+/CustomSkinLoader
+/exports
+/extra_models
+/fancymenu_data
+/fancymenu_setups
+/icon.png
+/instance.cfg
+/local
+/logs
+/mmc-pack.json
+/modernfix
+/options.txt
+/patchouli_books
+/patchouli_data.json
+/resourcepacks
+/rhino.local.properties
+/saves
+/schematics
+/screenshots
+/server-resource-packs
+/shaderpacks
+/texturepacks
+/usercache.json
+/usernamecache.json
+/XaerosWorldMap_1.37.8_Forge_1.20.jar
+/Xaeros_Minimap_23.9.7_Forge_1.20.jar
+/XaeroWaypoints
+/XaeroWaypoints_BACKUP032021
+/XaeroWorldMap

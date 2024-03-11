@@ -1,0 +1,42 @@
+{
+	id: "222DEA248ABE96B8"
+	loot_size: 1
+	order_index: 12
+	rewards: [
+		{ item: "aquaculture:box", random_bonus: 5 }
+		{ item: "aquaculture:lockbox", random_bonus: 2 }
+		{ item: "aquaculture:treasure_chest", random_bonus: 1 }
+		{ item: "aquamirae:treasure_pouch", random_bonus: 3 }
+		{ item: "aquamirae:pirate_pouch", random_bonus: 5 }
+		{ item: "aquaculture:box" }
+		{
+			type: "xp"
+			weight: 0.5f
+			xp: 100
+		}
+		{
+			type: "xp"
+			weight: 0.5f
+			xp: 500
+		}
+		{
+			type: "xp_levels"
+			weight: 0.5f
+			xp_levels: 1
+		}
+		{
+			type: "xp_levels"
+			weight: 0.5f
+			xp_levels: 5
+		}
+		{
+			type: "xp"
+			weight: 0.1f
+			xp: 1
+		}
+		{ item: "minecraft:golden_apple", random_bonus: 3, weight: 0.8f }
+		{ item: "minecraft:enchanted_golden_apple", weight: 9.999999E-4f }
+		{ item: "minecraft:totem_of_undying", weight: 0.001f }
+	]
+	title: "随机奖励"
+}

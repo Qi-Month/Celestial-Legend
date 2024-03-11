@@ -1,0 +1,269 @@
+{
+	id: "074394013E5946D4"
+	loot_size: 1
+	order_index: 8
+	rewards: [
+		{ item: "celestial_artifacts:emerald_bracelet" }
+		{ item: "celestial_artifacts:emerald_necklace" }
+		{ item: "celestial_artifacts:spirit_necklace" }
+		{ item: "celestial_artifacts:spirit_arrow_bag" }
+		{ item: "celestial_artifacts:spirit_crown" }
+		{
+			item: {
+				Count: 1b
+				id: "celestial_artifacts:leech_scabbard"
+				tag: {
+					itemModifier: "celestial_forge:hard"
+				}
+			}
+		}
+		{ item: "celestial_artifacts:sea_god_scroll" }
+		{ item: "celestial_artifacts:twisted_brain" }
+		{ item: "celestial_artifacts:chaotic_pendant" }
+		{ item: "botania:third_eye" }
+		{ item: "botania:monocle" }
+		{ item: "botania:cosmetic_engineer_goggles" }
+		{ item: "botania:cosmetic_puffy_scarf", weight: 0.1f }
+		{ item: "botania:cosmetic_eerie_mask", weight: 0.1f }
+		{ item: "botania:cosmetic_lusitanic_shield", weight: 0.1f }
+		{ item: "botania:cosmetic_botanist_emblem", weight: 0.1f }
+		{ item: "botania:cosmetic_red_glasses", weight: 0.1f }
+		{ item: "botania:cosmetic_polka_dotted_bows", weight: 0.1f }
+		{ item: "botania:cosmetic_clock_eye", weight: 0.1f }
+		{ item: "botania:cosmetic_four_leaf_clover", weight: 0.1f }
+		{ item: "botania:cosmetic_hyper_plus", weight: 0.1f }
+		{ item: "immersiveengineering:earmuffs", weight: 0.1f }
+		{ item: "botania:cosmetic_ancient_mask", weight: 0.1f }
+		{ item: "botania:cosmetic_black_tie", weight: 0.1f }
+		{ item: "botania:cosmetic_wicked_eyepatch", weight: 0.1f }
+		{ item: "botania:cosmetic_red_ribbons", weight: 0.1f }
+		{ item: "celestial_artifacts:emerald_ring" }
+		{
+			item: {
+				Count: 1b
+				id: "expanded_combat:gauntlet_gauntlet"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "expanded_combat:fighters_gauntlet"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "expanded_combat:soul_gauntlet"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "expanded_combat:leather_gauntlet"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "expanded_combat:rabbit_leather_gauntlet"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "botania:cosmetic_thinking_hand", weight: 0.1f }
+		{ item: "botania:cosmetic_questgiver_mark", weight: 0.1f }
+		{ item: "botania:cosmetic_tiny_potato_mask", weight: 0.1f }
+		{ item: "the_forgotten_dimensions:heat_bracelet" }
+		{ item: "the_forgotten_dimensions:blizzard_necklace" }
+		{ item: "the_forgotten_dimensions:ice_blood_ring" }
+		{
+			item: {
+				Count: 1b
+				id: "the_forgotten_dimensions:ice_eater_ring"
+				tag: {
+					itemModifier: "celestial_forge:luck"
+				}
+			}
+		}
+		{ item: "the_forgotten_dimensions:icyllium_necklace" }
+		{
+			item: {
+				Count: 1b
+				id: "the_forgotten_dimensions:sacred_diamond_bracelet"
+				tag: {
+					itemModifier: "celestial_forge:luck"
+				}
+			}
+		}
+		{ item: "the_forgotten_dimensions:sacred_gold_bracelet" }
+		{ item: "the_forgotten_dimensions:sacred_iron_bracelet" }
+		{ item: "the_forgotten_dimensions:combustion_bracelet" }
+		{ item: "celestial_artifacts:solar_magnet" }
+		{ item: "botania:cloud_pendant" }
+		{ item: "celestial_artifacts:sands_talisman" }
+		{ item: "celestial_artifacts:magic_horseshoe" }
+		{ item: "twilightforest:charm_of_keeping_3", random_bonus: 1 }
+		{ item: "twilightforest:charm_of_keeping_2", random_bonus: 2 }
+		{ item: "twilightforest:charm_of_keeping_1", random_bonus: 2 }
+		{ item: "twilightforest:charm_of_life_2", random_bonus: 1 }
+		{ item: "twilightforest:charm_of_life_1", random_bonus: 2 }
+		{
+			item: {
+				Count: 1b
+				id: "the_forgotten_dimensions:skylite_grappling_hook"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "celestial_artifacts:gold_ring" }
+		{ item: "celestial_artifacts:diamond_ring" }
+		{ item: "celestial_artifacts:red_heart_necklace" }
+		{ item: "celestial_artifacts:precious_bracelet" }
+		{
+			item: {
+				Count: 1b
+				id: "celestial_artifacts:red_ruby_bracelet"
+				tag: {
+					itemModifier: "celestial_forge:precise"
+				}
+			}
+		}
+		{ item: "celestial_artifacts:charming_bracelet" }
+		{ item: "celestial_artifacts:twisted_scroll" }
+		{ item: "celestial_artifacts:undead_charm" }
+		{ item: "celestial_artifacts:thunder_ring" }
+		{ item: "celestial_artifacts:demon_curse" }
+		{ item: "celestial_artifacts:repent_mirror" }
+		{ item: "celestial_artifacts:knight_shelter" }
+		{ item: "celestial_artifacts:precious_necklace" }
+		{ item: "celestial_artifacts:fang_necklace" }
+		{
+			item: {
+				Count: 1b
+				id: "twilightforest:block_and_chain"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "celestial_artifacts:nether_fire" }
+		{ item: "celestial_artifacts:ring_of_life" }
+		{ item: "celestial_artifacts:freeze_ring" }
+		{ item: "celestial_artifacts:backtrack_mirror" }
+		{ item: "celestial_artifacts:iron_scabbard" }
+		{ item: "celestial_artifacts:ender_protector" }
+		{ item: "celestial_artifacts:cross_necklace" }
+		{ item: "ars_nouveau:amulet_of_mana_boost" }
+		{ item: "ars_nouveau:belt_of_unstable_gifts" }
+		{ item: "ars_nouveau:ring_of_lesser_discount" }
+		{ item: "ars_nouveau:ring_of_greater_discount" }
+		{
+			item: {
+				Count: 1b
+				id: "twilightforest:fortification_scepter"
+				tag: {
+					Damage: 0
+					Unbreakable: 1b
+				}
+			}
+		}
+		{ item: "ars_nouveau:amulet_of_mana_regen" }
+		{
+			item: {
+				Count: 1b
+				id: "ars_nouveau:jump_ring"
+				tag: {
+					itemModifier: "celestial_forge:brisk"
+				}
+			}
+		}
+		{ item: "celestial_artifacts:destroyer_badge" }
+		{ item: "expanded_combat:leather_quiver" }
+		{ item: "expanded_combat:rabbit_leather_quiver" }
+		{ item: "expanded_combat:iron_quiver" }
+		{ item: "expanded_combat:diamond_quiver" }
+		{ item: "expanded_combat:netherite_quiver" }
+		{ item: "expanded_combat:gold_quiver" }
+		{
+			item: {
+				Count: 1b
+				id: "aquamirae:maze_rose"
+				tag: {
+					Damage: 0
+					Enchantments: [
+						{
+							id: "obscure_api:distance"
+							lvl: 3s
+						}
+						{
+							id: "obscure_api:fast_spin"
+							lvl: 5s
+						}
+						{
+							id: "obscure_api:mirror"
+							lvl: 1s
+						}
+					]
+					RepairCost: 1
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "aquamirae:poisoned_chakra"
+				tag: {
+					Damage: 0
+					Enchantments: [
+						{
+							id: "obscure_api:distance"
+							lvl: 3s
+						}
+						{
+							id: "obscure_api:fast_spin"
+							lvl: 5s
+						}
+						{
+							id: "obscure_api:mirror"
+							lvl: 1s
+						}
+					]
+					RepairCost: 1
+				}
+			}
+		}
+		{ item: "celestial_artifacts:sacrificial_object" }
+		{ item: "celestial_artifacts:sea_god_scroll" }
+		{ item: "celestial_artifacts:traveler_scroll" }
+		{ item: "celestial_artifacts:skywalker_scroll" }
+		{ item: "celestial_artifacts:twisted_scroll" }
+		{ item: "celestial_artifacts:sea_god_crown" }
+		{ item: "celestial_artifacts:guardian_eye" }
+		{
+			item: {
+				Count: 1b
+				id: "celestial_artifacts:evil_eye"
+				tag: {
+					itemModifier: "celestial_forge:hard"
+				}
+			}
+		}
+		{ item: "celestial_artifacts:greedy_heart" }
+		{ item: "celestial_artifacts:repent_mirror" }
+	]
+	title: "随机饰品"
+}

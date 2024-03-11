@@ -1,0 +1,1307 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "4EA133DF3524CBCA"
+	group: "09EE0DA8FC2DE922"
+	icon: "immersiveengineering:ingot_steel"
+	id: "4EA133DF3524CBCA"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			id: "094F14020AC41472"
+			rewards: [{
+				id: "6CD5C59709FBFD8C"
+				item: "immersiveengineering:manual"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6B89B064220BA9A5"
+				item: {
+					Count: 1b
+					id: "immersiveengineering:hammer"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["094F14020AC41472"]
+			description: ["放入一些煤炭便可获取焦煤与杂酚油"]
+			icon: "immersiveengineering:coke_oven"
+			id: "77A2356E2782025F"
+			rewards: [{
+				count: 4
+				id: "0F648184C491CCF0"
+				item: "minecraft:clay"
+				type: "item"
+			}]
+			subtitle: "焦灼起来了呢"
+			tasks: [{
+				count: 27L
+				id: "1CD43B664C644F7E"
+				item: { Count: 27b, id: "immersiveengineering:cokebrick" }
+				type: "item"
+			}]
+			title: "搭建焦炉"
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["77A2356E2782025F"]
+			id: "48130359B1504735"
+			rewards: [{
+				id: "19881712951568EE"
+				item: "immersiveengineering:coal_coke"
+				type: "item"
+			}]
+			subtitle: "使用焦炉燃烧煤炭吧"
+			tasks: [{
+				id: "4BD7EFEFD45BFF3E"
+				item: "immersiveengineering:coal_coke"
+				type: "item"
+			}]
+			title: "获取焦煤"
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["77A2356E2782025F"]
+			id: "542249A440D8B30D"
+			tasks: [{
+				id: "5A371A70032CC9BA"
+				item: "immersiveengineering:creosote_bucket"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"48130359B1504735"
+				"24DB4FF67E48E4BE"
+				"41DD6BDD5DC00C6F"
+			]
+			icon: "ad_astra:steel_ingot"
+			id: "7603D5F4B852D893"
+			rewards: [{
+				id: "77D8F2940DA97675"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "使用铁树锭与焦煤的混合制作"
+			tasks: [{
+				id: "1C879A20417F97D5"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ingots/steel"
+					}
+				}
+				title: "钢锭"
+				type: "item"
+			}]
+			title: "获取钢锭"
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["542249A440D8B30D"]
+			id: "71F19DA492133FE0"
+			rewards: [{
+				id: "7B3DD60877CB7332"
+				item: "immersiveengineering:creosote_bucket"
+				type: "item"
+			}]
+			tasks: [{
+				count: 8L
+				id: "4A4BB5EE64D21FA3"
+				item: "immersiveengineering:treated_wood_horizontal"
+				type: "item"
+			}]
+			title: "获取防腐木"
+			x: 0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["71F19DA492133FE0"]
+			id: "64544387DC0008A3"
+			rewards: [
+				{
+					id: "655EDDDE35CD1BA3"
+					item: "immersiveengineering:creosote_bucket"
+					type: "item"
+				}
+				{
+					id: "5A6B8A992C04A1B4"
+					item: "immersiveengineering:treated_post"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "16C5A201757F8321"
+				item: "immersiveengineering:treated_post"
+				type: "item"
+			}]
+			title: "搭起电线"
+			x: 2.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["64544387DC0008A3"]
+			description: ["如果你使用的不是高级线缆，则可以考虑制作绝缘线缆，以防止被电伤到"]
+			id: "47099D29153F4788"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "624CA3EF2CBFF581"
+					table_id: 2462882013908997816L
+					type: "random"
+				}
+				{
+					count: 8
+					id: "58C8CEB233507013"
+					item: "immersiveengineering:wirecoil_copper"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "714372652965378F"
+					item: "immersiveengineering:connector_lv"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "301E4B67C941FDBE"
+					item: "immersiveengineering:wirecoil_copper"
+					type: "item"
+				}
+				{
+					id: "379DAF7E7E3A3BB6"
+					item: "immersiveengineering:connector_lv"
+					type: "item"
+				}
+				{
+					id: "42CE103A6854D91B"
+					item: "immersiveengineering:connector_lv_relay"
+					type: "item"
+				}
+			]
+			title: "布置线缆"
+			x: 4.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["47099D29153F4788"]
+			id: "70649D7CC4D49C21"
+			rewards: [{
+				id: "5586C8A1A0E74A26"
+				item: "immersiveengineering:coil_lv"
+				type: "item"
+			}]
+			tasks: [{
+				id: "32632CA228789620"
+				item: "immersiveengineering:dynamo"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["70649D7CC4D49C21"]
+			id: "129B20AC5827D9E8"
+			subtitle: "水车就像新手之友"
+			tasks: [{
+				id: "4535C319900DF76B"
+				item: "immersiveengineering:watermill"
+				type: "item"
+			}]
+			title: "还是水车"
+			x: 2.5d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"70649D7CC4D49C21"
+				"42E3BD185A180BC3"
+			]
+			dependency_requirement: "one_completed"
+			id: "63C4DBCD15935CAB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4CD92B6816D41EB7"
+				table_id: 2462882013908997816L
+				type: "random"
+			}]
+			tasks: [{
+				id: "65B68B1F627F45E8"
+				item: "immersiveengineering:capacitor_lv"
+				type: "item"
+			}]
+			title: "基础储电设施"
+			x: 6.5d
+			y: -6.0d
+		}
+		{
+			id: "3629838FE3E4A3D4"
+			tasks: [{
+				id: "4FCC7F4C4D75A100"
+				item: "immersiveengineering:seed"
+				type: "item"
+			}]
+			title: "种植大麻吧"
+			x: -1.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["3629838FE3E4A3D4"]
+			id: "1A910F754BF63936"
+			tasks: [{
+				count: 8L
+				id: "5845CC65E475953E"
+				item: { Count: 8b, id: "immersiveengineering:hemp_fiber" }
+				type: "item"
+			}]
+			x: 0.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["1A910F754BF63936"]
+			description: ["右键你的风车来为它们安装更好的叶片"]
+			id: "00BDD36629E33F1A"
+			rewards: [{
+				count: 2
+				id: "1C60695E23AD381B"
+				item: "immersiveengineering:windmill_sail"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "7DA6F4B29690D2A1"
+					item: "immersiveengineering:windmill_sail"
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "20519916F0F9A517"
+					item: { Count: 7b, id: "immersiveengineering:hemp_fabric" }
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["70649D7CC4D49C21"]
+			id: "1120C6730113979C"
+			rewards: [{
+				id: "19FDAF25904AA792"
+				item: "immersiveengineering:windmill"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3C4FC582FB17BBAE"
+				item: "immersiveengineering:windmill"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"00BDD36629E33F1A"
+				"1120C6730113979C"
+			]
+			id: "52227D26F6C16081"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "250686A5E9D7A90A"
+				table_id: 2462882013908997816L
+				type: "choice"
+			}]
+			tasks: [{
+				count: 8L
+				id: "353B94344F6F1C0D"
+				item: { Count: 8b, id: "immersiveengineering:windmill_sail" }
+				type: "item"
+			}]
+			title: "改良风车"
+			x: 2.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["7603D5F4B852D893"]
+			icon: "ad_astra:steel_plate"
+			id: "1E6992AB9C53DE12"
+			rewards: [{
+				count: 8
+				id: "643A4D885A0C1757"
+				item: "immersiveengineering:plate_steel"
+				type: "item"
+			}]
+			tasks: [{
+				id: "18AC31D5311E0DF5"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:plates/steel"
+					}
+				}
+				title: "钢板"
+				type: "item"
+			}]
+			title: "钢板"
+			x: 4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1E6992AB9C53DE12"]
+			id: "71A8D779BADFC979"
+			rewards: [{
+				id: "6E045D973474F3E5"
+				item: "createaddition:capacitor"
+				type: "item"
+			}]
+			tasks: [{
+				id: "76FF9D5F46AFCE0E"
+				item: "createaddition:capacitor"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["71A8D779BADFC979"]
+			id: "2B244A6A21B1B03C"
+			rewards: [{
+				count: 4
+				id: "2F893BB76479EA2A"
+				item: "immersiveengineering:wirecoil_copper"
+				type: "item"
+			}]
+			tasks: [{
+				count: 3L
+				id: "55F106CEF3E2E533"
+				item: { Count: 3b, id: "createaddition:copper_spool" }
+				type: "item"
+			}]
+			title: "线圈圈"
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2B244A6A21B1B03C"]
+			id: "2626B880E32643E9"
+			tasks: [{
+				count: 3L
+				id: "6FB7B56F93AE695C"
+				item: { Count: 3b, id: "createaddition:connector" }
+				type: "item"
+			}]
+			title: "线圈链接"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["47099D29153F4788"]
+			id: "42E3BD185A180BC3"
+			rewards: [{
+				id: "0E8811D322A7E810"
+				item: "createaddition:capacitor"
+				type: "item"
+			}]
+			subtitle: "可以通过接风车和水车发电，但是机械动力。"
+			tasks: [{
+				id: "38B8308BBB644022"
+				item: "createaddition:alternator"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2B244A6A21B1B03C"]
+			id: "3B04A7B1507A30D8"
+			rewards: [{
+				id: "61A3B4B0B8251CBA"
+				item: "createaddition:capacitor"
+				type: "item"
+			}]
+			tasks: [{
+				id: "63C56D29FB9068BA"
+				item: "createaddition:electric_motor"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2BDEF885033252AE"]
+			icon: "immersiveengineering:metal_press"
+			id: "3BF7681388D3049F"
+			rewards: [{
+				count: 2
+				id: "65ABF72AF1BCE647"
+				item: "immersiveengineering:component_iron"
+				random_bonus: 4
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "075B547EA70C5777"
+					item: "immersiveengineering:rs_engineering"
+					type: "item"
+				}
+				{
+					id: "3C8686ACF972F494"
+					item: "minecraft:piston"
+					type: "item"
+				}
+				{
+					id: "4C36E4C4163F9156"
+					item: "immersiveengineering:heavy_engineering"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "2E9FA74DBFF39675"
+					item: { Count: 2b, id: "immersiveengineering:conveyor_basic" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "03284EFE598A57B8"
+					item: { Count: 2b, id: "immersiveengineering:steel_scaffolding_standard" }
+					type: "item"
+				}
+			]
+			title: "制作冲压机"
+			x: 8.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["71F19DA492133FE0"]
+			hide_dependency_lines: true
+			id: "7E40FB1B201AD483"
+			rewards: [{
+				id: "1EA68611769F4ABC"
+				item: {
+					Count: 1b
+					id: "immersiveengineering:blueprint"
+					tag: {
+						blueprint: "molds"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "6364F2F8AC950955"
+				item: "immersiveengineering:workbench"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"7E40FB1B201AD483"
+				"3BF7681388D3049F"
+			]
+			id: "1468847263DB559A"
+			rewards: [{
+				id: "57B338D795F71737"
+				item: "immersiveengineering:mold_wire"
+				type: "item"
+			}]
+			tasks: [{
+				id: "64BD8975B441BFDF"
+				item: "immersiveengineering:mold_gear"
+				type: "item"
+			}]
+			title: "冲压模具"
+			x: 8.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3BF7681388D3049F"]
+			icon: "immersiveengineering:crusher"
+			id: "29EEC654052E80CE"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2290A685AE5EE835"
+					table_id: 4260801656984015447L
+					type: "random"
+				}
+				{
+					count: 8
+					id: "4B0DCC3322BF6ADC"
+					item: "immersiveengineering:component_steel"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 9L
+					id: "26038362B36F81AD"
+					item: { Count: 9b, id: "minecraft:hopper" }
+					type: "item"
+				}
+				{
+					id: "1E4A30F740941F1A"
+					item: "immersiveengineering:rs_engineering"
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "3DFBF250C3E1ACCB"
+					item: { Count: 10b, id: "immersiveengineering:light_engineering" }
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "38AFC36436A6CEDB"
+					item: { Count: 10b, id: "immersiveengineering:steel_scaffolding_standard" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "224C84F59CB00FDB"
+					item: { Count: 8b, id: "immersiveengineering:steel_fence" }
+					type: "item"
+				}
+			]
+			title: "制作粉碎机"
+			x: 10.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["068391F3F24B1278"]
+			description: ["如果你能够获取足够的砷铅铁，那么制作出高炉将是获取钢更好的选择"]
+			icon: "immersiveengineering:blast_furnace"
+			id: "24DB4FF67E48E4BE"
+			rewards: [{
+				id: "72925CE02C6CDF01"
+				item: "immersiveengineering:ingot_steel"
+				type: "item"
+			}]
+			subtitle: "更好的炼钢"
+			tasks: [{
+				count: 27L
+				id: "21688D8E33F8927F"
+				item: { Count: 27b, id: "immersiveengineering:blastbrick" }
+				type: "item"
+			}]
+			title: "制作高炉"
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["29EEC654052E80CE"]
+			icon: "immersiveengineering:arc_furnace"
+			id: "02156FCBEB2134D9"
+			rewards: [
+				{
+					count: 10
+					id: "0AD8B59F6BAC9D62"
+					item: "immersiveengineering:ingot_steel"
+					type: "item"
+				}
+				{
+					id: "5E8518FC876D9123"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					count: 6
+					id: "2ECBC4A8C34B0B0E"
+					item: "immersiveengineering:storage_steel"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 8L
+					id: "6E189C3E1EBED7B7"
+					item: { Count: 8b, id: "immersiveengineering:sheetmetal_steel" }
+					type: "item"
+				}
+				{
+					id: "401AEF51CEF3A640"
+					item: "immersiveengineering:rs_engineering"
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "2842DBD512A4A52A"
+					item: { Count: 5b, id: "immersiveengineering:heavy_engineering" }
+					type: "item"
+				}
+				{
+					count: 10L
+					id: "1EE805642F7C00BA"
+					item: { Count: 10b, id: "immersiveengineering:light_engineering" }
+					type: "item"
+				}
+				{
+					count: 27L
+					id: "2BCA0216B4D9FD7E"
+					item: { Count: 27b, id: "immersiveengineering:blastbrick_reinforced" }
+					type: "item"
+				}
+				{
+					count: 14L
+					id: "49D74DC4E1362293"
+					item: { Count: 14b, id: "immersiveengineering:slab_sheetmetal_steel" }
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "544614090CAE77E3"
+					item: { Count: 5b, id: "immersiveengineering:steel_scaffolding_standard" }
+					type: "item"
+				}
+				{
+					id: "7721A42B7B51F6C7"
+					item: "minecraft:cauldron"
+					type: "item"
+				}
+			]
+			title: "搭建电弧炉"
+			x: 12.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["24DB4FF67E48E4BE"]
+			icon: "immersiveengineering:advanced_blast_furnace"
+			id: "32EEEBDE1CF0AC98"
+			rewards: [
+				{
+					id: "4BC591501FA3F7B5"
+					item: "aquamirae:frozen_key"
+					type: "item"
+				}
+				{
+					id: "2A054097CA227CE7"
+					item: "aquamirae:frozen_chest"
+					type: "item"
+				}
+			]
+			tasks: [{
+				count: 27L
+				id: "5165DB2D1D7983CB"
+				item: { Count: 27b, id: "immersiveengineering:blastbrick_reinforced" }
+				type: "item"
+			}]
+			title: "高炉强化"
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["02156FCBEB2134D9"]
+			id: "2307B4F16C8C795E"
+			rewards: [{
+				id: "1286EDEDDFC0F421"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "通量时代"
+			tasks: [{
+				id: "19D72D9DDFF90A0A"
+				item: "thermal:energy_cell_frame"
+				type: "item"
+			}]
+			title: "高级能源框架"
+			x: 14.5d
+			y: -2.0d
+		}
+		{
+			description: ["寻找陨石中的宝箱，获取其中的压印板"]
+			id: "62DB468ABE8406E7"
+			tasks: [
+				{
+					id: "5F601DB92528B9B4"
+					item: "ae2:calculation_processor_press"
+					type: "item"
+				}
+				{
+					id: "620186AC64F2FBF8"
+					item: "ae2:silicon_press"
+					type: "item"
+				}
+				{
+					id: "4E672CA5CCED5B80"
+					item: "ae2:logic_processor_press"
+					type: "item"
+				}
+				{
+					id: "7CD5BA68EA8B75A1"
+					item: "ae2:engineering_processor_press"
+					type: "item"
+				}
+			]
+			title: "外星科技"
+			x: 18.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"2307B4F16C8C795E"
+				"62DB468ABE8406E7"
+			]
+			id: "76FAD0A7FAA9D785"
+			rewards: [{
+				id: "13980948A44C3B20"
+				item: "thermal:energy_cell_frame"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7C272495C361EB6F"
+				item: "ae2:inscriber"
+				type: "item"
+			}]
+			x: 16.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["76FAD0A7FAA9D785"]
+			id: "70873BF9EF8021C0"
+			rewards: [{
+				count: 8
+				id: "047C867D271101FA"
+				item: "ae2:silicon"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "748676A8F90C36D3"
+					item: "ae2:printed_logic_processor"
+					type: "item"
+				}
+				{
+					id: "35A3D0BBEC54DF80"
+					item: "ae2:printed_silicon"
+					type: "item"
+				}
+				{
+					id: "4E89C20E45D218F1"
+					item: "ae2:printed_engineering_processor"
+					type: "item"
+				}
+				{
+					id: "320B0ACD5EC32E04"
+					item: "ae2:printed_calculation_processor"
+					type: "item"
+				}
+			]
+			x: 16.5d
+			y: -4.0d
+		}
+		{
+			id: "1E7EFBB5183425C6"
+			rewards: [{
+				count: 4
+				id: "2DB1036563DBD26E"
+				item: "ae2:certus_quartz_crystal"
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "3DF4BF256F901661"
+				item: { Count: 4b, id: "ae2:certus_quartz_crystal" }
+				type: "item"
+			}]
+			title: "挖掘赛特斯石英水晶"
+			x: 10.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"1E7EFBB5183425C6"
+				"2307B4F16C8C795E"
+			]
+			id: "6BF4701D6D9002DB"
+			rewards: [{
+				count: 4
+				id: "403DF8EB43131D9E"
+				item: "ae2:certus_quartz_crystal"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5433BDAA7D2E4957"
+				item: "ae2:charger"
+				type: "item"
+			}]
+			x: 12.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6BF4701D6D9002DB"]
+			id: "563D6B5FE2F34B54"
+			rewards: [{
+				count: 2
+				id: "0AD7389FC2810337"
+				item: "ae2:charged_certus_quartz_crystal"
+				type: "item"
+			}]
+			tasks: [{
+				count: 2L
+				id: "41AEA4595FD0EA49"
+				item: { Count: 2b, id: "ae2:charged_certus_quartz_crystal" }
+				type: "item"
+			}]
+			title: "充能赛特斯"
+			x: 12.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["563D6B5FE2F34B54"]
+			id: "2500B9587587CF61"
+			rewards: [{
+				count: 2
+				id: "316415F2C00D8523"
+				item: "ae2:fluix_crystal"
+				type: "item"
+			}]
+			tasks: [{
+				count: 2L
+				id: "204376CB1F476AB3"
+				item: { Count: 2b, id: "ae2:fluix_crystal" }
+				type: "item"
+			}]
+			title: "超自然"
+			x: 14.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["2500B9587587CF61"]
+			id: "11FCB252C846849E"
+			rewards: [{
+				count: 4
+				id: "1DC9D1B7F38A1AE0"
+				item: "ae2:fluix_glass_cable"
+				type: "item"
+			}]
+			tasks: [{
+				count: 3L
+				id: "43B0841FE70C7AC4"
+				item: { Count: 3b, id: "ae2:fluix_glass_cable" }
+				type: "item"
+			}]
+			title: "制作me线缆"
+			x: 16.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["6C3FAE63F2B0B497"]
+			id: "73797ADA1FD7F76B"
+			tasks: [{
+				id: "5E4ED096BA16CB46"
+				item: {
+					Count: 1b
+					id: "aquamirae:three_bolt_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			id: "071471779183B87A"
+			tasks: [{
+				biome: "#aquamirae:ice_maze"
+				icon: "minecraft:blue_ice"
+				id: "3E4B062EC96D20A1"
+				type: "biome"
+			}]
+			title: "探索冰封之地"
+			x: -3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4F07EDE38A79B258"]
+			icon: {
+				Count: 1b
+				id: "minecraft:golden_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "6C3FAE63F2B0B497"
+			rewards: [
+				{
+					id: "76BAE4F926A12643"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "0524881F4E468532"
+					item: "aquamirae:treasure_pouch"
+					type: "item"
+				}
+				{
+					id: "75480560DFD391EC"
+					table_id: 2462882013908997816L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7481F1EDF9B64FCF"
+					table_id: 2972091187935729991L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "47E1D50773395B0E"
+					table_id: 2972091187935729991L
+					type: "random"
+				}
+			]
+			subtitle: "在海边吹奏号角，也许就能……"
+			tasks: [{
+				entity: "aquamirae:captain_cornelia"
+				id: "1C74DED88E1BCC2E"
+				type: "kill"
+				value: 1L
+			}]
+			title: "深海中的遗员"
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2307B4F16C8C795E"]
+			id: "5DCDE5CF1B9D7733"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5CBBDDB9546DB36D"
+				table_id: 6250901083565767548L
+				type: "random"
+			}]
+			tasks: [{
+				id: "74AF5E51CB11913B"
+				item: {
+					Count: 1b
+					id: "thermal:energy_cell"
+					tag: {
+						BlockEntityTag: {
+							Energy: 0
+							EnergyMax: 1000000
+							EnergyRecv: 1000
+							EnergySend: 1000
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 14.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["071471779183B87A"]
+			description: ["找到并击败破船中的掠夺者，并获得它们手中的号角"]
+			id: "4F07EDE38A79B258"
+			rewards: [{
+				id: "02FFFEDFB31DF519"
+				item: "aquamirae:pirate_pouch"
+				type: "item"
+			}]
+			tasks: [{
+				id: "29BF39E294320458"
+				item: "aquamirae:shell_horn"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1F9F0F0E61E3ECC3"]
+			icon: "immersiveengineering:squeezer"
+			id: "3CFD93B38293B76F"
+			rewards: [{
+				count: 4
+				id: "291F43F4B9136957"
+				item: "immersiveengineering:steel_scaffolding_grate_top"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "691D953A60DC5358"
+					item: "minecraft:piston"
+					type: "item"
+				}
+				{
+					id: "0EFFF74648867E21"
+					item: "immersiveengineering:rs_engineering"
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "7EA90A45064F91A9"
+					item: { Count: 6b, id: "immersiveengineering:steel_scaffolding_standard" }
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "0DD96508B854C932"
+					item: { Count: 3b, id: "immersiveengineering:steel_fence" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "295E2AA3F4F72BEE"
+					item: { Count: 2b, id: "immersiveengineering:fluid_pipe" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "12F10EF223E8E4FE"
+					item: { Count: 2b, id: "immersiveengineering:light_engineering" }
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "094CE49C956CB8E0"
+					item: "immersiveengineering:wooden_barrel"
+					type: "item"
+				}
+			]
+			title: "工业挤压机"
+			x: 12.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"3CFD93B38293B76F"
+				"02156FCBEB2134D9"
+			]
+			id: "012D09E67C61F822"
+			tasks: [{
+				id: "6C5866D16E8D5781"
+				item: "immersiveengineering:dust_hop_graphite"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["012D09E67C61F822"]
+			id: "5F7359EFFD66B9BB"
+			rewards: [{
+				id: "00D758E7563C0843"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [{
+				id: "57C85688D157D8B2"
+				item: "immersiveengineering:ingot_hop_graphite"
+				type: "item"
+			}]
+			x: 16.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"73797ADA1FD7F76B"
+				"7603D5F4B852D893"
+			]
+			description: ["这就像是水中的飞船"]
+			id: "4129A3D717F6E0F9"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "57AFA2714CBB9494"
+					table_id: 8695861683220912716L
+					type: "choice"
+				}
+				{
+					id: "7972DCD66CBC07EC"
+					item: "minecraft:honeycomb"
+					type: "item"
+				}
+			]
+			subtitle: "我的飞船"
+			tasks: [{
+				id: "542B3FEA7DFFCC19"
+				item: "alexscaves:submarine"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["71A8D779BADFC979"]
+			id: "2BDEF885033252AE"
+			rewards: [
+				{
+					count: 5
+					id: "3498582B4ADCB2EE"
+					item: "immersiveengineering:light_engineering"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "04299FF930625FD7"
+					item: "immersiveengineering:heavy_engineering"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "3D1C05C4E47319DF"
+					item: "immersiveengineering:rs_engineering"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					count: 5L
+					id: "051C1ADBEDD6DFFC"
+					item: { Count: 5b, id: "immersiveengineering:light_engineering" }
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "3BA43F4E93B0A6A1"
+					item: { Count: 5b, id: "immersiveengineering:heavy_engineering" }
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "50A21A2DC79BFEC1"
+					item: "immersiveengineering:rs_engineering"
+					type: "item"
+				}
+			]
+			title: "准备工程块"
+			x: 8.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2626B880E32643E9"]
+			id: "300687A846E01CCD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "029FB7F951F2AD67"
+				table_id: 2462882013908997816L
+				type: "choice"
+			}]
+			tasks: [{
+				id: "3180EA80BF1842D3"
+				item: "createaddition:small_light_connector"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["5F7359EFFD66B9BB"]
+			id: "1A0BD78AADC55A14"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3C8A64F663C10B8B"
+				table_id: 523424714767025876L
+				type: "random"
+			}]
+			tasks: [{
+				id: "380401C95CDB8DB5"
+				item: {
+					Count: 1b
+					id: "immersiveengineering:graphite_electrode"
+					tag: {
+						graphDmg: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 18.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2BDEF885033252AE"]
+			id: "1F9F0F0E61E3ECC3"
+			tasks: [{
+				count: 8L
+				id: "6FCC43C74E886AB1"
+				item: "immersiveengineering:fluid_pipe"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1F9F0F0E61E3ECC3"]
+			id: "5D1C1654D562E7E2"
+			rewards: [{
+				count: 4
+				id: "60B83FB6376FC857"
+				item: "minecraft:obsidian"
+				type: "item"
+			}]
+			tasks: [{
+				id: "15A1933FAC5795AF"
+				item: "pipez:fluid_pipe"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2B244A6A21B1B03C"]
+			id: "199935F6A953B1DA"
+			rewards: [{
+				id: "430918DF7C082F21"
+				item: "createaddition:modular_accumulator"
+				type: "item"
+			}]
+			tasks: [{
+				id: "60F3A9CB8F493D3C"
+				item: "createaddition:modular_accumulator"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["012D09E67C61F822"]
+			id: "0E882D25796D4258"
+			tasks: [{
+				id: "5249D4AE668E7586"
+				item: "create_new_age:heater"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"1F9F0F0E61E3ECC3"
+				"3CFD93B38293B76F"
+			]
+			id: "6982142F809C1FBD"
+			rewards: [{
+				count: 16
+				id: "12A60A0030E0CA0D"
+				item: "immersiveengineering:fluid_pipe"
+				type: "item"
+			}]
+			subtitle: "&3比机械动力好用点"
+			tasks: [{
+				id: "46A2F0928C090D88"
+				item: "immersiveengineering:fluid_pump"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 2.0d
+		}
+	]
+	title: "沉浸能源"
+}

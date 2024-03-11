@@ -1,0 +1,78 @@
+{
+	id: "5503F9459BD35218"
+	loot_size: 1
+	order_index: 35
+	rewards: [
+		{
+			item: {
+				Count: 1b
+				id: "twilightforest:yeti_boots"
+				tag: {
+					Damage: 0
+					Unbreakable: 1b
+					display: {
+						Name: "{\"text\":\"\\u00A7e雪王靴子\"}"
+					}
+					itemModifier: "celestial_forge:legend"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "ec_tf_plugin:yeti_gauntlet"
+				tag: {
+					Damage: 0
+					Unbreakable: 1b
+					display: {
+						Name: "{\"text\":\"\\u00A7e雪王拳套\"}"
+					}
+					itemModifier: "celestial_forge:legend"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "twilightforest:yeti_helmet"
+				tag: {
+					Damage: 0
+					Unbreakable: 1b
+					display: {
+						Name: "{\"text\":\"\\u00A7e雪王角盔\"}"
+					}
+					itemModifier: "celestial_forge:legend"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "twilightforest:yeti_chestplate"
+				tag: {
+					Damage: 0
+					Unbreakable: 1b
+					display: {
+						Name: "{\"text\":\"\\u00A7e雪王皮衣\"}"
+					}
+					itemModifier: "celestial_forge:legend"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "twilightforest:yeti_leggings"
+				tag: {
+					Damage: 0
+					Unbreakable: 1b
+					display: {
+						Name: "{\"text\":\"\\u00A7e雪王白丝\"}"
+					}
+					itemModifier: "celestial_forge:legend"
+				}
+			}
+		}
+	]
+	title: "雪王"
+}

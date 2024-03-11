@@ -1,0 +1,29 @@
+{
+  "type": "htlib:common",
+  "setting": {
+    "bar_setting": {
+      "raid_bar_color": "black"
+    },
+    "border_setting": {
+      "block_inside": true,
+      "block_outside": true,
+      "render_border": true
+    },
+    "results": [
+      "htlib:space"
+    ],
+    "sound_setting": {
+      "loss_sound": "htlib:loss",
+      "raid_start_sound": "htlib:prepare",
+      "victory_sound": "htlib:victory",
+      "wave_start_sound": "htlib:huge_wave"
+    }
+  },
+  "waves": [
+    "htlib:space_1",
+    "htlib:space_2",
+    "htlib:space_3",
+    "htlib:space_4",
+    "htlib:space_5"
+  ]
+}

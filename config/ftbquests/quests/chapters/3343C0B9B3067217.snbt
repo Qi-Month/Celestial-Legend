@@ -1,0 +1,1146 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "3343C0B9B3067217"
+	group: "09EE0DA8FC2DE922"
+	icon: "minecraft:oak_sapling"
+	id: "3343C0B9B3067217"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["6EA458C42BABEBEF"]
+			description: [
+				"虽然开局给了泥土、树苗和其他物资"
+				"但不建议你在出生点定居"
+				"试着去找找陆地"
+			]
+			id: "35BB23C010D9C13A"
+			rewards: [
+				{
+					id: "595FF01842B68494"
+					table_id: 3468436537967612071L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "355B4DDB205EDDD6"
+					table_id: 2466808922207178628L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4EF1A7016EC74BC1"
+					table_id: 6938021551914156852L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4E6D2643B7E55F0E"
+					table_id: 6250901083565767548L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "322F402B2DE170AB"
+					table_id: 4729708197500817057L
+					type: "random"
+				}
+				{
+					id: "3BDC4658F4BC98D9"
+					table_id: 3105433937550230083L
+					type: "random"
+				}
+			]
+			subtitle: "可以确定的是，这席卷全球的海啸绝对与那只大鸟有关"
+			tasks: [{
+				count: 4L
+				id: "1BB42CD86DE95162"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:logs"
+					}
+				}
+				title: "木头"
+				type: "item"
+			}]
+			title: "要致富先撸树"
+			x: -0.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["35BB23C010D9C13A"]
+			id: "3953C9CB70869A07"
+			subtitle: "或许也该出海看看"
+			tasks: [{
+				id: "0BFFA02C9D8DAB4D"
+				item: {
+					Count: 1b
+					id: "minecraft:wooden_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "我选择直接下矿"
+			x: -2.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["3953C9CB70869A07"]
+			id: "502E2BAF4DCDC758"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7B61C7E00F69B8E5"
+				table_id: 8119068289222620324L
+				type: "random"
+			}]
+			subtitle: "获取石质相关物品"
+			tasks: [
+				{
+					count: 11L
+					id: "4D01C63E20310565"
+					item: "minecraft:cobblestone"
+					type: "item"
+				}
+				{
+					id: "65BA6FDCA2C62D47"
+					item: {
+						Count: 1b
+						id: "minecraft:stone_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2BF8AE808B30CE1F"
+					item: "minecraft:furnace"
+					type: "item"
+				}
+			]
+			title: "石器时代"
+			x: -4.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["3953C9CB70869A07"]
+			id: "7A9B2BFFEE371215"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0C7BF01B61FAC422"
+				table_id: 2462882013908997816L
+				type: "random"
+			}]
+			tasks: [{
+				count: 2L
+				id: "57185D0396968D21"
+				item: { Count: 2b, id: "minecraft:andesite" }
+				type: "item"
+			}]
+			title: "或许已不再是废石"
+			x: 0.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["0D1D2F939E4CDEA2"]
+			id: "0B76D6AC711F8DB6"
+			rewards: [{
+				id: "60F97F1B41CE5509"
+				item: "minecraft:raw_iron_block"
+				type: "item"
+			}]
+			subtitle: "挖掘铁矿"
+			tasks: [{
+				id: "14ED4757D159BF85"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			title: "新手进阶"
+			x: -2.0d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"7A9B2BFFEE371215"
+				"0B76D6AC711F8DB6"
+			]
+			id: "742F904E11E32EF6"
+			rewards: [{
+				count: 16
+				id: "0C54F3B3EBD1E74D"
+				item: "minecraft:andesite"
+				type: "item"
+			}]
+			subtitle: "这可是个高级货"
+			tasks: [{
+				id: "20D8A4FD93F9D1E0"
+				item: { Count: 2b, id: "create:andesite_alloy" }
+				type: "item"
+			}]
+			x: 3.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["0B76D6AC711F8DB6"]
+			id: "0B0C97B3A10D0CA1"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "56FD6954C5206766"
+					table_id: 9066948471408071124L
+					type: "random"
+				}
+				{
+					id: "57F874FC5652F436"
+					item: "the_forgotten_dimensions:training_dummy_spawn_egg"
+					type: "item"
+				}
+			]
+			subtitle: "制作铁镐"
+			tasks: [{
+				id: "112D92D9688CA987"
+				item: {
+					Count: 1b
+					id: "minecraft:iron_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "工具升级"
+			x: 0.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["742F904E11E32EF6"]
+			id: "5167F9623E3F6226"
+			rewards: [{
+				count: 4
+				id: "434D4BB5E7958694"
+				item: "create:andesite_alloy"
+				random_bonus: 4
+				type: "item"
+			}]
+			tasks: [{
+				id: "6FE0E7A7CECB1108"
+				item: "create:andesite_casing"
+				type: "item"
+			}]
+			title: "安山时代"
+			x: 3.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["742F904E11E32EF6"]
+			id: "5B05CFD122F36B35"
+			rewards: [{
+				count: 18
+				id: "3371818AEFEE7267"
+				item: "create:shaft"
+				type: "item"
+			}]
+			tasks: [
+				{
+					count: 8L
+					id: "7849DC992AAA986E"
+					item: { Count: 8b, id: "create:shaft" }
+					type: "item"
+				}
+				{
+					id: "51D5926431C4400B"
+					item: "create:cogwheel"
+					type: "item"
+				}
+				{
+					id: "5D6989ECA5C8A157"
+					item: "create:large_cogwheel"
+					type: "item"
+				}
+			]
+			title: "动力传输设备"
+			x: 5.5d
+			y: 6.5d
+		}
+		{
+			dependencies: [
+				"5167F9623E3F6226"
+				"5B05CFD122F36B35"
+			]
+			id: "7E475182BB01C640"
+			rewards: [{
+				id: "4F8993644E7F0996"
+				item: "create:vertical_gearbox"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4F74C7E6C62FA1F2"
+				item: "create:gearbox"
+				type: "item"
+			}]
+			title: "传动调控"
+			x: 5.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["5167F9623E3F6226"]
+			description: ["我觉得还不错，除非你想用手摇的"]
+			id: "08567758B4F54391"
+			rewards: [{
+				count: 2
+				id: "387508A339868A88"
+				item: "create:large_cogwheel"
+				type: "item"
+			}]
+			tasks: [{
+				id: "5C4EF3DE7870CA2E"
+				item: "create:water_wheel"
+				type: "item"
+			}]
+			title: "水车悠悠淌"
+			x: 2.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["08567758B4F54391"]
+			id: "19F0C206FA3F19C9"
+			rewards: [{
+				id: "3EAB8AC194C2451B"
+				item: "create:large_water_wheel"
+				type: "item"
+			}]
+			tasks: [{
+				id: "07A571704C258022"
+				item: "create:large_water_wheel"
+				type: "item"
+			}]
+			title: "水车升级"
+			x: 1.5d
+			y: 12.5d
+		}
+		{
+			dependencies: [
+				"08567758B4F54391"
+				"47D48ADE5157D6E1"
+			]
+			dependency_requirement: "one_completed"
+			id: "30E3E82BA02A5AF2"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3C4CCA095BDB5DAC"
+					table_id: 2462882013908997816L
+					type: "random"
+				}
+				{
+					id: "6CABB3940688566A"
+					item: "create:goggles"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "64E78B81135B9647"
+				item: "create:millstone"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["30E3E82BA02A5AF2"]
+			id: "01453C2B678C3E4D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "013CBCFBC6B5031A"
+					table_id: 2462882013908997816L
+					type: "random"
+				}
+				{
+					id: "44AFAF482178B844"
+					item: "create:wrench"
+					type: "item"
+				}
+			]
+			subtitle: "流汗浃背了"
+			tasks: [{
+				id: "2B50B4A3AD05C65C"
+				item: "create:mechanical_press"
+				type: "item"
+			}]
+			title: "压力山大"
+			x: 5.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["2B97276745339E8F"]
+			id: "135713E58E206AB8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "26A754A101978CF5"
+				table_id: 2462882013908997816L
+				type: "random"
+			}]
+			tasks: [{
+				id: "43FB55992BA31D16"
+				item: "create:mechanical_mixer"
+				type: "item"
+			}]
+			title: "超级搅拌"
+			x: 2.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["01453C2B678C3E4D"]
+			id: "2B97276745339E8F"
+			rewards: [
+				{
+					count: 3
+					id: "0B5076A1035E519C"
+					item: "create:iron_sheet"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "750E4E95337CB7CA"
+					table_id: 2662272454376988625L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				count: 3L
+				id: "3169F0B00BEC2BF5"
+				item: { Count: 3b, id: "create:iron_sheet" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 16.0d
+		}
+		{
+			dependencies: ["01453C2B678C3E4D"]
+			id: "39CE3EF85CF978D1"
+			rewards: [{
+				count: 8
+				id: "4279725E39573AB1"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "60D73E65D60C2DB7"
+					item: "create:basin"
+					type: "item"
+				}
+				{
+					id: "4953875265A7E5B6"
+					item: "create:depot"
+					type: "item"
+				}
+			]
+			title: "盆与台子"
+			x: 7.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["2B97276745339E8F"]
+			id: "354643F6376AFB8C"
+			rewards: [
+				{
+					id: "47C5471BD17ADEB8"
+					item: "minecraft:water_bucket"
+					type: "item"
+				}
+				{
+					id: "53F0CC0398308717"
+					item: "minecraft:lava_bucket"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "684489BB835C7B1F"
+				item: "create:encased_fan"
+				type: "item"
+			}]
+			title: "呼呼吹"
+			x: 5.0d
+			y: 18.0d
+		}
+		{
+			dependencies: ["0B0C97B3A10D0CA1"]
+			id: "3FA75ADC8E7D93ED"
+			rewards: [
+				{
+					id: "4C9CABBC0C7C4806"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4BA8546CCFC74EF1"
+					table_id: 3468436537967612071L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "26BA234246BE3A91"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			title: "这是什么品质"
+			x: 0.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["3FA75ADC8E7D93ED"]
+			id: "64CDF8D92FE581D8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "638254E02C8E981E"
+				table_id: 2462882013908997816L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4540D635AB9FEAE8"
+				item: {
+					Count: 1b
+					id: "minecraft:diamond_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 14.0d
+		}
+		{
+			dependencies: ["64CDF8D92FE581D8"]
+			id: "0D226E91349E5E65"
+			rewards: [{
+				id: "23A42C211ED4AA26"
+				item: "minecraft:obsidian"
+				random_bonus: 3
+				type: "item"
+			}]
+			subtitle: "水与岩浆的混合"
+			tasks: [{
+				id: "47ED7B89A6084966"
+				item: "minecraft:obsidian"
+				type: "item"
+			}]
+			title: "好硬好喜欢"
+			x: -0.5d
+			y: 16.0d
+		}
+		{
+			dependencies: ["523F805B966016BC"]
+			id: "32CDEEE4DB508134"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "01610520EFBCF688"
+					table_id: 2462882013908997816L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2D0545F42C91F15D"
+					table_id: 4260801656984015447L
+					type: "choice"
+				}
+			]
+			tasks: [
+				{
+					id: "74179436A0CB6DC1"
+					item: "create:empty_blaze_burner"
+					type: "item"
+				}
+				{
+					id: "6CF9D84B9C172FA6"
+					item: "create:blaze_burner"
+					type: "item"
+				}
+			]
+			title: "这不是黑奴"
+			x: -3.5d
+			y: 18.0d
+		}
+		{
+			dependencies: ["0D226E91349E5E65"]
+			id: "66F5AAD171F0DAEF"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "22877AF5FFC82BC7"
+					table_id: 523424714767025876L
+					type: "random"
+				}
+				{
+					id: "17736EFAEC3D6191"
+					item: {
+						Count: 1b
+						id: "immersiveengineering:glider"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				id: "6D2372A945BC6805"
+				type: "dimension"
+			}]
+			title: "进入地狱啦"
+			x: -2.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["135713E58E206AB8"]
+			id: "2CA56637297E40BD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5DBF6AE2E2B4CA3A"
+				table_id: 6250901083565767548L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "2B2C98CBD1705D59"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:ingots/copper"
+						}
+					}
+					title: "Any #forge:ingots/copper"
+					type: "item"
+				}
+				{
+					id: "7EE790AA7DFAFA0A"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:ingots/zinc"
+						}
+					}
+					title: "Any #forge:ingots/zinc"
+					type: "item"
+				}
+			]
+			title: "原料准备"
+			x: 2.0d
+			y: 18.0d
+		}
+		{
+			dependencies: [
+				"2CA56637297E40BD"
+				"32CDEEE4DB508134"
+			]
+			id: "681BE94E5DD7AC9C"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4E4C65C87DDEE9A1"
+					table_id: 2462882013908997816L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7789324C43522DCA"
+					table_id: 2462882013908997816L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "762A7801C2CEC7C8"
+					table_id: 8695861683220912716L
+					type: "random"
+				}
+				{
+					id: "69CAF1C677DC0276"
+					item: "ad_astra:earth_globe"
+					type: "item"
+				}
+			]
+			size: 1.3d
+			tasks: [{
+				id: "46ABB5AE726023C4"
+				item: "create:brass_ingot"
+				type: "item"
+			}]
+			title: "真正的合金"
+			x: -0.65d
+			y: 18.85d
+		}
+		{
+			dependencies: ["018C4FF1F6AAF4DC"]
+			description: ["若有想法与建议可以加入整合包群中交流与反馈哦，群号：767055261"]
+			icon: "minecraft:oak_sapling"
+			id: "6EA458C42BABEBEF"
+			rewards: [
+				{
+					id: "0FF9D5F5D362BE19"
+					item: "minecraft:dirt"
+					type: "item"
+				}
+				{
+					id: "60CB74E0978DC06F"
+					item: {
+						Count: 1b
+						id: "minecraft:golden_axe"
+						tag: {
+							AttributeModifiers: [
+								{
+									Amount: 1.0d
+									AttributeName: "generic.attack_damage"
+									Name: "generic.attack_damage"
+									Operation: 0
+									Slot: "mainhand"
+									UUID: [I;
+										1539792975
+										297288610
+										-1831387641
+										-222085219
+									]
+								}
+								{
+									Amount: -3.2d
+									AttributeName: "generic.attack_speed"
+									Name: "generic.attack_speed"
+									Operation: 0
+									Slot: "mainhand"
+									UUID: [I;
+										1027738976
+										915685417
+										-1488440837
+										57825191
+									]
+								}
+							]
+							Damage: 0
+							Enchantments: [{
+								id: "efficiency"
+								lvl: 6s
+							}]
+							HideFlags: 1
+							display: {
+								Lore: ["{\"text\":\"\\u00A77砍木头还挺快\"}"]
+								Name: "{\"text\":\"\\u00A7f家传利斧\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7A31C3A283D6E661"
+					item: {
+						Count: 1b
+						id: "minecraft:golden_shovel"
+						tag: {
+							AttributeModifiers: [
+								{
+									Amount: 1.0d
+									AttributeName: "generic.attack_damage"
+									Name: "generic.attack_damage"
+									Operation: 0
+									Slot: "mainhand"
+									UUID: [I;
+										1739793629
+										1632781018
+										-1882625638
+										-1176037129
+									]
+								}
+								{
+									Amount: -3.2d
+									AttributeName: "generic.attack_speed"
+									Name: "generic.attack_speed"
+									Operation: 0
+									Slot: "mainhand"
+									UUID: [I;
+										-1978948813
+										-974501685
+										-1108850212
+										-669912139
+									]
+								}
+							]
+							Damage: 0
+							Enchantments: [{
+								id: "efficiency"
+								lvl: 6s
+							}]
+							HideFlags: 1
+							display: {
+								Lore: ["{\"text\":\"\\u00A77这东西干嘛的来着\"}"]
+								Name: "{\"text\":\"\\u00A7f金铲铲\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "寒冰不死鸟数日前降临在两极冰川，没人知道她干了什么"
+			tasks: [
+				{
+					id: "2BB588583DADF75E"
+					title: "祝你玩得开心"
+					type: "checkmark"
+				}
+				{
+					dimension: "minecraft:overworld"
+					id: "3E704FBEA59CDD0D"
+					type: "dimension"
+				}
+			]
+			x: 1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["35BB23C010D9C13A"]
+			id: "2FA7CBC78AD59202"
+			rewards: [{
+				id: "716C3D244E78556C"
+				item: "twilightforest:charm_of_keeping_3"
+				type: "item"
+			}]
+			subtitle: "幸存者们传言：两极的冰川已经全部融化"
+			tasks: [{
+				id: "33D4C1F93BD24EA0"
+				stat: "minecraft:mob_kills"
+				type: "stat"
+				value: 1
+			}]
+			title: "战斗开始"
+			x: -2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["01453C2B678C3E4D"]
+			id: "684CE3FA395E2A4C"
+			rewards: [{
+				count: 8
+				id: "27E33A35BEC96A8C"
+				item: "minecraft:copper_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3D2659B4BDD351DB"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:plates/copper"
+					}
+				}
+				title: "Any #forge:plates/copper"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["684CE3FA395E2A4C"]
+			id: "1F5C57882FBE87A9"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7B6D2B12DFE3F82F"
+					table_id: 8695861683220912716L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "751CD0FD6757F6E5"
+					table_id: 523424714767025876L
+					type: "random"
+				}
+			]
+			subtitle: "潜水员必备，可以开始探索海洋啦"
+			tasks: [
+				{
+					id: "5FEFF0C5CC0307A6"
+					item: {
+						Count: 1b
+						id: "alexscaves:diving_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "04432AB41207BB44"
+					item: {
+						Count: 1b
+						id: "alexscaves:diving_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5AD00C7169B9EF3E"
+					item: {
+						Count: 1b
+						id: "alexscaves:diving_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "42D971473C9B94A3"
+					item: {
+						Count: 1b
+						id: "alexscaves:diving_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: 16.0d
+		}
+		{
+			dependencies: ["0B0C97B3A10D0CA1"]
+			id: "6861A6C7E42353D2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "579AEC49D4C8A3A2"
+				table_id: 2462882013908997816L
+				type: "random"
+			}]
+			subtitle: "8个红石粉需要挖几个红石矿呢"
+			tasks: [{
+				count: 8L
+				id: "0D79A5307FFAB8F9"
+				item: { Count: 8b, id: "minecraft:redstone" }
+				type: "item"
+			}]
+			x: -2.0d
+			y: 11.5d
+		}
+		{
+			dependencies: [
+				"6861A6C7E42353D2"
+				"2C7A76F6CBEBF1F5"
+			]
+			id: "3235DFDD978F4140"
+			rewards: [{
+				id: "082A21AD26D83CD0"
+				item: "create:rose_quartz"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "43D33BB576941145"
+					item: "create:rose_quartz"
+					type: "item"
+				}
+				{
+					id: "3BC03336587658A3"
+					item: {
+						Count: 1b
+						id: "create:sand_paper"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: 11.5d
+		}
+		{
+			dependencies: ["66F5AAD171F0DAEF"]
+			id: "523F805B966016BC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "43A3D084C1661321"
+				table_id: 6938021551914156852L
+				type: "random"
+			}]
+			subtitle: "地狱的圆石"
+			tasks: [{
+				id: "6CB29A47D5CE873A"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:netherrack"
+					}
+				}
+				title: "Any #forge:netherrack"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 16.0d
+		}
+		{
+			dependencies: ["66F5AAD171F0DAEF"]
+			id: "2C7A76F6CBEBF1F5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "09403788AC0E0CD0"
+				table_id: 2466808922207178628L
+				type: "random"
+			}]
+			tasks: [{
+				id: "69CBCD52BC194159"
+				item: "minecraft:quartz"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 14.0d
+		}
+		{
+			id: "018C4FF1F6AAF4DC"
+			rewards: [
+				{
+					auto: "no_toast"
+					command: "/execute at @p run fill ~ ~-2 ~ ~1 ~-2 ~2 minecraft:oak_log[axis=z]"
+					elevate_perms: true
+					icon: "minecraft:bamboo_raft"
+					id: "36409A0D57A5E453"
+					title: "漂泊之人"
+					type: "command"
+				}
+				{
+					auto: "no_toast"
+					id: "0983BE8D459CFC65"
+					table_id: 8119068289222620324L
+					type: "random"
+				}
+				{
+					auto: "no_toast"
+					command: "/execute at @p run fill ~ ~-1 ~1 ~1 ~-1 ~1 minecraft:rail"
+					elevate_perms: true
+					icon: "farmersdelight:rope"
+					id: "73D4F9E068343763"
+					title: "出海还是下矿"
+					type: "command"
+				}
+				{
+					auto: "no_toast"
+					id: "04B863A9436C448E"
+					item: "ftbquests:book"
+					type: "item"
+				}
+			]
+			shape: "square"
+			subtitle: "你悠悠醒来，只有木筏与海"
+			tasks: [{
+				dimension: "minecraft:overworld"
+				disable_toast: true
+				icon: "botania:cosmetic_googly_eyes"
+				id: "7E8BAA78C8430D93"
+				title: "加入游戏"
+				type: "dimension"
+			}]
+			title: "睁眼"
+			x: 1.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["502E2BAF4DCDC758"]
+			id: "0D1D2F939E4CDEA2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7678AA4C85163802"
+				table_id: 4260801656984015447L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3E025144E0B724EC"
+				item: "minecraft:raw_iron"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 9.0d
+		}
+		{
+			dependencies: ["5167F9623E3F6226"]
+			id: "47D48ADE5157D6E1"
+			rewards: [{
+				count: 4
+				id: "4EDCD04CF8475F80"
+				item: "create:sail_frame"
+				type: "item"
+			}]
+			tasks: [{
+				id: "73F19277CAB8CCEA"
+				item: "create:windmill_bearing"
+				type: "item"
+			}]
+			title: "风车呼呼转"
+			x: 4.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["47D48ADE5157D6E1"]
+			id: "1C63FF5FAFA33A06"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "11F7FEFA38C51FE4"
+					table_id: 4729708197500817057L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "053405DFF54BA91F"
+					table_id: 2462882013908997816L
+					type: "random"
+				}
+			]
+			tasks: [{
+				count: 8L
+				id: "3E4C7FD1EA9591C0"
+				item: { Count: 8b, id: "create:white_sail" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 12.5d
+		}
+		{
+			dependencies: [
+				"5167F9623E3F6226"
+				"08567758B4F54391"
+				"47D48ADE5157D6E1"
+			]
+			dependency_requirement: "one_completed"
+			id: "5D4831929D7EDE00"
+			tasks: [
+				{
+					id: "0F4E963FD78C07C3"
+					item: "create:stressometer"
+					type: "item"
+				}
+				{
+					id: "1CB5928C23896789"
+					item: "create:speedometer"
+					type: "item"
+				}
+			]
+			x: 3.0d
+			y: 11.5d
+		}
+	]
+	title: "基础设施"
+}

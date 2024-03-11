@@ -1,0 +1,33 @@
+{
+	"display": {
+		"icon": {
+			"item": "ad_astra:tier_2_rocket"
+		},
+		"title": {
+			"translate": "advancements.restrictedportals.ratlantis"
+		},
+		"description": {
+			"translate": "advancements.restrictedportals.ratlantis.decs"
+		}
+	},
+	"parent": "restrictedportals:root",
+	"criteria": {
+		"ratlantis": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"ad_astra:tier_2_rocket"
+						]
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"ratlantis"
+		]
+	]
+}

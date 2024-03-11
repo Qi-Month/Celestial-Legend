@@ -1,0 +1,11 @@
+{
+	id: "33685FB08352CAD6"
+	loot_size: 1
+	order_index: 11
+	rewards: [
+		{ count: 2, item: "botania:elementium_ingot" }
+		{ count: 2, item: "botania:pixie_dust" }
+		{ count: 2, item: "botania:quartz_elven" }
+	]
+	title: "源质钢尘"
+}

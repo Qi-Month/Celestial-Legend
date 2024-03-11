@@ -1,0 +1,109 @@
+{
+  "type": "htlib:common",
+  "setting": {
+    "can_skip_wave": true,
+    "wave_duration": 13500
+  },
+  "spawns": [
+    {
+      "spawn": "htlib:sea_1",
+      "start_tick": 10
+    },
+	{
+      "spawn": "htlib:sea_4",
+      "start_tick": 20
+    },
+	{
+      "spawn": "htlib:sea_2",
+      "start_tick": 30
+    },
+    {
+      "spawn": "htlib:sea_2",
+      "start_tick": 15
+    },
+    {
+      "spawn": "htlib:sea_3",
+      "start_tick": 10
+    },
+    {
+      "spawn": "htlib:sea_4",
+      "start_tick": 60
+    },
+    {
+      "spawn": "htlib:sea_3",
+      "start_tick": 30
+    },
+    {
+      "spawn": "htlib:sea_5",
+      "start_tick": 16
+    },
+    {
+      "spawn": "htlib:sea_6",
+      "start_tick": 30
+    },
+    {
+      "spawn": "htlib:sea_7",
+      "start_tick": 60
+    },
+    {
+      "spawn": "htlib:sea_8",
+      "start_tick": 16
+    },
+    {
+      "spawn": "htlib:sea_8",
+      "start_tick": 30
+    },
+    {
+      "spawn": "htlib:sea_9",
+      "start_tick": 200
+    },
+    {
+      "spawn": "htlib:sea_1",
+      "start_tick": 195
+    },
+    {
+      "spawn": "htlib:sea_10",
+      "start_tick": 10
+    },
+    {
+      "spawn": "htlib:sea_11",
+      "start_tick": 15
+    },
+    {
+      "spawn": "htlib:sea_12",
+      "start_tick": 10
+    },
+	{
+      "spawn": "htlib:sea_13",
+      "start_tick": 30
+    },
+    {
+      "spawn": "htlib:sea_14",
+      "start_tick": 30
+    },
+    {
+      "spawn": "htlib:sea_15",
+      "start_tick": 35
+    },
+    {
+      "spawn": "htlib:sea_16",
+      "start_tick": 25
+    },
+    {
+      "spawn": "htlib:sea_17",
+      "start_tick": 10
+    },
+    {
+      "spawn": "htlib:sea_18",
+      "start_tick": 10
+    },
+    {
+      "spawn": "htlib:sea_19",
+      "start_tick": 200
+    },
+    {
+      "spawn": "htlib:sea_20",
+      "start_tick": 200
+    }
+  ]
+}

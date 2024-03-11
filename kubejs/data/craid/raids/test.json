@@ -1,0 +1,508 @@
+{
+	"name": "test",
+	"type": "default",
+	"authors": [
+		"hxm"
+	],
+	"tags": [
+		"test"
+	],
+	"pre_tick": 200,
+	"win_tick": 400,
+	"loss_tick": 100,
+	"bar_color": "green",
+	"sounds": {
+		"pre_sound": "block.raid.horn",
+		"wave_sound": "entity.creeper.hurt",
+		"win_sound": "entity.creeper.hurt",
+		"loss_sound": "entity.creeper.hurt"
+	},
+	"placement": {
+		"outer": {
+			"min": 10,
+			"max": 20
+		}
+	},
+	"waves": [
+		{
+			"spawns": [
+				{
+					"entity_type": "pillager",
+					"spawn_tick": 20,
+					"spawn_amount": {
+						"count": 1
+					},
+					"placement": {
+						"center": {
+							"radius": 20,
+							"ground": true
+						}
+					},
+					"nbt": "{ArmorItems:[{id:\"expanded_combat:iron_scythe\",Count:1b},{id:\"minecraft:leather_boots\",Count:1b},{id:\"minecraft:leather_leggings\",Count:1b},{id:\"minecraft:leather_chestplate\",Count:1b},{id:\"minecraft:leather_helmet\",Count:1b}],CustomName:'{\"text\":\"掠夺者\"}', CustomNameVisible: 1}"
+				},
+				{
+					"entity_type": "vindicator",
+					"spawn_tick": 20,
+					"spawn_amount": {
+						"count": 5
+					}
+				},
+				{
+					"entity_type": "pillager",
+					"spawn_tick": 20,
+					"spawn_amount": {
+						"count": 1
+					}
+				}
+			],
+			"duration": 10000
+		},
+		{
+			"spawns": [
+				{
+					"entity_type": "pillager",
+					"spawn_tick": 30,
+					"spawn_amount": {
+						"count": 5
+					},
+					"placement": {
+						"center": {
+							"radius": 20,
+							"ground": true
+						}
+					},
+					"nbt": "{ArmorItems:[{id:\"minecraft:leather_boots\",Count:1b},{id:\"minecraft:leather_leggings\",Count:1b},{id:\"minecraft:leather_chestplate\",Count:1b},{id:\"minecraft:leather_helmet\",Count:1b}], CustomNameVisible: 1}"
+				},
+				{
+					"entity_type": "witch",
+					"spawn_tick": 10,
+					"spawn_amount": {
+						"count": 2
+					},
+					"placement": {
+						"center": {
+							"radius": 20,
+							"ground": true
+						}
+					}
+				},
+				{
+					"entity_type": "vindicator",
+					"spawn_tick": 10,
+					"spawn_amount": {
+						"count": 1
+					},
+					"nbt": "{ArmorItems:[{id:\"expanded_combat:iron_claymore\",Count:1b}], CustomNameVisible: 1}"
+				},
+				{
+					"entity_type": "vindicator",
+					"spawn_tick": 10,
+					"spawn_amount": {
+						"count": 1
+					},
+					"nbt": "{ArmorItems:[{id:\"expanded_combat:iron_great_hammer\",Count:1b}], CustomNameVisible: 1}"
+				},
+				{
+					"entity_type": "vindicator",
+					"spawn_tick": 10,
+					"spawn_amount": {
+						"count": 1
+					},
+					"nbt": "{ArmorItems:[{id:\"expanded_combat:iron_broad_sword\",Count:1b}], CustomNameVisible: 1}"
+				},
+				{
+					"entity_type": "vindicator",
+					"spawn_tick": 10,
+					"spawn_amount": {
+						"count": 1
+					},
+					"nbt": "{ArmorItems:[{id:\"expanded_combat:iron_dancer_s_sword\",Count:1b}], CustomNameVisible: 1}"
+				},
+				{
+					"entity_type": "vindicator",
+					"spawn_tick": 10,
+					"spawn_amount": {
+						"count": 1
+					},
+					"nbt": "{ArmorItems:[{id:\"expanded_combat:iron_flail\",Count:1b}], CustomNameVisible: 1}"
+				},
+				{
+					"entity_type": "vindicator",
+					"spawn_tick": 10,
+					"spawn_amount": {
+						"count": 1
+					},
+					"nbt": "{ArmorItems:[{id:\"expanded_combat:iron_mace\",Count:1b}], CustomNameVisible: 1}"
+				},
+				{
+					"entity_type": "vindicator",
+					"spawn_tick": 10,
+					"spawn_amount": {
+						"count": 1
+					},
+					"nbt": "{ArmorItems:[{id:\"expanded_combat:iron_spear\",Count:1b}], CustomNameVisible: 1}"
+				},
+				{
+					"entity_type": "vindicator",
+					"spawn_tick": 10,
+					"spawn_amount": {
+						"count": 1
+					},
+					"nbt": "{ArmorItems:[{id:\"expanded_combat:iron_glaive\",Count:1b}], CustomNameVisible: 1}"
+				}
+			],
+			"duration": 10000
+		},
+		{
+			"spawns": [
+				{
+					"entity_type": "vindicator",
+					"spawn_tick": 10,
+					"spawn_amount": {
+						"count": 5
+					},
+					"placement": {
+						"center": {
+							"radius": 20,
+							"ground": true
+						}
+					}
+				},
+				{
+					"entity_type": "witch",
+					"spawn_tick": 10,
+					"spawn_amount": {
+						"count": 2
+					},
+					"placement": {
+						"center": {
+							"radius": 20,
+							"ground": true
+						}
+					}
+				},
+				{
+					"entity_type": "pillager",
+					"spawn_tick": 10,
+					"spawn_amount": {
+						"count": 3
+					},
+					"placement": {
+						"center": {
+							"radius": 20,
+							"ground": true
+						}
+					}
+				},
+				{
+					"entity_type": "evoker",
+					"spawn_tick": 10,
+					"spawn_amount": {
+						"count": 3
+					},
+					"placement": {
+						"center": {
+							"radius": 20,
+							"ground": true
+						}
+					}
+				},
+				{
+					"entity_type": "vindicator",
+					"spawn_tick": 50,
+					"spawn_amount": {
+						"count": 1
+					},
+					"nbt": "{ArmorItems:[{id:\"minecraft:iron_boots\",Count:1b},{id:\"minecraft:iron_leggings\",Count:1b},{id:\"minecraft:iron_chestplate\",Count:1b},{id:\"minecraft:iron_helmet\",Count:1b}], CustomNameVisible: 1}"
+				}
+			],
+			"duration": 10000
+		},
+		{
+			"spawns": [
+				{
+					"entity_type": "pillager",
+					"spawn_tick": 10,
+					"spawn_amount": {
+						"count": 10
+					},
+					"placement": {
+						"center": {
+							"radius": 20,
+							"ground": true
+						}
+					}
+				},
+				{
+					"entity_type": "evoker",
+					"spawn_tick": 10,
+					"spawn_amount": {
+						"count": 1
+					},
+					"placement": {
+						"center": {
+							"radius": 20,
+							"ground": true
+						}
+					}
+				},
+				{
+					"entity_type": "witch",
+					"spawn_tick": 10,
+					"spawn_amount": {
+						"count": 2
+					},
+					"placement": {
+						"center": {
+							"radius": 20,
+							"ground": true
+						}
+					}
+				},
+				{
+					"entity_type": "vindicator",
+					"spawn_tick": 10,
+					"spawn_amount": {
+						"count": 5
+					},
+					"placement": {
+						"center": {
+							"radius": 20,
+							"ground": true
+						}
+					}
+				},
+				{
+					"entity_type": "ravager",
+					"spawn_tick": 10,
+					"spawn_amount": {
+						"count": 2
+					},
+					"placement": {
+						"center": {
+							"radius": 20,
+							"ground": true
+						}
+					}
+				},
+				{
+					"entity_type": "evoker",
+					"spawn_tick": 50,
+					"spawn_amount": {
+						"count": 1
+					}
+				}
+			],
+			"duration": 10000
+		},
+		{
+			"spawns": [
+				{
+					"entity_type": "illusioner",
+					"spawn_tick": 10,
+					"spawn_amount": {
+						"count": 1
+					},
+					"placement": {
+						"center": {
+							"radius": 20,
+							"ground": true
+						}
+					}
+				},
+				{
+					"entity_type": "illusioner",
+					"spawn_tick": 10,
+					"spawn_amount": {
+						"count": 1
+					},
+					"placement": {
+						"center": {
+							"radius": 20,
+							"ground": true
+						}
+					}
+				},
+				{
+					"entity_type": "pillager",
+					"spawn_tick": 10,
+					"spawn_amount": {
+						"count": 2
+					},
+					"placement": {
+						"center": {
+							"radius": 20,
+							"ground": true
+						}
+					}
+				},
+				{
+					"entity_type": "witch",
+					"spawn_tick": 10,
+					"spawn_amount": {
+						"count": 2
+					},
+					"placement": {
+						"center": {
+							"radius": 20,
+							"ground": true
+						}
+					}
+				},
+				{
+					"entity_type": "ravager",
+					"spawn_tick": 50,
+					"spawn_amount": {
+						"count": 1
+					}
+				}
+			],
+			"duration": 10000
+		},
+		{
+			"spawns": [
+				{
+					"entity_type": "witch",
+					"spawn_tick": 10,
+					"spawn_amount": {
+						"count": 5
+					},
+					"placement": {
+						"center": {
+							"radius": 20,
+							"ground": true
+						}
+					}
+				},
+				{
+					"entity_type": "pillager",
+					"spawn_tick": 10,
+					"spawn_amount": {
+						"count": 5
+					},
+					"placement": {
+						"center": {
+							"radius": 20,
+							"ground": true
+						}
+					}
+				},
+				{
+					"entity_type": "evoker",
+					"spawn_tick": 10,
+					"spawn_amount": {
+						"count": 5
+					},
+					"placement": {
+						"center": {
+							"radius": 20,
+							"ground": true
+						}
+					}
+				},
+				{
+					"entity_type": "vindicator",
+					"spawn_tick": 10,
+					"spawn_amount": {
+						"count": 5
+					},
+					"placement": {
+						"center": {
+							"radius": 20,
+							"ground": true
+						}
+					}
+				},
+				{
+					"entity_type": "illusioner",
+					"spawn_tick": 10,
+					"spawn_amount": {
+						"count": 1
+					},
+					"placement": {
+						"center": {
+							"radius": 20,
+							"ground": true
+						}
+					}
+				},
+				{
+					"entity_type": "ravager",
+					"spawn_tick": 10,
+					"spawn_amount": {
+						"count": 3
+					},
+					"placement": {
+						"center": {
+							"radius": 20,
+							"ground": true
+						}
+					}
+				}
+			],
+			"duration": 10000
+		},
+		{
+			"spawns": [
+				{
+					"entity_type": "cataclysm:nameless_sorcerer",
+					"spawn_tick": 10,
+					"spawn_amount": {
+						"count": 1
+					},
+					"placement": {
+						"center": {
+							"radius": 5,
+							"ground": true
+						}
+					}
+				},
+				{
+					"entity_type": "evoker",
+					"spawn_tick": 10,
+					"spawn_amount": {
+						"count": 1
+					},
+					"placement": {
+						"center": {
+							"radius": 20,
+							"ground": true
+						}
+					}
+				},
+				{
+					"entity_type": "vindicator",
+					"spawn_tick": 10,
+					"spawn_amount": {
+						"count": 1
+					},
+					"placement": {
+						"center": {
+							"radius": 20,
+							"ground": true
+						}
+					}
+				},
+				{
+					"entity_type": "pillager",
+					"spawn_tick": 10,
+					"spawn_amount": {
+						"count": 1
+					},
+					"placement": {
+						"center": {
+							"radius": 20,
+							"ground": true
+						}
+					}
+				}
+			],
+			"duration": 10000
+		}
+	],
+	"rewards": {
+		"advancements": {
+			"experience": 10000
+		}
+	}
+}

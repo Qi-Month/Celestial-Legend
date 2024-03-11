@@ -1,0 +1,288 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "06B57BDF2648BEBA"
+	group: "3E4ABC156F52F7D4"
+	icon: "ars_nouveau:worn_notebook"
+	id: "06B57BDF2648BEBA"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "2BF2941A657B2CA2"
+			tasks: [{
+				id: "571B2EC775E5F2D5"
+				item: "ars_nouveau:worn_notebook"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2BF2941A657B2CA2"]
+			id: "1B5E74F68A1228A4"
+			rewards: [{
+				id: "2C8F812AA0D71863"
+				item: "ars_nouveau:blue_archwood_sapling"
+				type: "item"
+			}]
+			tasks: [{
+				id: "63EEF7E5FE694F21"
+				item: "ars_nouveau:novice_spell_book"
+				type: "item"
+			}]
+			title: "操控法术"
+			x: -2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2BF2941A657B2CA2"]
+			id: "780851DAC64740FD"
+			subtitle: "在其周围丢下煤炭以使其工作"
+			tasks: [{
+				id: "4085C76F6497FE23"
+				item: "ars_nouveau:volcanic_sourcelink"
+				type: "item"
+			}]
+			title: "就像火力发电机"
+			x: -3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["780851DAC64740FD"]
+			id: "6B9C026C25681898"
+			subtitle: "无需链接管道，附加通道生产的魔源会自动存储到魔源罐中"
+			tasks: [{
+				id: "2CC2B4838A3E24EF"
+				item: "ars_nouveau:source_jar"
+				type: "item"
+			}]
+			title: "魔源存储"
+			x: -1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1B5E74F68A1228A4"]
+			id: "76EF30AAA14A1525"
+			subtitle: "手持法术书右键其以打开抄写界面，后选择要抄写的魔符，按照要求丢下相应的物品便可"
+			tasks: [{
+				id: "7E1E9B8B93934042"
+				item: "ars_nouveau:scribes_table"
+				type: "item"
+			}]
+			title: "制作魔符"
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2BF2941A657B2CA2"]
+			id: "2A8629B4D67D3B35"
+			rewards: [{
+				count: 4
+				id: "0E9F969F4841D66F"
+				item: "ars_nouveau:source_gem"
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "7D8FFA4F84E9580A"
+				item: { Count: 4b, id: "ars_nouveau:source_gem" }
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2A8629B4D67D3B35"]
+			id: "73D749EE0AFEC183"
+			tasks: [{
+				count: 8L
+				id: "70DB00125E516630"
+				item: { Count: 8b, id: "ars_nouveau:sourcestone" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["73D749EE0AFEC183"]
+			id: "2A3A1367430F19E4"
+			rewards: [{
+				count: 5
+				id: "247D8E92ECE6873E"
+				item: "kubejs:mooncoin"
+				type: "item"
+			}]
+			subtitle: "组装附魔装置"
+			tasks: [
+				{
+					id: "7E86D50984489177"
+					item: "ars_nouveau:arcane_core"
+					type: "item"
+				}
+				{
+					id: "72BAA6A05B4AE50A"
+					item: "ars_nouveau:enchanting_apparatus"
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["2A3A1367430F19E4"]
+			id: "55F023A399DCA2EA"
+			rewards: [{
+				id: "3C6AF637AAA7E76B"
+				item: "ars_nouveau:arcane_pedestal"
+				random_bonus: 2
+				type: "item"
+			}]
+			subtitle: "附魔装置下方放置奥术核心，并在周围3格内放置任意数量的奥术基座，附魔装置就搭建完成了"
+			tasks: [{
+				id: "3FB41E0CB7E875CB"
+				item: "ars_nouveau:arcane_pedestal"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"1B5E74F68A1228A4"
+				"3D3EB51F5230EA29"
+			]
+			id: "46F160C5DF9C2A13"
+			tasks: [{
+				id: "5314373C7C0F6F88"
+				item: "ars_nouveau:apprentice_spell_book"
+				type: "item"
+			}]
+			title: "升级法术书"
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["55F023A399DCA2EA"]
+			id: "342F30659940627A"
+			tasks: [
+				{
+					id: "743090629ADEA8FF"
+					item: "ars_nouveau:magebloom_crop"
+					type: "item"
+				}
+				{
+					id: "4E4F5026DDCC9E1A"
+					item: "ars_nouveau:magebloom"
+					type: "item"
+				}
+			]
+			title: "种植法术之花"
+			x: 5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["342F30659940627A"]
+			id: "0275A1C59BEEDE45"
+			rewards: [
+				{
+					count: 8
+					id: "7F0B003056C4293F"
+					item: "ars_nouveau:magebloom_fiber"
+					type: "item"
+				}
+				{
+					id: "20BB8E6AA8C898BB"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [{
+				count: 4L
+				id: "290FCEB94859ABB9"
+				item: { Count: 4b, id: "ars_nouveau:magebloom_fiber" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["55F023A399DCA2EA"]
+			id: "31CFFCF972EDCEC6"
+			tasks: [{
+				id: "559EA96D378ADE53"
+				item: "ars_nouveau:ritual_brazier"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["31CFFCF972EDCEC6"]
+			id: "1CAA7E5276D8F8CC"
+			tasks: [{
+				id: "082D81BED9FE27E5"
+				item: "ars_nouveau:ritual_wilden_summon"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["1CAA7E5276D8F8CC"]
+			id: "65B2D7744C085008"
+			rewards: [{
+				id: "17AB3DAD79E80B6C"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			subtitle: "进行荒野召唤仪式后，使用这些物品以增强仪式，使其召唤出荒野奇美拉"
+			tasks: [
+				{
+					id: "7E893A3E5D7AF4D8"
+					item: "ars_nouveau:wilden_wing"
+					type: "item"
+				}
+				{
+					id: "1CF6D0ECD3C5B3DF"
+					item: "ars_nouveau:wilden_spike"
+					type: "item"
+				}
+				{
+					id: "27623BF14F4990B7"
+					item: "ars_nouveau:wilden_horn"
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["65B2D7744C085008"]
+			id: "4C3A9CE42BE4BC24"
+			tasks: [{
+				id: "7D7FD2F00ABD3B4A"
+				item: "ars_nouveau:wilden_tribute"
+				type: "item"
+			}]
+			title: "击败荒野奇美拉并获取其战利品"
+			x: 3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"46F160C5DF9C2A13"
+				"4C3A9CE42BE4BC24"
+			]
+			id: "5BA729C8650055A0"
+			tasks: [{
+				id: "10BDF6E3EEA25455"
+				item: "ars_nouveau:archmage_spell_book"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 4.0d
+		}
+	]
+	title: "新生魔艺"
+}

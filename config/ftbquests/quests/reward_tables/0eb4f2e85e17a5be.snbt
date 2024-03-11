@@ -1,0 +1,14 @@
+{
+	id: "0EB4F2E85E17A5BE"
+	loot_size: 1
+	order_index: 29
+	rewards: [
+		{ item: "kubejs:mooncoin", random_bonus: 1, weight: 1.5999999f }
+		{ item: "kubejs:mooncoin", random_bonus: 4, weight: 1.5f }
+		{ item: "kubejs:mooncoin", random_bonus: 9, weight: 1.2000002f }
+		{ item: "kubejs:mooncoin", random_bonus: 19, weight: 0.01f }
+		{ item: "kubejs:rainbow_mooncoin", weight: 1.00000005E-4f }
+		{ item: "kubejs:mooncoin", random_bonus: 99, weight: 0.001f }
+	]
+	title: "钱箱"
+}

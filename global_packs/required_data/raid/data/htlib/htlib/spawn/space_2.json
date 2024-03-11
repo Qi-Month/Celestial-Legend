@@ -1,0 +1,7 @@
+{
+  "type": "htlib:once",
+  "setting": {
+    "entity_type": "alexscaves:notor"
+  },
+  "spawn_count": 2
+}

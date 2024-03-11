@@ -1,0 +1,936 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "2DCE6F21C51B7D18"
+	group: "09EE0DA8FC2DE922"
+	icon: "the_forgotten_dimensions:froslog_sapling"
+	id: "2DCE6F21C51B7D18"
+	order_index: 9
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7B61C9362B765165"]
+			id: "6FCFFFFC7C8035CC"
+			rewards: [
+				{
+					id: "248D184F78B91E30"
+					item: "minecraft:book"
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/htlib create raid htlib:default_raid htlib:ice ~ ~4 ~"
+					elevate_perms: true
+					icon: "the_forgotten_dimensions:big_true_ice_spykes"
+					id: "4A8E9F3D3CB38687"
+					title: "风暴将至！"
+					type: "command"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "407A5481489A21FD"
+					table_id: 523424714767025876L
+					type: "random"
+				}
+			]
+			shape: "square"
+			tasks: [
+				{
+					dimension: "the_forgotten_dimensions:perma_frost"
+					id: "059A227A14BD4AE8"
+					type: "dimension"
+				}
+				{
+					id: "05F9145EA598E49C"
+					type: "checkmark"
+				}
+			]
+			title: "访问维度：冰封之地"
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6FCFFFFC7C8035CC"]
+			id: "118C9367A8DE4A69"
+			subtitle: "这本书介绍了元素系统"
+			tasks: [{
+				id: "53E1EC9B67DBA65C"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 9
+						}
+					}
+					id: "the_forgotten_dimensions:a_guide_to_dimensions"
+					tag: {
+						Inventory: {
+							Items: [ ]
+							Size: 9
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6FCFFFFC7C8035CC"]
+			description: ["有许多错漏的一本书，不可尽信"]
+			id: "0F6174E1F442917C"
+			subtitle: "介绍了维度中的一些生物和Boss，还有具体的生存建议和发展流程等"
+			tasks: [{
+				id: "7D520D2EC3444603"
+				item: "the_forgotten_dimensions:permafrost_guide"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6FCFFFFC7C8035CC"]
+			id: "0704D94D0FBEB660"
+			tasks: [
+				{
+					id: "7A78C700E070D8F8"
+					item: "the_forgotten_dimensions:snowy_log"
+					type: "item"
+				}
+				{
+					id: "66BAD064D82095DA"
+					item: "the_forgotten_dimensions:fros_log"
+					type: "item"
+				}
+				{
+					id: "2D8D37405A4D16DC"
+					item: "the_forgotten_dimensions:mendalum_log"
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0704D94D0FBEB660"]
+			id: "69A27E79543E364C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "63603C6DE88B63A9"
+				table_id: 2462882013908997816L
+				type: "random"
+			}]
+			subtitle: "那儿有这些东西？我也忘了"
+			tasks: [
+				{
+					id: "72594F34ADFA4D2D"
+					item: "the_forgotten_dimensions:skym_log"
+					type: "item"
+				}
+				{
+					id: "7C1F2B7F58017EED"
+					item: "the_forgotten_dimensions:rotten_log"
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["118C9367A8DE4A69"]
+			description: ["可用于合成各种盔甲和一些道具，也可以合成原版的线和羊毛。"]
+			id: "1A54B8DEE306F5EA"
+			rewards: [{
+				id: "2A15792DBA0AF4D9"
+				item: "kubejs:mooncoin"
+				type: "item"
+			}]
+			subtitle: "许多生物都会掉落的毛发"
+			tasks: [{
+				count: 4L
+				id: "2D5F355D0932510D"
+				item: "the_forgotten_dimensions:snowincho_fur"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0F6174E1F442917C"]
+			id: "5E1B640BCC8A6DC9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1C2D83AE93788108"
+				table_id: 2462882013908997816L
+				type: "random"
+			}]
+			tasks: [{
+				biome: "the_forgotten_dimensions:dense_mendalum_forest"
+				id: "0555CFCC5C3E1D11"
+				type: "biome"
+			}]
+			x: -4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1A54B8DEE306F5EA"]
+			id: "7C444A26EE55B23C"
+			rewards: [{
+				count: 8
+				id: "7D2E7C8D5595AD65"
+				item: "the_forgotten_dimensions:metallic_snow_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				id: "466DF04B2F65EB4C"
+				item: "the_forgotten_dimensions:metallic_snow_ingot"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7C444A26EE55B23C"]
+			id: "24F8E59B75AC80BE"
+			subtitle: "全套提供4.9冰霜防御，降低0.85火焰防御"
+			tasks: [
+				{
+					id: "334CEB49D738EAAB"
+					item: {
+						Count: 1b
+						id: "the_forgotten_dimensions:metal_snow_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2EFC69AA67AA6A93"
+					item: {
+						Count: 1b
+						id: "the_forgotten_dimensions:metal_snow_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "02EF27CBE3A1966E"
+					item: {
+						Count: 1b
+						id: "the_forgotten_dimensions:metal_snow_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "438EA4B3E4440718"
+					item: {
+						Count: 1b
+						id: "the_forgotten_dimensions:metal_snow_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7C444A26EE55B23C"]
+			id: "0BD763B3D7E27E0C"
+			subtitle: "挖掘等级仅为2（石镐），但却是唯一能挖掘冰晶的工具"
+			tasks: [{
+				id: "546347083747A6BD"
+				item: {
+					Count: 1b
+					id: "the_forgotten_dimensions:metallic_snow_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7C444A26EE55B23C"]
+			id: "31DDF14E350F1CB1"
+			subtitle: "额外对敌人造成2.5点冰霜伤害，敌人每物理防御4点伤害就会额外对其造成1点不可防御的伤害。"
+			tasks: [
+				{
+					id: "7A43A8EAC2876C1C"
+					item: {
+						Count: 1b
+						id: "the_forgotten_dimensions:reinforced_metallic_snow_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "61D8FF16C0DCE304"
+					item: "the_forgotten_dimensions:metallic_snow_arrow"
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0BD763B3D7E27E0C"]
+			id: "1A7B7DAB54E4FD51"
+			tasks: [{
+				count: 2L
+				id: "0A5F027B7FE4CE60"
+				item: { Count: 2b, id: "the_forgotten_dimensions:icyllium_crystal" }
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1A7B7DAB54E4FD51"]
+			id: "53A202B352189FD3"
+			rewards: [{
+				id: "24BF91515D8244BC"
+				item: "the_forgotten_dimensions:enchanted_icyllium_tutan"
+				type: "item"
+			}]
+			subtitle: "放置后会提供14的亮度，站在其周围可以使玩家的温度上升。"
+			tasks: [{
+				id: "0384E2FDD72CFF73"
+				item: "the_forgotten_dimensions:icyllium_crystal_lighter"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["0BD763B3D7E27E0C"]
+			id: "1AB69AAB68D19003"
+			tasks: [{
+				count: 5L
+				id: "1B421498981839AA"
+				item: { Count: 5b, id: "the_forgotten_dimensions:icyllium" }
+				type: "item"
+			}]
+			x: 5.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1AB69AAB68D19003"]
+			id: "1034716FBF804D5F"
+			rewards: [{
+				count: 3
+				id: "2407E1CA7246DB16"
+				item: "kubejs:mooncoin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7EEC761B3C97318F"
+				item: {
+					Count: 1b
+					id: "the_forgotten_dimensions:icyllium_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1AB69AAB68D19003"]
+			id: "6C8E1B8228A8E785"
+			subtitle: "需要装备在饰品的项链栏处，增加0.75点冰霜防御，减少0.15点火焰防御。装备时会显示玩家温度当前在下降还是上升。"
+			tasks: [{
+				id: "5E385DAD5779182F"
+				item: "the_forgotten_dimensions:icyllium_necklace"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1A54B8DEE306F5EA"]
+			id: "65B979E4669D2B3F"
+			tasks: [{
+				id: "393C713199E3EFC4"
+				item: "the_forgotten_dimensions:raw_snowy_wolf"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"4C261459C5D18136"
+				"65B979E4669D2B3F"
+			]
+			id: "623158BB5EB93617"
+			subtitle: "当此物品在物品栏中时会提高玩家周围冻土兽的生成几率。食用后会直接把玩家的温度设为1250，并在几秒后直接召唤出一只冻土兽。"
+			tasks: [{
+				id: "3BFE708A155BFA35"
+				item: "the_forgotten_dimensions:frozen_meat"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["1AB69AAB68D19003"]
+			id: "4C261459C5D18136"
+			rewards: [{
+				count: 6
+				id: "44ED32A18C7E3F1A"
+				item: "the_forgotten_dimensions:true_ice_fragment"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2A4A0D13BAA0A13D"
+				item: "the_forgotten_dimensions:true_ice_fragment"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["623158BB5EB93617"]
+			id: "036270885348BA75"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0DAA6F0BE0AFE4B8"
+				table_id: 2165882216075178967L
+				type: "random"
+			}]
+			tasks: [{
+				entity: "the_forgotten_dimensions:permafrost_beast"
+				id: "30AE284FE5A1E49A"
+				type: "kill"
+				value: 1L
+			}]
+			x: 9.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"4C261459C5D18136"
+				"036270885348BA75"
+			]
+			id: "314FA405A651CB4A"
+			rewards: [{
+				count: 4
+				id: "3AFC28DA4C9FB350"
+				item: "the_forgotten_dimensions:true_icyllium"
+				type: "item"
+			}]
+			tasks: [{
+				id: "52E2523BBC13B550"
+				item: "the_forgotten_dimensions:true_icyllium"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["036270885348BA75"]
+			id: "09FD50BF4A1EC6C9"
+			subtitle: "玩家背包中有此物品时在和一些Boss的战斗中会播放特殊的音乐，除此以外没有特殊的效果。"
+			tasks: [{
+				id: "12ACCD2F4BB68970"
+				item: "the_forgotten_dimensions:forgotten_speakers"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["314FA405A651CB4A"]
+			id: "0A351D867276FC89"
+			rewards: [{
+				count: 2
+				id: "4BA2E04A47A0AF5F"
+				item: "the_forgotten_dimensions:forgotten_shard"
+				type: "item"
+			}]
+			subtitle: "可以制作强大的火元素武器"
+			tasks: [{
+				id: "2435EF02CAFD468D"
+				item: "the_forgotten_dimensions:forgotten_shard"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0A351D867276FC89"]
+			id: "2D99333393EF9A7B"
+			rewards: [{
+				count: 4
+				id: "4974DDF0D1DBC5EC"
+				item: "kubejs:mooncoin"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "58982953A2980626"
+					item: {
+						Count: 1b
+						id: "the_forgotten_dimensions:true_ice_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2A8DFC80EB45BF6A"
+					item: {
+						Count: 1b
+						id: "the_forgotten_dimensions:forgotten_blade"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "冰与火之歌"
+			x: 9.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2D99333393EF9A7B"]
+			id: "3F7FE25F23B3E6A0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3A4C9C55BAC61620"
+				table_id: 8695861683220912716L
+				type: "random"
+			}]
+			subtitle: "会对敌人造成点数和其当前损失的生命值相等的冰霜伤害。"
+			tasks: [{
+				id: "50377F7D19AD6ACB"
+				item: {
+					Count: 1b
+					id: "the_forgotten_dimensions:permafrost_amalgamated_blade"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 11.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1A54B8DEE306F5EA"]
+			id: "08992CD36AEE94BE"
+			tasks: [{
+				id: "1A58F89B54688C46"
+				item: {
+					Count: 1b
+					id: "the_forgotten_dimensions:pigmy_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["08992CD36AEE94BE"]
+			id: "19E0CCFB760C1951"
+			subtitle: "右击后物品会被消耗，播放不详号角的声音，并召唤出一个侏儒杀神。玩家打败过一次侏儒杀神后便无法使用本物品。"
+			tasks: [{
+				id: "3FB56B0BEFD5BBB3"
+				item: "the_forgotten_dimensions:pigmy_war_horn"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["19E0CCFB760C1951"]
+			id: "27250B9D26F11D91"
+			rewards: [
+				{
+					id: "114C3A9E8C5C7D82"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "06104671B4312450"
+					table_id: 1059738892163851710L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				entity: "the_forgotten_dimensions:pigmy_god_slayer"
+				id: "473852A3CE1FD052"
+				type: "kill"
+				value: 1L
+			}]
+			x: 9.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["1A54B8DEE306F5EA"]
+			description: [
+				"    冰封之地会自然生成四个冰之傀儡神殿。"
+				"    冰之傀儡被工匠们拆成4份，分别封印四座神殿当中。"
+				"    或许你可以在这四个指定坐标中找到对应的召唤祭坛"
+				"X 200 Z 300"
+				"X 350 Z-450"
+				"X -390 Z 480"
+				"X-550 Z-600"
+			]
+			id: "36D6638888BE7A5C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2715CACC38C58F89"
+				table_id: 523424714767025876L
+				type: "choice"
+			}]
+			shape: "octagon"
+			subtitle: "杀死任何生物都有较小几率掉落。仅用于在冰之傀儡基座上右击来召唤寒冰傀儡的各个部分。"
+			tasks: [{
+				id: "0AA7055EFB4C0E2B"
+				item: "the_forgotten_dimensions:ice_lock"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["36D6638888BE7A5C"]
+			icon: "the_forgotten_dimensions:valor_pedestal"
+			id: "7160B3CB9118EEC5"
+			tasks: [{
+				id: "67C97D2F27BCCEF8"
+				observe_type: 0
+				timer: 0L
+				title: "观察：勇气基座"
+				to_observe: "the_forgotten_dimensions:valor_pedestal"
+				type: "observation"
+			}]
+			title: "勇气"
+			x: 0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["36D6638888BE7A5C"]
+			icon: "the_forgotten_dimensions:resistance_pedestal"
+			id: "5C34EC157E6C8EA6"
+			tasks: [{
+				id: "3C75B951B94B34F6"
+				observe_type: 0
+				timer: 0L
+				title: "观察：抵抗基座"
+				to_observe: "the_forgotten_dimensions:resistance_pedestal"
+				type: "observation"
+			}]
+			title: "抵抗"
+			x: 2.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["36D6638888BE7A5C"]
+			icon: "the_forgotten_dimensions:stregth_pedestal"
+			id: "376667F18899A070"
+			tasks: [{
+				id: "68730DDB749BE9D3"
+				observe_type: 0
+				timer: 0L
+				title: "观察：力量基座"
+				to_observe: "the_forgotten_dimensions:stregth_pedestal"
+				type: "observation"
+			}]
+			title: "力量"
+			x: 4.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["36D6638888BE7A5C"]
+			icon: "the_forgotten_dimensions:core_pedestal"
+			id: "035B965D6E78909F"
+			tasks: [{
+				id: "68FB2DF5308AA3B1"
+				observe_type: 0
+				timer: 0L
+				title: "观察：核心基座"
+				to_observe: "the_forgotten_dimensions:core_pedestal"
+				type: "observation"
+			}]
+			title: "核心"
+			x: 5.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7160B3CB9118EEC5"]
+			icon: "the_forgotten_dimensions:ice_golem_essence_will"
+			id: "4DBDC9B12F09CFBF"
+			tasks: [{
+				entity: "the_forgotten_dimensions:ice_golem_valor"
+				id: "4E8E19BAC97F993F"
+				type: "kill"
+				value: 1L
+			}]
+			x: -0.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["5C34EC157E6C8EA6"]
+			icon: "the_forgotten_dimensions:ice_golem_essence_resistance"
+			id: "1D5BD6B8B65FA2A2"
+			tasks: [{
+				entity: "the_forgotten_dimensions:ice_golem_resistance"
+				id: "04CDB013CC9B0E59"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["376667F18899A070"]
+			icon: "the_forgotten_dimensions:ice_golem_essence_strength"
+			id: "1E5193996553109F"
+			tasks: [{
+				entity: "the_forgotten_dimensions:ice_golem_stregth"
+				id: "1993CC00D1620F9A"
+				type: "kill"
+				value: 1L
+			}]
+			x: 4.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["035B965D6E78909F"]
+			icon: "the_forgotten_dimensions:ice_golem_essence_core"
+			id: "026F0C22EBE8A34E"
+			tasks: [{
+				entity: "the_forgotten_dimensions:ice_golem_core"
+				id: "282761676F76CE5E"
+				type: "kill"
+				value: 1L
+			}]
+			x: 6.5d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"026F0C22EBE8A34E"
+				"1D5BD6B8B65FA2A2"
+				"1E5193996553109F"
+				"4DBDC9B12F09CFBF"
+			]
+			icon: "the_forgotten_dimensions:ice_golem_essence"
+			id: "2996FB0F2CA18470"
+			rewards: [
+				{
+					count: 16
+					id: "31307AF938F235A5"
+					item: "twilightforest:ice_bomb"
+					type: "item"
+				}
+				{
+					id: "1E2775D61201E05A"
+					item: "the_forgotten_dimensions:avariel_true_ice_plate"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "46CA424799184005"
+					item: "kubejs:mooncoin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7B5D56A5F8B6052B"
+				item: "the_forgotten_dimensions:ice_golem_essence"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["2996FB0F2CA18470"]
+			id: "2C56F896FB4BBCA7"
+			subtitle: "冰霜傀儡可不像铁傀儡那么好说话，不过大差不差"
+			tasks: [{
+				id: "3F5D76A39B0528C7"
+				item: "the_forgotten_dimensions:golem_chasis"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["2C56F896FB4BBCA7"]
+			id: "5F6B4E7BF6868291"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "610CB9409EE82E81"
+					table_id: 523424714767025876L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "60CC3E441B23DF2D"
+					table_id: 8695861683220912716L
+					type: "choice"
+				}
+			]
+			subtitle: "冰霜傀儡的固定掉落"
+			tasks: [{
+				id: "6E59A10FAED5BFE0"
+				item: "the_forgotten_dimensions:ice_lord_key"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -12.5d
+		}
+		{
+			dependencies: ["5F6B4E7BF6868291"]
+			id: "7116662A334919A3"
+			subtitle: "在冰封之地的原点，伫立着冰霜城堡，对翼精灵笼使用钥匙召唤冰霜冠军"
+			tasks: [{
+				icon: "the_forgotten_dimensions:avariel_cage"
+				id: "624CE8E13269C96E"
+				observe_type: 0
+				timer: 0L
+				title: "观察：翼精灵笼"
+				to_observe: "the_forgotten_dimensions:avariel_cage"
+				type: "observation"
+			}]
+			x: 3.0d
+			y: -14.5d
+		}
+		{
+			dependencies: ["7116662A334919A3"]
+			id: "18D53B6628DD4F44"
+			size: 2.0d
+			subtitle: "冠军倒下了，冰雪却没有停止，看来还有最后一件事要做"
+			tasks: [{
+				id: "313B72D789EF25E3"
+				item: {
+					Count: 1b
+					id: "the_forgotten_dimensions:avariel_necklace"
+					tag: {
+						itemModifier: "celestial_forge:speed"
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -17.0d
+		}
+		{
+			dependencies: ["18D53B6628DD4F44"]
+			description: ["将项链放入插槽，挑战寒冰不死鸟！"]
+			id: "406922CBCBC3DBC0"
+			subtitle: "在冰封之地的各个位置，都有可能生成元素神殿"
+			tasks: [{
+				icon: "the_forgotten_dimensions:permafrost_champion_necklace_slot"
+				id: "71A4761ABCA55CF3"
+				observe_type: 0
+				timer: 0L
+				to_observe: "the_forgotten_dimensions:permafrost_champion_necklace_slot"
+				type: "observation"
+			}]
+			title: "元素神殿"
+			x: 3.0d
+			y: -19.5d
+		}
+		{
+			dependencies: ["406922CBCBC3DBC0"]
+			id: "1D6FBB7E6E018ACD"
+			rewards: [
+				{
+					id: "5311F8A7363DA7AF"
+					type: "xp_levels"
+					xp_levels: 100
+				}
+				{
+					count: 64
+					id: "604676DCB3165DFF"
+					item: "kubejs:mooncoin"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "08027F709C681C31"
+				item: "the_forgotten_dimensions:ice_phoenix_feather"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -22.0d
+		}
+		{
+			dependencies: ["27250B9D26F11D91"]
+			id: "301F197F35E55EC6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3A00F0E0696CDDF9"
+				table_id: 8695861683220912716L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5F185CDB77DAA2A5"
+				item: {
+					Count: 1b
+					id: "the_forgotten_dimensions:pigmy_god_slayer_longsword"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 11.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["750EFCA798C23B45"]
+			id: "7B61C9362B765165"
+			tasks: [{
+				id: "4FCF6DB8CEE72A90"
+				item: {
+					Count: 1b
+					id: "ad_astra:tier_4_rocket"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["235F152EDD7DFA88"]
+			id: "750EFCA798C23B45"
+			tasks: [{
+				id: "05BED7FA2D7A47BA"
+				item: "ad_astra:calorite_engine"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -1.0d
+		}
+	]
+	title: "冰封之地"
+}

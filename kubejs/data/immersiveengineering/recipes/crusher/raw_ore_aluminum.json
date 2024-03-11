@@ -1,0 +1,1 @@
+{"type":"immersiveengineering:crusher","energy":6000,"input":{"tag":"forge:raw_materials/aluminum"},"result":{"tag":"forge:dusts/aluminum"},"secondaries":[{"chance":0.33333334,"output":{"tag":"forge:dusts/aluminum"}}]}

@@ -1,0 +1,33 @@
+{
+	"display": {
+		"icon": {
+			"item": "kubejs:tf_catalytic_stone"
+		},
+		"title": {
+			"translate": "advancements.restrictedportals.twilightforest"
+		},
+		"description": {
+			"translate": "advancements.restrictedportals.twilightforest.decs"
+		}
+	},
+	"parent": "restrictedportals:root",
+	"criteria": {
+		"twilightforest": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"kubejs:tf_catalytic_stone"
+						]
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"twilightforest"
+		]
+	]
+}

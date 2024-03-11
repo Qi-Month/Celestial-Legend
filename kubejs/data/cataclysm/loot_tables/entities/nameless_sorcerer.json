@@ -1,0 +1,14 @@
+{
+	"pools": [
+		{
+			"name": "essence",
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "kubejs:magic_essence"
+				}
+			]
+		}
+	]
+}

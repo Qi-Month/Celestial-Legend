@@ -1,0 +1,1 @@
+{"type":"minecraft:crafting_shaped","category":"misc","key":{"c":{"item":"immersiveengineering:craftingtable"},"e":{"item":"immersiveengineering:light_engineering"},"s":{"tag":"forge:treated_wood_slab"},"t":{"item":"immersiveengineering:screwdriver"}},"pattern":["sst","c e"],"result":{"item":"immersiveengineering:circuit_table"},"show_notification":true}

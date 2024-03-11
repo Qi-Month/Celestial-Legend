@@ -1,0 +1,564 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "5952BD4B1260880F"
+	group: "09EE0DA8FC2DE922"
+	icon: "create:brass_ingot"
+	id: "5952BD4B1260880F"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["681BE94E5DD7AC9C"]
+			id: "65BEF7BFB588B701"
+			rewards: [{
+				id: "595F21EE7EB30C3F"
+				item: "create:brass_ingot"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "00B12391E943E6E8"
+					item: "create:brass_ingot"
+					type: "item"
+				}
+				{
+					icon: "create:brass_sheet"
+					id: "6DA3729638E94464"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:plates/brass"
+						}
+					}
+					title: "黄铜板"
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			id: "163400DA4DDB5BF1"
+			rewards: [{
+				count: 6
+				id: "2559BAC51B1164DE"
+				item: "minecraft:dried_kelp"
+				type: "item"
+			}]
+			tasks: [{
+				count: 8L
+				id: "779BE0A5DEC54F62"
+				item: { Count: 8b, id: "minecraft:kelp" }
+				type: "item"
+			}]
+			title: "海中美食"
+			x: -7.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["163400DA4DDB5BF1"]
+			id: "2A26DCCB96A8315C"
+			rewards: [{
+				id: "682EB87B192B6CBF"
+				item: "create:belt_connector"
+				type: "item"
+			}]
+			tasks: [{
+				id: "09AB902994FA3DA5"
+				item: "create:belt_connector"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["65BEF7BFB588B701"]
+			id: "30D57CA8C8DF9143"
+			tasks: [{
+				id: "3F136C3F33B0EE0D"
+				item: "create:brass_casing"
+				type: "item"
+			}]
+			title: "黄铜时代"
+			x: 2.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3235DFDD978F4140"]
+			id: "00AE6566876EE8E0"
+			rewards: [{
+				id: "3FA1C36C94D68A59"
+				item: "create:rose_quartz"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "0D2BACCA5A6855F0"
+					item: "create:electron_tube"
+					type: "item"
+				}
+				{
+					id: "61A715073B92FE6F"
+					item: "create:polished_rose_quartz"
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"00AE6566876EE8E0"
+				"65BEF7BFB588B701"
+			]
+			id: "07B36384B57E3E39"
+			rewards: [{
+				count: 2
+				id: "1289AE935BDC389D"
+				item: "create:andesite_casing"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "6BC53163A10ADE21"
+					item: "create:deployer"
+					type: "item"
+				}
+				{
+					id: "75ECF8FE4BF1C467"
+					item: "create:brass_hand"
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["07B36384B57E3E39"]
+			id: "7CF773AEC1CB3BAD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3669FCBAA6A63E70"
+				table_id: 2462882013908997816L
+				type: "choice"
+			}]
+			tasks: [{
+				id: "572283AC11207263"
+				item: "create:copper_casing"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"00AE6566876EE8E0"
+				"30D57CA8C8DF9143"
+			]
+			id: "6A1D08D5DE9ABE37"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "44990DADA6E1F0C4"
+					table_id: 8119068289222620324L
+					type: "random"
+				}
+				{
+					count: 2
+					id: "668E11491DF9E543"
+					item: "create:mechanical_crafter"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "10D636BC463737A1"
+				item: "create:mechanical_crafter"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["6A1D08D5DE9ABE37"]
+			id: "7389BA37CAD9678A"
+			rewards: [{
+				count: 8
+				id: "148152722900D7F8"
+				item: "minecraft:iron_ore"
+				type: "item"
+			}]
+			tasks: [{
+				count: 2L
+				id: "7F0620F7C617DE8E"
+				item: { Count: 2b, id: "create:crushing_wheel" }
+				type: "item"
+			}]
+			x: -1.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["7389BA37CAD9678A"]
+			id: "3C6F6E919AABFD25"
+			rewards: [{
+				count: 4
+				id: "316C1818CA125277"
+				item: "minecraft:netherrack"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2B9119AF09423F39"
+				item: "create:cinder_flour"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"7CF773AEC1CB3BAD"
+				"2A26DCCB96A8315C"
+			]
+			id: "2FE0212320215467"
+			rewards: [{
+				count: 2
+				id: "7EF11CCCFF27BE57"
+				item: "create:belt_connector"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3E5383E83A8902CA"
+				item: "create:spout"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["7CF773AEC1CB3BAD"]
+			id: "6D8647E18BFD4DA3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3592EEC4139E1C13"
+				table_id: 2462882013908997816L
+				type: "random"
+			}]
+			tasks: [{
+				id: "3DE6E81020ED865C"
+				item: "create:item_drain"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3C6F6E919AABFD25"]
+			id: "33CAB3027E3D0E8E"
+			tasks: [{
+				id: "04AAABA487A2B2C1"
+				item: "create:blaze_cake_base"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"33CAB3027E3D0E8E"
+				"2FE0212320215467"
+			]
+			description: ["对于超级加热，使用烈焰蛋糕是最基础的超级加热方法，除此之外，如果你能够在探索中发现竹子，你可以尝试制作吸管，配合岩浆，乙醇等来超级加热，便可省下你寻找鸡蛋的功夫"]
+			id: "52CE644C772E2584"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1B3B61BFD0D5C65D"
+					table_id: 9066948471408071124L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "135600D12C4DE73E"
+					table_id: 2466808922207178628L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "11D74F551A9C32E3"
+				item: "create:blaze_cake"
+				type: "item"
+			}]
+			title: "超级加热"
+			x: -5.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["07B36384B57E3E39"]
+			id: "066F4B3355DC8B80"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "102119490B69645B"
+				table_id: 8695861683220912716L
+				type: "random"
+			}]
+			tasks: [{
+				id: "03616570A5790ADA"
+				item: "create:precision_mechanism"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["066F4B3355DC8B80"]
+			id: "12AC7A301D339508"
+			rewards: [{
+				id: "3244F5D9B247A358"
+				item: "create:precision_mechanism"
+				type: "item"
+			}]
+			tasks: [{
+				id: "525044A267D3BFC7"
+				item: "create:mechanical_arm"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["066F4B3355DC8B80"]
+			id: "61F0A1C38A85570D"
+			rewards: [{
+				id: "72A7EBEA5E3D8848"
+				item: "create:gearbox"
+				type: "item"
+			}]
+			tasks: [{
+				id: "528B48D9425C79BA"
+				item: "create:rotation_speed_controller"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["6520F447E94E9C0D"]
+			icon: {
+				Count: 1b
+				id: "minecraft:iron_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "6BC7138B85D8DEB3"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "091C1A6138F0A13C"
+					table_id: 523424714767025876L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "789A924E147FCA43"
+					table_id: 9066948471408071124L
+					type: "random"
+				}
+				{
+					id: "42E7BF7779053AAB"
+					item: "kubejs:mooncoin"
+					random_bonus: 2
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "cataclysm:nameless_sorcerer"
+				id: "0CA103FDC48C47F1"
+				type: "kill"
+				value: 1L
+			}]
+			title: "暗黑魔法师"
+			x: -2.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["7CF773AEC1CB3BAD"]
+			id: "0A91B0F5C83EBCB0"
+			rewards: [{
+				count: 4
+				id: "37188B71AF5F6CC4"
+				item: "create:fluid_pipe"
+				type: "item"
+			}]
+			tasks: [{
+				count: 4L
+				id: "20CD1EC7C0A41A0F"
+				item: { Count: 4b, id: "create:fluid_pipe" }
+				type: "item"
+			}]
+			title: "流体运输"
+			x: -5.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["0A91B0F5C83EBCB0"]
+			id: "59284C9BD26CBB44"
+			tasks: [{
+				id: "1CF856C922D6EB35"
+				item: "create:fluid_tank"
+				type: "item"
+			}]
+			title: "流体储存"
+			x: -7.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3C6F6E919AABFD25"]
+			id: "6520F447E94E9C0D"
+			tasks: [{
+				id: "344E72F9EBF87462"
+				item: "kubejs:nether_totem"
+				type: "item"
+			}]
+			title: "奇怪的图腾"
+			x: -0.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["6BC7138B85D8DEB3"]
+			id: "3096446E4E2252A5"
+			tasks: [{
+				id: "28A9238D92672C97"
+				item: "kubejs:magic_essence"
+				type: "item"
+			}]
+			title: "魔法精华"
+			x: -4.5d
+			y: 10.0d
+		}
+		{
+			dependencies: ["3096446E4E2252A5"]
+			id: "7F87C7048E3E50A2"
+			rewards: [
+				{
+					id: "2A550D9076A8E629"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0C9D1B70E45D1944"
+					table_id: 7383894001746634703L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "17B1CD05DA4210C0"
+				item: "kubejs:tf_catalytic_stone"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 12.0d
+		}
+		{
+			dependencies: ["0A91B0F5C83EBCB0"]
+			id: "4588A1C4C06E8033"
+			rewards: [
+				{
+					count: 2
+					id: "57411F7AC33FAE5A"
+					item: "minecraft:copper_block"
+					type: "item"
+				}
+				{
+					id: "2E49348F7CAE490B"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				id: "7DE189F84EA861AA"
+				item: "create:mechanical_pump"
+				type: "item"
+			}]
+			title: "流体控制"
+			x: -6.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["066F4B3355DC8B80"]
+			id: "35A8C08F8824A930"
+			tasks: [{
+				id: "1ECA4A1F7C84D091"
+				item: "create_new_age:basic_solar_heating_plate"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["35A8C08F8824A930"]
+			id: "5D1D10FC7CCB901A"
+			rewards: [{
+				count: 4
+				id: "5F6CF4A74BC8BC97"
+				item: "create_new_age:heat_pipe"
+				type: "item"
+			}]
+			tasks: [{
+				id: "51745E6A75E39B72"
+				item: "create_new_age:heat_pipe"
+				type: "item"
+			}]
+			title: "热能传输"
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5D1D10FC7CCB901A"]
+			id: "693970F8958127FF"
+			rewards: [{
+				count: 5
+				id: "30F5D3864F069F85"
+				item: "minecraft:copper_ingot"
+				random_bonus: 7
+				type: "item"
+			}]
+			tasks: [{
+				id: "5E263A9E1AA63F35"
+				item: "create_new_age:stirling_engine"
+				type: "item"
+			}]
+			title: "热能转换"
+			x: -6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["11D74F551A9C32E3"]
+			description: ["{image:kubejs:textures/images/1.png width:222 height:72 align:1}"]
+			id: "7B2EEF4A43A3FE2A"
+			subtitle: "&3或许我们可以尝试一下这个呢?"
+			tasks: [
+				{
+					id: "239F7CC2D77DE090"
+					type: "checkmark"
+				}
+				{
+					id: "3DA35E686CE739CD"
+					item: "createaddition:bioethanol_bucket"
+					type: "item"
+				}
+				{
+					id: "50CFE0025C3D437D"
+					item: "createaddition:straw"
+					type: "item"
+				}
+			]
+			title: "试试这个?"
+			x: -6.0d
+			y: 9.0d
+		}
+	]
+	title: "步入正轨"
+}

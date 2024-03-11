@@ -1,0 +1,1 @@
+{"type":"immersiveengineering:arc_furnace","additives":[],"energy":25600,"input":{"tag":"forge:raw_materials/uranium"},"results":[{"tag":"forge:ingots/uranium"}],"secondaries":[{"chance":0.5,"output":{"tag":"forge:ingots/uranium"}}],"time":100}

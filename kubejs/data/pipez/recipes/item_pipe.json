@@ -1,0 +1,23 @@
+{
+	"type": "create:mechanical_crafting",
+	"pattern": [
+		"SSS",
+		"BRB",
+		"SSS"
+	],
+	"key": {
+		"B": {
+			"item": "create:belt_connector"
+		},
+		"S": {
+			"tag": "forge:ingots/steel"
+		},
+		"R": {
+			"tag": "forge:dusts/redstone"
+		}
+	},
+	"result": {
+		"item": "pipez:item_pipe",
+		"count": 6
+	}
+}

@@ -1,0 +1,308 @@
+{
+	id: "78ADE820D4501A4C"
+	loot_size: 1
+	order_index: 13
+	rewards: [
+		{
+			item: {
+				Count: 1b
+				id: "celestial_forge:modifier_book"
+				tag: {
+					bookModifier: "celestial_forge:anger"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "celestial_forge:modifier_book"
+				tag: {
+					bookModifier: "celestial_forge:spike"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "celestial_forge:modifier_book"
+				tag: {
+					bookModifier: "celestial_forge:serration"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "celestial_forge:modifier_book"
+				tag: {
+					bookModifier: "celestial_forge:protect"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "celestial_forge:modifier_book"
+				tag: {
+					bookModifier: "celestial_forge:armor"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "celestial_forge:modifier_book"
+				tag: {
+					bookModifier: "celestial_forge:guard"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "celestial_forge:modifier_book"
+				tag: {
+					bookModifier: "celestial_forge:hard"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "celestial_forge:modifier_book"
+				tag: {
+					bookModifier: "celestial_forge:heavy"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "celestial_forge:modifier_book"
+				tag: {
+					bookModifier: "celestial_forge:rudeness"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "celestial_forge:modifier_book"
+				tag: {
+					bookModifier: "celestial_forge:divine"
+				}
+			}
+			weight: 0.1f
+		}
+		{
+			item: {
+				Count: 1b
+				id: "celestial_forge:modifier_book"
+				tag: {
+					bookModifier: "celestial_forge:legend"
+				}
+			}
+			weight: 0.1f
+		}
+		{
+			item: {
+				Count: 1b
+				id: "celestial_forge:modifier_book"
+				tag: {
+					bookModifier: "celestial_forge:accurate"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "celestial_forge:modifier_book"
+				tag: {
+					bookModifier: "celestial_forge:fatal"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "celestial_forge:modifier_book"
+				tag: {
+					bookModifier: "celestial_forge:reliable"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "celestial_forge:modifier_book"
+				tag: {
+					bookModifier: "celestial_forge:unreal"
+				}
+			}
+			weight: 0.1f
+		}
+		{
+			item: {
+				Count: 1b
+				id: "celestial_forge:modifier_book"
+				tag: {
+					bookModifier: "celestial_forge:brisk"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "celestial_forge:modifier_book"
+				tag: {
+					bookModifier: "celestial_forge:fast"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "celestial_forge:modifier_book"
+				tag: {
+					bookModifier: "celestial_forge:speed"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "celestial_forge:modifier_book"
+				tag: {
+					bookModifier: "celestial_forge:agile"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "celestial_forge:modifier_book"
+				tag: {
+					bookModifier: "celestial_forge:precise"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "celestial_forge:modifier_book"
+				tag: {
+					bookModifier: "celestial_forge:luck"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "celestial_forge:modifier_book"
+				tag: {
+					bookModifier: "celestial_forge:broke"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "celestial_forge:modifier_book"
+				tag: {
+					bookModifier: "celestial_forge:crude"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "celestial_forge:modifier_book"
+				tag: {
+					bookModifier: "celestial_forge:ruthless"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "celestial_forge:modifier_book"
+				tag: {
+					bookModifier: "celestial_forge:sinister"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "celestial_forge:modifier_book"
+				tag: {
+					bookModifier: "celestial_forge:sharp"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "celestial_forge:modifier_book"
+				tag: {
+					bookModifier: "celestial_forge:weak"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "celestial_forge:modifier_book"
+				tag: {
+					bookModifier: "celestial_forge:broken"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "celestial_forge:modifier_book"
+				tag: {
+					bookModifier: "celestial_forge:wild"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "celestial_forge:modifier_book"
+				tag: {
+					bookModifier: "celestial_forge:bold"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "celestial_forge:modifier_book"
+				tag: {
+					bookModifier: "celestial_forge:violence"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "celestial_forge:modifier_book"
+				tag: {
+					bookModifier: "celestial_forge:woe"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "celestial_forge:modifier_book"
+				tag: {
+					bookModifier: "celestial_forge:reckless"
+				}
+			}
+		}
+	]
+	title: "属性书"
+}

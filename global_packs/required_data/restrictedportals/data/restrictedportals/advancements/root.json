@@ -1,0 +1,19 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:end_portal_frame"
+		},
+		"title": {
+			"translate": "advancements.restrictedportals.root"
+		},
+		"description": {
+			"translate": "advancements.restrictedportals.root.decs"
+		},
+		"background": "minecraft:textures/block/obsidian.png"
+	},
+	"criteria": {
+		"root": {
+			"trigger": "minecraft:location"
+		}
+	}
+}

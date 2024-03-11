@@ -1,0 +1,1 @@
+{"type":"immersiveengineering:sawmill","energy":1600,"input":{"item":"minecraft:crimson_stairs"},"result":{"item":"minecraft:crimson_planks"},"secondaries":[{"output":{"tag":"forge:dusts/wood"},"stripping":false}]}

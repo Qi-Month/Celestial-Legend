@@ -1,0 +1,677 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "582E7422AB1D61D5"
+	group: "09EE0DA8FC2DE922"
+	icon: {
+		Count: 1b
+		id: "blue_skies:summoning_tome"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "582E7422AB1D61D5"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"58A3D366CAC9ACFC"
+				"0F720C1FECA0ABED"
+			]
+			dependency_requirement: "one_completed"
+			description: ["与守门人交易获取御风火石"]
+			id: "6B62438A88F505C3"
+			shape: "octagon"
+			size: 1.4d
+			tasks: [{
+				id: "74252AD555390CDC"
+				item: {
+					Count: 1b
+					id: "blue_skies:zeal_lighter"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6B62438A88F505C3"]
+			icon: "blue_skies:everbright_portal"
+			id: "4B55C0F87B11D114"
+			rewards: [{
+				id: "476278CCC3C2118A"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "square"
+			tasks: [{
+				dimension: "blue_skies:everbright"
+				id: "6B305FCF0ED0434A"
+				type: "dimension"
+			}]
+			title: "进入永昼"
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6B62438A88F505C3"]
+			icon: "blue_skies:everdawn_portal"
+			id: "26569585B49470F3"
+			rewards: [{
+				id: "2FCBD8F9D7785F4F"
+				type: "xp"
+				xp: 15
+			}]
+			shape: "square"
+			tasks: [{
+				dimension: "blue_skies:everdawn"
+				id: "0B493B9ADE51C162"
+				type: "dimension"
+			}]
+			title: "进入恒晓"
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4B55C0F87B11D114"]
+			id: "0853573C9B3864E5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "34F408AA0BA8B58C"
+				table_id: 1847033503822355899L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4C8187A27808CE9A"
+				item: "blue_skies:ventium_ingot"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["26569585B49470F3"]
+			id: "682983ADA1F38B09"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5C752C31CCC74279"
+				table_id: 1847033503822355899L
+				type: "random"
+			}]
+			tasks: [{
+				id: "5712ABEFEB80F240"
+				item: "blue_skies:horizonite_ingot"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"4B55C0F87B11D114"
+				"26569585B49470F3"
+			]
+			dependency_requirement: "one_completed"
+			id: "2CBB98B4FA73EF7E"
+			rewards: [
+				{
+					id: "201E63D14B9A5B04"
+					table_id: 523424714767025876L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1B574765E7D1780A"
+					table_id: 2308468753644197719L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "008C18B37DBD76BB"
+					item: "blue_skies:charoite"
+					type: "item"
+				}
+				{
+					id: "3DEAA63ADA91EED4"
+					item: "blue_skies:pyrope_gem"
+					type: "item"
+				}
+				{
+					id: "7A02C7173686A56A"
+					item: "blue_skies:aquite"
+					type: "item"
+				}
+				{
+					id: "6CF64D3E7F3208F6"
+					item: "blue_skies:moonstone"
+					type: "item"
+				}
+				{
+					id: "470A73EE4AFA7BD6"
+					item: "blue_skies:diopside_gem"
+					type: "item"
+				}
+			]
+			title: "蔚蓝宝石"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4065C12986A553E0"]
+			icon: "twilightforest:minoshroom_trophy"
+			id: "58A648A22B3E8758"
+			rewards: [{
+				id: "7FA452FB7CCB2822"
+				item: "twilightforest:meef_stroganoff"
+				type: "item"
+			}]
+			tasks: [
+				{
+					entity: "twilightforest:minoshroom"
+					id: "592BFDA83506CA85"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "73AB747CF4A82B42"
+					item: "twilightforest:minoshroom_trophy"
+					type: "item"
+				}
+			]
+			title: "牛头战士"
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["58A648A22B3E8758"]
+			icon: "twilightforest:hydra_trophy"
+			id: "78EC97AB7E75EBED"
+			rewards: [
+				{
+					count: 6
+					id: "6B5F70ECEF783643"
+					item: "twilightforest:hydra_chop"
+					type: "item"
+				}
+				{
+					id: "5188CF0262395F03"
+					item: "minecraft:enchanted_golden_apple"
+					type: "item"
+				}
+				{
+					id: "55C532AAA802E0AA"
+					item: "twilightforest:charm_of_keeping_3"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					entity: "twilightforest:hydra"
+					id: "43642B5073DEC033"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "64E9FCFF28E4FCCE"
+					item: "twilightforest:hydra_trophy"
+					type: "item"
+				}
+				{
+					id: "59A1E9C1767D0F7A"
+					item: "twilightforest:fiery_blood"
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"682983ADA1F38B09"
+				"0853573C9B3864E5"
+				"78EC97AB7E75EBED"
+			]
+			dependency_requirement: "one_completed"
+			id: "3284F90C7393E20B"
+			rewards: [{
+				count: 3
+				id: "04DF657E34A397D2"
+				item: "kubejs:mooncoin"
+				type: "item"
+			}]
+			size: 1.2d
+			tasks: [{
+				count: 4L
+				id: "5EF4DBFE32E940A5"
+				item: { Count: 4b, id: "thermal:signalum_ingot" }
+				type: "item"
+			}]
+			title: "信素"
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3284F90C7393E20B"]
+			id: "3860A19B47A5CB70"
+			rewards: [{
+				id: "28BC732CF2332EBF"
+				item: "immersiveengineering:redstone_acid_bucket"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "1030E71CC7680FD8"
+				item: "immersiveengineering:logic_circuit"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3860A19B47A5CB70"]
+			id: "49CA80CB34539B47"
+			rewards: [{
+				id: "0ADFDC199CC08B50"
+				item: "ae2:logic_processor"
+				type: "item"
+			}]
+			subtitle: "持有8个频道"
+			tasks: [{
+				id: "1091A48D9D6BAA3F"
+				item: "ae2:drive"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["49CA80CB34539B47"]
+			id: "3DEA4518152FB221"
+			rewards: [{
+				id: "2E1D158F521AEF77"
+				item: "ae2:engineering_processor"
+				type: "item"
+			}]
+			tasks: [{
+				id: "25A1427B03D5B820"
+				item: "ae2:terminal"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3DEA4518152FB221"]
+			id: "633501AEEE1EACD9"
+			rewards: [{
+				id: "7CDC56623E02D23C"
+				item: "ae2:calculation_processor"
+				type: "item"
+			}]
+			subtitle: "自动化的开始"
+			tasks: [{
+				id: "1934278464F53997"
+				item: "ae2:crafting_terminal"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3860A19B47A5CB70"]
+			id: "3FC6CE318F9617CC"
+			rewards: [
+				{
+					id: "22BE6D151570768E"
+					item: "immersiveengineering:logic_circuit"
+					type: "item"
+				}
+				{
+					id: "715A4F9CEBF4ADFE"
+					item: {
+						Count: 1b
+						id: "thermal:wrench"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7498E83A78F02E95"
+				item: "thermal:machine_frame"
+				type: "item"
+			}]
+			title: "真正的机器外壳"
+			x: 13.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"49CA80CB34539B47"
+				"3E74B438518933D6"
+			]
+			id: "200FE2711D0B2EEE"
+			rewards: [{
+				count: 16
+				id: "4DABD179E090D879"
+				item: "ae2:sky_stone_block"
+				type: "item"
+			}]
+			subtitle: "每个面都有32个频道，实现频道自由"
+			tasks: [{
+				id: "2F255210F64C3F5A"
+				item: "ae2:controller"
+				type: "item"
+			}]
+			title: "获取更多的频道"
+			x: 13.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["49CA80CB34539B47"]
+			id: "70A383886A65F1B2"
+			rewards: [{
+				id: "3F1D7CDAB9C6C02C"
+				item: "ae2:cell_component_1k"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3AA85CE48990BE8C"
+				item: "ae2:cell_component_1k"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["70A383886A65F1B2"]
+			id: "17043BBF085C95E4"
+			rewards: [{
+				id: "18B9F1F63D56AB1C"
+				item: "ae2:cell_component_4k"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3047360181CE84BB"
+				item: "ae2:cell_component_4k"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["17043BBF085C95E4"]
+			id: "2AC663BBE5952E77"
+			rewards: [{
+				id: "0C345A5F0BFFC6AA"
+				item: "ae2:cell_component_16k"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4A54F1744CA6C12B"
+				item: "ae2:cell_component_16k"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["4E16322F2553CF5D"]
+			id: "3E74B438518933D6"
+			rewards: [{
+				count: 8
+				id: "7F926EC326201526"
+				item: "minecraft:ancient_debris"
+				type: "item"
+			}]
+			subtitle: "这是个什么"
+			tasks: [{
+				id: "4B77D7F6DC27F37F"
+				item: "kubejs:nether_energy_core"
+				type: "item"
+			}]
+			title: "下界能源核心"
+			x: 13.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["66F5AAD171F0DAEF"]
+			icon: {
+				Count: 1b
+				id: "minecraft:netherite_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "4E16322F2553CF5D"
+			rewards: [{
+				id: "007AB2A47723CD26"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				entity: "cataclysm:netherite_monstrosity"
+				id: "17C5A37159A38D8D"
+				type: "kill"
+				value: 1L
+			}]
+			x: 12.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["3FC6CE318F9617CC"]
+			hide_dependency_lines: true
+			id: "3614B786A7766C99"
+			rewards: [{
+				count: 16
+				id: "2C828B1A0889466E"
+				item: "minecraft:clay"
+				type: "item"
+			}]
+			tasks: [{
+				id: "105E1EC2E31FCE50"
+				item: "thermal:machine_furnace"
+				type: "item"
+			}]
+			title: "电力熔炉"
+			x: 11.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3FC6CE318F9617CC"]
+			id: "53CA9CB126C3F916"
+			rewards: [{
+				count: 2
+				id: "57E37C97436F95FD"
+				item: "thermal:obsidian_glass"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1AE768E6146E3436"
+				item: "thermal:machine_smelter"
+				type: "item"
+			}]
+			x: 15.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3FC6CE318F9617CC"]
+			hide_dependency_lines: true
+			id: "5B05CFB9C9378B9C"
+			rewards: [{
+				count: 16
+				id: "76796064AC97AD40"
+				item: "thermal:gold_dust"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0D02C2EA13668D9F"
+				item: "thermal:machine_pulverizer"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["53CA9CB126C3F916"]
+			id: "7F867D7E0E736CF3"
+			rewards: [{
+				id: "7A4E5EABB8FE7DE2"
+				type: "xp"
+				xp: 15
+			}]
+			tasks: [{
+				id: "22C40102CF4E91C9"
+				item: "rftoolsbase:machine_frame"
+				type: "item"
+			}]
+			x: 15.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7F867D7E0E736CF3"]
+			id: "76E63185001C2F86"
+			rewards: [{
+				id: "2796F685B94A7B9B"
+				item: "rftoolsbase:machine_frame"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2477DA65122DDF88"
+				item: "xnet:controller"
+				type: "item"
+			}]
+			x: 15.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["200FE2711D0B2EEE"]
+			id: "3229B17297868366"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "662E1CC7E226F16E"
+				table_id: 523424714767025876L
+				type: "random"
+			}]
+			tasks: [{
+				id: "38176E24752EFAA8"
+				item: "ae2:crafting_unit"
+				type: "item"
+			}]
+			x: 15.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["53CA9CB126C3F916"]
+			id: "5D0C9AB52BE2EE3B"
+			rewards: [{
+				count: 3
+				id: "54F185CAD509955A"
+				item: "kubejs:mooncoin"
+				type: "item"
+			}]
+			tasks: [{
+				count: 2L
+				id: "3E526875BD6816B5"
+				item: { Count: 2b, id: "thermal:lumium_ingot" }
+				type: "item"
+			}]
+			title: "制作流明"
+			x: 17.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2AC663BBE5952E77"]
+			id: "721D1C7E0108ABF6"
+			rewards: [
+				{
+					id: "049D58FB3EE3320C"
+					item: "ae2:cell_component_64k"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5A5EA9AEBBBA28E1"
+					table_id: 7141583316013621753L
+					type: "random"
+				}
+			]
+			subtitle: "终极存储"
+			tasks: [{
+				id: "1763FAD26E85763E"
+				item: "ae2:cell_component_64k"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["3FC6CE318F9617CC"]
+			hide_dependency_lines: true
+			id: "6C5EDB09691698DB"
+			rewards: [{
+				id: "2ACA706F5FEE0E08"
+				item: "minecraft:lava_bucket"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4F27C7A6951F489E"
+				item: "thermal:machine_crucible"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 3.5d
+		}
+		{
+			icon: "blue_skies:turquoise_stonebrick"
+			id: "0F720C1FECA0ABED"
+			tasks: [{
+				id: "31D0A51B66CE4925"
+				observe_type: 0
+				timer: 0L
+				to_observe: "blue_skies:turquoise_stonebrick"
+				type: "observation"
+			}]
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			icon: "blue_skies:lunar_stonebrick"
+			id: "58A3D366CAC9ACFC"
+			tasks: [{
+				id: "129AC37961D4B25E"
+				observe_type: 0
+				timer: 0L
+				to_observe: "blue_skies:lunar_stonebrick"
+				type: "observation"
+			}]
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3284F90C7393E20B"]
+			id: "20B8E367675CB4A8"
+			rewards: [{
+				id: "076D0C34BA612152"
+				item: "create_new_age:basic_solar_heating_plate"
+				random_bonus: 1
+				type: "item"
+			}]
+			tasks: [{
+				id: "56998289BA5E2650"
+				item: "create_new_age:advanced_solar_heating_plate"
+				type: "item"
+			}]
+			title: "太阳能量"
+			x: 10.0d
+			y: 2.0d
+		}
+	]
+	title: "初入蔚蓝"
+}

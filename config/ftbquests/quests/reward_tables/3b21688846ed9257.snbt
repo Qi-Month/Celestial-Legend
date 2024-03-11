@@ -1,0 +1,20 @@
+{
+	id: "3B21688846ED9257"
+	loot_size: 1
+	order_index: 17
+	rewards: [
+		{ count: 8, item: "minecraft:iron_ore" }
+		{ count: 8, item: "minecraft:coal_ore" }
+		{ count: 8, item: "minecraft:copper_ore" }
+		{ count: 8, item: "minecraft:gold_ore" }
+		{ count: 8, item: "minecraft:redstone_ore" }
+		{ count: 8, item: "thermal:silver_ore" }
+		{ count: 8, item: "thermal:tin_ore" }
+		{ count: 8, item: "thermal:lead_ore" }
+		{ count: 8, item: "create:zinc_ore" }
+		{ count: 8, item: "immersiveengineering:ore_aluminum" }
+		{ count: 8, item: "immersiveengineering:ore_nickel" }
+		{ count: 8, item: "the_forgotten_dimensions:metallic_snow_ore" }
+	]
+	title: "基础矿石"
+}

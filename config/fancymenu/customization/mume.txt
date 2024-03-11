@@ -1,0 +1,36 @@
+type = menu
+
+customization-meta {
+  identifier = dev.shadowsoffire.packmenu.ExtendedMenuScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  name = cool_slideshow
+  action = setbackgroundslideshow
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=8500%
+  action = hidebutton
+}
+
+customization {
+  path = FanceMenu/logo.png
+  orientation = top-centered
+  x = -183
+  width = 367
+  action = addtexture
+  actionid = 6313bec6-aeb6-48cd-a39c-d203d83ea91b1704706463652
+  y = 50
+  height = 37
+}
+

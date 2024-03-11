@@ -1,0 +1,13 @@
+{
+	id: "3ABA8D39C0337BF5"
+	loot_size: 1
+	order_index: 25
+	rewards: [
+		{ item: "twilightforest:fiery_ingot" }
+		{ item: "twilightforest:armor_shard_cluster" }
+		{ item: "twilightforest:carminite" }
+		{ item: "twilightforest:steeleaf_ingot" }
+		{ item: "twilightforest:ironwood_ingot" }
+	]
+	title: "暮色矿材"
+}

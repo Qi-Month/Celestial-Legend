@@ -1,0 +1,1 @@
+{"type":"immersiveengineering:sawmill","energy":800,"input":{"item":"minecraft:dark_oak_door"},"result":{"item":"minecraft:dark_oak_planks"},"secondaries":[{"output":{"tag":"forge:dusts/wood"},"stripping":false}]}

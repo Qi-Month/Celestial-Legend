@@ -1,0 +1,23 @@
+{
+	"type": "create:mechanical_crafting",
+	"pattern": [
+		"SSS",
+		"FRF",
+		"SSS"
+	],
+	"key": {
+		"F": {
+			"item": "immersiveengineering:fluid_pipe"
+		},
+		"S": {
+			"tag": "forge:plates/obsidian"
+		},
+		"R": {
+			"tag": "forge:dusts/redstone"
+		}
+	},
+	"result": {
+		"item": "pipez:fluid_pipe",
+		"count": 6
+	}
+}

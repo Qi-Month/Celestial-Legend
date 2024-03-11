@@ -1,0 +1,1 @@
+{"type":"immersiveengineering:arc_furnace","additives":[],"energy":230400,"input":{"tag":"forge:storage_blocks/raw_aluminum"},"results":[{"base_ingredient":{"tag":"forge:ingots/aluminum"},"count":13}],"secondaries":[{"chance":0.5,"output":{"tag":"forge:ingots/aluminum"}}],"time":900}
