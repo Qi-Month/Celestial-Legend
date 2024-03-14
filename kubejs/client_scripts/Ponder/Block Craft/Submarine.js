@@ -133,9 +133,7 @@ Ponder.registry(e => {
 					30,
 					utils.grid.at(4, 2, 1),
 					'down'
-				)
-					.rightClick()
-					.withItem('immersiveengineering:hammer')
+				).rightClick().withItem('immersiveengineering:hammer')
 				scene.idle(30)
 				//
 				scene.world.setBlocks([6, 1, 1, 2, 5, 6], 'minectaft:air')

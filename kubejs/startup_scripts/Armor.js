@@ -25,8 +25,8 @@ StartupEvents.registry('item', e => {
 			.glow(Glow)
 	}
 	// 铜套
-	Item('copper_helmet', 'helmet', 'uncommon', 'copper', false)
-	Item('copper_chestplate', 'chestplate', 'uncommon', 'copper', false)
-	Item('copper_leggings', 'leggings', 'uncommon', 'copper', false)
-	Item('copper_boots', 'boots', 'uncommon', 'copper', false)
+	Item('copper_helmet', 'helmet', 'common', 'copper', false)
+	Item('copper_chestplate', 'chestplate', 'common', 'copper', false)
+	Item('copper_leggings', 'leggings', 'common', 'copper', false)
+	Item('copper_boots', 'boots', 'common', 'copper', false)
 })

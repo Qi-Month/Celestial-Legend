@@ -274,7 +274,8 @@ ServerEvents.recipes(e => {
 		Item.of('create:crushed_raw_iron').withChance(0.07),
 		Item.of('create:crushed_raw_copper').withChance(0.08),
 		Item.of('create:crushed_raw_zinc').withChance(0.06),
-		Item.of('create:crushed_raw_tin').withChance(0.08)
+		Item.of('create:crushed_raw_tin').withChance(0.08),
+		Item.of('create:crushed_raw_aluminum').withChance(0.03)
 	], '#forge:gravel')
 
 	crushing([
@@ -285,7 +286,8 @@ ServerEvents.recipes(e => {
 		Item.of('create:crushed_raw_silver').withChance(0.04),
 		Item.of('create:crushed_raw_lead').withChance(0.04),
 		Item.of('create:crushed_raw_nickel').withChance(0.08),
-		Item.of('create:crushed_raw_gold').withChance(0.06)
+		Item.of('create:crushed_raw_gold').withChance(0.06),
+		Item.of('create:crushed_raw_aluminum').withChance(0.05)
 	], '#forge:cobblestone')
 
 	//石磨

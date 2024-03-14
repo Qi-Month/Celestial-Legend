@@ -1,5 +1,4 @@
 {
-	"item.kubejs.subatomic_ingot": "亚原子锭",
 	"item.kubejs.nether_totem": "下界图腾",
 	"item.kubejs.in_submarine": "潜水艇(半成品)",
 	"item.kubejs.tf_catalytic_stone": "暮色催化石",
@@ -20,6 +19,6 @@
 	"item.kubejs.final_sword": "最终之剑",
 	"item.kubejs.nggyu": "Never gonna give you up~",
 	"block.kubejs.submarine_core": "§d潜水艇核心",
-	"tooltip.kubejs.tf_catalytic_stone": "§b这东西...做出来就可以直接吃掉了(",
+	"tooltip.kubejs.tf_catalytic_stone": "§b这东西拿到就解锁了...做出来就可以直接吃掉了(",
 	"tooltip.kubejs.copper_tools": "§b一套铜制的东西,挖掘等级和铁一样,没有铁的时候可以应急"
 }

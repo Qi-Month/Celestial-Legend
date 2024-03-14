@@ -8,8 +8,6 @@ StartupEvents.registry('item', e => {
 			.rarity(Rarity)
 			.glow(Glow)
 	}
-	// 亚原子锭
-	Item('subatomic_ingot', 'epic', false)
 	// 下界图腾
 	Item('nether_totem', 'rare', false)
 	// 潜艇(半成品)
