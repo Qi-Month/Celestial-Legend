@@ -70,11 +70,6 @@ ServerEvents.recipes(e => {
 		'16x #forge:cobblestone'
 	])
 
-	// 下界岩
-	haunting('minecraft:netherrack', [
-		'#forge:cobblestone'
-	])
-
 	// 腐肉
 	compacting('minecraft:leather', [
 		'8x minecraft:rotten_flesh'
