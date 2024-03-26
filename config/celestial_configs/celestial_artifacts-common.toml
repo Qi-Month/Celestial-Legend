@@ -1,59 +1,585 @@
 
 [back]
-	#Leech Scabbard healing rate as percentage of damage dealt
+	#Leech Scabbard: healing rate as percentage of damage dealt
 	#Range: 0.0 ~ 100.0
 	leechScabbardHealFactor = 0.25
+	#Magic Arrow Bag: arrow knock
+	#Range: 0 ~ 100
+	magicArrowBagBowStrength = 1
+	#Flame Arrow Bag: bow strength
+	#Range: 0.0 ~ 10.0
+	flameArrowBagBowStrength = 0.1
+	#Flame Arrow Bag: arrow knock
+	#Range: 0 ~ 100
+	flameArrowBagArrowKnock = 1
+	#Flame Arrow Bag: flame
+	#Range: 1 ~ 36000
+	flameArrowBagTime = 60
+	#Spirit Arrow Bag: bow strength
+	#Range: 0.0 ~ 1.0
+	spiritArrowBagBowStrength = 0.2
+	#Spirit Arrow Bag: arrow speed
+	#Range: 0.0 ~ 10.0
+	spiritArrowBagArrowSpeed = 0.5
+	#Spirit Arrow Bag: arrow knock
+	#Range: 0 ~ 100
+	spiritArrowBagArrowKnock = 2
+	#Twisted Scabbard: interval, in seconds, to lose 1 layer of Twist
+	#Range: 1 ~ 1000
+	twistedScabbardInterval = 5
+	#Twisted Scabbard: attack bonus per layer of Twist
+	#Range: 0.0 ~ 1.0
+	twistedScabbardAttack = 0.05
+	#Twisted Scabbard: attack bonus in End curse
+	#Range: 0.0 ~ 1.0
+	twistedScabbardAttackEnd = 0.1
 
 [bracelet]
-	#This value determines how many seconds you will receive a stealth effect once
+	#Hidden Bracelet: Hidden effect interval
+	#Range: 1 ~ 100000
+	hiddenBraceletInterval = 7
+	#Hidden Bracelet: Damage boost in hidden effect
+	#Range: 0.0 ~ 100.0
+	hiddenBraceletDamageBoost = 0.25
+	#Charming Bracelet: Armor bonus
+	#Range: > 0
+	charmingBraceletArmor = 2
+	#Charming Bracelet: Cool down for target transfer on hurt, in seconds
 	#Range: > 1
-	hiddenBraceletEffectDuration = 7
+	charmingBraceletCooldown = 10
+	#Charming Bracelet: Reputation bonus when you kill zombies
+	#Range: > 0
+	charmingBraceletReputationBonus = 1
+	#Scarlet Bracelet: remaining HP as percentage
+	#Range: 0.0 ~ 1.0
+	scarletMaxCost = 0.5
+	#Scarlet Bracelet: damage boost as percentage of target max health per health cost
+	#Range: 0.0 ~ 2.147483647E9
+	scarletBraceletDamageBonus = 0.01
+	#Scarlet Bracelet: max damage boost as percentage of target max health
+	#Range: 0.0 ~ 2.147483647E9
+	scarletBraceletDamageLimit = 0.5
+	#Spirit Bracelet: speed effect duration in seconds
+	#Range: > 1
+	spiritBraceletEffectDuration = 5
 
 [charm]
-	#This value determines the maximum damage increase
-	#Range: 0.0 ~ 2.147483647E9
-	holySwordMaxAddDamage = 0.5
-	#This value determines how much life you lose and how much damage you inflict once
-	#Range: 1.0 ~ 2.147483647E9
+	#Holy Sword: atk bonus per life lost
+	#Range: 0.0 ~ 100.0
 	holySwordLostLifeAddDamage = 1.0
-	#This value determines how many ticks remove negative effects once
+	#Angel Heart: interval in seconds to remove negative effects
 	#Range: > 1
 	angelHeartRemoveInterval = 600
-	#This value determines how many ticks restore health once
+	#Angel Heart: interval in seconds to restore health
 	#Range: > 1
 	angelHeartBloodInterval = 30
-	#This value determines how much health is restored at once
+	#Angel Heart: how much health is restored at once
 	#Range: > 1
 	angelHeartHealAmount = 1
-	#This value determines how much health is greater than the current one in order to trigger damage reduction
-	#Range: 0.01 ~ 1.0
-	cursedProtectorJudgingLife = 0.35
-	#This value determines its damage reduction amount
-	#Range: 0.01 ~ 1.0
-	cursedProtectorReduceInjury = 0.25
-	#This value determines the critical hit rate increased by each enchantment
+	#Cursed Talisman: critical hit rate increased by each enchantment
 	#Range: 0.01 ~ 1.0
 	cursedTalismanCritRateAdd = 0.04
-	#This value determines the critical hit damage increased by each enchantment
+	#Cursed Talisman: critical hit damage increased by each enchantment
 	#Range: 0.01 ~ 1.0
 	cursedTalismanCritDamageAdd = 0.08
+	#Destroyer Badge: attack bonus
+	#Range: 0.0 ~ 100.0
+	destroyerBadgeAttack = 0.4
+	#Destroyer Badge: damage penalty
+	#Range: 0.0 ~ 100.0
+	destroyerBadgeDamagePenalty = 0.5
+	#Destroyer Badge: health threshold for hurt boost
+	#Range: 0.0 ~ 100.0
+	destroyerBadgeThreshold = 0.5
+	#Destroyer Badge: hurt boost
+	#Range: 0.0 ~ 100.0
+	destroyerBadgeHurtBonus = 0.2
+	#Holy Sword: crit rate bonus
+	#Range: 0.0 ~ 1.0
+	holySwordCritRate = 0.15
+	#Holy Sword: damage reflection rate
+	#Range: 0.0 ~ 10.0
+	holySwordReflect = 0.12
+	#Holy Talisman: weakness apply interval in seconds
+	#Range: > 1
+	holyTalismanWeakenInterval = 10
+	#Holy Talisman: effect duration per mob in seconds
+	#Range: > 1
+	holyTalismanEffectDuration = 2
+	#Holy Talisman: non-undead protection
+	#Range: 0.0 ~ 1.0
+	holyTalismanProtection = 0.25
+	#Holy Talisman: undead protection
+	#Range: 0.0 ~ 1.0
+	holyTalismanProtectionUndead = 0.35
+	#Holy Talisman: totem cool down
+	#Range: > 1
+	holyTalismanCooldown = 60
+	#AbyssWillBadge: The levels after triggering the skill
+	#Range: > 0
+	abyssWillBadgeInitialLevel = 15
+	#AbyssWillBadge: The duration of the skill in seconds
+	#Range: > 0
+	abyssWillBadgeDuration = 15
+	#AbyssWillBadge: Remaining HP in percentage after skill ends
+	#Range: 0.01 ~ 1.0
+	abyssWillBadgeRemainingHealth = 0.2
+	#AbyssWillBadge: Chance of small damage bonus
+	#Range: 0.0 ~ 1.0
+	abyssWillBadgeChanceSmall = 0.4
+	#AbyssWillBadge: Chance of large damage bonus
+	#Range: 0.0 ~ 1.0
+	abyssWillBadgeChanceLarge = 0.1
+	#AbyssWillBadge: Small damage bonus
+	#Range: 0.0 ~ 10.0
+	abyssWillBadgeBonusSmall = 1.5
+	#AbyssWillBadge: Large damage bonus
+	#Range: 0.0 ~ 50.0
+	abyssWillBadgeBonusLarge = 2.0
+	#AbyssWillBadge: Small hurt penalty
+	#Range: 0.0 ~ 10.0
+	abyssWillBadgePenaltySmall = 2.0
+	#AbyssWillBadge: Large hurt penalty
+	#Range: 0.0 ~ 50.0
+	abyssWillBadgePenaltyLarge = 2.5
+	#AbyssWillBadge: Interval for adding levels in seconds
+	#Range: > 1
+	abyssWillBadgeGrowInterval = 20
+	#AbyssWillBadge: Maximum level for passive growth
+	#Range: > 1
+	abyssWillBadgeLimit = 10
+	#AbyssWillBadge: damage bonus per level
+	#Range: 0.01 ~ 1.0
+	abyssWillBadgeDamageBonus = 0.2
+	#AbyssWillBadge: damage penalty per level
+	#Range: 0.01 ~ 1.0
+	abyssWillBadgeDamagePenalty = 0.25
+	#Angel Heart: health threshold for protection
+	#Range: 0.0 ~ 1.0
+	angelHeartThreshold = 0.5
+	#Angel Heart: damage reduction
+	#Range: 0.0 ~ 1.0
+	angelHeartProtection = 0.2
+	#Angel Pearl: Regen rate per beneficial effect
+	#Range: 0.01 ~ 1.0
+	angelPearlRegen = 0.08
+	#Angel Pearl: armor bonus per beneficial effect
+	#Range: > 0
+	angelPearlArmor = 1
+	#Corrupt Badge: Negative effect duration in seconds
+	#Range: > 1
+	corruptBadgeDebuffDuration = 15
+	#Corrupt Badge: dig speed bonus per negative effect
+	#Range: 0.0 ~ 2.147483647E9
+	corruptBadgeDigSpeedBonus = 0.09
+	#Corrupt Badge: attack speed bonus per negative effect
+	#Range: 0.0 ~ 2.147483647E9
+	corruptBadgeAttackSpeedBonus = 0.03
+	#Corrupt Badge: attack bonus per negative effect
+	#Range: 0.0 ~ 2.147483647E9
+	corruptBadgeAttackBonus = 0.14
+	#Corrupt Badge: Skill cooldown in seconds
+	#Range: > 1
+	corruptBadgeCooldown = 60
+	#Cursed Protector: damage reduction from front
+	#Range: 0.0 ~ 1.0
+	cursedProtectorFrontProtect = 0.3
+	#Cursed Protector: health threshold to trigger damage reduction
+	#Range: 0.01 ~ 1.0
+	cursedProtectorThreshold = 0.35
+	#Cursed Protector: damage reduction percentage
+	#Range: 0.01 ~ 1.0
+	cursedProtectorReduction = 0.25
+	#Cursed Totem: maximum level
+	#Range: > 0
+	cursedTotemMaxLevel = 5
+	#Cursed Totem: levels consumed when negating fatal damage
+	#Range: > 0
+	cursedTotemConsumption = 5
+	#Cursed Totem: duration of wither effect in seconds
+	#Range: > 0
+	cursedTotemEffectDuration = 30
+	#Cursed Totem: level of wither effect (0 means Lv.I)
+	#Range: 0 ~ 5
+	cursedTotemEffectLevel = 2
+	#Demon Curse: attack bonus per 1% extra regen rate
+	#Range: 0.0 ~ 10.0
+	demonCurseAttackBonus = 0.02
+	#Demon Curse: speed bonus per 1% extra regen rate
+	#Range: 0.0 ~ 10.0
+	demonCurseSpeedBonus = 0.01
+	#Gluttony Badge: Hunger effect level
+	#Range: 1 ~ 100
+	gluttonyBadgeHungerLevel = 2
+	#Gluttony Badge: damage reduction per food level
+	#Range: 0.0 ~ 1.0
+	gluttonyBadgeProtection = 0.01
+	#Gluttony Badge: effect duration in seconds after eating food
+	#Range: 1 ~ 100
+	gluttonyBadgeEffectDuration = 2
+	#Knight Shelter: armor
+	#Range: > 0
+	knightShelterArmor = 8
+	#Knight Shelter: damage reduction
+	#Range: > 0
+	knightShelterDamageReduction = 4
+	#Knight Shelter: healing interval for offhand shield in seconds. Main hand shield takes half of the time
+	#Range: > 0
+	knightShelterHealInterval = 4
+	#Knight Shelter: reflection percentage
+	#Range: 0.0 ~ 1.0
+	knightShelterReflection = 0.3
+	#Magic Horseshoe: speed bonus
+	#Range: 0.0 ~ 10.0
+	magicHorseshoeSpeedBonus = 0.25
+	#Magic Horseshoe: luck
+	#Range: 0.0 ~ 10.0
+	magicHorseshoeLuck = 1.0
+	#Magic Horseshoe: fall damage reduction
+	#Range: 0.0 ~ 10.0
+	magicHorseshoeFallReduction = 0.95
+	#Sacrificial Object: damage reduction percentage
+	#Range: 0.01 ~ 1.0
+	sacriReduction = 0.05
+	#Sacrificial Object: gold ingot drop chance on death
+	#Range: 0.0 ~ 1.0
+	sacrificialObjectHeritage = 0.5
+	#Sacrificial Object :death sacrifice chance
+	#Range: 0.01 ~ 1.0
+	sacrificialObjectSacrifice = 0.45
+	#Soul Box: chance to inflict shatter effect
+	#Range: 0.01 ~ 1.0
+	soulBoxShatterChance = 0.3
+	#Soul Box: abyss damage as percentage of original damage
+	#Range: 0.01 ~ 100.0
+	soulBoxReflect = 2.5
+	#Soul Box: cool down in seconds
+	#Range: > 1
+	soulBoxCooldown = 240
+	#Soul Box: effect duration inflicted on fatal hit, in seconds
+	#Range: > 1
+	soulBoxShatterHighDuration = 60
+	#Soul Box: effect level inflicted on fatal hit, (0 means Lv.I)
+	#Range: 0 ~ 100
+	soulBoxShatterHighLevel = 2
+	#Soul Box: effect duration inflicted on non-fatal hit, in seconds
+	#Range: > 1
+	soulBoxShatterLowDuration = 5
+	#Soul Box: effect level inflicted on non-fatal hit, (0 means Lv.I)
+	#Range: 0 ~ 100
+	soulBoxShatterLowLevel = 0
+	#Bearing Stamen: max health bonus
+	#Range: 0.0 ~ 1000.0
+	bearingStamenMaxHealth = 20.0
+	#Bearing Stamen: regen bonus
+	#Range: 0.0 ~ 10.0
+	bearingStamenRegen = 0.25
+	#Bearing Stamen: effect level (0 means Lv.I)
+	#Range: 0 ~ 10
+	bearingStamenLevel = 1
+	#Sands Talisman: damage bonus in hot regions
+	#Range: 0.0 ~ 10.0
+	sandsTalismanDamageBonus = 0.3
+	#Sands Talisman: exp bonus
+	#Range: 0.0 ~ 10.0
+	sandsTalismanExpBonus = 0.5
+	#Twisted Brain: chance to avoid damage
+	#Range: 0.0 ~ 1.0
+	twistedbrainAvoidChance = 0.17
+	#Twisted Brain: damage boost effect duration
+	#Range: 0 ~ 100
+	twistedBrainEffectDuration = 5
+	#Undead Charm: Cool Down in seconds
+	#Range: > 1
+	undeadCharmCooldown = 180
+	#War Dead Badge: healing in percentage of lost health per surrounding entity
+	#Range: 0.01 ~ 1.0
+	warDeadBadgeHeal = 0.01
+	#War Dead Badge: damage bonus per 1% lost health
+	#Range: 0.01 ~ 1.0
+	warDeadBadgeAtk = 0.02
+	#War Dead Badge: armor bonus per 1% lost health
+	#Range: 0.01 ~ 1.0
+	warDeadBadgeArmor = 0.02
+	#War Dead Badge: speed bonus per 1% lost health
+	#Range: 0.01 ~ 1.0
+	warDeadBadgeSpeed = 0.01
+	#War Dead Badge: health threshold to trigger healing
+	#Range: 0.01 ~ 1.0
+	warDeadBadgeThreshold = 0.5
 
 [curse]
 	#When true, when the player enters the world, the accessory will be directly worn in the accessory bar
 	catastropheScrollStart = false
-	#This value determines how much explosive damage you will receive due to the Chaos Curse
-	#Range: 0.01 ~ 2.147483647E9
-	catastropheScrollExplosionDamage = 0.75
-	#This value determines how much other damage you will receive due to the Chaos Curse
-	#Range: 0.01 ~ 2.147483647E9
-	catastropheScrollOtherDamage = 0.5
-	#This value determines how much damage is negatively affected
+	#Chaotic Curse: Damage increment percentage for explosion
+	#Range: 0.01 ~ 100.0
+	chaoticExplosionDamage = 0.75
+	#Chaotic Curse: Damage increment percentage for non-explosion
+	#Range: 0.01 ~ 100.0
+	chaoticOtherDamage = 0.5
+	#Chaotic Bless: Max damage reduction at zero health
 	#Range: 0.01 ~ 1.0
-	catastropheScrollEndCurseDamage = 0.25
-	#This value determines how much your damage will be reduced due to the Origin Curse
+	chaoticBlessDamageReduction = 0.5
+	#Origin Curse: Durability threshold to trigger curse 
+	#Range: 0 ~ 1000000
+	originTriggerDurability = 500
+	#Origin Curse: Player attack damage reduction
 	#Range: 0.01 ~ 1.0
-	catastropheScrollOriginCurseDamage = 0.5
-	#This value determines how many enemies with maximum health you need to defeat in order to possibly drop it
-	#Range: > 1
-	etchingOfLifeDropCondition = 499
+	originCurseDamage = 0.5
+	#Origin Bless: Player attack damage bonus
+	#Range: 0.01 ~ 100.0
+	originBlessDamage = 0.25
+	#Life Curse: Player max health reduction
+	#Range: 0.01 ~ 1.0
+	lifeCurseHealth = 0.25
+	#Life Curse: Player healing reduction
+	#Range: 0.01 ~ 1.0
+	lifeCurseHeal = 0.5
+	#Life Bless: Player max health bonus
+	#Range: 0.01 ~ 100.0
+	lifeBlessHealth = 0.2
+	#Life Bless: Player healing bonus
+	#Range: 0.01 ~ 100.0
+	lifeBlessHeal = 0.3
+	#Truth Curse: minimum damage from mobs
+	#Range: 0.01 ~ 1.0
+	truthCurseThreshold = 0.4
+	#Truth Bless: maximum damage from mobs
+	#Range: 0.01 ~ 1.0
+	truthBlessThreshold = 0.6
+	#Nihility Curse: negative effect duration
+	#Range: 0.01 ~ 100.0
+	nihilityCurseDuration = 1.0
+	#Nihility Bless: void damage reduction
+	#Range: 0.01 ~ 1.0
+	nihilityBlessReduction = 0.75
+	#Nihility Bless: effect duration inflicted
+	#Range: 1 ~ 1000
+	nihilityBlessDuration = 10
+	#End Curse: damage threshold for negative effects
+	#Range: 0.01 ~ 1.0
+	endCurseThreshold = 0.1
+	#End Curse: negative effect duration
+	#Range: 1 ~ 1000
+	endCurseDuration = 30
+	#End Bless: healing as percentage of health lost
+	#Range: 0.01 ~ 1.0
+	endBlessHeal = 0.2
+
+[materials]
+	#Range: 0.0 ~ 1.0
+	desireEtchingDropChance = 0.25
+	#Range: 0 ~ 100
+	desireEtchingLootingRequirement = 7
+	#Range: 0.0 ~ 1.0
+	endEtchingDropChance = 0.75
+	#Range: 0 ~ 100
+	endEtchingEffectRequirement = 9
+	#Range: 0.0 ~ 1.0
+	originEtchingDropChance = 0.5
+	#Range: 0 ~ 100
+	originEtchingEffectRequirement = 100
+	#Range: 0.0 ~ 1.0
+	lifeEtchingDropChance = 0.15
+	#Range: 1 ~ 1000000
+	lifeEtchingHealthRequirement = 500
+	#Range: 0.0 ~ 1.0
+	chaoticEtchingDropChance = 0.3
+	#Range: 0.0 ~ 1.0
+	nihilityEtchingDropChance = 0.5
+	#Range: 0.0 ~ 1.0
+	truthEtchingDropChance = 0.5
+	#Range: 0.0 ~ 1.0
+	endDustDropChance = 0.02
+	#Range: 0.0 ~ 1.0
+	charmingBraceletDropChance = 0.5
+	#Range: 0 ~ 10000
+	charmingBraceletReputationRequirement = 100
+	#Range: 0.0 ~ 1.0
+	guardianEyeDropChance = 0.5
+	#Range: 0.0 ~ 1.0
+	demonCurseDropChance = 0.03
+	#Range: 0.0 ~ 1.0
+	twistedHeartDropChance = 0.1
+	#Range: 0 ~ 10000
+	twistedHeartHealthRequirement = 20
+	#Range: 0.0 ~ 1.0
+	twistedBrainDropChance = 0.1
+
+[head]
+	#Abyss Core: effect cooldown
+	#Range: 0 ~ 100000
+	abyssCoreCooldown = 60
+	#Abyss Core: damage judgement
+	#Range: 1 ~ 100000
+	abyssCoreDamageJudgement = 12
+	#Abyss Core: damage reduce
+	#Range: 0 ~ 100000
+	abyssCoreReduce = 12
+	#Guardian Eye: swim speed bonus
+	#Range: 0.0 ~ 100.0
+	guardianEyeSwimSpeedBonus = 0.15
+	#Guardian Eye: protection
+	#Range: 0.0 ~ 1.0
+	guardianEyeProtection = 0.2
+	#Prayer Crown: heal amount
+	#Range: 0.01 ~ 10.0
+	prayerCrownHealAmount = 0.25
+	#Prayer Crown: heal chance
+	#Range: 0.01 ~ 1.0
+	prayerCrownHealChance = 0.5
+	#Prayer Crown: protection
+	#Range: 0.01 ~ 10.0
+	prayerCrownProtection = 0.25
+	#Spirit Crown: max entity count around player to trigger damage boost
+	#Range: 0 ~ 100
+	spiritCrownMaxEntityCount = 3
+	#Spirit Crown: arrow damage multiplier
+	#Range: 0.0 ~ 100.0
+	spiritCrownArrowDamageMultiplier = 0.45
+	#Spirit Crown: distance damage multiplier
+	#Range: 0.0 ~ 1.0
+	spiritCrownDistanceDamage = 0.02
+	#Sea God Crown: skill cool down
+	#Range: 0 ~ 1000
+	seaGodCrownCoolDown = 30
+
+[heart]
+	#Heart of Revenge: bow strength
+	#Range: 0.0 ~ 1.0
+	heartOfRevengeBowStrength = 0.06
+	#Heart of Revenge: valid time for revenge
+	#Range: 0 ~ 10
+	heartOfRevengeValidTime = 3
+	#Heart of Revenge: revenge damage
+	#Range: 0.0 ~ 10.0
+	heartOfRevengeDamageBonus = 0.25
+	#Demon Heart: damage bonus
+	#Range: 0.0 ~ 1.0
+	demonHeartDamageBonus = 0.1
+	#Demon Heart: damage reduction
+	#Range: 0.0 ~ 1.0
+	demonHeartDamageReduction = 0.05
+	#Twisted Heart: damage
+	#Range: 0.01 ~ 1.0
+	twistedHeartDamage = 0.33
+	#Twisted Heart: toughness
+	#Range: 0.01 ~ 1.0
+	twistedHeartToughness = 0.2
+
+[necklace]
+	#Star Necklace: Damage bonus from behind
+	#Range: 0.0 ~ 10.0
+	starNecklaceDamageBonus = 0.4
+	#Cross Necklace: Invulnerability time bonus in ticks
+	#Range: 0 ~ 100
+	crossNecklaceInvulTick = 10
+	#Gallop Necklace: speed bonus
+	#Range: 0.0 ~ 10.0
+	gallopNecklaceSpeedBonus = 0.08
+	#Gallop Necklace: damage factor of speed
+	#Range: 0.0 ~ 100000.0
+	gallopNecklaceDamageFactor = 1.5
+	#Emerald Necklace: factor of dropping an emerald
+	#Range: 0.0 ~ 1.0
+	emeraldNecklaceDropEmerald = 0.02
+	#Ender Protector: teleport chance
+	#Range: 0.0 ~ 1.0
+	enderProtectorTeleportChance = 0.5
+	#Holy Necklace: cooldown
+	#Range: 0 ~ 60
+	holyNecklaceCooldown = 3
+	#Holy Necklace: duration in seconds
+	#Range: 0 ~ 600
+	holyNecklaceDuration = 2
+	#Lock Of Abyss: extra damage multiplier
+	#Range: 0.01 ~ 10.0
+	lockOfAbyssExtraDamage = 2.5
+	#Lock Of Abyss: slowness duration in seconds
+	#Range: 1 ~ 1000
+	lockOfAbyssDuration = 10
+	#Lock Of Abyss: layer of slowness to take effect
+	#Range: 1 ~ 10
+	lockOfAbyssThreshold = 7
+	#Fang Necklace: Attack bonus
+	#Range: 0.0 ~ 10.0
+	fangNecklaceAttack = 0.1
+	#Fang Necklace: Damage bonus from behind
+	#Range: 0.0 ~ 10.0
+	fangNecklaceDamageBonus = 0.25
+	#Fang Necklace: poison inflict chance
+	#Range: 0.0 ~ 1.0
+	fangNecklacePoisonChance = 0.5
+	#Fang Necklace: poison inflicted duration in seconds
+	#Range: 0 ~ 1000
+	fangNecklacePoisonDuration = 5
+	#Fang Necklace: poison inflicted level (0 means Lv.I)
+	#Range: 0 ~ 5
+	fangNecklacePoisonLevel = 2
+	#Precious Necklace: crit damage bonus
+	#Range: 0.0 ~ 10.0
+	preciousNecklaceCritDmg = 0.2
+	#Holy Necklace: Max health boost
+	#Range: 0.0 ~ 100.0
+	holyNecklaceMaxHealth = 4.0
+	#Holy Necklace: additional invul tick
+	#Range: 0 ~ 100
+	holyNecklaceInvulTick = 5
+	#Hierloom Necklace: armor bonus
+	#Range: 0.0 ~ 100.0
+	hierloomNecklaceArmor = 2.0
+	#Hierloom Necklace: movement speed bonus
+	#Range: 0.0 ~ 10.0
+	hierloomNecklaceSpeed = 0.05
+	#Hierloom Necklace: exp pickup bonus
+	#Range: 0.0 ~ 10.0
+	hierloomNecklaceExp = 0.1
+
+[pendant]
+	#Shadow Pendant: damage heal multiplier
+	#Range: 0.0 ~ 1.0
+	shadowPendantDamageHeal = 0.25
+	#Shadow Pendant: Starting light level to give bonus
+	#Range: 0 ~ 15
+	shadowPendantLightLevel = 7
+	#Shadow Pendant: damage bonus
+	#Range: 0.0 ~ 1.0
+	shadowPendantDamageBonus = 0.05
+	#Shadow Pendant: damage reduction
+	#Range: 0.0 ~ 1.0
+	shadowPendantDamageReduction = 0.05
+	#Chaotic Pendant: enchantment level bonus
+	#Range: 0 ~ 30
+	chaoticPendantEnchantLevel = 3
+
+[ring]
+	#Amethyst Ring: damage boost
+	#Range: 0.0 ~ 100.0
+	amethystRingDamage = 0.1
+	#Netherite Ring: protection in nether
+	#Range: 0.0 ~ 1.0
+	netheriteRingProtection = 0.1
+	#Nether Fire Ring: fire burning time
+	#Range: 0 ~ 1000
+	netherFireRingFireBurningTime = 5
+	#Ring Of Life: effect interval
+	#Range: 1 ~ 100
+	ringOfLifeEffectInterval = 5
+
+[scroll]
+	#Sky Walker Scroll: teleport cooldown in seconds
+	#Range: 0 ~ 600
+	skyWalkerCooldown = 60
+	#Traveller Scroll: effect duration in seconds
+	#Range: 1 ~ 10000
+	travelerEffectDuration = 15
+	#Twisted Scroll: chance for encountered mobs to duplicate
+	#Range: 0.0 ~ 1.0
+	twistedDuplicateChance = 0.6
+
+[misc]
+	#Range: 0 ~ 10000
+	backtrackMirrorCooldown = 10
+	#Range: 0 ~ 10000
+	repentMirrorCooldown = 10
 

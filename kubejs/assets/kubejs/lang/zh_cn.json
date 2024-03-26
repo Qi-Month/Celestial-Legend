@@ -1,6 +1,5 @@
 {
 	"item.kubejs.nether_totem": "下界图腾",
-	"item.kubejs.in_submarine": "潜水艇(半成品)",
 	"item.kubejs.tf_catalytic_stone": "暮色催化石",
 	"item.kubejs.magic_essence": "魔法精华",
 	"item.kubejs.nether_energy_core": "下界能源核心",
@@ -18,7 +17,13 @@
 	"item.kubejs.copper_boots": "铜靴子",
 	"item.kubejs.final_sword": "最终之剑",
 	"item.kubejs.nggyu": "Never gonna give you up~",
+	"item.kubejs.experience_bucket": "液态经验桶",
 	"block.kubejs.submarine_core": "§d潜水艇核心",
+	"block.kubejs.experience": "液态经验",
+	"fluid.kubejs.experience": "液态经验",
+	"fluid.kubejs.powder_snow":"细雪(流体)",
 	"tooltip.kubejs.tf_catalytic_stone": "§b这东西拿到就解锁了...做出来就可以直接吃掉了(",
-	"tooltip.kubejs.copper_tools": "§b一套铜制的东西,挖掘等级和铁一样,没有铁的时候可以应急"
+	"tooltip.kubejs.copper_tools": "§b一套铜制的东西,挖掘等级和铁一样,没有铁的时候可以应急",
+	"tooltip.kubejs.minerals": "§b这个工作站可以将圆石和砂砾加工成各种矿物\n原先的配方有了新的方法",
+	"tooltip.kubejs.quest": "§b请好好跟着走线来发展!"
 }

@@ -114,7 +114,7 @@
 	EnderGuardianDamageMultiplier = 4.5
 	#EnderGuardian's DamageCap
 	#Range: 0 ~ 1000000
-	EnderGuardianDamageCap = 35
+	EnderGuardianDamageCap = 3500
 	#Ender guardian's block breaking ignore the MobGriefing
 	EnderguardianBlockBreaking = true
 	#Guardian's Immune to Long distance attack range.
@@ -166,7 +166,7 @@
 	MonstrosityHealingMultiplier = 1.0
 	#Monstrosity's DamageCap
 	#Range: 0 ~ 1000000
-	MonstrosityDamageCap = 250
+	MonstrosityDamageCap = 2500
 	#Monstrosity's bodyBlocking verdict
 	NetheritemonstrosityBodyBloking = true
 	#Monstrosity's attack Hp Damage
@@ -187,7 +187,7 @@
 	GolemHealthMultiplier = 2.0
 	#Golem's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
-	GolemDamageMultiplier = 10.0
+	GolemDamageMultiplier = 4.0
 
 [Ignis]
 	#Ignis's Health Multiplier
@@ -204,7 +204,7 @@
 	"Ignis's prevent attacks from far away Range" = 15.0
 	#Ignis's DamageCap
 	#Range: 0 ~ 1000000
-	IgnisDamageCap = 120
+	IgnisDamageCap = 2200
 	#Ignis's cracked block breaking ignore the MobGriefing
 	IgnisBlockBreaking = true
 
@@ -214,7 +214,7 @@
 	RevenantHealthMultiplier = 2.0
 	#Revenant's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
-	RevenantDamageMultiplier = 10.0
+	RevenantDamageMultiplier = 4.0
 
 ["The Prowler"]
 	#The Prowler's Immune to Long distance attack range.
@@ -225,7 +225,7 @@
 	ProwlerHealthMultiplier = 2.0
 	#Prowler's Damage Multiplier
 	#Range: 0.0 ~ 1000000.0
-	ProwlerDamageMultiplier = 10.0
+	ProwlerDamageMultiplier = 4.0
 
 ["The Harbinger"]
 	#Harbinger's Health Multiplier
@@ -245,7 +245,7 @@
 	"The Harbinger's prevent attacks from far away Range" = 35.0
 	#Harbinger's DamageCap
 	#Range: 0 ~ 1000000
-	"The Harbinger DamageCap" = 90
+	"The Harbinger DamageCap" = 1900
 	#Harbinger's lasers can light a fire in MobGriefing
 	"The Harbinger Light A Fire" = false
 	#The Harbinger's charge attack Hp Damage
@@ -276,7 +276,7 @@
 	"Leviathan's Tentacle Hp Damage" = 0.1
 	#Leviathan's DamageCap
 	#Range: 0 ~ 1000000
-	LeviathanDamageCap = 100
+	LeviathanDamageCap = 1500
 	#Leviathan's block breaking ignore the MobGriefing
 	LeviathanBlockBreaking = true
 	#Leviathan Immune Out of Water
@@ -318,7 +318,7 @@
 	"Ancient Remnant's prevent attacks from far away Range" = 15.0
 	#Ancient Remnant's DamageCap
 	#Range: 0 ~ 1000000
-	AncientRemnantCap = 200
+	AncientRemnantCap = 2000
 	#Ancient Remnant's block breaking ignore the MobGriefing
 	AncientRemnantBlockBreaking = true
 	#Remnant's Charge Hp Damage

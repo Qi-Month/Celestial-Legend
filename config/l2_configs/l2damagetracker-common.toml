@@ -7,4 +7,8 @@ cyclicDamageThreshold = 1
 muteCyclicDamageInterrupt = false
 #Print damage trace tracked by damage tracker
 printDamageTrace = false
+#Save player attack damage trace
+savePlayerAttack = false
+#Save player hurt damage trace
+savePlayerDamaged = false
 

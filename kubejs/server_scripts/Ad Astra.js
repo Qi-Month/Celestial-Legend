@@ -1,6 +1,6 @@
 ServerEvents.recipes(e => {
 	// Create
-	let {
+	const {
 		compacting,
 		crushing,
 		cutting,
@@ -17,12 +17,12 @@ ServerEvents.recipes(e => {
 		splashing
 	} = e.recipes.create
 	// KubeJS
-	let {
+	const {
 		shaped,
 		shapeless
 	} = e.recipes.kubejs
 	// Minecraft
-	let {
+	const {
 		blasting,
 		campfire_cooking,
 		crafting_shaped,
@@ -66,6 +66,12 @@ ServerEvents.recipes(e => {
 		.transitionalItem('ad_astra:steel_pillar')
 		.id('ad_astra:recipes/nasa_workbench')
 
+	// 钢锭
+	mixing('2x ad_astra:steel_ingot', [
+		'#forge:coal_coke',
+		'#forge:ingots/ironwood'
+	]).superheated()
+
 	// 戴斯引擎
 	mechanical_crafting('ad_astra:desh_engine', [
 		'PPP',
@@ -108,12 +114,12 @@ ServerEvents.recipes(e => {
 	// 太阳能
 	mechanical_crafting('ad_astra:solar_panel', [
 		'GGG',
-		'SDS',
-		'DDD'
+		'SOS',
+		'OOO'
 	], {
 		G: '#forge:glass_panes/blue',
 		S: '#forge:plates/steel',
-		D: '#forge:plates/desh'
+		O: 'create_new_age:overcharged_golden_sheet'
 	}).id('ad_astra:recipes/solar_panel')
 
 	// 一阶漫游车
@@ -267,4 +273,11 @@ ServerEvents.recipes(e => {
 		B: '#forge:storage_blocks/ostrum',
 		G: 'the_forgotten_dimensions:ice_golem_essence'
 	}).id('ad_astra:recipes/cryo_freezer')
+
+	// 凛冰
+	mixing(Fluid.of('ad_astra:cryo_fuel', 60), [
+		Fluid.of('minecraft:lava', 10),
+		Fluid.of('ad_astra:oil', 10),
+		Fluid.of('kubejs:powder_snow', 10)
+	])
 })

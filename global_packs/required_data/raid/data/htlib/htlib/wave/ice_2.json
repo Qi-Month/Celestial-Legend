@@ -1,41 +1,41 @@
 {
-  "type": "htlib:common",
-  "setting": {
-    "can_skip_wave": true,
-    "wave_duration": 14000
-  },
-  "spawns": [
-    {
-      "spawn": "htlib:ice_5",
-      "start_tick": 20
-    },
-    {
-      "spawn": "htlib:ice_6",
-      "start_tick": 10
-    },
-    {
-      "spawn": "htlib:ice_7",
-      "start_tick": 10
-    },
-    {
-      "spawn": "htlib:ice_8",
-      "start_tick": 10
-    },
-	{
-      "spawn": "htlib:ice_9",
-      "start_tick": 70
-    },
-    {
-      "spawn": "htlib:ice_6",
-      "start_tick": 70
-    },
-    {
-      "spawn": "htlib:ice_7",
-      "start_tick": 70
-    },
-    {
-      "spawn": "htlib:ice_8",
-      "start_tick": 70
-    }
-  ]
+	"type": "htlib:common",
+	"setting": {
+		"can_skip_wave": true,
+		"wave_duration": 14000
+	},
+	"spawns": [
+		{
+			"spawn": "htlib:ice_5",
+			"start_tick": 20
+		},
+		{
+			"spawn": "htlib:ice_6",
+			"start_tick": 10
+		},
+		{
+			"spawn": "htlib:ice_7",
+			"start_tick": 10
+		},
+		{
+			"spawn": "htlib:ice_8",
+			"start_tick": 10
+		},
+		{
+			"spawn": "htlib:ice_9",
+			"start_tick": 70
+		},
+		{
+			"spawn": "htlib:ice_6",
+			"start_tick": 70
+		},
+		{
+			"spawn": "htlib:ice_7",
+			"start_tick": 70
+		},
+		{
+			"spawn": "htlib:ice_8",
+			"start_tick": 70
+		}
+	]
 }

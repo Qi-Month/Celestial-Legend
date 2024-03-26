@@ -76,6 +76,9 @@
 	#"minecraft:diamond_.*" = 5000
 	[items.max_damage]
 		test = 0
+		"create:copper_diving_boots" = 324
+		"create:copper_backtank" = 498
+		"create:copper_diving_helmet" = 405
 
 	#Set the max stack size of an item. Only values between 2 and 64 are supported. Items that have durability cannot have this value altered. Example (without the leading #):
 	#"minecraft:ender_pearl" = 64
@@ -97,6 +100,9 @@
 	#"minecraft:.*_hoe" = 40
 	[items.enchantment_value]
 		test = 0
+		"create:copper_diving_boots" = 80
+		"create:copper_backtank" = 80
+		"create:copper_diving_helmet" = 80
 
 	#Set the repair material of an item. May be an item or a tag containing multiple items, with a # before the tag id. Example (without the leading #):
 	#"minecraft:wooden_.*" = "#minecraft:fishes"
@@ -112,11 +118,17 @@
 			test = 0
 			"aquamirae:three_bolt_leggings" = 6
 			"aquamirae:three_bolt_suit" = 8
+			"create:copper_diving_boots" = 4
+			"create:copper_backtank" = 8
+			"create:copper_diving_helmet" = 4
 
 		#Set the toughness value of an armor item. May not work on modded armors, please file an issue if that's the case. Example (without the leading #):
 		#"minecraft:golden_boots" = 1
 		[items.armor.toughness]
 			test = 0.0
+			"create:copper_diving_boots" = 2.5
+			"create:copper_backtank" = 2.5
+			"create:copper_diving_helmet" = 2.5
 
 		#Set the knockback resistance of an armor item. May not work on modded armors, please file an issue if that's the case. Example (without the leading #):
 		#"minecraft:golden_leggings" = 0.1

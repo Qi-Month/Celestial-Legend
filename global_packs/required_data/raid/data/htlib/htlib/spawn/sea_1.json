@@ -1,7 +1,7 @@
 {
-  "type": "htlib:once",
-  "setting": {
-    "entity_type": "alexsmobs:skelewag"
-  },
-  "spawn_count": 4
+	"type": "htlib:once",
+	"setting": {
+		"entity_type": "alexsmobs:skelewag"
+	},
+	"spawn_count": 4
 }

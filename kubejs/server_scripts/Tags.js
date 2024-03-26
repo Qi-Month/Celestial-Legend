@@ -1,4 +1,3 @@
-
 // Entity
 ServerEvents.tags('entity_type', e => {
 	e.add('forge:can_drop_ticket_1', [

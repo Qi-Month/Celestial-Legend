@@ -1,0 +1,15 @@
+{
+	id: "6DD98D52A65F1542"
+	loot_size: 1
+	order_index: 38
+	rewards: [
+		{ item: "l2hostility:curse_of_envy" }
+		{ item: "l2hostility:curse_of_gluttony" }
+		{ item: "l2hostility:curse_of_greed" }
+		{ item: "l2hostility:curse_of_lust" }
+		{ item: "l2hostility:curse_of_pride" }
+		{ item: "l2hostility:curse_of_sloth" }
+		{ item: "l2hostility:curse_of_wrath" }
+	]
+	title: "诅咒"
+}

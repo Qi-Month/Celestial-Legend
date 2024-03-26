@@ -1,0 +1,17 @@
+{
+	id: "49A34694253E5941"
+	loot_size: 1
+	order_index: 36
+	rewards: [
+		{ item: "smallships:oak_cog" }
+		{ item: "smallships:bamboo_cog" }
+		{ item: "smallships:birch_cog" }
+		{ item: "smallships:spruce_cog" }
+		{ item: "smallships:jungle_cog" }
+		{ item: "smallships:acacia_cog" }
+		{ item: "smallships:cherry_cog" }
+		{ item: "smallships:mangrove_cog" }
+		{ item: "smallships:dark_oak_cog" }
+	]
+	title: "随机小帆船"
+}

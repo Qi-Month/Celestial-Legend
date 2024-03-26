@@ -41,12 +41,7 @@ customization {
 customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
   action = setbuttonlabel
-  value = 群星共舞的奇遇
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
-  action = hidebutton
+  value = 群星共舞的奇迹
 }
 
 customization {
@@ -61,27 +56,6 @@ customization {
   identifier = %id=376322%
   action = setbuttondescription
   description = 机械动力配置
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
-  orientation = mid-left
-  x = 16
-  action = movebutton
-  y = 40
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
-  width = 100
-  action = resizebutton
-  height = 20
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
-  action = setbuttonlabel
-  value = 选项
 }
 
 customization {
@@ -121,20 +95,6 @@ customization {
 }
 
 customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
-  orientation = mid-left
-  x = 120
-  action = movebutton
-  y = -11
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
-  action = setbuttondescription
-  description = 语言配置
-}
-
-customization {
   identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
   orientation = mid-left
   x = 16
@@ -156,6 +116,51 @@ customization {
 }
 
 customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  orientation = mid-left
+  x = 16
+  action = movebutton
+  y = 40
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  width = 100
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  action = setbuttonlabel
+  value = 选项
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  orientation = mid-left
+  x = 120
+  action = movebutton
+  y = -11
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  action = setbuttondescription
+  description = 语言配置
+}
+
+customization {
   identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
   orientation = mid-left
   x = 16
@@ -174,11 +179,6 @@ customization {
   identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
   action = setbuttonlabel
   value = Mods
-}
-
-customization {
-  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
-  action = hidebutton
 }
 
 customization {
@@ -308,21 +308,12 @@ customization {
 }
 
 customization {
-  orientation = bottom-left
-  enable_scrolling = true
-  shadow = true
-  scale = 1.0
-  source = Minecraft Version:1.20.1 Forge-47.2.1%n%Modpack Version:XHC2-1
-  text_border = 0
-  case_mode = normal
-  source_mode = direct
-  line_spacing = 1
-  x = 0
-  width = 178
-  action = custom_layout_element:fancymenu_customization_item_text
-  actionid = 71685d60-85ff-4437-b1e2-b14ed3c9ba481708584950951
-  y = -23
-  alignment = left
-  height = 23
+  identifier = %id=4936%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=49361%
+  action = hidebutton
 }
 

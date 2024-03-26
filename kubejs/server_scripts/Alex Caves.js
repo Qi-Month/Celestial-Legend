@@ -1,6 +1,6 @@
 ServerEvents.recipes(e => {
 	// Create
-	let {
+	const {
 		compacting,
 		crushing,
 		cutting,
@@ -17,12 +17,12 @@ ServerEvents.recipes(e => {
 		splashing
 	} = e.recipes.create
 	// KubeJS
-	let {
+	const {
 		shaped,
 		shapeless
 	} = e.recipes.kubejs
 	// Minecraft
-	let {
+	const {
 		blasting,
 		campfire_cooking,
 		crafting_shaped,
@@ -42,6 +42,7 @@ ServerEvents.recipes(e => {
 		A: 'create:andesite_alloy',
 		G: '#forge:glass'
 	})
+	
 	// 潜水胸甲
 	shaped('alexscaves:diving_chestplate', [
 		'C C',
@@ -51,6 +52,7 @@ ServerEvents.recipes(e => {
 		C: '#forge:plates/copper',
 		A: 'create:andesite_alloy',
 	})
+
 	// 潜水裤腿
 	shaped('alexscaves:diving_leggings', [
 		'CCC',
@@ -60,6 +62,7 @@ ServerEvents.recipes(e => {
 		C: '#forge:plates/copper',
 		A: 'create:andesite_alloy',
 	})
+
 	// 潜水靴子
 	shaped('alexscaves:diving_boots', [
 		'C C',
@@ -80,35 +83,4 @@ ServerEvents.recipes(e => {
 		E: '#forge:ingots/enderium',
 		H: 'alexscaves:heart_of_iron'
 	}).id('alexscaves:magnetic_quarry')
-
-	// 潜水艇
-	sequenced_assembly(
-		'kubejs:in_submarine',
-		'create:brass_casing', [
-		deploying('kubejs:in_submarine', [
-			'kubejs:in_submarine',
-			'#forge:gears/bronze'
-		]),
-		deploying('kubejs:in_submarine', [
-			'kubejs:in_submarine',
-			'#forge:plates/steel'
-		]),
-		deploying('kubejs:in_submarine', [
-			'kubejs:in_submarine',
-			'create:precision_mechanism'
-		]),
-		deploying('kubejs:in_submarine', [
-			'kubejs:in_submarine',
-			'create:nixie_tube'
-		]),
-		deploying('kubejs:in_submarine', [
-			'kubejs:in_submarine',
-			'thermal:obsidian_glass'
-		])
-	]).loops(4).transitionalItem('kubejs:in_submarine')
-	// 第二步
-	deploying('alexscaves:submarine', [
-		'kubejs:in_submarine',
-		'aquamirae:three_bolt_helmet'
-	])
 })

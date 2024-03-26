@@ -36,16 +36,6 @@
 		{
 			item: {
 				Count: 1b
-				id: "the_forgotten_dimensions:lightning_bolt"
-				tag: {
-					Damage: 0
-				}
-			}
-			only_one: true
-		}
-		{
-			item: {
-				Count: 1b
 				id: "twilightforest:twilight_scepter"
 				tag: {
 					Damage: 0

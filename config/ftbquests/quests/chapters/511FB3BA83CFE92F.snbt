@@ -194,12 +194,6 @@
 				}
 				{
 					exclude_from_claim_all: true
-					id: "03EBBD418E2176AB"
-					table_id: 7383894001746634703L
-					type: "random"
-				}
-				{
-					exclude_from_claim_all: true
 					id: "08AB069331C0A481"
 					table_id: 3297035255779660728L
 					type: "choice"
@@ -209,6 +203,11 @@
 					id: "3F6B36F56BAD3CC0"
 					table_id: 1059738892163851710L
 					type: "random"
+				}
+				{
+					id: "62BF79ADDA5F7E55"
+					item: "l2complements:hard_ice"
+					type: "item"
 				}
 			]
 			subtitle: "“她苍白的皮肤如细雪般柔腻，星蓝的长发如流瀑般垂落至胸前，头顶那璀璨如寒空之月辉的王冠，更是让人目眩神摇。”“但她一挥手，一道雪花魔法便是直接袭来。”"

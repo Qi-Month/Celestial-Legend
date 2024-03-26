@@ -11,11 +11,18 @@
 		{
 			dependencies: ["681BE94E5DD7AC9C"]
 			id: "65BEF7BFB588B701"
-			rewards: [{
-				id: "595F21EE7EB30C3F"
-				item: "create:brass_ingot"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "595F21EE7EB30C3F"
+					item: "create:brass_ingot"
+					type: "item"
+				}
+				{
+					id: "2CF9D87E22ECFAE5"
+					item: "l2artifacts:artifact_experience_3"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "00B12391E943E6E8"
@@ -65,6 +72,7 @@
 				item: "create:belt_connector"
 				type: "item"
 			}]
+			subtitle: "传统物流系统"
 			tasks: [{
 				id: "09AB902994FA3DA5"
 				item: "create:belt_connector"
@@ -237,13 +245,28 @@
 		}
 		{
 			dependencies: ["7CF773AEC1CB3BAD"]
+			description: ["净化药水可谓便宜又好用。"]
 			id: "6D8647E18BFD4DA3"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "3592EEC4139E1C13"
-				table_id: 2462882013908997816L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3592EEC4139E1C13"
+					table_id: 2462882013908997816L
+					type: "random"
+				}
+				{
+					id: "38C64408F07CDAF3"
+					item: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "l2complements:cleanse"
+						}
+					}
+					random_bonus: 4
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "3DE6E81020ED865C"
 				item: "create:item_drain"
@@ -302,6 +325,8 @@
 				table_id: 8695861683220912716L
 				type: "random"
 			}]
+			shape: "gear"
+			size: 1.5d
 			tasks: [{
 				id: "03616570A5790ADA"
 				item: "create:precision_mechanism"
@@ -318,6 +343,7 @@
 				item: "create:precision_mechanism"
 				type: "item"
 			}]
+			subtitle: "这东西算黑科技了吧"
 			tasks: [{
 				id: "525044A267D3BFC7"
 				item: "create:mechanical_arm"
@@ -354,21 +380,30 @@
 			id: "6BC7138B85D8DEB3"
 			rewards: [
 				{
+					auto: "no_toast"
 					exclude_from_claim_all: true
 					id: "091C1A6138F0A13C"
 					table_id: 523424714767025876L
 					type: "random"
 				}
 				{
+					auto: "no_toast"
 					exclude_from_claim_all: true
 					id: "789A924E147FCA43"
 					table_id: 9066948471408071124L
 					type: "random"
 				}
 				{
+					auto: "no_toast"
 					id: "42E7BF7779053AAB"
 					item: "kubejs:mooncoin"
 					random_bonus: 2
+					type: "item"
+				}
+				{
+					auto: "no_toast"
+					id: "5474E7E602620E1A"
+					item: "l2hostility:detector_glasses"
 					type: "item"
 				}
 			]
@@ -415,7 +450,14 @@
 		}
 		{
 			dependencies: ["3C6F6E919AABFD25"]
+			description: ["建议有全套附魔&b钻石等级&f的套装后再来挑战。"]
 			id: "6520F447E94E9C0D"
+			rewards: [{
+				id: "6A09ABBA4983C8CF"
+				item: "l2artifacts:artifact_experience_3"
+				type: "item"
+			}]
+			subtitle: "这东西在某种方面相当于一个信号弹，问题是，谁在接收信息？"
 			tasks: [{
 				id: "344E72F9EBF87462"
 				item: "kubejs:nether_totem"
@@ -427,7 +469,34 @@
 		}
 		{
 			dependencies: ["6BC7138B85D8DEB3"]
+			description: [
+				"这个任务的奖励之一是“选择一个诅咒”"
+				""
+				"诅咒是一类特别的饰品，共有7个，他们每个都有非常强大的效果（或者非常独特），同时，也会有相应的负面效果。"
+				""
+				"你可以在jei搜索“诅咒”来查看这7个饰品的能力。"
+				""
+				"&6慎重选择&f。"
+			]
 			id: "3096446E4E2252A5"
+			rewards: [
+				{
+					id: "1DD5016770FF5B35"
+					item: "l2hostility:bottle_of_sanity"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "48F24FF8908178C7"
+					table_id: 7915513206198441282L
+					type: "choice"
+				}
+				{
+					id: "6966A210DEB1060D"
+					item: "l2hostility:bottle_of_curse"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "28A9238D92672C97"
 				item: "kubejs:magic_essence"
@@ -451,6 +520,13 @@
 					id: "0C9D1B70E45D1944"
 					table_id: 7383894001746634703L
 					type: "random"
+				}
+				{
+					advancement: "restrictedportals:twilightforest"
+					auto: "no_toast"
+					criterion: ""
+					id: "49A8B7ECABEF5D0B"
+					type: "advancement"
 				}
 			]
 			tasks: [{
@@ -535,9 +611,15 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["11D74F551A9C32E3"]
+			dependencies: ["52CE644C772E2584"]
 			description: ["{image:kubejs:textures/images/1.png width:222 height:72 align:1}"]
 			id: "7B2EEF4A43A3FE2A"
+			rewards: [{
+				id: "36D9E2B055DBF2A2"
+				item: "l2artifacts:random_2"
+				type: "item"
+			}]
+			shape: "pentagon"
 			subtitle: "&3或许我们可以尝试一下这个呢?"
 			tasks: [
 				{
@@ -555,9 +637,127 @@
 					type: "item"
 				}
 			]
-			title: "试试这个?"
+			title: "&b试试这个?"
 			x: -6.0d
 			y: 9.0d
+		}
+		{
+			dependencies: ["65BEF7BFB588B701"]
+			description: [
+				"新一代的潜水套装，在水下更加如鱼得水了，而且由于其强大的防御力，即使在岸上也有用武之地。"
+				"意外的是，该套装拥有黄金级别的附魔能力"
+			]
+			id: "37A05AC1463F2CB4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "741303140ED15712"
+				table_id: 8695861683220912716L
+				type: "random"
+			}]
+			subtitle: "黄铜制作的盔甲有着比拟钻石的性能。"
+			tasks: [
+				{
+					id: "6478EFAC331C2731"
+					item: {
+						Count: 1b
+						id: "create:copper_diving_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6F4F9E2B984DF9CA"
+					item: {
+						Count: 1b
+						id: "create:copper_backtank"
+						tag: {
+							Air: 900
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5AAF1FCE6FDD5D81"
+					item: {
+						Count: 1b
+						id: "create:copper_diving_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "潜水装备升级！"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["37A05AC1463F2CB4"]
+			description: [
+				"在海面上幸存者们口中，人类在末日前建造了大量避难所，其中就包括这个工厂。"
+				""
+				"海盗们的前期探查标明，避难所结构良好，物资种类涵盖齐全，几乎包括了灾难前所有人类所需的矿物以及植物种子（比如被幸存者们认为已经灭绝的竹子）。"
+				""
+				"一些迹象标明工厂的安保系统仍在运转，但是观测不到任何生命迹象。"
+				""
+				"使用机械之眼可以定位该工厂的位置，如果你打算一探究竟，请务必小心。"
+				"{@pagebreak}"
+				"传言，古代工厂里有着一种半机械亡灵生物，由于动力缺失，目前正在沉睡。"
+				""
+				"我不建议你有任何想要唤醒祂的想法，这不是目前的技术水平可以对付的。"
+			]
+			id: "54218F9BEA8559A7"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2DE397391F935B65"
+					table_id: 3596821520731669244L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2734D668E2D3BC36"
+					table_id: 4260801656984015447L
+					type: "choice"
+				}
+			]
+			subtitle: "旧时代的方舟，可乘客们不知所踪。"
+			tasks: [{
+				id: "44B4AA63F5D8D6E3"
+				item: "cataclysm:mech_eye"
+				type: "item"
+			}]
+			title: "地下避难所"
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			description: ["在袭击中或许会出现不少的唤魔者，几把它们夺取不死图腾"]
+			id: "684A75138611CB0F"
+			rewards: [{
+				id: "67BE13FC8E2CABE7"
+				item: "l2artifacts:random_3"
+				type: "item"
+			}]
+			subtitle: "蕴含生命能量的装备"
+			tasks: [
+				{
+					id: "77ADD7C3C0709930"
+					item: "minecraft:totem_of_undying"
+					type: "item"
+				}
+				{
+					id: "542A67699061A811"
+					item: "l2complements:totemic_gold_ingot"
+					type: "item"
+				}
+			]
+			title: "生命本源"
+			x: 1.5d
+			y: 10.0d
 		}
 	]
 	title: "步入正轨"

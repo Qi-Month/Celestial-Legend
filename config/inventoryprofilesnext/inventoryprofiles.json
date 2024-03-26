@@ -1,8 +1,14 @@
 {
     "ModSettings": {
+        "include_hotbar_modifier": {
+            "main": {
+                "keys": ""
+            }
+        },
         "highlight_foused_items": {
             "value": false
         },
+        "highlight_foused_items_foreground": false,
         "enable_profiles": {
             "value": false
         },
@@ -14,10 +20,6 @@
             "value": false
         },
         "enable_updates_check": false,
-        "highlight_clicking_slot": false,
-        "sort_at_cursor": false,
-        "move_all_at_cursor": false,
-        "ignore_durability": false,
         "first_run": false
     },
     "GuiSettings": {
@@ -31,26 +33,23 @@
             "value": false
         },
         "enable_profiles_announcement": false,
-        "enable_inventory_buttons": {
-            "value": false
-        },
         "show_continuous_crafting_checkbox": {
             "value": false
         },
-        "show_regular_sort_button": {
-            "value": false
-        },
-        "show_sort_in_rows_button": {
-            "value": false
-        },
-        "show_move_all_button": {
-            "value": false
-        },
-        "show_button_tooltips": false
+        "continuous_crafting_checkbox_value": "UNCHECKED",
+        "continuous_crafting_saved_value": false
     },
     "LockedSlotsSettings": {
-        "locked_slots_disable_quick_move_throw": false,
-        "locked_slots_disable_throw_for_non_stackable": false,
+        "lock_slots_switch_config_modifier": {
+            "main": {
+                "keys": ""
+            }
+        },
+        "lock_slots_config_key": {
+            "main": {
+                "keys": ""
+            }
+        },
         "show_locked_slots_background": {
             "value": false
         },
@@ -69,10 +68,6 @@
         "refill_before_tool_break": {
             "value": false
         },
-        "disable_for_loyalty_items": false,
-        "auto_refill_match_custom_name": false,
-        "auto_refill_match_nbt": false,
-        "auto_refill_ignore_nbt_for_buckets": false,
         "visual_durability_notification": {
             "value": false
         },

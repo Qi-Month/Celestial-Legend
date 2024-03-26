@@ -14,9 +14,18 @@
 				"    村庄和城市沉入海底，原先的人民化作溺尸和渊灵，终日徘徊于曾经的家园。"
 				"    幸存者在海上建立了营地，如果走投无路，寻找海上村庄是个好主意。"
 				"    &c不是所有幸存者都热情好客&r，海盗们比灾难来临前更为猖獗。"
+				"{@pagebreak}"
+				"不错，海盗们海盗们学会了使用枪械。"
+				""
+				"{image:kubejs:textures/images/3.png width:120 height:75 align:1}"
 			]
 			icon: "minecraft:seagrass"
 			id: "5D08838AFFBF8E47"
+			rewards: [{
+				id: "0E5A6D042768011E"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "1F4ADCB7A1933098"
 				title: "点击"
@@ -35,6 +44,11 @@
 			]
 			icon: "botania:floating_clayconia"
 			id: "0FC3C329D094DA64"
+			rewards: [{
+				id: "2271435EA6621561"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "552FEFA04F54F994"
 				title: "关于空岛"
@@ -53,6 +67,11 @@
 				}
 			}
 			id: "4871043143265311"
+			rewards: [{
+				id: "4C9B2C69609F738D"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "74148669A36560C0"
 				type: "checkmark"
@@ -69,6 +88,11 @@
 			]
 			icon: "thermal:netherite_gear"
 			id: "3960F94F4D39BD37"
+			rewards: [{
+				id: "0A2B47B538583E55"
+				type: "xp"
+				xp: 10
+			}]
 			tasks: [{
 				id: "039D1D0AC6915F48"
 				title: "设置"
@@ -94,6 +118,7 @@
 				"我们大胆的猜想,或许会有着&4&l更高级的生命体&r&r可以给指定的物品添加新的[&b思索&r],并且会随着时间的推移会越来越多...并且我们或许可以和这些&4&l高级生命体&r&r对话,或许他们会听取我们的建议添加更多的[&b思索&r]..."
 				""
 				"这或许会失败,但凡事都得&a尝试&r争取一下不是吗..."
+				""
 				"{image:kubejs:textures/images/2.png width:75 height:75 align:1}"
 			]
 			icon: "create:empty_schematic"
@@ -117,6 +142,32 @@
 			title: "是时候发动[&b俺寻思&7]之力了!"
 			x: -4.0d
 			y: 1.5d
+		}
+		{
+			id: "15D2B2B2BC2BC916"
+			rewards: [
+				{
+					auto: "no_toast"
+					command: "/gamerule keepInventory true"
+					id: "1AD6B1F1172DE718"
+					type: "command"
+				}
+				{
+					auto: "no_toast"
+					command: "/gamerule sendCommandFeedback false"
+					id: "54472A823F8F6635"
+					type: "command"
+				}
+			]
+			size: 0.01d
+			tasks: [{
+				dimension: "minecraft:overworld"
+				id: "0AB07774AD66E9F0"
+				type: "dimension"
+			}]
+			title: "a世界规则指令"
+			x: -8.0d
+			y: -5.5d
 		}
 	]
 	title: "前言"

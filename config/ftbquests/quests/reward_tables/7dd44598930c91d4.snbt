@@ -1125,6 +1125,339 @@
 				}
 			}
 		}
+		{
+			item: {
+				Count: 1b
+				id: "l2weaponry:void_escape"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "l2weaponry:iron_javelin"
+				tag: {
+					Damage: 0
+					Enchantments: [{
+						id: "l2complements:drill_digging"
+						lvl: 1s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "l2weaponry:gold_javelin"
+				tag: {
+					Damage: 0
+					Enchantments: [{
+						id: "l2complements:drill_digging"
+						lvl: 1s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "l2weaponry:iron_claw"
+				tag: {
+					Damage: 0
+					Enchantments: [{
+						id: "minecraft:sweeping"
+						lvl: 2s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "l2weaponry:gold_claw"
+				tag: {
+					Damage: 0
+					Enchantments: [{
+						id: "minecraft:sweeping"
+						lvl: 2s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "l2weaponry:diamond_claw"
+				tag: {
+					Damage: 0
+					Enchantments: [{
+						id: "minecraft:sweeping"
+						lvl: 2s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "l2weaponry:iron_dagger"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "l2weaponry:gold_dagger"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "l2weaponry:diamond_dagger"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "l2weaponry:iron_throwing_axe"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "l2weaponry:gold_throwing_axe"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "l2weaponry:diamond_throwing_axe"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "minecraft:trident"
+				tag: {
+					Damage: 0
+					Enchantments: [{
+						id: "minecraft:riptide"
+						lvl: 3s
+					}]
+					RepairCost: 1
+					itemModifier: "celestial_forge:legend"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "l2weaponry:iron_hammer"
+				tag: {
+					Damage: 0
+					Enchantments: [{
+						id: "l2complements:cubic_digging"
+						lvl: 1s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "l2weaponry:gold_hammer"
+				tag: {
+					Damage: 0
+					Enchantments: [{
+						id: "l2complements:cubic_digging"
+						lvl: 1s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "l2weaponry:diamond_hammer"
+				tag: {
+					Damage: 0
+					Enchantments: [{
+						id: "l2complements:cubic_digging"
+						lvl: 1s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "l2weaponry:iron_battle_axe"
+				tag: {
+					Damage: 0
+					Enchantments: [{
+						id: "l2complements:tree_chopping"
+						lvl: 1s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "l2weaponry:gold_battle_axe"
+				tag: {
+					Damage: 0
+					Enchantments: [{
+						id: "l2complements:tree_chopping"
+						lvl: 1s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "l2weaponry:diamond_battle_axe"
+				tag: {
+					Damage: 0
+					Enchantments: [{
+						id: "l2complements:tree_chopping"
+						lvl: 1s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "l2weaponry:iron_spear"
+				tag: {
+					Damage: 0
+					Enchantments: [{
+						id: "l2complements:plane_digging"
+						lvl: 1s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "l2weaponry:gold_spear"
+				tag: {
+					Damage: 0
+					Enchantments: [{
+						id: "l2complements:plane_digging"
+						lvl: 1s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "l2weaponry:diamond_spear"
+				tag: {
+					Damage: 0
+					Enchantments: [{
+						id: "l2complements:plane_digging"
+						lvl: 1s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "l2weaponry:iron_plate_shield"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "l2weaponry:gold_plate_shield"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "l2weaponry:diamond_plate_shield"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "l2weaponry:iron_nunchaku"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "l2weaponry:gold_nunchaku"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "l2weaponry:diamond_nunchaku"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "the_forgotten_dimensions:icyllium_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1b
+				id: "twilightforest:ice_sword"
+				tag: {
+					Damage: 0
+					itemModifier: "celestial_forge:serration"
+				}
+			}
+		}
 	]
 	title: "随机武器"
 }

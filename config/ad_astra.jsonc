@@ -57,7 +57,7 @@
          * The speed when flying forward.
          * Type: Double
          */
-        "jetSuitSpeed": 0.8,
+        "jetSuitSpeed": 0.9,
         /*
          * The speed when idle flying up.
          * Type: Double

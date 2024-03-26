@@ -32,6 +32,11 @@
 					table_id: 523424714767025876L
 					type: "random"
 				}
+				{
+					id: "233889F241607557"
+					item: "l2hostility:book_of_omniscience"
+					type: "item"
+				}
 			]
 			shape: "square"
 			tasks: [
@@ -47,33 +52,6 @@
 			]
 			title: "访问维度：冰封之地"
 			x: -1.0d
-			y: -1.0d
-		}
-		{
-			dependencies: ["6FCFFFFC7C8035CC"]
-			id: "118C9367A8DE4A69"
-			subtitle: "这本书介绍了元素系统"
-			tasks: [{
-				id: "53E1EC9B67DBA65C"
-				item: {
-					Count: 1b
-					ForgeCaps: {
-						Parent: {
-							Items: [ ]
-							Size: 9
-						}
-					}
-					id: "the_forgotten_dimensions:a_guide_to_dimensions"
-					tag: {
-						Inventory: {
-							Items: [ ]
-							Size: 9
-						}
-					}
-				}
-				type: "item"
-			}]
-			x: 1.0d
 			y: -1.0d
 		}
 		{
@@ -138,7 +116,7 @@
 			y: -3.5d
 		}
 		{
-			dependencies: ["118C9367A8DE4A69"]
+			dependencies: ["6FCFFFFC7C8035CC"]
 			description: ["可用于合成各种盔甲和一些道具，也可以合成原版的线和羊毛。"]
 			id: "1A54B8DEE306F5EA"
 			rewards: [{
@@ -578,6 +556,11 @@
 					table_id: 1059738892163851710L
 					type: "loot"
 				}
+				{
+					id: "19FA65BF4B4C7357"
+					item: "l2artifacts:random_4"
+					type: "item"
+				}
 			]
 			tasks: [{
 				entity: "the_forgotten_dimensions:pigmy_god_slayer"
@@ -757,6 +740,11 @@
 					count: 4
 					id: "46CA424799184005"
 					item: "kubejs:mooncoin"
+					type: "item"
+				}
+				{
+					id: "5528253F1A13A80E"
+					item: "l2artifacts:random_5"
 					type: "item"
 				}
 			]

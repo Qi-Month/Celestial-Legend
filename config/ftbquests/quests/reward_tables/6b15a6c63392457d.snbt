@@ -7,6 +7,7 @@
 		{ item: "minecraft:sheep_spawn_egg" }
 		{ item: "minecraft:cow_spawn_egg" }
 		{ item: "minecraft:allay_spawn_egg" }
+		{ item: "blue_skies:gatekeeper_spawn_egg" }
 	]
 	title: "基础动物"
 }

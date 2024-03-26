@@ -37,6 +37,7 @@
 		{ item: "minecraft:golden_apple", random_bonus: 3, weight: 0.8f }
 		{ item: "minecraft:enchanted_golden_apple", weight: 9.999999E-4f }
 		{ item: "minecraft:totem_of_undying", weight: 0.001f }
+		{ item: "l2hostility:book_of_reprint", weight: 0.7f }
 	]
 	title: "随机奖励"
 }

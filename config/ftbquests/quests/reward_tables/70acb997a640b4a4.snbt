@@ -25,6 +25,8 @@
 		{ item: "twilightforest:transformation_sapling", weight: 0.01f }
 		{ item: "twilightforest:mining_sapling", weight: 0.01f }
 		{ item: "twilightforest:sorting_sapling", weight: 0.01f }
+		{ count: 4, item: "minecraft:bamboo", random_bonus: 6 }
+		{ item: "the_forgotten_dimensions:mendalum_sapling", weight: 0.01f }
 	]
 	title: "随机树苗"
 }

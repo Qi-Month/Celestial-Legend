@@ -33,3 +33,6 @@ net.minecraft.client.gui.screens.SoundOptionsScreen {
 com.mrcrayfish.catalogue.client.screen.CatalogueModListScreen {
 }
 
+net.minecraft.client.gui.screens.LevelLoadingScreen {
+}
+

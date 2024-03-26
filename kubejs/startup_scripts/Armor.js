@@ -12,7 +12,7 @@ ItemEvents.armorTierRegistry(e => {
 // 物品贴图照常放在item
 // 身上的贴图要放在assets\kubejs\textures\models\armor
 StartupEvents.registry('item', e => {
-	let Item = (
+	const Item = (
 		Name,  // Item ID
 		Type, // 类型
 		Rarity,  // 稀有度

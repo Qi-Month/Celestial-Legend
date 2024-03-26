@@ -72,11 +72,11 @@ customization {
 customization {
   path = FanceMenu/menu/logo.png
   orientation = top-centered
-  x = -122
+  x = -120
   width = 245
   action = addtexture
   actionid = f9fa16f4-8a12-4a3a-92aa-57fe6d906ed71704708312502
-  y = 51
+  y = 52
   height = 87
 }
 

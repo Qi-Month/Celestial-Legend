@@ -1704,7 +1704,7 @@
 	"create.ponder.hose_pulley_level.text_4": "填充流体的顺序为由下至上",
 	"create.ponder.hose_pulley_level.text_5": "流体最多只能被填充至软管开口所在的高度",
 	"create.ponder.identify": "显示方块名称",
-	"create.ponder.identify_mode": "显示方块名称已启用\n按 [] 继续思索",
+	"create.ponder.identify_mode": "显示方块名称已启用\n按 [%1$s] 继续思索",
 	"create.ponder.index_description": "点击一个图标来查看相关的物品和方块",
 	"create.ponder.index_title": "思索索引",
 	"create.ponder.item_drain.header": "使用分液池提取物品中的流体",

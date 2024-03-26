@@ -126,15 +126,38 @@
 <item:the_forgotten_dimensions:reinforced_metallic_snow_sword>.anyDamage().clearTooltip();
 <item:the_forgotten_dimensions:reinforced_metallic_snow_sword>.anyDamage().addTooltip("\u00A7b\u00A7l锯齿铁雪剑");
 <item:the_forgotten_dimensions:reinforced_metallic_snow_sword>.anyDamage().addTooltip("\u00A7b\u00A7l—冰—");
-
 <item:the_forgotten_dimensions:reinforced_metallic_snow_sword>.anyDamage().addTooltip("\u00A7f敌人每防御4点物理伤害就会额外对其造成1点不可防御的伤害。");
 <item:the_forgotten_dimensions:reinforced_metallic_snow_sword>.anyDamage().addTooltip("\u00A77在主手时：");
 <item:the_forgotten_dimensions:reinforced_metallic_snow_sword>.anyDamage().addTooltip("\u00A72 6 攻击伤害");
 <item:the_forgotten_dimensions:reinforced_metallic_snow_sword>.anyDamage().addTooltip("\u00A7b 2.5 冰元素伤害");
 <item:the_forgotten_dimensions:reinforced_metallic_snow_sword>.anyDamage().addTooltip("\u00A72 1.5 攻击速度");
-
-
-
-
-
+<item:dummmmmmy:target_dummy>.anyDamage().addTooltip("\u00A7f免疫部分元素伤害，会被虚空伤害杀死。");
+<item:kubejs:nether_totem>.addTooltip("\u00A7f右键使用");
+<item:kubejs:nether_totem>.addTooltip("\u00A7f召唤一场由\u00A75未名巫师\u00A7f带领的袭击");
+<item:immersiveengineering:glider>.addTooltip("\u00A7f丐版鞘翅，但是便宜。");
+<item:the_forgotten_dimensions:magma_bomb>.anyDamage().removeTooltip("Damage");
+<item:the_forgotten_dimensions:magma_bomb>.addTooltip("\u00A77右键发射会破坏方块的爆炸岩浆弹（不会留下岩浆）");
+<item:the_forgotten_dimensions:magma_bomb>.addTooltip("\u00A77伤害基于与爆炸源点的距离");
+<item:the_forgotten_dimensions:blaze_rod_bolt>.anyDamage().removeTooltip("Used");
+<item:the_forgotten_dimensions:blaze_rod_bolt>.addTooltip("\u00A77使用烈焰强弩发射");
+<item:alexscaves:tesla_bulb>.addTooltip("\u00A77光源，会发出亮度为15级的光");
+<item:alexscaves:tesla_bulb>.addTooltip("\u00A77也会释放闪电链造成1点伤害并使周围的苦力怕变为闪电苦力怕，村民变成女巫");
+<item:alexscaves:tesla_bulb>.addTooltip("\u00A77直接破坏或投射物击中特斯拉灯泡，它会释放更多闪电链，释放的闪电链过多会发生\u00A7e大爆炸\u00A77。");
+<item:alexscaves:tesla_bulb>.addTooltip("\u00A77可以通过破坏支撑特斯拉球的方块来使其掉落。");
+<item:the_forgotten_dimensions:thunderite_ingot>.removeTooltip("Looks");
+<item:the_forgotten_dimensions:thunderite_ingot>.removeTooltip("what");
+<item:the_forgotten_dimensions:thunderite_ingot>.removeTooltip("you");
+<item:the_forgotten_dimensions:thunderite_ingot>.addTooltip("\u00A77看起来像猪油。");
+<item:the_forgotten_dimensions:thunderite_ingot>.addTooltip("\u00A77可猪油不导电啊？");
+<item:the_forgotten_dimensions:thunderite_ingot>.addTooltip("\u00A77你管他。");
+<item:the_forgotten_dimensions:metallic_snow_arrow>.removeTooltip("Used");
+<item:the_forgotten_dimensions:metallic_snow_arrow>.addTooltip("\u00A77只能被\u00A7f门达兰木弓\u00A77、\u00A76天陨弓\u00A77、\u00A7b冰凰弓\u00A77发射");
+<item:the_forgotten_dimensions:true_ice_arrow>.removeTooltip("Used");
+<item:the_forgotten_dimensions:true_ice_arrow>.addTooltip("\u00A77只能被\u00A7f门达兰木弓\u00A77、\u00A76天陨弓\u00A77、\u00A7b冰凰弓\u00A77发射");
+<item:the_forgotten_dimensions:skylite_arrow>.removeTooltip("Used");
+<item:the_forgotten_dimensions:skylite_arrow>.addTooltip("\u00A77只能被\u00A7f门达兰木弓\u00A77、\u00A76天陨弓\u00A77、\u00A7b冰凰弓\u00A77发射");
+<item:the_forgotten_dimensions:thunderite_arrow>.removeTooltip("Used");
+<item:the_forgotten_dimensions:thunderite_arrow>.addTooltip("\u00A77只能被\u00A7f门达兰木弓\u00A77、\u00A76天陨弓\u00A77、\u00A7b冰凰弓\u00A77发射");
+<item:blue_skies:everdawn_portal>.addTooltip("\u00A77右键放置传送门");
+<item:blue_skies:everbright_portal>.addTooltip("\u00A77右键放置传送门");
 

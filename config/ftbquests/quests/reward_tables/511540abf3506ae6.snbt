@@ -10,8 +10,8 @@
 				tag: {
 					AttributeModifiers: [
 						{
-							Amount: -0.9d
-							AttributeName: "celestial_core:reply_effect"
+							Amount: 0.9d
+							AttributeName: "l2damagetracker:damage_reduction"
 							Name: "generic.attack_damage"
 							Operation: 2
 							Slot: "offhand"
@@ -23,7 +23,7 @@
 							]
 						}
 						{
-							Amount: 0.5d
+							Amount: 0.8d
 							AttributeName: "obscure_api:dodge"
 							Name: "generic.attack_damage"
 							Operation: 1
@@ -64,7 +64,7 @@
 					]
 					Unbreakable: 1b
 					display: {
-						Lore: ["{\"text\":\"\\u00A77有50%概率闪避任何攻击\"}"]
+						Lore: ["{\"text\":\"\\u00A77有80%概率闪避任何攻击\"}"]
 						Name: "{\"text\":\"\\u00A7c深渊之歌\"}"
 					}
 				}
@@ -190,8 +190,8 @@
 							]
 						}
 						{
-							Amount: 0.5d
-							AttributeName: "celestial_core:damage_reduction"
+							Amount: -0.5d
+							AttributeName: "l2damagetracker:damage_reduction"
 							Name: "generic.max_health"
 							Operation: 1
 							Slot: "offhand"
@@ -382,7 +382,7 @@
 					AttributeModifiers: [
 						{
 							Amount: 5.0d
-							AttributeName: "celestial_core:crit_damage"
+							AttributeName: "l2damagetracker:crit_damage"
 							Name: "generic.attack_damage"
 							Operation: 1
 							Slot: "offhand"
@@ -395,7 +395,7 @@
 						}
 						{
 							Amount: -0.2d
-							AttributeName: "celestial_core:crit_rate"
+							AttributeName: "l2damagetracker:crit_rate"
 							Name: "generic.attack_damage"
 							Operation: 1
 							Slot: "offhand"
@@ -424,7 +424,7 @@
 					AttributeModifiers: [
 						{
 							Amount: -0.5d
-							AttributeName: "celestial_core:crit_damage"
+							AttributeName: "l2damagetracker:crit_damage"
 							Name: "generic.attack_damage"
 							Operation: 1
 							Slot: "offhand"
@@ -437,7 +437,7 @@
 						}
 						{
 							Amount: 1.0d
-							AttributeName: "celestial_core:crit_rate"
+							AttributeName: "l2damagetracker:crit_rate"
 							Name: "generic.attack_damage"
 							Operation: 1
 							Slot: "offhand"

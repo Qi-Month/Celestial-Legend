@@ -2,7 +2,7 @@ Ponder.registry(e => {
 	e.create('immersiveengineering:alloy_smelter')
 		.scene(
 			'immersiveengineering:alloy_smelter',
-			'高炉',
+			'合金窑',
 			'kubejs:ie_2',
 			(scene, utils) => {
 				// 显示底盘

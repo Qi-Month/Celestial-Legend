@@ -1,5 +1,5 @@
 StartupEvents.registry('item', e => {
-	let Tool = (
+	const Tool = (
 		Name, // Item id
 		Type, // 类型
 		Damage, // 基础伤害(所填数值+3=游戏内面板数值)

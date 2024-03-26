@@ -305,6 +305,11 @@
 				"6243F7512C872670"
 			]
 			id: "1B82E588426651EA"
+			rewards: [{
+				id: "16A407FC45496B11"
+				item: "l2artifacts:random_3"
+				type: "item"
+			}]
 			tasks: [{
 				id: "2727B89E853AA7F1"
 				item: "ad_astra:ostrum_engine"
@@ -406,6 +411,7 @@
 		}
 		{
 			dependencies: ["66F5AAD171F0DAEF"]
+			description: ["火焰之眼可以帮助你找到焰魔的所在。"]
 			id: "20BFE5CC212846A1"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -413,31 +419,45 @@
 				table_id: 1059738892163851710L
 				type: "loot"
 			}]
-			tasks: [{
-				entity: "cataclysm:ignis"
-				icon: {
-					Count: 1b
-					id: "minecraft:netherite_sword"
-					tag: {
-						Damage: 0
+			tasks: [
+				{
+					entity: "cataclysm:ignis"
+					icon: {
+						Count: 1b
+						id: "minecraft:netherite_sword"
+						tag: {
+							Damage: 0
+						}
 					}
+					id: "5304B64C89F400D5"
+					type: "kill"
+					value: 1L
 				}
-				id: "5304B64C89F400D5"
-				type: "kill"
-				value: 1L
-			}]
+				{
+					id: "58BC05DDF0D52C2E"
+					item: "cataclysm:flame_eye"
+					type: "item"
+				}
+			]
 			x: 6.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["109F5EC637E2C37F"]
 			id: "235F152EDD7DFA88"
-			rewards: [{
-				count: 4
-				id: "1DC97F225FE947DC"
-				item: "kubejs:mooncoin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 4
+					id: "1DC97F225FE947DC"
+					item: "kubejs:mooncoin"
+					type: "item"
+				}
+				{
+					id: "79D7DF9CC8C297F6"
+					item: "l2artifacts:random_4"
+					type: "item"
+				}
+			]
 			tasks: [{
 				entity: "rats:neo_ratlantean"
 				icon: {

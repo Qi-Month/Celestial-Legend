@@ -27,6 +27,13 @@
 		{ item: "botania:dice" }
 		{ item: "ec_lec_plugin:witherite_quiver" }
 		{ item: "ec_lec_plugin:ignitium_quiver" }
+		{ item: "l2artifacts:random_4" }
+		{ item: "l2artifacts:random_5" }
+		{ item: "l2hostility:ring_of_healing" }
+		{ item: "l2hostility:ring_of_reflection" }
+		{ item: "l2hostility:ring_of_divinity" }
+		{ item: "l2hostility:platinum_star" }
+		{ item: "l2hostility:flaming_thorn" }
 	]
 	title: "高级饰品"
 }

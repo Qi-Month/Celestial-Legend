@@ -8,7 +8,8 @@ ServerEvents.recipes(e => {
 		'projecte:transmutation_table',
 		'projecte:condenser_mk1',
 		'projecte:condenser_mk2',
-		'projecte:item.pe_time_watch'
+		'projecte:item.pe_time_watch',
+		'immersiveengineering:ingot_steel'
 	]
 	Remove_Item.forEach(Item => {
 		e.remove({ output: Item })
@@ -16,6 +17,7 @@ ServerEvents.recipes(e => {
 
 	// Remove Recipe Id
 	let Remove_ID = [
+		'ars_nouveau:manipulation_essence_to_andesite',
 		'create:milling/lapis_lazuli',
 		'thermal:machines/smelter/smelter_glass_obsidian',
 		'immersiveengineering:crafting/treated_wood_horizontal',

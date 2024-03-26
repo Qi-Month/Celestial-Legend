@@ -1,9 +1,9 @@
 {
-  "type": "htlib:item_stack",
-  "rewards": [
-    {
-      "Count": 5,
-      "id": "kubejs:award_ticket"
-    }
-  ]
+	"type": "htlib:item_stack",
+	"rewards": [
+		{
+			"Count": 5,
+			"id": "kubejs:award_ticket"
+		}
+	]
 }

@@ -1,5 +1,5 @@
 ItemEvents.tooltip(e => {
-	const { translate } = Text;
+	const { translate } = Text
 
 	// Catalytic Stone
 	e.add('kubejs:tf_catalytic_stone', [
@@ -17,4 +17,14 @@ ItemEvents.tooltip(e => {
 			translate('tooltip.kubejs.copper_tools')
 		])
 	})
+
+	// 出矿
+	e.add(['create:crushing_wheel', 'create:millstone'], [
+		translate('tooltip.kubejs.minerals')
+	])
+
+	// 任务书
+	e.add('ftbquests:book',[
+		translate('tooltip.kubejs.quest')
+	])
 })

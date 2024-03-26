@@ -1,33 +1,33 @@
 {
-  "type": "htlib:common",
-  "setting": {
-    "can_skip_wave": true,
-    "wave_duration": 15000
-  },
-  "spawns": [
-    {
-      "spawn": "htlib:space_1",
-      "start_tick": 10
-    },
-    {
-      "spawn": "htlib:space_2",
-      "start_tick": 10
-    },
-    {
-      "spawn": "htlib:space_3",
-      "start_tick": 10
-    },
-    {
-      "spawn": "htlib:space_4",
-      "start_tick": 10
-    },
-    {
-      "spawn": "htlib:space_5",
-      "start_tick": 10
-    },
-    {
-      "spawn": "htlib:space_7",
-      "start_tick": 70
-    }
-  ]
+	"type": "htlib:common",
+	"setting": {
+		"can_skip_wave": true,
+		"wave_duration": 15000
+	},
+	"spawns": [
+		{
+			"spawn": "htlib:space_1",
+			"start_tick": 10
+		},
+		{
+			"spawn": "htlib:space_2",
+			"start_tick": 10
+		},
+		{
+			"spawn": "htlib:space_3",
+			"start_tick": 10
+		},
+		{
+			"spawn": "htlib:space_4",
+			"start_tick": 10
+		},
+		{
+			"spawn": "htlib:space_5",
+			"start_tick": 10
+		},
+		{
+			"spawn": "htlib:space_7",
+			"start_tick": 70
+		}
+	]
 }

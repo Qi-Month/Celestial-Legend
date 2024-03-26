@@ -1,0 +1,11 @@
+{
+	"records.test": {
+		"category": "record",
+		"sounds": [
+			{
+				"name": "kubejs:music/records/test",
+				"stream": true
+			}
+		]
+	}
+}

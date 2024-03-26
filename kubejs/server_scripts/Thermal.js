@@ -1,6 +1,6 @@
 ServerEvents.recipes(e => {
 	// Create
-	let {
+	const {
 		compacting,
 		crushing,
 		cutting,
@@ -17,12 +17,12 @@ ServerEvents.recipes(e => {
 		splashing
 	} = e.recipes.create
 	// KubeJS
-	let {
+	const {
 		shaped,
 		shapeless
 	} = e.recipes.kubejs
 	// Minecraft
-	let {
+	const {
 		blasting,
 		campfire_cooking,
 		crafting_shaped,
@@ -97,6 +97,23 @@ ServerEvents.recipes(e => {
 		],
 		"energy": 4800
 	}).id('rftoolsbase:machine_frame')
+
+	// 红石单元框架
+	e.custom({
+		"type": "immersiveengineering:arc_furnace",
+		"additives": [
+			{ "tag": "forge:ingots/steel" },
+			{ "tag": "forge:ingots/steel", },
+			{ "tag": "forge:glass", },
+			{ "tag": "forge:glass", }
+		],
+		"energy": 51200,
+		"input": { "tag": "forge:gears/electrum", },
+		"results": [
+			{ "base_ingredient": { "item": "thermal:energy_cell_frame" }, }
+		],
+		"time": 100
+	})
 
 	// 橡胶
 	compacting('2x thermal:rubber', [

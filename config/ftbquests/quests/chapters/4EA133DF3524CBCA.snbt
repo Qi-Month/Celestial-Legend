@@ -62,7 +62,14 @@
 			subtitle: "使用焦炉燃烧煤炭吧"
 			tasks: [{
 				id: "4BD7EFEFD45BFF3E"
-				item: "immersiveengineering:coal_coke"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:coal_coke"
+					}
+				}
+				title: "Any #forge:coal_coke"
 				type: "item"
 			}]
 			title: "获取焦煤"
@@ -263,9 +270,15 @@
 			dependencies: ["3629838FE3E4A3D4"]
 			id: "1A910F754BF63936"
 			tasks: [{
-				count: 8L
 				id: "5845CC65E475953E"
-				item: { Count: 8b, id: "immersiveengineering:hemp_fiber" }
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:fiber_hemp"
+					}
+				}
+				title: "Any #forge:fiber_hemp"
 				type: "item"
 			}]
 			x: 0.5d
@@ -379,6 +392,10 @@
 		}
 		{
 			dependencies: ["71A8D779BADFC979"]
+			description: [
+				"右击两个连接器可以消耗一个铜线轴将它们连接起来（类似于沉浸工程模组的线圈），并返还一个空线轴。连接后的两个连接器之间可以互相传递能量，最大导能速率为 1kFE/t。"
+				"破坏其中任意一个连接器后会自动取消连接，随后掉落 4 个铜线。"
+			]
 			id: "2B244A6A21B1B03C"
 			rewards: [{
 				count: 4
@@ -398,7 +415,13 @@
 		}
 		{
 			dependencies: ["2B244A6A21B1B03C"]
+			description: [
+				"传输FE能量的方块，通常接在机器的表面，再用铜线轴或有节日灯的铜线轴相互连接。一个连接器最多接出四条线。"
+				""
+				"连接器存在被动、输入、输出三种状态，需要通过扳手进行切换。如果没有正确设置连接器的状态，就可能会出现其连接的设备无法正常工作的状况。"
+			]
 			id: "2626B880E32643E9"
+			subtitle: "同时拥有沉浸工程中接线器和继电器的作用。"
 			tasks: [{
 				count: 3L
 				id: "6FB7B56F93AE695C"
@@ -446,13 +469,20 @@
 			dependencies: ["2BDEF885033252AE"]
 			icon: "immersiveengineering:metal_press"
 			id: "3BF7681388D3049F"
-			rewards: [{
-				count: 2
-				id: "65ABF72AF1BCE647"
-				item: "immersiveengineering:component_iron"
-				random_bonus: 4
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 2
+					id: "65ABF72AF1BCE647"
+					item: "immersiveengineering:component_iron"
+					random_bonus: 4
+					type: "item"
+				}
+				{
+					id: "6C2AACA91E4F82A2"
+					item: "l2artifacts:artifact_experience_3"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "075B547EA70C5777"
@@ -522,7 +552,14 @@
 			}]
 			tasks: [{
 				id: "64BD8975B441BFDF"
-				item: "immersiveengineering:mold_gear"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "immersiveengineering:mold"
+					}
+				}
+				title: "Any #immersiveengineering:mold"
 				type: "item"
 			}]
 			title: "冲压模具"
@@ -604,7 +641,11 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["29EEC654052E80CE"]
+			dependencies: [
+				"29EEC654052E80CE"
+				"1A0BD78AADC55A14"
+			]
+			description: ["为了运转它，似乎还需要一种石墨电极。"]
 			icon: "immersiveengineering:arc_furnace"
 			id: "02156FCBEB2134D9"
 			rewards: [
@@ -623,6 +664,11 @@
 					count: 6
 					id: "2ECBC4A8C34B0B0E"
 					item: "immersiveengineering:storage_steel"
+					type: "item"
+				}
+				{
+					id: "735E9D5D276E0B14"
+					item: "l2artifacts:stat_container_3"
 					type: "item"
 				}
 			]
@@ -707,11 +753,18 @@
 		{
 			dependencies: ["02156FCBEB2134D9"]
 			id: "2307B4F16C8C795E"
-			rewards: [{
-				id: "1286EDEDDFC0F421"
-				type: "xp"
-				xp: 25
-			}]
+			rewards: [
+				{
+					id: "1286EDEDDFC0F421"
+					type: "xp"
+					xp: 25
+				}
+				{
+					id: "5FD765A7A2FA5649"
+					item: "l2hostility:hostility_orb"
+					type: "item"
+				}
+			]
 			subtitle: "通量时代"
 			tasks: [{
 				id: "19D72D9DDFF90A0A"
@@ -723,8 +776,17 @@
 			y: -2.0d
 		}
 		{
-			description: ["寻找陨石中的宝箱，获取其中的压印板"]
+			dependencies: ["5433BDAA7D2E4957"]
+			description: [
+				"寻找陨石中的宝箱，获取其中的压印板。"
+				"使用充能器制作陨石罗盘以寻找陨石。"
+			]
 			id: "62DB468ABE8406E7"
+			rewards: [{
+				id: "7706DD1C82EAE024"
+				item: "l2artifacts:random_2"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "5F601DB92528B9B4"
@@ -805,6 +867,7 @@
 			y: -4.0d
 		}
 		{
+			dependencies: ["16F6F3A0DCFB2CF9"]
 			id: "1E7EFBB5183425C6"
 			rewards: [{
 				count: 4
@@ -820,13 +883,11 @@
 			}]
 			title: "挖掘赛特斯石英水晶"
 			x: 10.5d
-			y: -4.0d
+			y: -6.0d
 		}
 		{
-			dependencies: [
-				"1E7EFBB5183425C6"
-				"2307B4F16C8C795E"
-			]
+			dependencies: ["2307B4F16C8C795E"]
+			description: ["制作一些陨石相关的基础物品。"]
 			id: "6BF4701D6D9002DB"
 			rewards: [{
 				count: 4
@@ -900,8 +961,16 @@
 			y: -6.0d
 		}
 		{
-			dependencies: ["6C3FAE63F2B0B497"]
+			dependencies: [
+				"6C3FAE63F2B0B497"
+				"71704ED234DF7CC6"
+			]
 			id: "73797ADA1FD7F76B"
+			rewards: [{
+				id: "318BFB261CDD9BEE"
+				item: "l2artifacts:random_2"
+				type: "item"
+			}]
 			tasks: [{
 				id: "5E4ED096BA16CB46"
 				item: {
@@ -913,11 +982,19 @@
 				}
 				type: "item"
 			}]
+			title: "击败船长亡灵，获取其头盔"
 			x: 2.5d
 			y: 2.0d
 		}
 		{
 			id: "071471779183B87A"
+			rewards: [{
+				auto: "no_toast"
+				command: "/summon aquamirae:maze_mother ~ ~-10 ~"
+				elevate_perms: true
+				id: "3CB1C66011787B68"
+				type: "command"
+			}]
 			tasks: [{
 				biome: "#aquamirae:ice_maze"
 				icon: "minecraft:blue_ice"
@@ -1080,10 +1157,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: [
-				"3CFD93B38293B76F"
-				"02156FCBEB2134D9"
-			]
+			dependencies: ["3CFD93B38293B76F"]
 			id: "012D09E67C61F822"
 			tasks: [{
 				id: "6C5866D16E8D5781"
@@ -1110,54 +1184,17 @@
 			y: 0.0d
 		}
 		{
-			dependencies: [
-				"73797ADA1FD7F76B"
-				"7603D5F4B852D893"
-			]
-			description: ["这就像是水中的飞船"]
-			id: "4129A3D717F6E0F9"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "57AFA2714CBB9494"
-					table_id: 8695861683220912716L
-					type: "choice"
-				}
-				{
-					id: "7972DCD66CBC07EC"
-					item: "minecraft:honeycomb"
-					type: "item"
-				}
-			]
-			subtitle: "我的飞船"
-			tasks: [{
-				id: "542B3FEA7DFFCC19"
-				item: "alexscaves:submarine"
-				type: "item"
-			}]
-			x: 2.5d
-			y: 0.0d
-		}
-		{
 			dependencies: ["71A8D779BADFC979"]
 			id: "2BDEF885033252AE"
 			rewards: [
 				{
-					count: 5
-					id: "3498582B4ADCB2EE"
-					item: "immersiveengineering:light_engineering"
+					id: "19E41D7AAE337F59"
+					item: "createaddition:capacitor"
 					type: "item"
 				}
 				{
-					count: 5
-					id: "04299FF930625FD7"
-					item: "immersiveengineering:heavy_engineering"
-					type: "item"
-				}
-				{
-					count: 5
-					id: "3D1C05C4E47319DF"
-					item: "immersiveengineering:rs_engineering"
+					id: "117E066C5C620D7B"
+					item: "l2artifacts:artifact_experience_3"
 					type: "item"
 				}
 			]
@@ -1175,7 +1212,6 @@
 					type: "item"
 				}
 				{
-					count: 5L
 					id: "50A21A2DC79BFEC1"
 					item: "immersiveengineering:rs_engineering"
 					type: "item"
@@ -1205,12 +1241,19 @@
 		{
 			dependencies: ["5F7359EFFD66B9BB"]
 			id: "1A0BD78AADC55A14"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "3C8A64F663C10B8B"
-				table_id: 523424714767025876L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3C8A64F663C10B8B"
+					table_id: 523424714767025876L
+					type: "random"
+				}
+				{
+					id: "47957D0F39CC49D1"
+					item: "celestial_artifacts:the_end_dust"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "380401C95CDB8DB5"
 				item: {
@@ -1228,6 +1271,11 @@
 		{
 			dependencies: ["2BDEF885033252AE"]
 			id: "1F9F0F0E61E3ECC3"
+			rewards: [{
+				id: "29B31602E8F82324"
+				type: "xp"
+				xp: 22
+			}]
 			tasks: [{
 				count: 8L
 				id: "6FCC43C74E886AB1"
@@ -1246,11 +1294,13 @@
 				item: "minecraft:obsidian"
 				type: "item"
 			}]
+			subtitle: "&3是神"
 			tasks: [{
 				id: "15A1933FAC5795AF"
 				item: "pipez:fluid_pipe"
 				type: "item"
 			}]
+			title: "&b卡密!!!"
 			x: 10.5d
 			y: 2.0d
 		}
@@ -1273,6 +1323,11 @@
 		{
 			dependencies: ["012D09E67C61F822"]
 			id: "0E882D25796D4258"
+			rewards: [{
+				id: "7C0F925EE0AC6075"
+				item: "l2artifacts:random_1"
+				type: "item"
+			}]
 			tasks: [{
 				id: "5249D4AE668E7586"
 				item: "create_new_age:heater"
@@ -1300,6 +1355,264 @@
 				type: "item"
 			}]
 			x: 12.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6BF4701D6D9002DB"]
+			id: "16F6F3A0DCFB2CF9"
+			rewards: [{
+				count: 3
+				id: "4C761312BBD25C8F"
+				item: "kubejs:mooncoin"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3C7857BD350819AA"
+				item: "ae2:meteorite_compass"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7603D5F4B852D893"]
+			description: [
+				"&4请使用[思索]查看搭建方式&r"
+				"(别忘了给潜水艇涂蜜脾防锈哦~)"
+			]
+			icon: "alexscaves:submarine"
+			id: "71704ED234DF7CC6"
+			rewards: [
+				{
+					id: "55873CC997741694"
+					item: "minecraft:honeycomb"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "62C04BCD31FB8C6E"
+					table_id: 2462882013908997816L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3DFA6CA08D346FFD"
+					table_id: 523424714767025876L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "&2我的飞船!"
+			tasks: [
+				{
+					id: "3E46383481D8A921"
+					item: "kubejs:submarine_core"
+					type: "item"
+				}
+				{
+					id: "0C244307F9C87BBD"
+					item: "create:train_trapdoor"
+					type: "item"
+				}
+				{
+					id: "2F535F73B8AF9340"
+					item: "create:controls"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "1089268FA82E27CE"
+					item: "create:rose_quartz_lamp"
+					type: "item"
+				}
+				{
+					id: "6B1ABF76FD158394"
+					item: "create:white_seat"
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "6A9739698122B345"
+					item: "thermal:obsidian_glass"
+					type: "item"
+				}
+				{
+					id: "0D0E647CC0408BCE"
+					item: "createaddition:modular_accumulator"
+					type: "item"
+				}
+				{
+					id: "512164276499F1A7"
+					item: "immersiveengineering:sheetmetal_steel"
+					type: "item"
+				}
+				{
+					count: 9L
+					id: "6974E67678699724"
+					item: "immersiveengineering:sheetmetal_lead"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "00623CBC883805E6"
+					item: "minecraft:copper_block"
+					type: "item"
+				}
+				{
+					count: 47L
+					id: "1DA97CE135B48104"
+					item: "create:copper_casing"
+					type: "item"
+				}
+				{
+					id: "237FBCDF9A549A73"
+					item: "immersiveengineering:sheetmetal_aluminum"
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "5989FCB5D7BD66B7"
+					item: "create:encased_fan"
+					type: "item"
+				}
+			]
+			title: "&b潜水艇!"
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["63C4DBCD15935CAB"]
+			id: "1995BDEBB4934857"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "069CBFD6B8A16452"
+					table_id: 523424714767025876L
+					type: "random"
+				}
+				{
+					id: "58BB8042406C15BE"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			subtitle: "&5这也是个不错的发电设备"
+			tasks: [{
+				id: "57923EBF3772C0B3"
+				item: "immersiveengineering:thermoelectric_generator"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["63C4DBCD15935CAB"]
+			icon: "immersiveengineering:diesel_generator"
+			id: "13587F7795C69272"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1B48A60A062BAE0F"
+					table_id: 8695861683220912716L
+					type: "random"
+				}
+				{
+					id: "2542D2FF39DCB5D8"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			shape: "gear"
+			subtitle: "&b搭配种子油有奇效"
+			tasks: [
+				{
+					count: 9L
+					id: "31A4B8502EF7DA89"
+					item: "immersiveengineering:radiator"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "7E1B9CCCF9744C75"
+					item: "immersiveengineering:generator"
+					type: "item"
+				}
+				{
+					count: 13L
+					id: "6D912910D2261DC6"
+					item: "immersiveengineering:heavy_engineering"
+					type: "item"
+				}
+				{
+					id: "00B4BBF7048991BE"
+					item: "immersiveengineering:rs_engineering"
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "76B245D780C24606"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					type: "item"
+				}
+				{
+					count: 5L
+					id: "3AC6E986F21FBE95"
+					item: "immersiveengineering:fluid_pipe"
+					type: "item"
+				}
+			]
+			title: "柴油发电机"
+			x: 8.5d
+			y: -8.0d
+		}
+		{
+			can_repeat: true
+			dependencies: ["1A0BD78AADC55A14"]
+			description: ["{image:kubejs:textures/images/4.png width:100 height:100 align:1}"]
+			icon: {
+				Count: 1b
+				id: "immersiveengineering:graphite_electrode"
+				tag: {
+					Enchantments: [{
+						id: "minecraft:unbreaking"
+						lvl: 10s
+					}]
+					graphDmg: 0
+				}
+			}
+			id: "79B4934C34197C07"
+			rewards: [{
+				id: "631DA741FDD5ED3C"
+				item: {
+					Count: 1b
+					id: "immersiveengineering:graphite_electrode"
+					tag: {
+						Enchantments: [{
+							id: "minecraft:unbreaking"
+							lvl: 10s
+						}]
+						graphDmg: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "&b快说!谢谢柒月!"
+			tasks: [{
+				consume_items: true
+				count: 32L
+				id: "7DEB05C2EEC89CDD"
+				item: {
+					Count: 1b
+					id: "immersiveengineering:graphite_electrode"
+					tag: {
+						graphDmg: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&b赏你的!"
+			x: 18.5d
 			y: 2.0d
 		}
 	]

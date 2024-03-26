@@ -2,7 +2,7 @@ Ponder.registry(e => {
 	e.create('immersiveengineering:auto_workbench')
 		.scene(
 			'immersiveengineering:auto_workbench',
-			'装配机',
+			'自动化工程师装配台',
 			'kubejs:ie_1',
 			(scene, utils) => {
 				// 防腐木半砖

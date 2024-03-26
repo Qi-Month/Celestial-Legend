@@ -5,7 +5,6 @@
 	rewards: [
 		{ item: "celestial_artifacts:chaotic_etching", only_one: true }
 		{ item: "celestial_artifacts:origin_etching", only_one: true }
-		{ item: "celestial_artifacts:etching_of_life", only_one: true }
 		{ item: "celestial_artifacts:desire_etching", only_one: true }
 		{
 			item: {
@@ -18,6 +17,8 @@
 			only_one: true
 		}
 		{ item: "celestial_artifacts:end_etching", only_one: true }
+		{ item: "celestial_artifacts:truth_etching", only_one: true }
+		{ item: "celestial_artifacts:life_etching" }
 	]
 	title: "刻蚀"
 }

@@ -23,6 +23,7 @@
 				}
 			}
 			id: "09EFA7A981C56563"
+			subtitle: "获取衣壳体"
 			tasks: [{
 				entity: "alexsmobs:enderiophage"
 				id: "6B06D4890570E37E"
@@ -45,6 +46,7 @@
 		}
 		{
 			dependencies: ["66F5AAD171F0DAEF"]
+			description: ["前往蘑菇岛找到一个没有蘑菇的&d蘑菇君&f，然后用诡异菌插满它的身体（5个即可），让绯红蚊子吸它的血，绯红蚊子会变成蓝色并慢慢变大，最后突变成诡异蚊鬼。"]
 			icon: {
 				Count: 1b
 				id: "minecraft:diamond_sword"
@@ -53,6 +55,11 @@
 				}
 			}
 			id: "38148ECEE68FD677"
+			rewards: [{
+				id: "5D09AC90D933EB07"
+				item: "l2artifacts:boost_sub_3"
+				type: "item"
+			}]
 			tasks: [{
 				entity: "alexsmobs:warped_mosco"
 				id: "0F1DE3C6134BA227"
@@ -116,6 +123,12 @@
 			]
 			description: ["搭建空间站并去往那里"]
 			id: "38834EB08E7BC856"
+			rewards: [{
+				count: 5
+				id: "525B4F36A2A36ECF"
+				item: "kubejs:mooncoin"
+				type: "item"
+			}]
 			shape: "square"
 			tasks: [{
 				dimension: "ad_astra:earth_orbit"
@@ -136,6 +149,11 @@
 				}
 			}
 			id: "0349E83BA83F6CA3"
+			rewards: [{
+				id: "539B0D965ADCC7DC"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
 			tasks: [{
 				entity: "alexsmobs:void_worm"
 				id: "1178E2C3DF456636"
@@ -148,12 +166,24 @@
 		}
 		{
 			dependencies: ["0349E83BA83F6CA3"]
+			description: [
+				"这种宇宙生物，其躯体强度完全可以抵抗任何宇宙射线。"
+				""
+				"作为更高级的火箭材料使用再好不过了。"
+			]
 			id: "0B435D1E8F30458E"
-			rewards: [{
-				id: "706CC95C350D7709"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
+			rewards: [
+				{
+					id: "706CC95C350D7709"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "5BCB7C661FBA42C6"
+					item: "l2artifacts:random_4"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "68B216FEC29F91AE"
 				item: "alexsmobs:void_worm_mandible"
@@ -254,12 +284,20 @@
 		{
 			dependencies: ["7E051F01F0406C06"]
 			id: "32C395C6F23D87A5"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "24EFEB1C012D40D5"
-				table_id: 523424714767025876L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "24EFEB1C012D40D5"
+					table_id: 523424714767025876L
+					type: "random"
+				}
+				{
+					count: 5
+					id: "54F69958D4AF34AA"
+					item: "l2complements:sculkium_ingot"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "5B6A0F562B85D476"
 				item: {
@@ -343,9 +381,14 @@
 					type: "command"
 				}
 				{
-					count: 3
-					id: "1D405CFCDE0A18B9"
+					count: 5
+					id: "2E6F89A56D51F766"
 					item: "kubejs:mooncoin"
+					type: "item"
+				}
+				{
+					id: "10552AA90FF38B71"
+					item: "l2artifacts:random_4"
 					type: "item"
 				}
 			]
@@ -371,6 +414,11 @@
 		{
 			dependencies: ["08B46CB89465F5F8"]
 			id: "02EF886C99104461"
+			rewards: [{
+				id: "263D075468A6E7B3"
+				type: "xp"
+				xp: 50
+			}]
 			tasks: [{
 				id: "4271055134642D65"
 				item: "ad_astra:launch_pad"
@@ -538,6 +586,12 @@
 		{
 			dependencies: ["7A6DC9AB669E17DB"]
 			id: "2212E27B6DA1C097"
+			rewards: [{
+				count: 5
+				id: "298AB3E19BFCE3D7"
+				item: "kubejs:mooncoin"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "0D0B2464981F8660"

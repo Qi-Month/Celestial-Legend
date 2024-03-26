@@ -22,7 +22,7 @@
     "mob_growth": true,
     "harvest_tool.new_line": false,
     "entity_health.max_for_render": 40,
-    "entity_health.show_fractions": false,
+    "entity_health.show_fractions": true,
     "mob_spawner": true,
     "redstone": true,
     "fluid_storage": true,
@@ -50,6 +50,9 @@
     "potion_effects": true,
     "painting": true,
     "chiseled_bookshelf": true
+  },
+  "l2hostility": {
+    "mob": true
   },
   "ars_nouveau": {
     "mob_jar": true

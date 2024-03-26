@@ -1,0 +1,12 @@
+{
+	id: "4C1196ED20758AE0"
+	loot_size: 1
+	order_index: 37
+	rewards: [
+		{ item: "alexscaves:raygun" }
+		{ item: "pillagers_gun:assault_rifle" }
+		{ item: "pillagers_gun:pistol" }
+		{ item: "pillagers_gun:shotgun" }
+	]
+	title: "枪械"
+}

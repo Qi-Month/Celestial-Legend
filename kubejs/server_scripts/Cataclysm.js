@@ -1,6 +1,6 @@
 ServerEvents.recipes(e => {
 	// Create
-	let {
+	const {
 		compacting,
 		crushing,
 		cutting,
@@ -17,12 +17,12 @@ ServerEvents.recipes(e => {
 		splashing
 	} = e.recipes.create
 	// KubeJS
-	let {
+	const {
 		shaped,
 		shapeless
 	} = e.recipes.kubejs
 	// Minecraft
-	let {
+	const {
 		blasting,
 		campfire_cooking,
 		crafting_shaped,
@@ -52,9 +52,7 @@ ServerEvents.recipes(e => {
 					{ "item": "cataclysm:meat_shredder" },
 					{ "item": "cataclysm:witherite_ingot" }
 				],
-				"results": [
-					{ "item": "cataclysm:meat_shredder" }
-				]
+				"results": [{ "item": "cataclysm:meat_shredder" }]
 			},
 			{
 				"type": "create:deploying",
@@ -62,9 +60,7 @@ ServerEvents.recipes(e => {
 					{ "item": "cataclysm:meat_shredder" },
 					{ "item": "immersiveengineering:capacitor_mv" }
 				],
-				"results": [
-					{ "item": "cataclysm:meat_shredder" }
-				]
+				"results": [{ "item": "cataclysm:meat_shredder" }]
 			},
 			{
 				"type": "create:deploying",
@@ -72,24 +68,16 @@ ServerEvents.recipes(e => {
 					{ "item": "cataclysm:meat_shredder" },
 					{ "item": "immersiveengineering:sawblade" }
 				],
-				"results": [
-					{ "item": "cataclysm:meat_shredder" }
-				]
+				"results": [{ "item": "cataclysm:meat_shredder" }]
 			},
 			{
 				"type": "create_new_age:energising",
 				"energy_needed": 2000000,
-				"ingredients": [
-					{ "item": "cataclysm:meat_shredder" }
-				],
-				"results": [
-					{ "item": "cataclysm:meat_shredder" }
-				]
+				"ingredients": [{ "item": "cataclysm:meat_shredder" }],
+				"results": [{ "item": "cataclysm:meat_shredder" }]
 			}
 		],
-		"results": [
-			{ "item": "cataclysm:meat_shredder" }
-		],
+		"results": [{ "item": "cataclysm:meat_shredder" }],
 		"loops": 1,
 		"transitionalItem": { "item": "cataclysm:witherite_ingot" }
 	}).id('cataclysm:meat_shredder')
@@ -105,9 +93,7 @@ ServerEvents.recipes(e => {
 					{ "item": "cataclysm:laser_gatling" },
 					{ "item": "cataclysm:witherite_ingot" }
 				],
-				"results": [
-					{ "item": "cataclysm:laser_gatling" }
-				]
+				"results": [{ "item": "cataclysm:laser_gatling" }]
 			},
 			{
 				"type": "create:deploying",
@@ -115,9 +101,7 @@ ServerEvents.recipes(e => {
 					{ "item": "cataclysm:laser_gatling" },
 					{ "item": "create:precision_mechanism" }
 				],
-				"results": [
-					{ "item": "cataclysm:laser_gatling" }
-				]
+				"results": [{ "item": "cataclysm:laser_gatling" }]
 			},
 			{
 				"type": "create:deploying",
@@ -125,9 +109,7 @@ ServerEvents.recipes(e => {
 					{ "item": "cataclysm:laser_gatling" },
 					{ "item": "cataclysm:witherite_ingot" }
 				],
-				"results": [
-					{ "item": "cataclysm:laser_gatling" }
-				]
+				"results": [{ "item": "cataclysm:laser_gatling" }]
 			},
 			{
 				"type": "create:deploying",
@@ -135,24 +117,16 @@ ServerEvents.recipes(e => {
 					{ "item": "cataclysm:laser_gatling" },
 					{ "item": "create:nixie_tube" }
 				],
-				"results": [
-					{ "item": "cataclysm:laser_gatling" }
-				]
+				"results": [{ "item": "cataclysm:laser_gatling" }]
 			},
 			{
 				"type": "create_new_age:energising",
 				"energy_needed": 2000000,
-				"ingredients": [
-					{ "item": "cataclysm:laser_gatling" }
-				],
-				"results": [
-					{ "item": "cataclysm:laser_gatling" }
-				]
+				"ingredients": [{ "item": "cataclysm:laser_gatling" }],
+				"results": [{ "item": "cataclysm:laser_gatling" }]
 			}
 		],
-		"results": [
-			{ "item": "cataclysm:laser_gatling" }
-		],
+		"results": [{ "item": "cataclysm:laser_gatling" }],
 		"loops": 1,
 		"transitionalItem": { "item": "cataclysm:witherite_ingot" }
 	}).id('cataclysm:laser_gatling')
@@ -168,9 +142,7 @@ ServerEvents.recipes(e => {
 					{ "item": "cataclysm:wither_assault_shoulder_weapon" },
 					{ "item": "cataclysm:witherite_ingot" }
 				],
-				"results": [
-					{ "item": "cataclysm:wither_assault_shoulder_weapon" }
-				]
+				"results": [{ "item": "cataclysm:wither_assault_shoulder_weapon" }]
 			},
 			{
 				"type": "create:deploying",
@@ -178,9 +150,7 @@ ServerEvents.recipes(e => {
 					{ "item": "cataclysm:wither_assault_shoulder_weapon" },
 					{ "item": "create:precision_mechanism" }
 				],
-				"results": [
-					{ "item": "cataclysm:wither_assault_shoulder_weapon" }
-				]
+				"results": [{ "item": "cataclysm:wither_assault_shoulder_weapon" }]
 			},
 			{
 				"type": "create:deploying",
@@ -188,9 +158,7 @@ ServerEvents.recipes(e => {
 					{ "item": "cataclysm:wither_assault_shoulder_weapon" },
 					{ "item": "create:electron_tube" }
 				],
-				"results": [
-					{ "item": "cataclysm:wither_assault_shoulder_weapon" }
-				]
+				"results": [{ "item": "cataclysm:wither_assault_shoulder_weapon" }]
 			},
 			{
 				"type": "create:deploying",
@@ -198,24 +166,16 @@ ServerEvents.recipes(e => {
 					{ "item": "cataclysm:wither_assault_shoulder_weapon" },
 					{ "item": "createaddition:capacitor" }
 				],
-				"results": [
-					{ "item": "cataclysm:wither_assault_shoulder_weapon" }
-				]
+				"results": [{ "item": "cataclysm:wither_assault_shoulder_weapon" }]
 			},
 			{
 				"type": "create_new_age:energising",
 				"energy_needed": 2000000,
-				"ingredients": [
-					{ "item": "cataclysm:wither_assault_shoulder_weapon" }
-				],
-				"results": [
-					{ "item": "cataclysm:wither_assault_shoulder_weapon" }
-				]
+				"ingredients": [{ "item": "cataclysm:wither_assault_shoulder _weapon" }],
+				"results": [{ "item": "cataclysm:wither_assault_shoulder_weapon" }]
 			}
 		],
-		"results": [
-			{ "item": "cataclysm:wither_assault_shoulder_weapon" }
-		],
+		"results": [{ "item": "cataclysm:wither_assault_shoulder_weapon" }],
 		"loops": 1,
 		"transitionalItem": { "item": "cataclysm:witherite_ingot" }
 	}).id('cataclysm:wither_assault_shoulder_weapon')

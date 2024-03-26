@@ -28,6 +28,7 @@
 		}
 		{
 			dependencies: ["0B994FB21886ABFB"]
+			description: ["末地的霸主，但他已经不再是以前的模样了"]
 			icon: {
 				Count: 1b
 				id: "minecraft:netherite_sword"
@@ -36,11 +37,23 @@
 				}
 			}
 			id: "325F769AC1E22E60"
-			rewards: [{
-				id: "5858C3CFFA713453"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
+			rewards: [
+				{
+					id: "5858C3CFFA713453"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "4DE0188C4EE9B08B"
+					item: "l2artifacts:random_3"
+					type: "item"
+				}
+				{
+					id: "7CF307E622307975"
+					item: "l2artifacts:boost_main_3"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					entity: "minecraft:ender_dragon"
@@ -76,11 +89,18 @@
 		{
 			dependencies: ["54F8550892C3FC71"]
 			id: "44DB12DA7FFB510E"
-			rewards: [{
-				id: "0CA5FE51E879BC67"
-				item: "thermal:enderium_dust"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "0CA5FE51E879BC67"
+					item: "thermal:enderium_dust"
+					type: "item"
+				}
+				{
+					id: "64463191D2BB69AA"
+					item: "celestial_artifacts:nebula_cube"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "7D05EDFAF483BBFD"
 				item: "thermal:enderium_ingot"
@@ -107,6 +127,12 @@
 				{
 					id: "799DCC53D209A4A2"
 					item: "alexscaves:azure_neodymium_ingot"
+					type: "item"
+				}
+				{
+					id: "1C7E20461A586AA4"
+					item: "kubejs:rainbow_mooncoin"
+					team_reward: true
 					type: "item"
 				}
 			]
@@ -138,6 +164,12 @@
 		{
 			dependencies: ["5DD4337FE9082577"]
 			id: "4821B9E751212406"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7CB9FA622D16D556"
+				table_id: 1059738892163851710L
+				type: "random"
+			}]
 			tasks: [{
 				id: "578079F501655452"
 				item: "alexscaves:heart_of_iron"
@@ -333,11 +365,24 @@
 		{
 			dependencies: ["325F769AC1E22E60"]
 			id: "7CBADD249A5C3296"
-			rewards: [{
-				id: "1BCC3ED993E8F415"
-				item: "kubejs:mooncoin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "1BCC3ED993E8F415"
+					item: "kubejs:mooncoin"
+					type: "item"
+				}
+				{
+					id: "56F6D248A148F4E9"
+					item: "cataclysm:void_eye"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "58AC4214CABFD1CE"
+					item: "thermal:lumium_ingot"
+					type: "item"
+				}
+			]
 			tasks: [{
 				advancement: "minecraft:end/enter_end_gateway"
 				criterion: ""
@@ -350,6 +395,7 @@
 		{
 			dependencies: ["7CBADD249A5C3296"]
 			id: "5F186C770D3A0E54"
+			subtitle: "使用虚空之眼定位废弃工厂"
 			tasks: [{
 				id: "5DF6395A0332ABB6"
 				structure: "cataclysm:ruined_citadel"
@@ -369,12 +415,19 @@
 				}
 			}
 			id: "50D44BF0750644DD"
-			rewards: [{
-				count: 4
-				id: "7635E14185332678"
-				item: "minecraft:ender_pearl"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 4
+					id: "7635E14185332678"
+					item: "minecraft:ender_pearl"
+					type: "item"
+				}
+				{
+					id: "027F5CD23C818B4C"
+					item: "l2artifacts:random_3"
+					type: "item"
+				}
+			]
 			tasks: [{
 				entity: "cataclysm:ender_guardian"
 				id: "6EF6BFBF28F6B179"
@@ -403,13 +456,26 @@
 				"41DD6BDD5DC00C6F"
 			]
 			id: "45F29D2CE1EE1968"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "4B437655270C3C6E"
-				table_id: 8695861683220912716L
-				title: "哦豁！自选五星！"
-				type: "choice"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4B437655270C3C6E"
+					table_id: 8695861683220912716L
+					title: "哦豁！自选五星！"
+					type: "choice"
+				}
+				{
+					id: "39E6FCB70F152EB5"
+					item: "l2artifacts:artifact_experience_3"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4A84040DD3C73864"
+					table_id: 7141583316013621753L
+					type: "random"
+				}
+			]
 			subtitle: "过于城市化了"
 			tasks: [{
 				id: "5A45887248EB7CA5"
@@ -444,6 +510,12 @@
 		{
 			dependencies: ["204C9FA83ACAF888"]
 			id: "4D776396817DDCDB"
+			rewards: [{
+				count: 3
+				id: "41017E267BA94A1A"
+				item: "kubejs:mooncoin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "281DB942BBFC1AAA"
 				item: "createendertransmission:fluid_transmitter"
@@ -455,6 +527,12 @@
 		{
 			dependencies: ["204C9FA83ACAF888"]
 			id: "25898C50EDB036E9"
+			rewards: [{
+				count: 3
+				id: "0A4E0A812177E385"
+				item: "kubejs:mooncoin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "66498457B1B9E454"
 				item: "createendertransmission:item_transmitter"
@@ -483,6 +561,12 @@
 		{
 			dependencies: ["0DA035CDD1D5C78B"]
 			id: "546D9FA2B7804E6B"
+			rewards: [{
+				count: 3
+				id: "31E727BA5B302DBD"
+				item: "kubejs:mooncoin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "6504480220F8804E"
 				item: "ae2:condenser"
@@ -533,7 +617,9 @@
 		}
 		{
 			dependencies: ["3136764CA5E3947E"]
+			description: [""]
 			id: "7BDCDAFD4F4241D3"
+			subtitle: "使用8个链接仓围一圈，中间放置量子环，其中放入量子纠缠奇点便完成了"
 			tasks: [{
 				count: 8L
 				id: "0B69CF825E926863"
@@ -548,6 +634,7 @@
 				"7BDCDAFD4F4241D3"
 				"0DA035CDD1D5C78B"
 			]
+			description: [""]
 			id: "6C1F25E76A36DE19"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -555,6 +642,7 @@
 				table_id: 1059738892163851710L
 				type: "loot"
 			}]
+			subtitle: "配合量子链接仓使用"
 			tasks: [{
 				id: "451BB96A18099EE9"
 				item: "ae2:quantum_ring"
@@ -598,6 +686,52 @@
 			}]
 			x: 6.5d
 			y: 12.5d
+		}
+		{
+			dependencies: ["4821B9E751212406"]
+			id: "15ED34EE6A5BFD9C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5DD6AFE8265A78AE"
+				table_id: 8695861683220912716L
+				type: "random"
+			}]
+			subtitle: "攻防一体的强力盾牌"
+			tasks: [{
+				id: "37AAFFCCBEEDC153"
+				item: {
+					Count: 1b
+					id: "alexscaves:resistor_shield"
+					tag: {
+						Damage: 0
+						Polarity: 1b
+						PrevSwitchTime: 5
+						PrevUseTime: 0
+						SwitchTime: 5
+						UseTime: 0
+						itemModifier: "celestial_forge:speed"
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: 8.0d
+		}
+		{
+			description: ["使用潜影壳与瓶装潜影弹制作而来"]
+			id: "441B8FD023E0EECB"
+			rewards: [{
+				id: "717F31E9E66AF8A5"
+				item: "l2artifacts:random_3"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2780B6ABB0B644C8"
+				item: "l2complements:shulkerate_ingot"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 6.5d
 		}
 	]
 	title: "末影科技"

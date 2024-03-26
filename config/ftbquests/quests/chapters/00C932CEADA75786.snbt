@@ -86,18 +86,19 @@
 			id: "40CFB84E06DFF4B5"
 			rewards: [{
 				exclude_from_claim_all: true
-				id: "22284A72839F41FB"
+				id: "21112B763C585582"
 				table_id: 8119068289222620324L
 				team_reward: true
-				type: "random"
+				type: "choice"
 			}]
 			tasks: [{
 				consume_items: true
+				count: 3L
 				id: "41397D940DAFA5CF"
 				item: "kubejs:mooncoin"
 				type: "item"
 			}]
-			title: "抽取树苗"
+			title: "选取树苗"
 			x: 0.0d
 			y: 3.5d
 		}
@@ -155,6 +156,7 @@
 			icon: "aquamirae:pirate_pouch"
 			id: "68F8F31CBB6ACE39"
 			rewards: [{
+				count: 3
 				id: "48BF6E72887DFBC1"
 				item: "aquamirae:pirate_pouch"
 				team_reward: true
@@ -406,7 +408,7 @@
 				type: "item"
 			}]
 			title: "钱箱"
-			x: 1.0d
+			x: 1.5d
 			y: -2.0d
 		}
 		{
@@ -431,7 +433,7 @@
 				type: "item"
 			}]
 			title: "老虎机"
-			x: 3.5d
+			x: 4.5d
 			y: -2.0d
 		}
 		{
@@ -528,6 +530,157 @@
 			title: "传送物品购买"
 			x: 6.0d
 			y: 3.5d
+		}
+		{
+			can_repeat: true
+			icon: "kubejs:subatomic_ingot"
+			id: "3E5220DDBB85FE43"
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "495099377218CA04"
+					table_id: 1059738892163851710L
+					team_reward: true
+					type: "random"
+				}
+				{
+					auto: "no_toast"
+					id: "0266D8E42DFC001A"
+					table_id: 1059738892163851710L
+					team_reward: true
+					type: "random"
+				}
+				{
+					auto: "no_toast"
+					exclude_from_claim_all: true
+					id: "3A4F80623FDE558A"
+					table_id: 1059738892163851710L
+					team_reward: true
+					type: "random"
+				}
+				{
+					auto: "no_toast"
+					exclude_from_claim_all: true
+					id: "336D3A17760B977E"
+					table_id: 1059738892163851710L
+					team_reward: true
+					type: "random"
+				}
+				{
+					auto: "no_toast"
+					exclude_from_claim_all: true
+					id: "4271ED9E6F2F537B"
+					table_id: 1059738892163851710L
+					team_reward: true
+					type: "random"
+				}
+				{
+					auto: "no_toast"
+					exclude_from_claim_all: true
+					id: "2115D377A64CEAC2"
+					table_id: 1059738892163851710L
+					team_reward: true
+					type: "random"
+				}
+				{
+					auto: "no_toast"
+					exclude_from_claim_all: true
+					id: "442F85515FDB98EA"
+					table_id: 1059738892163851710L
+					team_reward: true
+					type: "random"
+				}
+				{
+					auto: "no_toast"
+					exclude_from_claim_all: true
+					id: "477319297A7D9B53"
+					table_id: 1059738892163851710L
+					team_reward: true
+					type: "random"
+				}
+				{
+					auto: "no_toast"
+					exclude_from_claim_all: true
+					id: "3EDAAFA805A12301"
+					table_id: 1059738892163851710L
+					team_reward: true
+					type: "random"
+				}
+			]
+			shape: "gear"
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				count: 9L
+				id: "6FA48028DFA3F61D"
+				item: "kubejs:award_ticket"
+				type: "item"
+			}]
+			title: "批量兑换"
+			x: 3.0d
+			y: -2.0d
+		}
+		{
+			icon: "minecraft:ender_pearl"
+			id: "7B6A8E399EACAEBD"
+			rewards: [{
+				count: 3
+				id: "2B0DB9F47EE5142D"
+				item: "minecraft:ender_pearl"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "7FF6C83791F8DBC0"
+				item: { Count: 2b, id: "kubejs:mooncoin" }
+				type: "item"
+			}]
+			title: "末影珍珠"
+			x: -3.0d
+			y: -0.5d
+		}
+		{
+			can_repeat: true
+			icon: "minecraft:bamboo"
+			id: "60493B6855D5F004"
+			rewards: [{
+				count: 3
+				id: "37136943B4DAFD6B"
+				item: "minecraft:bamboo"
+				team_reward: true
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "6F7D3BC7113994E6"
+				item: "kubejs:mooncoin"
+				type: "item"
+			}]
+			title: "竹子"
+			x: 7.5d
+			y: -0.5d
+		}
+		{
+			icon: "l2hostility:bottle_of_sanity"
+			id: "13CB3DD9EAC1C9AA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "039B95BE84297CA1"
+				table_id: 7620311938450599022L
+				team_reward: true
+				type: "choice"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "7A5CC706D9076600"
+				item: "kubejs:mooncoin"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -0.5d
 		}
 	]
 	title: "基础物资"

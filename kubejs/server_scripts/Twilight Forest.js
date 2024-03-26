@@ -1,6 +1,6 @@
 ServerEvents.recipes(e => {
 	// Create
-	let {
+	const {
 		compacting,
 		crushing,
 		cutting,
@@ -17,12 +17,12 @@ ServerEvents.recipes(e => {
 		splashing
 	} = e.recipes.create
 	// KubeJS
-	let {
+	const {
 		shaped,
 		shapeless
 	} = e.recipes.kubejs
 	// Minecraft
-	let {
+	const {
 		blasting,
 		campfire_cooking,
 		crafting_shaped,

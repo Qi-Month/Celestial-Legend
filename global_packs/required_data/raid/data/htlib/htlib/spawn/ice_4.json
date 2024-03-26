@@ -1,7 +1,7 @@
 {
-  "type": "htlib:once",
-  "setting": {
-    "entity_type": "twilightforest:snow_guardian"
-  },
-  "spawn_count": 5
+	"type": "htlib:once",
+	"setting": {
+		"entity_type": "twilightforest:snow_guardian"
+	},
+	"spawn_count": 5
 }

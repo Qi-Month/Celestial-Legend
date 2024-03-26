@@ -21,12 +21,19 @@
 				"5AA25122CC79271A"
 			]
 			id: "5C743CAAD084BE88"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "7CE828F336053F08"
-				table_id: 523424714767025876L
-				type: "random"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7CE828F336053F08"
+					table_id: 523424714767025876L
+					type: "random"
+				}
+				{
+					id: "22FCBFF3F7A2757C"
+					item: "l2artifacts:random_3"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "7FF5A3C80FC3F421"
 				item: "botania:gaia_pylon"
@@ -134,6 +141,11 @@
 		{
 			dependencies: ["5A7DE4F8A9C26457"]
 			id: "0C026876435D214C"
+			rewards: [{
+				id: "72B0EA56B412A29B"
+				item: "l2complements:explosion_shard"
+				type: "item"
+			}]
 			tasks: [{
 				entity: "minecraft:wither"
 				icon: {
@@ -194,11 +206,19 @@
 				"45F29D2CE1EE1968"
 			]
 			id: "0C5E680EF51CFD6E"
-			rewards: [{
-				id: "1A70101BD102A116"
-				type: "xp_levels"
-				xp_levels: 5
-			}]
+			rewards: [
+				{
+					id: "1A70101BD102A116"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 5
+					id: "032671E06DEF9D1E"
+					item: "l2complements:eternium_ingot"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "582F386AB0C6435D"
 				item: "minecraft:beacon"
@@ -217,12 +237,24 @@
 				}
 			}
 			id: "6C0ADFFF4AD756C4"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "38FCCB6446750ADE"
-				table_id: 1059738892163851710L
-				type: "loot"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "38FCCB6446750ADE"
+					table_id: 1059738892163851710L
+					type: "loot"
+				}
+				{
+					id: "77C014D3932FB511"
+					item: "l2artifacts:random_3"
+					type: "item"
+				}
+				{
+					id: "22CB9248CE0A34D7"
+					item: "thermal:enderium_ingot"
+					type: "item"
+				}
+			]
 			tasks: [{
 				entity: "botania:doppleganger"
 				id: "47C2BDABCB8D684C"
@@ -234,6 +266,11 @@
 		}
 		{
 			dependencies: ["6C0ADFFF4AD756C4"]
+			description: [
+				"想要制作火箭，一般的运算工具显然不够，或许，生物计算机是个可行的方法。"
+				""
+				"我们需要一种富含生命力的材料。"
+			]
 			id: "72A01B01115D4C01"
 			rewards: [
 				{
@@ -258,12 +295,24 @@
 		}
 		{
 			dependencies: ["72A01B01115D4C01"]
+			description: [
+				"而作为生物，"
+				""
+				"这个星球上又有谁会比盖亚守护者——生命概念的具现化——更具有生命力呢？"
+			]
 			id: "268A88EB5739A74E"
-			rewards: [{
-				id: "4A13E565ECE27449"
-				item: "botania:dice"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "4A13E565ECE27449"
+					item: "botania:dice"
+					type: "item"
+				}
+				{
+					id: "4F340E5843FFB4E8"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
 			tasks: [{
 				id: "366F6D76BDD4628D"
 				item: "botania:gaia_ingot"
@@ -275,6 +324,12 @@
 		{
 			dependencies: ["72A01B01115D4C01"]
 			id: "497A73629915ABE2"
+			rewards: [{
+				id: "0B5E104732054FB0"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "起飞"
 			tasks: [{
 				id: "6436B0BC940B6AE2"
 				item: {
@@ -363,6 +418,7 @@
 				"226B78252A0F0E89"
 				"268A88EB5739A74E"
 			]
+			description: ["半机械亡灵生物躯体的一部分，天生的有机合金，用来搭配盖亚的生命力再好不过了。"]
 			id: "58CC968B520276A5"
 			rewards: [
 				{
@@ -376,6 +432,11 @@
 					table_id: 1059738892163851710L
 					type: "loot"
 				}
+				{
+					id: "30F091C65F51F96D"
+					item: "l2artifacts:random_4"
+					type: "item"
+				}
 			]
 			tasks: [{
 				id: "5B219C250EF499C2"
@@ -386,6 +447,8 @@
 			y: -1.0d
 		}
 		{
+			dependencies: ["44B4AA63F5D8D6E3"]
+			description: ["你并没有制作智能机械的经验，可面前有个现成的。"]
 			icon: {
 				Count: 1b
 				id: "minecraft:netherite_sword"
@@ -394,6 +457,7 @@
 				}
 			}
 			id: "226B78252A0F0E89"
+			subtitle: "向古代工厂中的沉睡者献上下界之星，他便会与来访者欣然一战。"
 			tasks: [{
 				entity: "cataclysm:the_harbinger"
 				id: "1836ECF654B74AE9"
@@ -408,11 +472,19 @@
 			dependencies: ["58CC968B520276A5"]
 			description: ["准备制作火箭吧"]
 			id: "08B46CB89465F5F8"
-			rewards: [{
-				id: "34FDBE55000AB309"
-				item: "celestial_artifacts:thunder_ring"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "34FDBE55000AB309"
+					item: "celestial_artifacts:thunder_ring"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "58716CE1DE554A9B"
+					item: "thermal:signalum_ingot"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "12E4FDC0068A63C0"
 				item: "ad_astra:nasa_workbench"
@@ -462,6 +534,7 @@
 		}
 		{
 			dependencies: ["58CC968B520276A5"]
+			description: ["用电元素附魔把它变成真正的电锯吧！"]
 			id: "5A593A4DB7C0DF83"
 			tasks: [{
 				id: "2D8C1503DFF170CA"

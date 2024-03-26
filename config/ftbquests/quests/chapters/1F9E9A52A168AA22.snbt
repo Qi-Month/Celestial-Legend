@@ -16,7 +16,9 @@
 				item: "twilightforest:twilight_portal_miniature_structure"
 				type: "item"
 			}]
-			shape: "square"
+			shape: "octagon"
+			size: 1.5d
+			subtitle: "终于突破了不死鸟的第一重封印。"
 			tasks: [{
 				dimension: "twilightforest:twilight_forest"
 				id: "7C419F2DD5ACDE51"
@@ -47,7 +49,11 @@
 		}
 		{
 			dependencies: ["3E13F72BCD497B82"]
-			description: ["在洞穴中探寻"]
+			description: [
+				"洞穴中生长的小型浆果，可以作为光源。"
+				""
+				"有蕴含一定魔力，常被骷髅德鲁伊随身携带。"
+			]
 			id: "1EF929F0BD8D7B37"
 			tasks: [{
 				id: "1962EAF6C5CAFB28"
@@ -73,6 +79,7 @@
 					type: "item"
 				}
 			]
+			subtitle: "地图显示着这片区域的构成，也揭露了结界的弱点"
 			tasks: [
 				{
 					id: "2FB535BFC6AF0406"
@@ -104,20 +111,17 @@
 					item: "kubejs:mooncoin"
 					type: "item"
 				}
-			]
-			tasks: [
 				{
-					entity: "twilightforest:naga"
-					id: "35E06F0DFF94AB4F"
-					type: "kill"
-					value: 1L
-				}
-				{
-					id: "64AA43231944AE09"
-					item: "twilightforest:naga_trophy"
+					id: "41227DA33536810F"
+					item: "l2artifacts:random_1"
 					type: "item"
 				}
 			]
+			tasks: [{
+				id: "64AA43231944AE09"
+				item: "twilightforest:naga_trophy"
+				type: "item"
+			}]
 			x: 3.5d
 			y: 7.5d
 		}
@@ -201,31 +205,22 @@
 			id: "3A9222313CC2E7D9"
 			rewards: [
 				{
-					exclude_from_claim_all: true
-					id: "5DFA39F1F6010B47"
-					table_id: 523424714767025876L
-					type: "random"
-				}
-				{
 					count: 2
 					id: "4DB9F0BE6174234B"
 					item: "kubejs:mooncoin"
 					type: "item"
 				}
-			]
-			tasks: [
 				{
-					entity: "twilightforest:lich"
-					id: "7F8FC216A3DBFD2D"
-					type: "kill"
-					value: 1L
-				}
-				{
-					id: "486D4A3CFAB65614"
-					item: "twilightforest:lich_trophy"
+					id: "111AD9382819F103"
+					item: "l2artifacts:random_2"
 					type: "item"
 				}
 			]
+			tasks: [{
+				id: "486D4A3CFAB65614"
+				item: "twilightforest:lich_trophy"
+				type: "item"
+			}]
 			x: 3.5d
 			y: 9.5d
 		}
@@ -274,21 +269,18 @@
 					item: "kubejs:mooncoin"
 					type: "item"
 				}
-			]
-			size: 1.2d
-			tasks: [
 				{
-					entity: "twilightforest:knight_phantom"
-					id: "7A6FCDAC94BF4724"
-					type: "kill"
-					value: 1L
-				}
-				{
-					id: "29A0EE10EF716B33"
-					item: "twilightforest:knight_phantom_trophy"
+					id: "300E60902AA37D92"
+					item: "l2artifacts:random_2"
 					type: "item"
 				}
 			]
+			size: 1.2d
+			tasks: [{
+				id: "29A0EE10EF716B33"
+				item: "twilightforest:knight_phantom_trophy"
+				type: "item"
+			}]
 			x: 3.5d
 			y: 14.0d
 		}
@@ -352,14 +344,13 @@
 					item: "kubejs:mooncoin"
 					type: "item"
 				}
+				{
+					id: "3F640B74B3AADD58"
+					item: "l2artifacts:random_2"
+					type: "item"
+				}
 			]
 			tasks: [
-				{
-					entity: "twilightforest:ur_ghast"
-					id: "72456485EE1813D0"
-					type: "kill"
-					value: 1L
-				}
 				{
 					id: "5605806F11A61F48"
 					item: "twilightforest:ur_ghast_trophy"
@@ -376,14 +367,35 @@
 		}
 		{
 			dependencies: ["4065C12986A553E0"]
-			description: ["与主世界不同，在暮色生成着大量的神秘花，所以可以开始发展植物魔法了"]
+			description: ["陆生植物在灾难中受到了致命打击，现在想要获得足够的神秘花，需要玩家主动使用花肥来唤醒草方块中沉睡的种子。"]
 			id: "5800A3ECE18047D7"
-			subtitle: "开始你的植物魔法表演"
-			tasks: [{
-				id: "22C05F58F644956F"
-				item: "botania:lexicon"
-				type: "item"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6C5B9127C462EFCC"
+					table_id: 4236974058116730865L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "62F529E4C8F3BDDA"
+					table_id: 4236974058116730865L
+					type: "random"
+				}
+			]
+			subtitle: "开始你的植物魔法表演，若遇到问题，不妨看看神奇的魔法辞典"
+			tasks: [
+				{
+					id: "22C05F58F644956F"
+					item: "botania:lexicon"
+					type: "item"
+				}
+				{
+					id: "5D0FE4214719F5FD"
+					item: "botania:fertilizer"
+					type: "item"
+				}
+			]
 			title: "植物魔法启动"
 			x: 0.0d
 			y: 2.5d
@@ -533,6 +545,11 @@
 				"0FF68A6EAA9A69E3"
 			]
 			id: "1C55D1005EFDF854"
+			rewards: [{
+				id: "3A3D6D2AE26D0A00"
+				item: "l2artifacts:random_2"
+				type: "item"
+			}]
 			tasks: [{
 				id: "14FB56DF8AB5C3FF"
 				item: "botania:mana_ring"
@@ -681,6 +698,7 @@
 		}
 		{
 			dependencies: ["26B4CEB634DF8D0B"]
+			description: ["强大的魔法材料，其优异的性能，对你的航空大计来说必不可少。"]
 			id: "602F1BF7C6F92B12"
 			rewards: [
 				{
@@ -699,8 +717,15 @@
 					item: "botania:mana_diamond"
 					type: "item"
 				}
+				{
+					id: "35A7F9BB13E5F8C2"
+					item: "l2artifacts:random_2"
+					type: "item"
+				}
 			]
+			shape: "hexagon"
 			size: 1.5d
+			subtitle: "蕴含大地能量的金属"
 			tasks: [{
 				id: "35DA9F94877682D7"
 				item: "botania:terrasteel_ingot"
@@ -724,6 +749,7 @@
 		}
 		{
 			dependencies: ["4DAE6D18883B9E0A"]
+			description: ["破坏塔木特别是虫蛀的塔木时容易出现。"]
 			icon: {
 				Count: 1b
 				id: "minecraft:iron_sword"
@@ -738,32 +764,36 @@
 				item: "twilightforest:borer_essence"
 				type: "item"
 			}]
-			tasks: [
-				{
-					entity: "twilightforest:towerwood_borer"
-					id: "544A78B31BF8917B"
-					type: "kill"
-					value: 1L
-				}
-				{
-					id: "498FA3B58DB3A5DF"
-					item: "twilightforest:borer_essence"
-					type: "item"
-				}
-			]
+			subtitle: "一种类似蠹虫的生物"
+			tasks: [{
+				id: "498FA3B58DB3A5DF"
+				item: "twilightforest:borer_essence"
+				type: "item"
+			}]
 			title: "该死的蛀虫"
 			x: 3.0d
 			y: 17.5d
 		}
 		{
 			dependencies: ["6D37AEFC7C3B759E"]
+			description: [
+				"良好的热稳定性以及活泼的催化活性，在炉砖中加入可以大大提升高炉的效率。"
+				"同时可以催化石墨与其他材料的熔合。"
+			]
 			id: "068391F3F24B1278"
-			rewards: [{
-				count: 4
-				id: "1B0C945154DC0353"
-				item: "minecraft:ghast_tear"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 4
+					id: "1B0C945154DC0353"
+					item: "minecraft:ghast_tear"
+					type: "item"
+				}
+				{
+					id: "5E771CA7D7CED74B"
+					item: "l2hostility:hostility_orb"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "048147FC6887CD79"
 				item: "twilightforest:carminite"
@@ -835,6 +865,7 @@
 		}
 		{
 			dependencies: ["0249EAC54BF83F5A"]
+			description: ["解决了含碳量的后可以称为很好的材料。"]
 			id: "41DD6BDD5DC00C6F"
 			rewards: [
 				{
@@ -850,6 +881,7 @@
 					type: "random"
 				}
 			]
+			subtitle: "我认为他本身就是一种天然合金......一种钢。"
 			tasks: [{
 				id: "6ADACB4C6BABD96F"
 				item: "twilightforest:ironwood_ingot"
@@ -876,11 +908,19 @@
 		{
 			dependencies: ["04FD0349D6476C75"]
 			id: "3E3F0E0F325BEE16"
-			rewards: [{
-				id: "3880A438D835AEED"
-				item: "twilightforest:knightmetal_ingot"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "3880A438D835AEED"
+					item: "twilightforest:knightmetal_ingot"
+					type: "item"
+				}
+				{
+					id: "0F27475DAC33A3B9"
+					item: "celestial_artifacts:chaotic_pendant"
+					type: "item"
+				}
+			]
+			subtitle: "可以制作些像样的武器装备了"
 			tasks: [{
 				id: "36F22993F08CBDAB"
 				item: "twilightforest:knightmetal_ingot"
@@ -891,13 +931,22 @@
 		}
 		{
 			dependencies: ["6082309C0EBA5370"]
+			description: ["科技的断层使的人类失去了制作耐火材料的能力，不过暮初恶魂的眼泪天生就可以提升材料的耐火性能。"]
 			id: "24E82073F2F671DD"
-			rewards: [{
-				count: 4
-				id: "6360357EF1B974A5"
-				item: "twilightforest:fiery_tears"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 4
+					id: "6360357EF1B974A5"
+					item: "twilightforest:fiery_tears"
+					type: "item"
+				}
+				{
+					id: "6D5E33DB40F1F68D"
+					item: "l2hostility:bottle_of_sanity"
+					random_bonus: 3
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "31309C1698154AA6"
 				item: "twilightforest:fiery_tears"

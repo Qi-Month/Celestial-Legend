@@ -15,10 +15,6 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: [
-				"58A3D366CAC9ACFC"
-				"0F720C1FECA0ABED"
-			]
 			dependency_requirement: "one_completed"
 			description: ["与守门人交易获取御风火石"]
 			id: "6B62438A88F505C3"
@@ -39,8 +35,13 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["6B62438A88F505C3"]
-			icon: "blue_skies:everbright_portal"
+			dependencies: [
+				"6B62438A88F505C3"
+				"22D500A61F09882B"
+			]
+			dependency_requirement: "one_completed"
+			description: [""]
+			icon: "blue_skies:bluebright_log"
 			id: "4B55C0F87B11D114"
 			rewards: [{
 				id: "476278CCC3C2118A"
@@ -58,8 +59,12 @@
 			y: -1.5d
 		}
 		{
-			dependencies: ["6B62438A88F505C3"]
-			icon: "blue_skies:everdawn_portal"
+			dependencies: [
+				"6B62438A88F505C3"
+				"64B334F7677004EC"
+			]
+			dependency_requirement: "one_completed"
+			icon: "blue_skies:dusk_log"
 			id: "26569585B49470F3"
 			rewards: [{
 				id: "2FCBD8F9D7785F4F"
@@ -170,19 +175,11 @@
 				item: "twilightforest:meef_stroganoff"
 				type: "item"
 			}]
-			tasks: [
-				{
-					entity: "twilightforest:minoshroom"
-					id: "592BFDA83506CA85"
-					type: "kill"
-					value: 1L
-				}
-				{
-					id: "73AB747CF4A82B42"
-					item: "twilightforest:minoshroom_trophy"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "73AB747CF4A82B42"
+				item: "twilightforest:minoshroom_trophy"
+				type: "item"
+			}]
 			title: "牛头战士"
 			x: 6.0d
 			y: 4.0d
@@ -208,14 +205,14 @@
 					item: "twilightforest:charm_of_keeping_3"
 					type: "item"
 				}
-			]
-			tasks: [
 				{
-					entity: "twilightforest:hydra"
-					id: "43642B5073DEC033"
-					type: "kill"
-					value: 1L
+					id: "544F28BC4C4A12EE"
+					item: "l2artifacts:random_3"
+					type: "item"
 				}
+			]
+			subtitle: "相比恶魂的血泪，九头蛇的血液更有侵略性，更适合作为合金的一部分。"
+			tasks: [
 				{
 					id: "64E9FCFF28E4FCCE"
 					item: "twilightforest:hydra_trophy"
@@ -238,12 +235,24 @@
 			]
 			dependency_requirement: "one_completed"
 			id: "3284F90C7393E20B"
-			rewards: [{
-				count: 3
-				id: "04DF657E34A397D2"
-				item: "kubejs:mooncoin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 3
+					id: "04DF657E34A397D2"
+					item: "kubejs:mooncoin"
+					type: "item"
+				}
+				{
+					id: "70DCF6F9D6726FF1"
+					item: "l2artifacts:random_3"
+					type: "item"
+				}
+				{
+					id: "0C7C69ED9A56FC47"
+					item: "l2artifacts:boost_sub_3"
+					type: "item"
+				}
+			]
 			size: 1.2d
 			tasks: [{
 				count: 4L
@@ -258,11 +267,18 @@
 		{
 			dependencies: ["3284F90C7393E20B"]
 			id: "3860A19B47A5CB70"
-			rewards: [{
-				id: "28BC732CF2332EBF"
-				item: "immersiveengineering:redstone_acid_bucket"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "28BC732CF2332EBF"
+					item: "immersiveengineering:redstone_acid_bucket"
+					type: "item"
+				}
+				{
+					id: "2846DE3023B79AD9"
+					item: "l2artifacts:artifact_experience_3"
+					type: "item"
+				}
+			]
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [{
@@ -309,11 +325,18 @@
 		{
 			dependencies: ["3DEA4518152FB221"]
 			id: "633501AEEE1EACD9"
-			rewards: [{
-				id: "7CDC56623E02D23C"
-				item: "ae2:calculation_processor"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "7CDC56623E02D23C"
+					item: "ae2:calculation_processor"
+					type: "item"
+				}
+				{
+					id: "5807E06862D507FA"
+					item: "l2artifacts:random_2"
+					type: "item"
+				}
+			]
 			subtitle: "自动化的开始"
 			tasks: [{
 				id: "1934278464F53997"
@@ -423,6 +446,7 @@
 		}
 		{
 			dependencies: ["4E16322F2553CF5D"]
+			description: ["下界合金巨兽的能源核心，似乎有很大的作用，"]
 			id: "3E74B438518933D6"
 			rewards: [{
 				count: 8
@@ -442,6 +466,7 @@
 		}
 		{
 			dependencies: ["66F5AAD171F0DAEF"]
+			description: ["恶兽之眼可以帮助玩家找到下界合金巨兽"]
 			icon: {
 				Count: 1b
 				id: "minecraft:netherite_sword"
@@ -456,11 +481,11 @@
 				xp_levels: 5
 			}]
 			tasks: [{
-				entity: "cataclysm:netherite_monstrosity"
-				id: "17C5A37159A38D8D"
-				type: "kill"
-				value: 1L
+				id: "0692B148AEF3513D"
+				item: "cataclysm:monstrous_eye"
+				type: "item"
 			}]
+			title: "寻找合金巨兽"
 			x: 12.5d
 			y: -6.0d
 		}
@@ -570,12 +595,19 @@
 		{
 			dependencies: ["53CA9CB126C3F916"]
 			id: "5D0C9AB52BE2EE3B"
-			rewards: [{
-				count: 3
-				id: "54F185CAD509955A"
-				item: "kubejs:mooncoin"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 3
+					id: "54F185CAD509955A"
+					item: "kubejs:mooncoin"
+					type: "item"
+				}
+				{
+					id: "720857358D8956F7"
+					item: "l2artifacts:random_2"
+					type: "item"
+				}
+			]
 			tasks: [{
 				count: 2L
 				id: "3E526875BD6816B5"
@@ -629,32 +661,6 @@
 			y: 3.5d
 		}
 		{
-			icon: "blue_skies:turquoise_stonebrick"
-			id: "0F720C1FECA0ABED"
-			tasks: [{
-				id: "31D0A51B66CE4925"
-				observe_type: 0
-				timer: 0L
-				to_observe: "blue_skies:turquoise_stonebrick"
-				type: "observation"
-			}]
-			x: -0.5d
-			y: -1.0d
-		}
-		{
-			icon: "blue_skies:lunar_stonebrick"
-			id: "58A3D366CAC9ACFC"
-			tasks: [{
-				id: "129AC37961D4B25E"
-				observe_type: 0
-				timer: 0L
-				to_observe: "blue_skies:lunar_stonebrick"
-				type: "observation"
-			}]
-			x: -0.5d
-			y: 1.0d
-		}
-		{
 			dependencies: ["3284F90C7393E20B"]
 			id: "20B8E367675CB4A8"
 			rewards: [{
@@ -670,6 +676,38 @@
 			}]
 			title: "太阳能量"
 			x: 10.0d
+			y: 2.0d
+		}
+		{
+			id: "22D500A61F09882B"
+			rewards: [{
+				id: "3A6F68DBB1191517"
+				item: "minecraft:powder_snow_bucket"
+				type: "item"
+			}]
+			subtitle: "使用一些蕴含时空力量的道具可以制作传送门"
+			tasks: [{
+				id: "2A21B588D217BD3E"
+				item: "blue_skies:everbright_portal"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			id: "64B334F7677004EC"
+			rewards: [{
+				id: "78CBD2E41BBF1EFB"
+				item: "minecraft:powder_snow_bucket"
+				type: "item"
+			}]
+			subtitle: "使用一些蕴含时空力量的道具可以制作传送门"
+			tasks: [{
+				id: "0CD63D83760AF0C0"
+				item: "blue_skies:everdawn_portal"
+				type: "item"
+			}]
+			x: 2.0d
 			y: 2.0d
 		}
 	]

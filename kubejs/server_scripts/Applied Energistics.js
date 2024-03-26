@@ -1,6 +1,6 @@
 ServerEvents.recipes(e => {
 	// Create
-	let {
+	const {
 		compacting,
 		crushing,
 		cutting,
@@ -17,12 +17,12 @@ ServerEvents.recipes(e => {
 		splashing
 	} = e.recipes.create
 	// KubeJS
-	let {
+	const {
 		shaped,
 		shapeless
 	} = e.recipes.kubejs
 	// Minecraft
-	let {
+	const {
 		blasting,
 		campfire_cooking,
 		crafting_shaped,
@@ -85,9 +85,9 @@ ServerEvents.recipes(e => {
 
 	// ME终端
 	mechanical_crafting('ae2:terminal', [
-		'AL ',
-		'SF ',
-		'C  '
+		'AL',
+		'SF',
+		'C '
 	], {
 		A: 'ae2:annihilation_core',
 		L: 'ae2:logic_processor',

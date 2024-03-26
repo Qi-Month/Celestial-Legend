@@ -1,5 +1,5 @@
 StartupEvents.registry('item', e => {
-	let Item = (
+	const Item = (
 		Name,  // Item ID
 		Rarity,  // 稀有度
 		Glow  // 是否发光
@@ -9,9 +9,7 @@ StartupEvents.registry('item', e => {
 			.glow(Glow)
 	}
 	// 下界图腾
-	Item('nether_totem', 'rare', false)
-	// 潜艇(半成品)
-	Item('in_submarine', 'rare', false)
+	Item('nether_totem', 'rare', false,)
 	// 下界能源核心
 	Item('nether_energy_core', 'rare', false)
 	// 魔法精华
@@ -23,7 +21,7 @@ StartupEvents.registry('item', e => {
 	// 星月奖卷
 	Item('award_ticket', 'rare', false)
 	// 食物
-	let Food = (
+	const Food = (
 		Name,
 		Hunger,
 		Saturation

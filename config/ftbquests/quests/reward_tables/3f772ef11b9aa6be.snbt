@@ -26,26 +26,6 @@
 		{ count: 16, item: "immersiveengineering:homing" }
 		{ count: 16, item: "immersiveengineering:flare" }
 		{
-			count: 8
-			item: {
-				Count: 1b
-				id: "expanded_combat:tipped_netherite_arrow"
-				tag: {
-					Potion: "ars_nouveau:freezing_potion"
-				}
-			}
-		}
-		{
-			count: 4
-			item: {
-				Count: 1b
-				id: "expanded_combat:tipped_netherite_arrow"
-				tag: {
-					Potion: "ars_nouveau:blasting_potion_strong"
-				}
-			}
-		}
-		{
 			count: 4
 			item: {
 				Count: 1b
@@ -75,36 +55,6 @@
 				}
 			}
 		}
-		{
-			count: 32
-			item: {
-				Count: 1b
-				id: "expanded_combat:tipped_iron_arrow"
-				tag: {
-					Potion: "celestial_artifacts:crit_damage_log"
-				}
-			}
-		}
-		{
-			count: 32
-			item: {
-				Count: 1b
-				id: "expanded_combat:tipped_iron_arrow"
-				tag: {
-					Potion: "celestial_artifacts:reply_power_log"
-				}
-			}
-		}
-		{
-			count: 32
-			item: {
-				Count: 1b
-				id: "expanded_combat:tipped_iron_arrow"
-				tag: {
-					Potion: "celestial_artifacts:crit_rate_log"
-				}
-			}
-		}
 		{ count: 16, item: "cataclysm:void_scatter_arrow" }
 		{ count: 16, item: "the_forgotten_dimensions:metallic_snow_arrow" }
 		{ count: 8, item: "the_forgotten_dimensions:true_ice_arrow" }
@@ -128,6 +78,9 @@
 		}
 		{ count: 32, item: "ars_nouveau:amplify_arrow" }
 		{ count: 32, item: "ars_nouveau:split_arrow" }
+		{ count: 64, item: "pillagers_gun:assault_rifle_ammo" }
+		{ count: 64, item: "pillagers_gun:pistol_ammo" }
+		{ count: 64, item: "pillagers_gun:shotgun_ammo" }
 	]
 	title: "弹药"
 }

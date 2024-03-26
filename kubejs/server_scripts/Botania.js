@@ -1,6 +1,6 @@
 ServerEvents.recipes(e => {
 	// Create
-	let {
+	const {
 		compacting,
 		crushing,
 		cutting,
@@ -17,12 +17,12 @@ ServerEvents.recipes(e => {
 		splashing
 	} = e.recipes.create
 	// KubeJS
-	let {
+	const {
 		shaped,
 		shapeless
 	} = e.recipes.kubejs
 	// Minecraft
-	let {
+	const {
 		blasting,
 		campfire_cooking,
 		crafting_shaped,
@@ -35,13 +35,9 @@ ServerEvents.recipes(e => {
 
 	e.custom({
 		"type": "botania:mana_infusion",
-		"input": {
-			"tag": "minecraft:saplings"
-		},
+		"input": { "tag": "minecraft:saplings" },
 		"mana": 5000,
-		"output": {
-			"item": "twilightforest:liveroot"
-		}
+		"output": { "item": "twilightforest:liveroot" }
 	})
 
 	// 魔法水晶
@@ -60,7 +56,7 @@ ServerEvents.recipes(e => {
 	}).id('botania:gaia_pylon')
 
 	// 词典
-	shapeless(Item.of('botania:lexicon','{"botania:elven_unlock":1b}'), [
+	shapeless(Item.of('botania:lexicon', '{"botania:elven_unlock":1b}'), [
 		'botania:lexicon',
 		'#forge:ingots/gold'
 	])

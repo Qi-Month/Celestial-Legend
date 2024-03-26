@@ -2,7 +2,7 @@ Ponder.registry(e => {
 	e.create('immersiveengineering:mixer')
 		.scene(
 			'immersiveengineering:mixer',
-			'工业发酵机',
+			'混合器',
 			'kubejs:ie_1',
 			(scene, utils) => {
 				// 钢脚手架

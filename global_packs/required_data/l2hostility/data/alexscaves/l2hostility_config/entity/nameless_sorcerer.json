@@ -1,0 +1,27 @@
+{
+	"list": [
+		{
+			"entities": [
+				"cataclysm:nameless_sorcerer",
+				"alexsmobs:farseer",
+				"alexsmobs:warped_mosco",
+				"alexsmobs:void_worm",
+				"alexscaves:watcher",
+				"aquamirae:maze_mother",
+				"aquamirae:captain_cornelia"
+			],
+			"difficulty": {
+				"base": 30,
+				"scale": 1.0,
+				"variation": 4.0
+    "min": 35,
+				"apply_chance": 1.0,
+				"trait_chance": 1.0,
+			},
+			"blacklist": [
+				"l2hostility:invisible"
+			],
+			"traits": []
+		}
+	]
+}

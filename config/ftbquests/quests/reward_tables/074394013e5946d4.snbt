@@ -264,6 +264,30 @@
 		}
 		{ item: "celestial_artifacts:greedy_heart" }
 		{ item: "celestial_artifacts:repent_mirror" }
+		{ item: "artifacts:umbrella" }
+		{ item: "artifacts:everlasting_beef" }
+		{ item: "artifacts:plastic_drinking_hat" }
+		{ item: "artifacts:novelty_drinking_hat" }
+		{ item: "artifacts:snorkel" }
+		{ item: "artifacts:night_vision_goggles" }
+		{ item: "artifacts:villager_hat" }
+		{ item: "artifacts:superstitious_hat" }
+		{
+			item: {
+				Count: 1b
+				id: "immersiveengineering:glider"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "l2artifacts:random_1" }
+		{ item: "l2artifacts:random_2", weight: 0.5f }
+		{ item: "l2artifacts:random_3", weight: 0.005f }
+		{ item: "l2hostility:oddeyes_glasses" }
+		{ item: "l2hostility:ring_of_life" }
+		{ item: "l2hostility:infinity_glove" }
+		{ item: "l2hostility:triple_strip_cape" }
 	]
 	title: "随机饰品"
 }

@@ -1,6 +1,6 @@
 ServerEvents.recipes(e => {
 	// Create
-	let {
+	const {
 		compacting,
 		crushing,
 		cutting,
@@ -17,12 +17,12 @@ ServerEvents.recipes(e => {
 		splashing
 	} = e.recipes.create
 	// KubeJS
-	let {
+	const {
 		shaped,
 		shapeless
 	} = e.recipes.kubejs
 	// Minecraft
-	let {
+	const {
 		blasting,
 		campfire_cooking,
 		crafting_shaped,
@@ -55,34 +55,15 @@ ServerEvents.recipes(e => {
 	}).id('immersiveengineering:crafting/blastbrick')
 
 	// 石磨锭
-	mixing('2x immersiveengineering:ingot_hop_graphite', [
+	mixing([
+		'immersiveengineering:ingot_hop_graphite',
+		Item.of('immersiveengineering:ingot_hop_graphite').withChance(0.02)
+	], [
 		'#forge:dusts/obsidian',
-		'#forge:gems/carminite',
-		'#forge:ingots/fiery',
+		'2x #forge:ingots/iron',
 		'create:cinder_flour',
 		'#forge:dusts/hop_graphite'
 	]).superheated()
-
-	// 红石单元框架
-	e.custom({
-		"type": "immersiveengineering:arc_furnace",
-		"additives": [
-			{ "tag": "forge:ingots/steel" },
-			{ "tag": "forge:ingots/steel", },
-			{ "tag": "forge:glass", },
-			{ "tag": "forge:glass", }
-		],
-		"energy": 51200,
-		"input": { "tag": "forge:gears/electrum", },
-		"results": [
-			{
-				"base_ingredient": {
-					"item": "thermal:energy_cell_frame"
-				},
-			}
-		],
-		"time": 100
-	})
 
 	// 焦炉砖
 	mixing('9x immersiveengineering:cokebrick', [
@@ -166,7 +147,7 @@ ServerEvents.recipes(e => {
 		},
 		"result": { "item": "immersiveengineering:graphite_electrode" },
 		"mold": "immersiveengineering:mold_rod"
-	})
+	}).id('immersiveengineering:metalpress/electrode')
 
 	// 矿渣<=>矿渣砂砾
 	e.custom({
@@ -185,14 +166,10 @@ ServerEvents.recipes(e => {
 	// 钢锭
 	e.custom({
 		"type": "immersiveengineering:arc_furnace",
-		"additives": [
-			{ "tag": "forge:dusts/coal_coke" }
-		],
+		"additives": [{ "tag": "forge:dusts/coal_coke" }],
 		"energy": 204800,
 		"input": { "tag": "forge:ingots/iron" },
-		"results": [
-			{ "item": "ad_astra:steel_ingot" }
-		],
+		"results": [{ "item": "ad_astra:steel_ingot" }],
 		"slag": { "tag": "forge:slag" },
 		"time": 400
 	}).id('immersiveengineering:arcfurnace/steel')
@@ -200,14 +177,10 @@ ServerEvents.recipes(e => {
 	// 钢块
 	e.custom({
 		"type": "immersiveengineering:arc_furnace",
-		"additives": [
-			{ "tag": "forge:dusts/coal_coke" }
-		],
+		"additives": [{ "tag": "forge:dusts/coal_coke" }],
 		"energy": 1843200,
 		"input": { "tag": "forge:storage/iron" },
-		"results": [
-			{ "item": "ad_astra:steel_block" }
-		],
+		"results": [{ "item": "ad_astra:steel_block" }],
 		"slag": { "tag": "forge:slag" },
 		"time": 3600
 	}).id('immersiveengineering:arcfurnace/steel_block')

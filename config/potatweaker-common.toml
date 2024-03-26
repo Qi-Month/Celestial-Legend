@@ -1,0 +1,20 @@
+
+#Potatweaker
+[General]
+	#Entities that will be replaced or removed.
+	"the replaced" = []
+	#Replacer entities.
+	"the replacers" = []
+	#Whether or not use NBT when replacing. If you enable this but the corresponding nbt is empty, the replacer will not have any nbt, including weapon in hand.
+	"use NBT" = []
+	#The NBTs of the replacers. You don't need to write { } here.
+	"replacer entity NBTs" = []
+	#Chance of the replacement or removal.
+	#This value will be compared with a random int between 0 and 100.
+	#If this value is bigger than the random, replacement or removal will happen.
+	"the replacement chance" = []
+	#Mark the replacement as removal.
+	"is removal" = []
+	#Let the removal follows replacement chance
+	"remove by chance" = []
+

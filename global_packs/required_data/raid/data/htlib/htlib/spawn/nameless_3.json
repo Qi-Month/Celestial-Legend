@@ -1,10 +1,10 @@
 {
-  "type": "htlib:duration",
-  "duration": 300,
-  "each_spawn_count": 2,
-  "spawn_interval": 50,
-  "spawn_settings": {
-    "entity_type": "minecraft:pillager",
-    "nbt":   "{HandItems:[{id:\"minecraft:iron_axe\",Count:1b}],ArmorItems:[{id:\"expanded_combat:iron_scythe\",Count:1b},{id:\"minecraft:leather_boots\",Count:1b},{id:\"minecraft:leather_leggings\",Count:1b},{id:\"minecraft:leather_chestplate\",Count:1b},{id:\"minecraft:leather_helmet\",Count:1b}],CustomName:'{\"text\":\"掠夺者\"}', CustomNameVisible: 1}"
-  }
+	"type": "htlib:duration",
+	"duration": 300,
+	"each_spawn_count": 2,
+	"spawn_interval": 50,
+	"spawn_settings": {
+		"entity_type": "minecraft:pillager",
+		"nbt": "{HandItems:[{id:\"minecraft:iron_axe\",Count:1b}],ArmorItems:[{id:\"expanded_combat:iron_scythe\",Count:1b},{id:\"minecraft:leather_boots\",Count:1b},{id:\"minecraft:leather_leggings\",Count:1b},{id:\"minecraft:leather_chestplate\",Count:1b},{id:\"minecraft:leather_helmet\",Count:1b}],CustomName:'{\"text\":\"掠夺者\"}', CustomNameVisible: 1}"
+	}
 }

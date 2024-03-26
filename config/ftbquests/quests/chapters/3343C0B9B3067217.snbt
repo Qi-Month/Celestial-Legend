@@ -1,4 +1,5 @@
 {
+	autofocus_id: "4A62C38313919AD0"
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "3343C0B9B3067217"
@@ -13,7 +14,7 @@
 			description: [
 				"虽然开局给了泥土、树苗和其他物资"
 				"但不建议你在出生点定居"
-				"试着去找找陆地"
+				"试着去找找陆地或者海上村庄"
 			]
 			id: "35BB23C010D9C13A"
 			rewards: [
@@ -50,6 +51,17 @@
 					id: "3BDC4658F4BC98D9"
 					table_id: 3105433937550230083L
 					type: "random"
+				}
+				{
+					count: 4
+					id: "243D3C5D592F672C"
+					item: "minecraft:lead"
+					type: "item"
+				}
+				{
+					id: "69E2BB0660F2B61C"
+					item: "minecraft:dirt"
+					type: "item"
 				}
 			]
 			subtitle: "可以确定的是，这席卷全球的海啸绝对与那只大鸟有关"
@@ -129,6 +141,7 @@
 		}
 		{
 			dependencies: ["3953C9CB70869A07"]
+			description: [""]
 			id: "7A9B2BFFEE371215"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -169,6 +182,13 @@
 				"7A9B2BFFEE371215"
 				"0B76D6AC711F8DB6"
 			]
+			description: [
+				"我们都知道导致全球淹没的罪魁祸首--不死鸟已经飞出地球了。"
+				""
+				"想要找到他靠鞘翅和烟花火箭可不行，我们需要真正的“火箭”来帮我们摆脱大气层。"
+				""
+				"在这个连电灯都没有的阶段谈这些为时尚早，但安山合金是你发展科技的基石。"
+			]
 			id: "742F904E11E32EF6"
 			rewards: [{
 				count: 16
@@ -196,8 +216,8 @@
 					type: "random"
 				}
 				{
-					id: "57F874FC5652F436"
-					item: "the_forgotten_dimensions:training_dummy_spawn_egg"
+					id: "698A76EC023814B6"
+					item: "dummmmmmy:target_dummy"
 					type: "item"
 				}
 			]
@@ -219,6 +239,13 @@
 		}
 		{
 			dependencies: ["742F904E11E32EF6"]
+			description: [
+				"在制造那些机器前，你需要提前准备好你的动力来源。"
+				""
+				"虽然旧时代的科技产物大多没落，但也不至于到“人力发电”的地步。"
+				""
+				"风车和水车是当前的上上之选，这两种机器可以作为应力源，以驱动你的其他机器。"
+			]
 			id: "5167F9623E3F6226"
 			rewards: [{
 				count: 4
@@ -227,6 +254,7 @@
 				random_bonus: 4
 				type: "item"
 			}]
+			subtitle: "科学的开始，拯救世界的第一步。"
 			tasks: [{
 				id: "6FE0E7A7CECB1108"
 				item: "create:andesite_casing"
@@ -238,6 +266,11 @@
 		}
 		{
 			dependencies: ["742F904E11E32EF6"]
+			description: [
+				"在电能还未不能被你利用时，这是你最基础的能量传输设备。"
+				""
+				"再次提醒，当你拿到一个新方块和物品而不知道如何利用时，除了阅读物品描述外，一定要记得使用&8思索&f功能，只需要长按w，这比过去一切网上的教程都要好用。"
+			]
 			id: "5B05CFD122F36B35"
 			rewards: [{
 				count: 18
@@ -272,6 +305,7 @@
 				"5167F9623E3F6226"
 				"5B05CFD122F36B35"
 			]
+			description: ["垂直或水平的改变应力方向。"]
 			id: "7E475182BB01C640"
 			rewards: [{
 				id: "4F8993644E7F0996"
@@ -289,7 +323,6 @@
 		}
 		{
 			dependencies: ["5167F9623E3F6226"]
-			description: ["我觉得还不错，除非你想用手摇的"]
 			id: "08567758B4F54391"
 			rewards: [{
 				count: 2
@@ -314,6 +347,7 @@
 				item: "create:large_water_wheel"
 				type: "item"
 			}]
+			subtitle: "这东西虽然速度慢,但应力是小水车的两倍,推荐~"
 			tasks: [{
 				id: "07A571704C258022"
 				item: "create:large_water_wheel"
@@ -329,6 +363,11 @@
 				"47D48ADE5157D6E1"
 			]
 			dependency_requirement: "one_completed"
+			description: [
+				"作为你的第一台机器，他可以将羊毛粉碎为线，也可以从砂砾里分拣出一些基础矿石。"
+				""
+				"需要其他机器为之提供应力，至于怎么提供，请使用&e思索&f。"
+			]
 			id: "30E3E82BA02A5AF2"
 			rewards: [
 				{
@@ -353,6 +392,7 @@
 		}
 		{
 			dependencies: ["30E3E82BA02A5AF2"]
+			description: ["除了用于金属压片以及制作水果沙拉外，他还有许多其他功能。"]
 			id: "01453C2B678C3E4D"
 			rewards: [
 				{
@@ -413,9 +453,15 @@
 				}
 			]
 			tasks: [{
-				count: 3L
-				id: "3169F0B00BEC2BF5"
-				item: { Count: 3b, id: "create:iron_sheet" }
+				id: "03C5D1DEEAF3F1D6"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:plates/iron"
+					}
+				}
+				title: "Any #forge:plates/iron"
 				type: "item"
 			}]
 			x: 5.0d
@@ -430,6 +476,7 @@
 				item: "create:andesite_alloy"
 				type: "item"
 			}]
+			subtitle: "配合锟压机使用。"
 			tasks: [
 				{
 					id: "60D73E65D60C2DB7"
@@ -443,8 +490,8 @@
 				}
 			]
 			title: "盆与台子"
-			x: 7.5d
-			y: 12.0d
+			x: 6.5d
+			y: 15.0d
 		}
 		{
 			dependencies: ["2B97276745339E8F"]
@@ -461,6 +508,7 @@
 					type: "item"
 				}
 			]
+			subtitle: "用以洗练、烧制矿物和食物。"
 			tasks: [{
 				id: "684489BB835C7B1F"
 				item: "create:encased_fan"
@@ -504,6 +552,7 @@
 				table_id: 2462882013908997816L
 				type: "random"
 			}]
+			subtitle: "为了下界做准备"
 			tasks: [{
 				id: "4540D635AB9FEAE8"
 				item: {
@@ -530,10 +579,17 @@
 			subtitle: "水与岩浆的混合"
 			tasks: [{
 				id: "47ED7B89A6084966"
-				item: "minecraft:obsidian"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:obsidian"
+					}
+				}
+				title: "Any #forge:obsidian"
 				type: "item"
 			}]
-			title: "好硬好喜欢"
+			title: "黑色硬头"
 			x: -0.5d
 			y: 16.0d
 		}
@@ -585,6 +641,17 @@
 					item: {
 						Count: 1b
 						id: "immersiveengineering:glider"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7905F17DFFCFFCF2"
+					item: {
+						Count: 1b
+						id: "alexsmobs:flying_fish_boots"
 						tag: {
 							Damage: 0
 						}
@@ -656,12 +723,6 @@
 				}
 				{
 					exclude_from_claim_all: true
-					id: "7789324C43522DCA"
-					table_id: 2462882013908997816L
-					type: "random"
-				}
-				{
-					exclude_from_claim_all: true
 					id: "762A7801C2CEC7C8"
 					table_id: 8695861683220912716L
 					type: "random"
@@ -671,16 +732,30 @@
 					item: "ad_astra:earth_globe"
 					type: "item"
 				}
+				{
+					id: "172E370B8626E063"
+					item: "l2artifacts:random_1"
+					type: "item"
+				}
 			]
+			shape: "hexagon"
 			size: 1.3d
+			subtitle: "可以以此迈入更高的技术水平。"
 			tasks: [{
 				id: "46ABB5AE726023C4"
-				item: "create:brass_ingot"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ingots/brass"
+					}
+				}
+				title: "Any #forge:ingots/brass"
 				type: "item"
 			}]
 			title: "真正的合金"
 			x: -0.65d
-			y: 18.85d
+			y: 19.5d
 		}
 		{
 			dependencies: ["018C4FF1F6AAF4DC"]
@@ -688,11 +763,6 @@
 			icon: "minecraft:oak_sapling"
 			id: "6EA458C42BABEBEF"
 			rewards: [
-				{
-					id: "0FF9D5F5D362BE19"
-					item: "minecraft:dirt"
-					type: "item"
-				}
 				{
 					id: "60CB74E0978DC06F"
 					item: {
@@ -804,16 +874,34 @@
 				}
 			]
 			x: 1.0d
-			y: 3.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["35BB23C010D9C13A"]
+			description: [
+				"当你获得一种可以制作武器的材料时，会发现你有众多的武器类型可以选择。"
+				"举棋不定时，可以静下心来阅读相关手册和jei。"
+				"或者有啥用啥，讲究随缘。"
+			]
 			id: "2FA7CBC78AD59202"
-			rewards: [{
-				id: "716C3D244E78556C"
-				item: "twilightforest:charm_of_keeping_3"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "716C3D244E78556C"
+					item: "twilightforest:charm_of_life_2"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5A11556026A522CE"
+					table_id: 9066948471408071124L
+					type: "random"
+				}
+				{
+					id: "4C67FC8FDE4A7C42"
+					item: "l2artifacts:random_1"
+					type: "item"
+				}
+			]
 			subtitle: "幸存者们传言：两极的冰川已经全部融化"
 			tasks: [{
 				id: "33D4C1F93BD24EA0"
@@ -822,8 +910,8 @@
 				value: 1
 			}]
 			title: "战斗开始"
-			x: -2.5d
-			y: 4.0d
+			x: 2.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["01453C2B678C3E4D"]
@@ -835,7 +923,7 @@
 				type: "item"
 			}]
 			tasks: [{
-				id: "3D2659B4BDD351DB"
+				id: "3753A577B578D0CA"
 				item: {
 					Count: 1b
 					id: "itemfilters:tag"
@@ -846,6 +934,7 @@
 				title: "Any #forge:plates/copper"
 				type: "item"
 			}]
+			title: "铜板"
 			x: 8.0d
 			y: 14.0d
 		}
@@ -864,6 +953,28 @@
 					id: "751CD0FD6757F6E5"
 					table_id: 523424714767025876L
 					type: "random"
+				}
+				{
+					id: "035D995C985FC1EE"
+					item: {
+						Count: 1b
+						id: "minecraft:trident"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:loyalty"
+								lvl: 3s
+							}]
+							RepairCost: 1
+							itemModifier: "celestial_forge:divine"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "405FF07A763F71BB"
+					item: "l2artifacts:random_1"
+					type: "item"
 				}
 			]
 			subtitle: "潜水员必备，可以开始探索海洋啦"
@@ -913,6 +1024,7 @@
 					type: "item"
 				}
 			]
+			title: "潜水服"
 			x: 7.5d
 			y: 16.0d
 		}
@@ -946,6 +1058,7 @@
 				item: "create:rose_quartz"
 				type: "item"
 			}]
+			subtitle: "手工业的起步"
 			tasks: [
 				{
 					id: "43D33BB576941145"
@@ -956,11 +1069,12 @@
 					id: "3BC03336587658A3"
 					item: {
 						Count: 1b
-						id: "create:sand_paper"
+						id: "itemfilters:tag"
 						tag: {
-							Damage: 0
+							value: "create:sandpaper"
 						}
 					}
+					title: "任意砂纸"
 					type: "item"
 				}
 			]
@@ -1055,7 +1169,7 @@
 			}]
 			title: "睁眼"
 			x: 1.0d
-			y: 1.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["502E2BAF4DCDC758"]
@@ -1110,9 +1224,9 @@
 				}
 			]
 			tasks: [{
-				count: 8L
+				count: 16L
 				id: "3E4C7FD1EA9591C0"
-				item: { Count: 8b, id: "create:white_sail" }
+				item: "create:white_sail"
 				type: "item"
 			}]
 			x: 4.5d
@@ -1126,6 +1240,7 @@
 			]
 			dependency_requirement: "one_completed"
 			id: "5D4831929D7EDE00"
+			subtitle: "不要忘记思索"
 			tasks: [
 				{
 					id: "0F4E963FD78C07C3"
@@ -1141,6 +1256,889 @@
 			x: 3.0d
 			y: 11.5d
 		}
+		{
+			dependencies: ["2FA7CBC78AD59202"]
+			description: [
+				"出门在外遇到有词条的怪物却没带手册？可以通过[&bJEI&r]来查看词条的具体属性。"
+				""
+				"很多时候BOSS们会有一些强力词条，记得通过手册查看克制方法。"
+				""
+				"玩家和所在地的&c难度&f共同决定了怪物们的强度，后面你会学到一些降低和提升难度的方法。"
+				""
+				"古遗物手册会指导你获取饰品、增强自己的战斗力。"
+				""
+				"{@pagebreak}"
+				"记住这段口诀："
+				""
+				"&a&o饰品大多靠开箱，遗物半壁须合成。"
+				"&a&o海盗船里有宝物，水下遗迹更惊喜。"
+				"&a&o溺尸怪鱼多悩人，只谓富贵险中求。"
+				"&a&o正面硬战不可取，&c难度&a太高也头痛。"
+			]
+			id: "13D521B0235DC494"
+			rewards: [
+				{
+					id: "310451DFD0B22F6D"
+					item: {
+						Count: 1b
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "l2artifacts:artifact_guide"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "440B90C6F973FA12"
+					item: {
+						Count: 1b
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "l2hostility:hostility_guide"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4DA2077C6920F9A8"
+					item: "solcarrot:food_book"
+					type: "item"
+				}
+			]
+			subtitle: "最好把这些手册放在你的床头柜里"
+			tasks: [{
+				icon: "minecraft:white_bed"
+				id: "3679CBAF5F15D092"
+				stat: "minecraft:sleep_in_bed"
+				title: "入睡"
+				type: "stat"
+				value: 1
+			}]
+			title: "整理心情"
+			x: 3.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2FA7CBC78AD59202"]
+			description: [
+				"每个工具或装备在被制作和发现时，都会拥有一个词条。"
+				"词条可以是正面，也可以是负面。"
+				"一半来说，使用绿宝石在铁砧上与物品锻造可以重铸词条；"
+				"一条更为稳妥的路线是使用属性书。"
+				"锻造会消耗22级经验值。"
+			]
+			id: "24B75424DB0D9DC9"
+			rewards: [
+				{
+					id: "4FD8A66CA28FCC36"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3FAB45C98BA50AD1"
+					table_id: 8695861683220912716L
+					type: "random"
+				}
+				{
+					id: "2D52934E9E9D2A67"
+					item: "l2artifacts:random_1"
+					type: "item"
+				}
+			]
+			subtitle: "好的词条可以为装备锦上添花，而差的词条则会雪中送冰。"
+			tasks: [{
+				id: "21464CAD31EC6FD4"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:anvil"
+					}
+				}
+				title: "任何铁砧"
+				type: "item"
+			}]
+			title: "基础锻造"
+			x: 5.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["35BB23C010D9C13A"]
+			description: [
+				"想要成为一个老道的船员，只需要记住以下几点"
+				""
+				"1.将船远离你，放入水中（船需要空间来放置）。右键单击以坐到船上。"
+				""
+				"2.在船上：按&c“R”&f展开/收起船帆。按“前进”或“后退”以增加/减少帆的角度。按&c“E”&f打开/关闭货舱。船由风力驱动，不要需一直按着“前进”。"
+				""
+				"3.第三人称模式下，用鼠标滚轮更改缩放距离。"
+				""
+				"4.要从船上卸下所有实体，使用潜行（左shift）+右键单击船。"
+				""
+				"5.要从船上卸下一个实体，请使用潜行+右键单击该实体。"
+				""
+				"6.要从外部打开船的货舱，请使用潜行+右键单击船。"
+			]
+			id: "5D34BDB1E1FDC8B4"
+			rewards: [{
+				id: "085387F951EA8330"
+				table_id: 5306162388066523457L
+				type: "random"
+			}]
+			subtitle: "是时候做一个好水手了"
+			tasks: [{
+				id: "12A83B835192EDC9"
+				item: "smallships:sail"
+				type: "item"
+			}]
+			title: "扬帆——起航!"
+			x: -2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"24B75424DB0D9DC9"
+				"13D521B0235DC494"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"元素系统实际贯穿整合包的整个流程。"
+				"玩家通常可以通过元素材料来制作武器、装备，以及使用元素附魔来强化自己。"
+			]
+			id: "118C9367A8DE4A69"
+			rewards: [
+				{
+					id: "2F2D191764C42626"
+					item: "alexscaves:tesla_bulb"
+					type: "item"
+				}
+				{
+					id: "5D5C1A11778C5D54"
+					item: {
+						Count: 1b
+						id: "the_forgotten_dimensions:mendalum_bow"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "是先有的不死鸟蛋，还是现有的不死鸟？"
+			tasks: [{
+				id: "53E1EC9B67DBA65C"
+				item: {
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Items: [ ]
+							Size: 9
+						}
+					}
+					id: "the_forgotten_dimensions:a_guide_to_dimensions"
+					tag: {
+						Inventory: {
+							Items: [ ]
+							Size: 9
+						}
+					}
+				}
+				type: "item"
+			}]
+			x: 6.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["118C9367A8DE4A69"]
+			description: [
+				"火元素是最容易为人所利用的元素，"
+				"火药与烈焰棒的组合可以制作出强而有力的元素武器。"
+				"&4火焰附加&f在本包中被修改，在点燃生物之余，还会附加少量火焰伤害--即使该生物免疫火焰（其他火元素武器亦然）。"
+				""
+				"火元素脾气火爆，难以和其他元素兼容，他与冰、水元素会相互削弱（所以可以对冰元素生物造成更高伤害），与电、土元素毫无瓜葛。"
+			]
+			icon: "celestial_core:fire_essence"
+			id: "2EBA5625A298CE12"
+			rewards: [
+				{
+					count: 16
+					id: "3C25B84E7FA9E430"
+					item: "the_forgotten_dimensions:magma_bomb"
+					random_bonus: 16
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "6747B772FE76E9B1"
+					item: {
+						Count: 1b
+						id: "the_forgotten_dimensions:blaze_rod_repeater"
+						tag: {
+							Damage: 0
+						}
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 32
+					id: "0BCC724B591BCA4F"
+					item: "the_forgotten_dimensions:blaze_rod_bolt"
+					random_bonus: 32
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "47018B70255A40A6"
+					item: {
+						Count: 1b
+						id: "the_forgotten_dimensions:blazing_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "1542EA8239EAFD7F"
+					item: {
+						Count: 1b
+						id: "the_forgotten_dimensions:blaze_staff"
+						tag: {
+							Damage: 0
+							Shoot: 0.0d
+						}
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: true
+					id: "27652F5CA586FFC5"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "49AA65DB10F68CAA"
+					item: "alexscaves:tesla_bulb"
+					type: "item"
+				}
+			]
+			title: "元素·火"
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["118C9367A8DE4A69"]
+			description: [
+				"电元素强力而罕见，不会被“抗性提升”以外的任何方式减免，且&e不受攻速影响&f。"
+				""
+				"通常，武器的电元素伤害以&6橙色&f数值标明。"
+				""
+				"红石、铜、金可以制作一些基础的电元素道具,但他们不甚强力。"
+				""
+				"使用机械动力为一些金属充电后，再进行进一步加工，可以得到&e“雷石”&f，该材料性能较为优越。"
+				""
+				"&e某些带电的宝石&f在高温高压环境下，可以把电力扩散出去，以制作附魔书。"
+				""
+				"更高级的电元素材料则只在“雷霆空岛”维度生成。"
+				""
+				"{@pagebreak}"
+				"绝缘的训练人偶免疫包括特斯拉球本身在内的一切电元素伤害。"
+				""
+				"电元素在在水中（包括水方块和雨水）时，连锁的范围会增强，且伤害小幅度增加。"
+				""
+				"水元素武器和伤害亦可达成此目标。"
+				""
+				"被电元素麻痹的生物会暂时失去索敌目标。"
+			]
+			icon: "thermal:lightning_charge"
+			id: "4A62C38313919AD0"
+			rewards: [
+				{
+					id: "51A359B25F249427"
+					item: {
+						Count: 1b
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "the_forgotten_dimensions:electric_aspect"
+								lvl: 4s
+							}]
+						}
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "1BE2978BA1819AEB"
+					item: {
+						Count: 1b
+						id: "the_forgotten_dimensions:lightning_bolt"
+						tag: {
+							Damage: 0
+						}
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "09C5B21D23FE0624"
+					item: {
+						Count: 1b
+						id: "the_forgotten_dimensions:techno_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "4BC87A79AB8A2B41"
+					item: "the_forgotten_dimensions:skylite_bow"
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 32
+					id: "7D3B705ECFEBAC43"
+					item: "the_forgotten_dimensions:thunderite_arrow"
+					random_bonus: 32
+					team_reward: true
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: true
+					id: "772BB5AFA46F8118"
+					item: "alexscaves:tesla_bulb"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "73FC5E0BC4C61D35"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "7AFDF44EA13573C5"
+					item: "minecraft:copper_ingot"
+					type: "item"
+				}
+			]
+			title: "元素·电"
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["118C9367A8DE4A69"]
+			description: [
+				"得益于寒冰不死鸟，现在冰元素到处都是,目前最容易获取的材料是一种冰镇的皮革和铁与雪的合金，可以制作防具、工具、武器等。"
+				""
+				"&b冰霜之触&f附魔很容易在附魔台见到。"
+				""
+				"冰元素伤害会削弱敌人的防御力，并减缓敌人的行动能力。"
+				""
+				"这意味着，当一个敌人受到冰元素的伤害时，第二次伤害会比第一次更高。"
+				""
+				"在有水元素和雷元素的情况下，冰元素伤害的会更高；如果一个生物正处于&c燃烧&f状态，那么冰元素对他就不会有什么作用。"
+			]
+			icon: "the_forgotten_dimensions:ice_heart"
+			id: "0FC077EBCC86B3D1"
+			rewards: [
+				{
+					id: "5FA0B4030392FEFE"
+					item: {
+						Count: 1b
+						id: "twilightforest:ice_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 2
+					id: "2129F647182F03F0"
+					item: "the_forgotten_dimensions:metallic_snow_arrow"
+					random_bonus: 68
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "2CB5F5598A09C35B"
+					item: {
+						Count: 1b
+						id: "the_forgotten_dimensions:ice_ray_cast"
+						tag: {
+							Damage: 0
+						}
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "60F9B1A000419895"
+					item: {
+						Count: 1b
+						id: "the_forgotten_dimensions:reinforced_metallic_snow_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "38C8CEC38A8E2022"
+					item: {
+						Count: 1b
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "the_forgotten_dimensions:ice_aspect"
+								lvl: 6s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: true
+					id: "134B0B99C70AF4DE"
+					item: "alexscaves:tesla_bulb"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "780057E1EB7F3F36"
+					item: "minecraft:snow_block"
+					type: "item"
+				}
+			]
+			title: "元素·冰"
+			x: 8.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["118C9367A8DE4A69"]
+			description: [
+				"地元素太过常见，毕竟我们位于&a地球。"
+				""
+				"但是正因如此，“如何利用地元素”成了难题。"
+				""
+				"我们甚至做不出一把地元素的武器，即使我们知道地元素伤害的性质。"
+				""
+				"有人说，地元素伤害就是物理伤害。"
+				""
+				"又有人说，大地之下，即是虚空。"
+				"&7（虚空伤害会立即杀死训练人偶）"
+			]
+			icon: "celestial_core:earth_core"
+			id: "2D5442B1DF2CAF7C"
+			rewards: [
+				{
+					count: 16
+					id: "3A7B3C056D1538EE"
+					item: "thermal:earth_grenade"
+					random_bonus: 64
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "20208164414318F7"
+					item: "botania:grass_seeds"
+					random_bonus: 4
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "3BD39BD597339D98"
+					item: {
+						Count: 1b
+						id: "expanded_combat:void_touched_dagger"
+						tag: {
+							Damage: 0
+						}
+					}
+					team_reward: true
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					consume_items: true
+					id: "214549DF8AF55E3E"
+					item: "alexscaves:tesla_bulb"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "1B182AD2D3A6D3EA"
+					item: "minecraft:grass_block"
+					type: "item"
+				}
+			]
+			title: "元素·地"
+			x: 7.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["118C9367A8DE4A69"]
+			description: [
+				"水元素非常常见。"
+				""
+				"但如果你告诉我，要用水来制作一把武器，我会认为是天方夜谭。"
+				""
+				"以目前的技术手段来说，唯一含有水元素的武器需要用到“恼鬼”的掉落物，可我们都知道，这种生物不是那么好对付。"
+				""
+				"作为武器的&3幽灵刀&f不只含有水元素，他同时还能造成冰元素伤害，在打出元素反应的同时吸取敌方的生命值，可以说是十分强力。"
+				""
+				"幸运的是，想要利用水元素，不仅仅只能制作一把武器，其他元素在接触自然水时会发生的各种反应、一些与水有关的饰品，都能提升玩家的战斗力。"
+			]
+			icon: "celestial_core:ocean_essence"
+			id: "67748BD1382904BD"
+			rewards: [
+				{
+					id: "5502D0B8964E1BC7"
+					item: "the_forgotten_dimensions:spectralism_blade"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "72BB0DD93E870F74"
+					item: {
+						Count: 1b
+						id: "l2weaponry:poseidite_nunchaku"
+						tag: {
+							Damage: 0
+						}
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "47AF261DBC3683B0"
+					item: "celestial_artifacts:sea_god_scroll"
+					team_reward: true
+					type: "item"
+				}
+				{
+					id: "2CD3FE2A28B67F0B"
+					item: {
+						Count: 1b
+						id: "minecraft:trident"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:riptide"
+								lvl: 3s
+							}]
+							RepairCost: 1
+							itemModifier: "celestial_forge:legend"
+						}
+					}
+					team_reward: true
+					type: "item"
+				}
+				{
+					count: 10
+					id: "2845C9D72CCD90EA"
+					item: "aquamirae:sea_stew"
+					random_bonus: 30
+					team_reward: true
+					type: "item"
+				}
+			]
+			subtitle: "有人说过三叉戟在副手时，激流会触发主手武器的攻击吗？"
+			tasks: [
+				{
+					consume_items: true
+					id: "66D490AC860B4B7A"
+					item: "alexscaves:tesla_bulb"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "026667C7EF524000"
+					item: "minecraft:water_bucket"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "58B34FDF72D511E9"
+					item: "minecraft:packed_ice"
+					type: "item"
+				}
+			]
+			title: "元素·水"
+			x: 8.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["5D34BDB1E1FDC8B4"]
+			description: [
+				"海盗船是前期的一大物资来源，如果你找不到陆地，海盗船可以给你提供木头、铁、黄金、钻石、绿宝石和食物，但也就仅此而已。"
+				"偶尔能在海盗船上找到被关押的人质（村民）。"
+				"鉴于海盗们枪支弹药充足，智取才是上上之策。"
+			]
+			id: "0441E1800688E24B"
+			rewards: [
+				{
+					id: "2A5170F2E317909A"
+					table_id: 5481328166682594016L
+					type: "random"
+				}
+				{
+					id: "4A8CFA05A68EB8D3"
+					item: "pillagers_gun:assault_rifle_ammo"
+					type: "item"
+				}
+				{
+					id: "3A3CCAFB129946AF"
+					item: "l2hostility:hostility_detector"
+					type: "item"
+				}
+				{
+					id: "00E2C6CDB2A95F89"
+					item: "l2artifacts:random_1"
+					type: "item"
+				}
+			]
+			subtitle: "海盗们好久没发过工资了"
+			tasks: [
+				{
+					entity: "minecraft:pillager"
+					id: "05692064F78B80E0"
+					type: "kill"
+					value: 1L
+				}
+				{
+					entity: "minecraft:vindicator"
+					id: "4FEFB50149E35892"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "这不是加勒比"
+			x: -4.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["1F5C57882FBE87A9"]
+			description: [
+				"传送门废墟、劫掠者前哨站、丛林神庙、沙漠神殿......"
+				"{image:realms:textures/gui/images/2.png width:100 height:100 align:1}"
+				"这些家伙随着洪水的侵蚀统统沉入水下，由于人迹罕至，这些遗迹中通常藏有来自末日之前的宝藏，稀有的饰品、强力的附魔，能拿到什么只看你的运气和胆色。"
+				"{@pagebreak}"
+				"沉船是比较新鲜的遗迹，里面的东西和水面上的船只比起来好不了多少，但是可以找到一些稀有植物的种子。"
+				""
+				"水下村庄里有着食物、饰品、矿物，但村庄曾经的主人仍在原处徘徊、死不瞑目，如果惊扰了他们，就要做好战斗的准备。"
+				"{@pagebreak}"
+				"{image:realms:textures/gui/images/4.png width:100 height:100 align:1}"
+				"一些古城也随着地壳变迁从地下深处被搬运到了浅海，因为风化作用，探索这些古城的时候不用担心有什么巨大的瞎子来找你麻烦；不过，地下深处的其他古城仍被那种奇怪的植物缠绕。"
+			]
+			icon: "artifacts:charm_of_sinking"
+			id: "43B912533C57C32C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4C59406DF7092CCE"
+				table_id: 523424714767025876L
+				type: "random"
+			}]
+			subtitle: "你可以在水下找到许多熟悉的身影"
+			tasks: [{
+				entity: "minecraft:drowned"
+				id: "0370B14727AE38FB"
+				type: "kill"
+				value: 2L
+			}]
+			title: "沉没的世界"
+			x: 9.0d
+			y: 17.5d
+		}
+		{
+			can_repeat: true
+			id: "14C25E126FBF723B"
+			rewards: [
+				{
+					auto: "no_toast"
+					id: "7B51DE58B070AE2A"
+					table_id: 1059738892163851710L
+					team_reward: true
+					type: "random"
+				}
+				{
+					auto: "no_toast"
+					id: "40896886256D10C4"
+					table_id: 523424714767025876L
+					team_reward: true
+					type: "random"
+				}
+			]
+			size: 0.001d
+			tasks: [{
+				entity: "minecraft:giant"
+				id: "0D62F9B4E76BA41C"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["0D226E91349E5E65"]
+			id: "72205F3A4646CBA9"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "53BD2C75E377A115"
+					table_id: 9066948471408071124L
+					type: "random"
+				}
+				{
+					id: "0CA4A9B284980545"
+					item: "l2artifacts:random_1"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "7CEFC0F7633EB820"
+					item: "minecraft:bookshelf"
+					type: "item"
+				}
+			]
+			subtitle: "&b提升战斗力，附魔必不可少。"
+			tasks: [{
+				id: "2BE6093DF061E945"
+				item: "minecraft:enchanting_table"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 18.0d
+		}
+		{
+			description: ["海洋中，溺尸们喜欢携带着三叉戟作战，获取我们可以借来用用？"]
+			id: "58127DC2D764A714"
+			rewards: [{
+				id: "2160806031282D83"
+				item: "l2artifacts:random_2"
+				type: "item"
+			}]
+			subtitle: "蕴含海洋能量的装备"
+			tasks: [
+				{
+					id: "35B01AC7DFB9BFF7"
+					item: {
+						Count: 1b
+						id: "minecraft:trident"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4F0FFD74966C2783"
+					item: "l2complements:poseidite_ingot"
+					type: "item"
+				}
+			]
+			x: -1.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["72205F3A4646CBA9"]
+			description: [
+				"{image:kubejs:textures/images/5.png width:188 height:123 align:1}"
+				"{@pagebreak}"
+				"同时&l&a液态经验&r&r的用量非常大,每本附魔书制作都要用到,除了用&a经验颗粒&r压榨外也可以将没用的&b附魔书&r丢到分液池上滚一圈获得&a250mb&r的&l&a液态经验&r&r"
+				""
+				"{image:kubejs:textures/images/6.png width:185 height:58 align:1}"
+			]
+			id: "7793607A78C7E20F"
+			rewards: [
+				{
+					id: "0CC249EBC7A5FCD3"
+					item: {
+						Count: 1b
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:unbreaking"
+								lvl: 3s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5B5D903A62D120C0"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "&b在本整合包中,我们給书添加了序列组装制作附魔书的配方"
+			tasks: [{
+				id: "70050A79D513E095"
+				type: "checkmark"
+			}]
+			title: "&4关于附魔书"
+			x: -2.0d
+			y: 17.0d
+		}
+		{
+			dependencies: ["72205F3A4646CBA9"]
+			id: "3889D9E37E611DAC"
+			rewards: [{
+				id: "3CD445FFDE878C79"
+				type: "xp_levels"
+				xp_levels: 30
+			}]
+			subtitle: "&3这是个好东西啊"
+			tasks: [{
+				id: "0CD81D1E2E6A0F90"
+				item: "editenchanting:enchantment_edit_table"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 17.0d
+		}
+		{
+			dependencies: ["30E3E82BA02A5AF2"]
+			id: "2363055AF061F51A"
+			rewards: [{
+				id: "188B7A82300AE1F6"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				count: 256L
+				id: "4DBBDA1244043D05"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:gravel"
+					}
+				}
+				title: "Any #forge:gravel"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 15.0d
+		}
 	]
-	title: "基础设施"
+	title: "初入世界"
 }

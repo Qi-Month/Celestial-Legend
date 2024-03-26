@@ -1,6 +1,6 @@
 ServerEvents.recipes(e => {
 	// Create
-	let {
+	const {
 		compacting,
 		crushing,
 		cutting,
@@ -14,15 +14,16 @@ ServerEvents.recipes(e => {
 		pressing,
 		sandpaper_polishing,
 		sequenced_assembly,
-		splashing
+		splashing,
+		item_application
 	} = e.recipes.create
 	// KubeJS
-	let {
+	const {
 		shaped,
 		shapeless
 	} = e.recipes.kubejs
 	// Minecraft
-	let {
+	const {
 		blasting,
 		campfire_cooking,
 		crafting_shaped,
@@ -44,12 +45,6 @@ ServerEvents.recipes(e => {
 		'#forge:cobblestone'
 	]).id('create:milling/cobblestone')
 
-	// 钢锭
-	mixing('2x ad_astra:steel_ingot', [
-		'#forge:coal_coke',
-		'#forge:ingots/ironwood'
-	]).superheated()
-
 	// 下界图腾
 	mixing('kubejs:nether_totem', [
 		'#forge:ingots/gold',
@@ -59,7 +54,7 @@ ServerEvents.recipes(e => {
 	]).heated()
 
 	// 暮色催化石
-	mixing('kubejs:tf_catalytic_stone', [
+	compacting('kubejs:tf_catalytic_stone', [
 		'4x #forge:plates/brass',
 		'4x #forge:plates/iron',
 		'kubejs:magic_essence'
@@ -67,8 +62,8 @@ ServerEvents.recipes(e => {
 
 	// 熔岩
 	mixing(Fluid.of('minecraft:lava', 100), [
-		'16x #forge:cobblestone'
-	])
+		'8x #forge:cobblestone'
+	]).heated()
 
 	// 腐肉
 	compacting('minecraft:leather', [
@@ -76,25 +71,133 @@ ServerEvents.recipes(e => {
 	])
 
 	// 沙子
-	mixing('minecraft:sand', [
+	mixing('2x minecraft:sand', [
 		'4x #forge:gravel',
 		Fluid.of('minecraft:water', 500)
 	])
 
 	// 黏土块
-	mixing('minecraft:clay', [
+	mixing('2x minecraft:clay', [
 		'4x #forge:sand',
 		Fluid.of('minecraft:water', 500)
 	])
 
+	// 下界岩
+	haunting('minecraft:netherrack', [
+		'#forge:cobblestone'
+	]).id('create:haunting/blackstone')
+
 	// 砂砾
-	shaped('minecraft:gravel', [
+	shaped('2x minecraft:gravel', [
 		'SF',
 		'FS'
 	], {
 		F: 'minecraft:flint',
 		S: '#forge:sand'
 	})
+
+	// 液态经验
+	compacting(Fluid.of('kubejs:experience', 6), [
+		'create:experience_nugget'
+	]).heated()
+
+	emptying([Fluid.of('kubejs:experience', 250), 'minecraft:book'], [
+		'minecraft:enchanted_book'
+	])
+
+	// 细雪
+	emptying([Fluid.of('kubejs:powder_snow', 1000), 'minecraft:bucket'], [
+		'minecraft:powder_snow_bucket'
+	])
+	mixing(Fluid.of('kubejs:powder_snow', 1000), [
+		'minecraft:snow_block'
+	])
+
+	// 祛魔编辑台
+	e.custom({
+		"type": "botania:terra_plate",
+		"ingredients": [
+			{ "item": "botania:rune_sloth" },
+			{ "item": "botania:rune_wrath" },
+			{ "item": "botania:rune_envy" },
+			{ "item": "botania:rune_pride" },
+			{ "item": "thermal:machine_frame" }
+		],
+		"mana": 2000000,
+		"result": { "item": "editenchanting:enchantment_edit_table" }
+	}).id('editenchanting:enchantment_edit_table')
+
+	// 挖掘爪
+	shaped('artifacts:digging_claws', [
+		'MI ',
+		'M S',
+		'MI '
+	], {
+		M: '#forge:ingots/manasteel',
+		I: '#forge:ingots/iron',
+		S: '#forge:string'
+	})
+
+	// 狂野爪
+	shaped('artifacts:feral_claws', [
+		'TM ',
+		'T S',
+		'TM '
+	], {
+		M: '#forge:ingots/manasteel',
+		S: '#forge:string',
+		T: '#forge:ingots/terrasteel'
+	})
+
+	// 潜水艇核心
+	sequenced_assembly(
+		'kubejs:submarine_core',
+		'#forge:storage_blocks/steel', [
+		deploying('kubejs:submarine_core', [
+			'kubejs:submarine_core',
+			'botania:rune_water'
+		]),
+		deploying('kubejs:submarine_core', [
+			'kubejs:submarine_core',
+			'create:propeller'
+		]),
+		deploying('kubejs:submarine_core', [
+			'kubejs:submarine_core',
+			'create:precision_mechanism'
+		]),
+		deploying('kubejs:submarine_core', [
+			'kubejs:submarine_core',
+			'create:electron_tube'
+		])
+	]).loops(2).transitionalItem('create:precision_mechanism')
+
+	// 石磨(粉)
+	const Milling = {
+		'thermal:iron_dust': '#forge:ingots/iron',
+		'thermal:copper_dust': '#forge:ingots/copper',
+		'thermal:gold_dust': '#forge:ingots/gold',
+		'thermal:tin_dust': '#forge:raw_materials/tin',
+		'thermal:lead_dust': '#forge:ingots/lead',
+		'thermal:silver_dust': '#forge:ingots/silver',
+		'thermal:nickel_dust': '#forge:raw_materials/nickel',
+		'thermal:bronze_dust': '#forge:ingots/bronze',
+		'thermal:electrum_dust': '#forge:ingots/electrum',
+		'thermal:invar_dust': '#forge:ingots/invar',
+		'thermal:constantan_dust': '#forge:ingots/constantan',
+		'thermal:signalum_dust': '#forge:ingots/signalum',
+		'thermal:lumium_dust': '#forge:ingots/lumium',
+		'thermal:enderium_dust': '#forge:ingots/enderium',
+		'thermal:diamond_dust': '#forge:gems/diamond',
+		'thermal:lapis_dust': '#forge:gems/lapis',
+		'thermal:emerald_dust': '#forge:gems/emerald',
+		'thermal:quartz_dust': '#forge:gems/quartz',
+		'thermal:ruby_dust': '#forge:gems/ruby',
+		'thermal:sapphire_dust': '#forge:gems/sapphire',
+		'thermal:nickel_dust': '#forge:ingots/nickel'
+	}
+	Object.entries(Milling).forEach(([
+		Output, Input
+	]) => { milling([Output], [Input]) })
 
 	// 铜剑
 	shaped('kubejs:copper_sword', [
@@ -118,9 +221,9 @@ ServerEvents.recipes(e => {
 
 	// 铜斧
 	shaped('kubejs:copper_axe', [
-		'CC ',
-		'CR ',
-		' R '
+		'CC',
+		'CR',
+		' R'
 	], {
 		C: '#forge:ingots/copper',
 		R: '#forge:rods/wooden'
@@ -138,9 +241,9 @@ ServerEvents.recipes(e => {
 
 	// 铜锄
 	shaped('kubejs:copper_hoe', [
-		'CC ',
-		' R ',
-		' R '
+		'CC',
+		' R',
+		' R'
 	], {
 		C: '#forge:ingots/copper',
 		R: '#forge:rods/wooden'
@@ -178,56 +281,5 @@ ServerEvents.recipes(e => {
 		'C C'
 	], {
 		C: '#forge:ingots/copper'
-	})
-	/*
-		// 树皮
-		Ingredient.of('#minecraft:logs').getItemIds().forEach(e => {
-			let pos = e.indexOf(':')
-			let result = e.substring(0, pos + 1) + 'stripped_' + e.substring(pos + 1)
-			e.custom({
-				"type": "farmersdelight:cutting",
-				"ingredients": [
-					{ "item": e }
-				],
-				"result": [
-					{ "item": result },
-					{ "item": "farmersdelight:tree_bark" }
-				],
-				"tool": {
-					"type": "farmersdelight:tool_action",
-					"action": "pickaxe_dig"
-				}
-			})
-		})
-	*/
-	
-	// 石磨(粉)
-	let Milling = {
-		'thermal:iron_dust': '#forge:ingots/iron',
-		'thermal:copper_dust': '#forge:ingots/copper',
-		'thermal:gold_dust': '#forge:ingots/gold',
-		'thermal:tin_dust': '#forge:raw_materials/tin',
-		'thermal:lead_dust': '#forge:ingots/lead',
-		'thermal:silver_dust': '#forge:ingots/silver',
-		'thermal:nickel_dust': '#forge:raw_materials/nickel',
-		'thermal:bronze_dust': '#forge:ingots/bronze',
-		'thermal:electrum_dust': '#forge:ingots/electrum',
-		'thermal:invar_dust': '#forge:ingots/invar',
-		'thermal:constantan_dust': '#forge:ingots/constantan',
-		'thermal:signalum_dust': '#forge:ingots/signalum',
-		'thermal:lumium_dust': '#forge:ingots/lumium',
-		'thermal:enderium_dust': '#forge:ingots/enderium',
-		'thermal:diamond_dust': '#forge:gems/diamond',
-		'thermal:lapis_dust': '#forge:gems/lapis',
-		'thermal:emerald_dust': '#forge:gems/emerald',
-		'thermal:quartz_dust': '#forge:gems/quartz',
-		'thermal:ruby_dust': '#forge:gems/ruby',
-		'thermal:sapphire_dust': '#forge:gems/sapphire',
-		'thermal:nickel_dust': '#forge:ingots/nickel'
-	}
-	Object.entries(Milling).forEach(([
-		Output, Input
-	]) => {
-		milling(Output, Input)
 	})
 })

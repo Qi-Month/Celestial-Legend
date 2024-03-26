@@ -1,7 +1,7 @@
 ServerEvents.recipes(e => {
 	const cca = 'createaddition'
 	// Create
-	let {
+	const {
 		compacting,
 		crushing,
 		cutting,
@@ -18,12 +18,12 @@ ServerEvents.recipes(e => {
 		splashing
 	} = e.recipes.create
 	// KubeJS
-	let {
+	const {
 		shaped,
 		shapeless
 	} = e.recipes.kubejs
 	// Minecraft
-	let {
+	const {
 		blasting,
 		campfire_cooking,
 		crafting_shaped,
@@ -46,7 +46,7 @@ ServerEvents.recipes(e => {
 	}).id('create:crafting/kinetics/empty_blaze_burner')
 
 	// 暗影钢
-	mixing('create:shadow_steel', [
+	mixing('2x create:shadow_steel', [
 		'alexscaves:azure_neodymium_ingot',
 		'alexscaves:scarlet_neodymium_ingot',
 		'#forge:ingots/enderium',
@@ -214,33 +214,21 @@ ServerEvents.recipes(e => {
 			{
 				"type": "create_new_age:energising",
 				"energy_needed": 500,
-				"ingredients": [
-					{ "item": "create_new_age:incomplete_casing" }
-				],
-				"results": [
-					{ "item": "create_new_age:incomplete_casing" }
-				]
+				"ingredients": [{ "item": "create_new_age:incomplete_casing" }],
+				"results": [{ "item": "create_new_age:incomplete_casing" }]
 			},
 			{
 				"type": "create:deploying",
 				"ingredients": [
 					{ "item": "create_new_age:incomplete_casing" },
-					[
-						{ "tag": "forge:plates/steel" }
-					]
+					[{ "tag": "forge:plates/steel" }]
 				],
-				"results": [
-					{ "item": "create_new_age:incomplete_casing" }
-				]
+				"results": [{ "item": "create_new_age:incomplete_casing" }]
 			},
 			{
 				"type": "create:pressing",
-				"ingredients": [
-					{ "item": "create_new_age:incomplete_casing" }
-				],
-				"results": [
-					{ "item": "create_new_age:incomplete_casing" }
-				]
+				"ingredients": [{ "item": "create_new_age:incomplete_casing" }],
+				"results": [{ "item": "create_new_age:incomplete_casing" }]
 			}
 		],
 		"transitionalItem": { "item": "create_new_age:incomplete_casing" }
@@ -269,13 +257,19 @@ ServerEvents.recipes(e => {
 		'#forge:seeds'
 	]).id('createaddition:compacting/seed_oil')
 
+	// 经验块
+	mixing('create:experience_block', [
+		'9x create:experience_nugget'
+	]).id('create:crafting/materials/experience_block')
+
 	// 出矿
 	milling([
 		Item.of('create:crushed_raw_iron').withChance(0.07),
 		Item.of('create:crushed_raw_copper').withChance(0.08),
 		Item.of('create:crushed_raw_zinc').withChance(0.06),
 		Item.of('create:crushed_raw_tin').withChance(0.08),
-		Item.of('create:crushed_raw_aluminum').withChance(0.03)
+		Item.of('create:crushed_raw_aluminum').withChance(0.03),
+		Item.of('create:crushed_raw_lead').withChance(0.035)
 	], '#forge:gravel')
 
 	crushing([

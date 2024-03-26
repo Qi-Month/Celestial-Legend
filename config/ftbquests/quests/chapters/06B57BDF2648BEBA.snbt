@@ -64,6 +64,11 @@
 		{
 			dependencies: ["1B5E74F68A1228A4"]
 			id: "76EF30AAA14A1525"
+			rewards: [{
+				id: "6044D89DA0812100"
+				item: "l2artifacts:random_1"
+				type: "item"
+			}]
 			subtitle: "手持法术书右键其以打开抄写界面，后选择要抄写的魔符，按照要求丢下相应的物品便可"
 			tasks: [{
 				id: "7E1E9B8B93934042"
@@ -165,6 +170,11 @@
 		{
 			dependencies: ["55F023A399DCA2EA"]
 			id: "342F30659940627A"
+			rewards: [{
+				id: "1A57C30FC4CA2F53"
+				item: "ars_nouveau:sourceberry_bush"
+				type: "item"
+			}]
 			tasks: [
 				{
 					id: "743090629ADEA8FF"
@@ -260,6 +270,11 @@
 		{
 			dependencies: ["65B2D7744C085008"]
 			id: "4C3A9CE42BE4BC24"
+			rewards: [{
+				id: "411CC319D8197437"
+				item: "l2artifacts:random_3"
+				type: "item"
+			}]
 			tasks: [{
 				id: "7D7FD2F00ABD3B4A"
 				item: "ars_nouveau:wilden_tribute"
@@ -275,6 +290,12 @@
 				"4C3A9CE42BE4BC24"
 			]
 			id: "5BA729C8650055A0"
+			rewards: [{
+				count: 5
+				id: "2BCBD0695A70707B"
+				item: "kubejs:mooncoin"
+				type: "item"
+			}]
 			tasks: [{
 				id: "10BDF6E3EEA25455"
 				item: "ars_nouveau:archmage_spell_book"

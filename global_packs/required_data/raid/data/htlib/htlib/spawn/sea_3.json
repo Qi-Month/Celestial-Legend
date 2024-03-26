@@ -1,7 +1,7 @@
 {
-  "type": "htlib:once",
-  "setting": {
-    "entity_type": "alexsmobs:caiman"
-  },
-  "spawn_count": 1
+	"type": "htlib:once",
+	"setting": {
+		"entity_type": "alexsmobs:caiman"
+	},
+	"spawn_count": 1
 }
