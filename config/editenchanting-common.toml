@@ -5,7 +5,7 @@
 	creative_mode = false
 	#What consumables to use
 	#Allowed Values: NONE, ITEM, EXPERIENCE
-	power = "NONE"
+	power = "EXPERIENCE"
 	#Enchant and Edit the computed expressions
 	#level = Enchant Level, count = Enchant Quantity，repair = Item Repair Cost
 	#https://www.programmersought.com/article/37855909509
@@ -17,7 +17,7 @@
 	#( ( level / 3 ) + 1 )
 	#count
 	#( level + count )
-	power_expression = "level"
+	power_expression = "level * 3"
 	#Report the computed expressions
 	#Use the format power_expression describe
 	report_expression = "count"
