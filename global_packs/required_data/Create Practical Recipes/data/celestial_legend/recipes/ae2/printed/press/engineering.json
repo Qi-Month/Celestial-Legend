@@ -1,0 +1,23 @@
+{
+  "keepHeldItem": true,
+  "type": "create:deploying",
+  "ingredients": [
+    {
+      "item": "minecraft:diamond"
+    },
+    {
+      "item": "ae2:engineering_processor_press"
+    }
+  ],
+  "results": [
+    {
+      "item": "ae2:printed_engineering_processor"
+    }
+  ],
+  "conditions": [
+    {
+      "modid": "ae2",
+      "type": "forge:mod_loaded"
+    }
+  ]
+}

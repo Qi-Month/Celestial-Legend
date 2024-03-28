@@ -1,0 +1,23 @@
+{
+  "keepHeldItem": true,
+  "type": "create:deploying",
+  "ingredients": [
+    {
+      "item": "minecraft:gold_ingot"
+    },
+    {
+      "item": "ae2:logic_processor_press"
+    }
+  ],
+  "results": [
+    {
+      "item": "ae2:printed_logic_processor"
+    }
+  ],
+  "conditions": [
+    {
+      "modid": "ae2",
+      "type": "forge:mod_loaded"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "type": "create:compacting",
+  "ingredients": [
+    {
+      "item": "watersource:coconut"
+    }
+  ],
+  "results": [
+    {
+      "item": "watersource:coconut_piece",
+      "count": 4
+    },
+    {
+      "fluid": "watersource:coconut_juice",
+      "amount": 500
+    }
+  ],
+  "conditions": [
+    {
+      "modid": "watersource",
+      "type": "forge:mod_loaded"
+    }
+  ]
+}

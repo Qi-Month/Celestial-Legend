@@ -1,8 +1,6 @@
-{
+﻿{
   "pack": {
-    "description": {
-      "translate": "xiaoyue.pack"
-    },
-    "pack_format": 15
+    "pack_format": 15,
+    "description": "\u00A79本Pack专属Resource"
   }
 }

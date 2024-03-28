@@ -109,9 +109,7 @@ ServerEvents.recipes(e => {
 		],
 		"energy": 51200,
 		"input": { "tag": "forge:gears/electrum", },
-		"results": [
-			{ "base_ingredient": { "item": "thermal:energy_cell_frame" }, }
-		],
+		"results": [{ "base_ingredient": { "item": "thermal:energy_cell_frame" } }],
 		"time": 100
 	})
 
