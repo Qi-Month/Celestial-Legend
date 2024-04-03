@@ -53,7 +53,7 @@ ServerEvents.recipes(e => {
 		'create:milling/gravel',
 		'create_dd:haunting/spirit_planks'
 	]
-	Remove_ID.forEach(function (ID) {
+	Remove_ID.forEach(ID => {
 		e.remove({ id: ID })
 	})
 })

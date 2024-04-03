@@ -37,13 +37,7 @@ ServerEvents.recipes(e => {
 			},
 			{
 				"type": "create_new_age:energising",
-				"energy_needed": 2000000,
-				"ingredients": [{ "item": "minecraft:enchanted_book" }],
-				"results": [{ "item": "minecraft:enchanted_book" }]
-			},
-			{
-				"type": "create_new_age:energising",
-				"energy_needed": 2000000,
+				"energy_needed": 4000000,
 				"ingredients": [{ "item": "minecraft:enchanted_book" }],
 				"results": [{ "item": "minecraft:enchanted_book" }]
 			}

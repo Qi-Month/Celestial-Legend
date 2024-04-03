@@ -95,6 +95,11 @@ ServerEvents.recipes(e => {
 		F: 'minecraft:flint',
 		S: '#forge:sand'
 	})
+	
+	// 雪块
+	compacting('minecraft:powder_snow_bucket', [
+		Fluid.of('kubejs:powder_snow', 1000)
+	])
 
 	// 液态经验
 	compacting(Fluid.of('kubejs:experience', 6), [

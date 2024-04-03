@@ -92,9 +92,7 @@ ServerEvents.recipes(e => {
 			{ "item": "thermal:machine_frame", },
 			{ "item": "immersiveengineering:logic_circuit", }
 		],
-		"result": [
-			{ "item": "rftoolsbase:machine_frame" }
-		],
+		"result": [{ "item": "rftoolsbase:machine_frame" }],
 		"energy": 4800
 	}).id('rftoolsbase:machine_frame')
 
@@ -118,78 +116,53 @@ ServerEvents.recipes(e => {
 		Fluid.of('thermal:latex', 200)
 	])
 
-	/*
-	树汁提取器
-	*/
-
 	// 樱花
 	e.custom({
 		"type": "thermal:tree_extractor",
 		"trunk": 'minecraft:cherry_log',
 		"leaves": 'minecraft:cherry_leaves',
-		"result": {
-			"fluid": "thermal:latex",
-			"amount": 250
-		}
+		"result": { "fluid": "thermal:latex", "amount": 250 }
 	}).id('thermal:devices/tree_extractor/tree_extractor_cherry')
 	//金合欢
 	e.custom({
 		"type": "thermal:tree_extractor",
 		"trunk": 'minecraft:acacia_log',
 		"leaves": 'minecraft:acacia_leaves',
-		"result": {
-			"fluid": "thermal:latex",
-			"amount": 250
-		}
+		"result": { "fluid": "thermal:latex", "amount": 250 }
 	}).id('thermal:devices/tree_extractor/tree_extractor_acacia')
 	// 白桦
 	e.custom({
 		"type": "thermal:tree_extractor",
 		"trunk": 'minecraft:birch_log',
 		"leaves": 'minecraft:birch_leaves',
-		"result": {
-			"fluid": "thermal:latex",
-			"amount": 2250
-		}
+		"result": { "fluid": "thermal:latex", "amount": 2250 }
 	}).id('thermal:devices/tree_extractor/tree_extractor_birch')
 	// 橡树
 	e.custom({
 		"type": "thermal:tree_extractor",
 		"trunk": 'minecraft:oak_log',
 		"leaves": 'minecraft:oak_leaves',
-		"result": {
-			"fluid": "thermal:latex",
-			"amount": 250
-		}
+		"result": { "fluid": "thermal:latex", "amount": 250 }
 	}).id('thermal:devices/tree_extractor/tree_extractor_oak')
 	// 云杉
 	e.custom({
 		"type": "thermal:tree_extractor",
 		"trunk": 'minecraft:spruce_log',
 		"leaves": 'minecraft:spruce_leaves',
-		"result": {
-			"fluid": "thermal:latex",
-			"amount": 250
-		}
+		"result": { "fluid": "thermal:latex", "amount": 250 }
 	}).id('thermal:devices/tree_extractor/tree_extractor_spruce')
 	//丛林
 	e.custom({
 		"type": "thermal:tree_extractor",
 		"trunk": "minecraft:jungle_log",
 		"leaves": "minecraft:jungle_leaves",
-		"result": {
-			"fluid": "thermal:latex",
-			"amount": 250
-		}
+		"result": { "fluid": "thermal:latex", "amount": 250 }
 	})
 	//深色
 	e.custom({
 		"type": "thermal:tree_extractor",
 		"trunk": "minecraft:dark_oak_log",
 		"leaves": "minecraft:dark_oak_leaves",
-		"result": {
-			"fluid": "thermal:latex",
-			"amount": 250
-		}
+		"result": { "fluid": "thermal:latex", "amount": 250 }
 	})
 })

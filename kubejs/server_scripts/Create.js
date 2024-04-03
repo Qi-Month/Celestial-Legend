@@ -116,7 +116,7 @@ ServerEvents.recipes(e => {
 	}).id('create:crafting/kinetics/fluid_tank')
 
 	// 粉碎轮
-	mechanical_crafting('2x create:crushing_wheel', [
+	mechanical_crafting('2x create:c	rushing_wheel', [
 		' AAA ',
 		'AAPAA',
 		'APPPA',
@@ -204,12 +204,6 @@ ServerEvents.recipes(e => {
 		"type": "create:sequenced_assembly",
 		"ingredient": { "item": "minecraft:bricks" },
 		"loops": 1,
-		"results": [
-			{
-				"item": "create_new_age:reactor_casing",
-				"count": 4
-			}
-		],
 		"sequence": [
 			{
 				"type": "create_new_age:energising",
@@ -230,6 +224,9 @@ ServerEvents.recipes(e => {
 				"ingredients": [{ "item": "create_new_age:incomplete_casing" }],
 				"results": [{ "item": "create_new_age:incomplete_casing" }]
 			}
+		],
+		"results": [
+			{ "item": "create_new_age:reactor_casing", "count": 4 }
 		],
 		"transitionalItem": { "item": "create_new_age:incomplete_casing" }
 	}).id('create_new_age:reactor/reactor_casing')

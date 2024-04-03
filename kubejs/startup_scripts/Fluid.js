@@ -13,7 +13,7 @@ StartupEvents.registry('fluid', e => {
 		.stillTexture('minecraft:block/powder_snow')
 })
 BlockEvents.modification(e => {
-	e.modify('kubejs:experience', e => {
-		e.setLightEmission(15)
+	e.modify('kubejs:experience', modify => {
+		modify.setLightEmission(15)
 	})
 })

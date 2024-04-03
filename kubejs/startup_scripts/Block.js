@@ -19,12 +19,12 @@ StartupEvents.registry('block', e => {
 	// 定义方块
 	let Block = [
 		// 潜水艇核心
-		['submarine_core', 'metal', 10, 10, 'pickaxe', 'iron', true]
+		['submarine_core', 'cardinal', 'metal', 10, 10, 'pickaxe', 'iron', true]
 	]
 
 	// 循环
 	Block.forEach(([
-		Name,
+		Name, Type,
 		SoundType,
 		Hardness,
 		Resistance,
@@ -32,7 +32,7 @@ StartupEvents.registry('block', e => {
 		Grade,
 		RequiresTool
 	]) => {
-		e.create(Name)
+		e.create(Name, Type)
 			.soundType(SoundType)
 			.hardness(Hardness)
 			.resistance(Resistance)
