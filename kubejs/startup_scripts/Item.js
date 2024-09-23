@@ -1,15 +1,15 @@
 StartupEvents.registry('item', e => {
 	const Item = (
-		Name,  // Item ID
-		Rarity,  // 稀有度
-		Glow  // 是否发光
+		Name,
+		Rarity,
+		Glow
 	) => {
 		e.create(Name)
 			.rarity(Rarity)
 			.glow(Glow)
 	}
 	// 下界图腾
-	Item('nether_totem', 'rare', false,)
+	Item('nether_totem', 'rare', false)
 	// 下界能源核心
 	Item('nether_energy_core', 'rare', false)
 	// 魔法精华
@@ -18,6 +18,8 @@ StartupEvents.registry('item', e => {
 	Item('mooncoin', 'rare', false)
 	// 彩虹月币
 	Item('rainbow_mooncoin', 'epic', false)
+	// 冰封催化石
+	Item('tfd_catalytic_stone', 'epic', false)
 	// 星月奖卷
 	Item('award_ticket', 'rare', false)
 	// 食物

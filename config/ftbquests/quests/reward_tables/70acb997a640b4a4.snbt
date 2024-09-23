@@ -1,7 +1,7 @@
 {
 	id: "70ACB997A640B4A4"
 	loot_size: 1
-	order_index: 7
+	order_index: 5
 	rewards: [
 		{ item: "minecraft:oak_sapling", weight: 1.5f }
 		{ item: "twilightforest:twilight_oak_sapling", weight: 1.5f }

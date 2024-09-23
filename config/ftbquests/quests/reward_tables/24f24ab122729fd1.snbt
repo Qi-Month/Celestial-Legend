@@ -1,7 +1,7 @@
 {
 	id: "24F24AB122729FD1"
 	loot_size: 1
-	order_index: 32
+	order_index: 30
 	rewards: [
 		{ item: "waystones:waystone" }
 		{ item: "waystones:mossy_waystone" }

@@ -1,7 +1,7 @@
 {
 	id: "6DD98D52A65F1542"
 	loot_size: 1
-	order_index: 38
+	order_index: 35
 	rewards: [
 		{ item: "l2hostility:curse_of_envy" }
 		{ item: "l2hostility:curse_of_gluttony" }

@@ -1,7 +1,7 @@
 {
 	id: "074394013E5946D4"
 	loot_size: 1
-	order_index: 8
+	order_index: 6
 	rewards: [
 		{ item: "celestial_artifacts:emerald_bracelet" }
 		{ item: "celestial_artifacts:emerald_necklace" }
@@ -38,51 +38,6 @@
 		{ item: "botania:cosmetic_wicked_eyepatch", weight: 0.1f }
 		{ item: "botania:cosmetic_red_ribbons", weight: 0.1f }
 		{ item: "celestial_artifacts:emerald_ring" }
-		{
-			item: {
-				Count: 1b
-				id: "expanded_combat:gauntlet_gauntlet"
-				tag: {
-					Damage: 0
-				}
-			}
-		}
-		{
-			item: {
-				Count: 1b
-				id: "expanded_combat:fighters_gauntlet"
-				tag: {
-					Damage: 0
-				}
-			}
-		}
-		{
-			item: {
-				Count: 1b
-				id: "expanded_combat:soul_gauntlet"
-				tag: {
-					Damage: 0
-				}
-			}
-		}
-		{
-			item: {
-				Count: 1b
-				id: "expanded_combat:leather_gauntlet"
-				tag: {
-					Damage: 0
-				}
-			}
-		}
-		{
-			item: {
-				Count: 1b
-				id: "expanded_combat:rabbit_leather_gauntlet"
-				tag: {
-					Damage: 0
-				}
-			}
-		}
 		{ item: "botania:cosmetic_thinking_hand", weight: 0.1f }
 		{ item: "botania:cosmetic_questgiver_mark", weight: 0.1f }
 		{ item: "botania:cosmetic_tiny_potato_mask", weight: 0.1f }
@@ -192,12 +147,6 @@
 			}
 		}
 		{ item: "celestial_artifacts:destroyer_badge" }
-		{ item: "expanded_combat:leather_quiver" }
-		{ item: "expanded_combat:rabbit_leather_quiver" }
-		{ item: "expanded_combat:iron_quiver" }
-		{ item: "expanded_combat:diamond_quiver" }
-		{ item: "expanded_combat:netherite_quiver" }
-		{ item: "expanded_combat:gold_quiver" }
 		{
 			item: {
 				Count: 1b

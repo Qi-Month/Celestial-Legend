@@ -93,7 +93,7 @@
 				"24DB4FF67E48E4BE"
 				"41DD6BDD5DC00C6F"
 			]
-			icon: "ad_astra:steel_ingot"
+			icon: "immersiveengineering:ingot_steel"
 			id: "7603D5F4B852D893"
 			rewards: [{
 				id: "77D8F2940DA97675"
@@ -350,7 +350,7 @@
 		}
 		{
 			dependencies: ["7603D5F4B852D893"]
-			icon: "ad_astra:steel_plate"
+			icon: "immersiveengineering:plate_steel"
 			id: "1E6992AB9C53DE12"
 			rewards: [{
 				count: 8

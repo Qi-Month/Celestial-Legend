@@ -169,6 +169,30 @@
 			x: -8.0d
 			y: -5.5d
 		}
+		{
+			description: [
+				"右键打开其gui可以在其中搜索整合包中的结构"
+				"如果在附近发现了该结构，它便会为你指明去往遗迹的道路"
+			]
+			id: "4A3A2E262F2BC831"
+			rewards: [{
+				id: "49B724D706F5AE0F"
+				type: "xp"
+				xp: 25
+			}]
+			subtitle: "寻找遗迹的好帮手"
+			tasks: [{
+				id: "13AAD6A5F6649A35"
+				item: {
+					Count: 1b
+					id: "explorerscompass:explorerscompass"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: 1.5d
+		}
 	]
 	title: "前言"
 }

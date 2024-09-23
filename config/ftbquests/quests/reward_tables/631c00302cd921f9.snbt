@@ -1,7 +1,7 @@
 {
 	id: "631C00302CD921F9"
 	loot_size: 1
-	order_index: 15
+	order_index: 13
 	rewards: [
 		{ item: "celestial_artifacts:chaotic_etching", only_one: true }
 		{ item: "celestial_artifacts:origin_etching", only_one: true }

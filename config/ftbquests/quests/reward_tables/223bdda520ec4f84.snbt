@@ -153,15 +153,6 @@
 		{
 			item: {
 				Count: 1b
-				id: "ad_astra:space_suit"
-				tag: {
-					Damage: 0
-				}
-			}
-		}
-		{
-			item: {
-				Count: 1b
 				id: "vinery:vinemaker_apron"
 				tag: {
 					Damage: 0

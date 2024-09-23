@@ -297,7 +297,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "1B3B61BFD0D5C65D"
-					table_id: 9066948471408071124L
 					type: "random"
 				}
 				{
@@ -332,8 +331,8 @@
 				item: "create:precision_mechanism"
 				type: "item"
 			}]
-			x: -4.0d
-			y: 2.5d
+			x: -4.5d
+			y: 2.25d
 		}
 		{
 			dependencies: ["066F4B3355DC8B80"]
@@ -390,7 +389,6 @@
 					auto: "no_toast"
 					exclude_from_claim_all: true
 					id: "789A924E147FCA43"
-					table_id: 9066948471408071124L
 					type: "random"
 				}
 				{
@@ -529,6 +527,7 @@
 					type: "advancement"
 				}
 			]
+			subtitle: "钻石的力量已经无法再激活暮色传送门了，为此你需要制作暮色催化石来打开暮色传送门"
 			tasks: [{
 				id: "17B1CD05DA4210C0"
 				item: "kubejs:tf_catalytic_stone"
@@ -758,6 +757,81 @@
 			title: "生命本源"
 			x: 1.5d
 			y: 10.0d
+		}
+		{
+			dependencies: ["066F4B3355DC8B80"]
+			hide_dependency_lines: true
+			id: "1D1C5F4B016A113D"
+			subtitle: "你可以使用精密构建与一些简单的材料制作夜视镜了，能够给你提供夜视效果"
+			tasks: [{
+				id: "5DBC768056E4E02D"
+				item: "artifacts:night_vision_goggles"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3096446E4E2252A5"]
+			hide_dependency_lines: true
+			id: "53E4186BB5CF14ED"
+			subtitle: "你可以使用魔法精华等材料制作生命水晶，能够为你提额外的最大生命"
+			tasks: [{
+				id: "6C9A628A401D2E36"
+				item: "artifacts:crystal_heart"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["65BEF7BFB588B701"]
+			hide_dependency_lines: true
+			id: "0A8B2A06A341A57D"
+			subtitle: "你可以使用黄铜板等材料制作强力手套，能够为你提高一些攻击伤害"
+			tasks: [{
+				id: "7EDE207673B9405B"
+				item: "artifacts:power_glove"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			can_repeat: true
+			icon: "kubejs:nether_totem"
+			id: "581457EF8509AB53"
+			rewards: [{
+				auto: "enabled"
+				command: "execute as @p at @p run htlib create raid htlib:default_raid htlib:nameless ~ ~2 ~"
+				elevate_perms: true
+				icon: {
+					Count: 1b
+					id: "minecraft:iron_sword"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "0AC5FC32E19B844B"
+				silent: true
+				title: "袭击来啦"
+				type: "command"
+			}]
+			subtitle: "袭击开始"
+			tasks: [
+				{
+					consume_items: true
+					id: "2366EE2A66D1D7FF"
+					item: "kubejs:nether_totem"
+					type: "item"
+				}
+				{
+					id: "6FA550471FD6A849"
+					type: "checkmark"
+				}
+			]
+			x: -0.5d
+			y: 12.0d
 		}
 	]
 	title: "步入正轨"

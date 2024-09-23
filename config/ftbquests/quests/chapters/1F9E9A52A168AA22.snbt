@@ -980,6 +980,19 @@
 			x: 6.0d
 			y: 9.5d
 		}
+		{
+			dependencies: ["3D3EB51F5230EA29"]
+			hide_dependency_lines: true
+			id: "5B7CDD2B8BAAE65B"
+			subtitle: "你可以使用火之符文等材料制作烈火手套，它能够使你的攻击造成火焰伤害"
+			tasks: [{
+				id: "32EB979B6BD0C266"
+				item: "artifacts:fire_gauntlet"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 12.5d
+		}
 	]
 	title: "暮光魔法"
 }

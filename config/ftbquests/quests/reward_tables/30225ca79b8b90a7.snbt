@@ -208,16 +208,6 @@
 		{
 			item: {
 				Count: 1b
-				id: "ad_astra:space_helmet"
-				tag: {
-					Damage: 0
-				}
-			}
-			weight: 0.7f
-		}
-		{
-			item: {
-				Count: 1b
 				id: "alexscaves:hazmat_mask"
 				tag: {
 					Damage: 0

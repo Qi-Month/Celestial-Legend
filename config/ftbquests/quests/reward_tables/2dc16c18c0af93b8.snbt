@@ -1,7 +1,7 @@
 {
 	id: "2DC16C18C0AF93B8"
 	loot_size: 1
-	order_index: 30
+	order_index: 28
 	rewards: [
 		{ count: 16, item: "the_forgotten_dimensions:snowincho_fur" }
 		{ count: 16, item: "the_forgotten_dimensions:icyllium" }

@@ -1,7 +1,5 @@
 <item:the_forgotten_dimensions:permafrost_champion_spawn_egg>.clearTooltip();
 <item:the_forgotten_dimensions:permafrost_champion_spawn_egg>.anyDamage().addTooltip("冰封冠军·阿瓦瑞尔刷怪蛋");
-<item:the_forgotten_dimensions:a_guide_to_dimensions>.anyDamage().removeTooltip("G");
-<item:the_forgotten_dimensions:a_guide_to_dimensions>.anyDamage().addTooltip("\u00A77指南");
 <item:twilightforest:charm_of_keeping_1>.anyDamage().addTooltip("\u00A77死亡时保存玩家身上的装备与主副手物品。");
 <item:twilightforest:charm_of_keeping_2>.anyDamage().addTooltip("\u00A77死亡后会保留玩家的装备和最下面快捷栏的物品");
 <item:twilightforest:charm_of_keeping_3>.anyDamage().addTooltip("\u00A77死亡后会保留玩家的装备和全身持有的物品，但是不能保留经验。");
@@ -132,7 +130,7 @@
 <item:the_forgotten_dimensions:reinforced_metallic_snow_sword>.anyDamage().addTooltip("\u00A7b 2.5 冰元素伤害");
 <item:the_forgotten_dimensions:reinforced_metallic_snow_sword>.anyDamage().addTooltip("\u00A72 1.5 攻击速度");
 <item:dummmmmmy:target_dummy>.anyDamage().addTooltip("\u00A7f免疫部分元素伤害，会被虚空伤害杀死。");
-<item:kubejs:nether_totem>.addTooltip("\u00A7f右键使用");
+<item:kubejs:nether_totem>.addTooltip("\u00A7f在任务步入正轨章节中的袭击开始任务中提交使用");
 <item:kubejs:nether_totem>.addTooltip("\u00A7f召唤一场由\u00A75未名巫师\u00A7f带领的袭击");
 <item:immersiveengineering:glider>.addTooltip("\u00A7f丐版鞘翅，但是便宜。");
 <item:the_forgotten_dimensions:magma_bomb>.anyDamage().removeTooltip("Damage");

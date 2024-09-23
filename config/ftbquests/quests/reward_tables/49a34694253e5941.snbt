@@ -1,7 +1,7 @@
 {
 	id: "49A34694253E5941"
 	loot_size: 1
-	order_index: 36
+	order_index: 33
 	rewards: [
 		{ item: "smallships:oak_cog" }
 		{ item: "smallships:bamboo_cog" }

@@ -2,10 +2,10 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	filename: "1219F959D1BA71A4"
-	group: "09EE0DA8FC2DE922"
+	group: "3E4ABC156F52F7D4"
 	icon: "rats:chunky_cheese_token"
 	id: "1219F959D1BA71A4"
-	order_index: 8
+	order_index: 3
 	quest_links: [ ]
 	quests: [
 		{
@@ -157,10 +157,7 @@
 			y: -6.0d
 		}
 		{
-			dependencies: [
-				"53A3C97B49BDA56D"
-				"7AE73F1CCDFAE186"
-			]
+			dependencies: ["53A3C97B49BDA56D"]
 			id: "731C2E9B11218C0E"
 			rewards: [{
 				id: "01F2949D2948EAE8"
@@ -183,13 +180,14 @@
 				table_id: 523424714767025876L
 				type: "random"
 			}]
+			subtitle: "刷取亿些老鼠你也可以拥有它，右键打开通往鼠西洲的大门"
 			tasks: [{
 				id: "7008D16C78E105D6"
 				item: "rats:chunky_cheese_token"
 				type: "item"
 			}]
-			x: 4.0d
-			y: -2.0d
+			x: -5.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["731C2E9B11218C0E"]
@@ -300,25 +298,6 @@
 			y: 2.0d
 		}
 		{
-			dependencies: [
-				"31AD25077C738481"
-				"6243F7512C872670"
-			]
-			id: "1B82E588426651EA"
-			rewards: [{
-				id: "16A407FC45496B11"
-				item: "l2artifacts:random_3"
-				type: "item"
-			}]
-			tasks: [{
-				id: "2727B89E853AA7F1"
-				item: "ad_astra:ostrum_engine"
-				type: "item"
-			}]
-			x: 2.0d
-			y: 4.0d
-		}
-		{
 			dependencies: ["643C61D4CD43942D"]
 			id: "6243F7512C872670"
 			rewards: [{
@@ -339,52 +318,6 @@
 			}]
 			x: 4.0d
 			y: 4.0d
-		}
-		{
-			dependencies: ["1B82E588426651EA"]
-			id: "6896E24EC02505D2"
-			tasks: [{
-				id: "3DA7C8A8EDCA7011"
-				item: "ad_astra:ostrum_tank"
-				type: "item"
-			}]
-			x: 2.0d
-			y: 6.0d
-		}
-		{
-			dependencies: ["6896E24EC02505D2"]
-			id: "7DA2C424C83F1B42"
-			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "37EC8603D8544166"
-					table_id: 8695861683220912716L
-					type: "choice"
-				}
-				{
-					exclude_from_claim_all: true
-					id: "4952F86465F24DF3"
-					table_id: 523424714767025876L
-					type: "choice"
-				}
-				{
-					count: 4
-					id: "6528E271F3C40B6C"
-					item: "kubejs:mooncoin"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "7375805BF44A7648"
-				item: {
-					Count: 1b
-					id: "ad_astra:tier_3_rocket"
-					tag: { }
-				}
-				type: "item"
-			}]
-			x: 4.0d
-			y: 6.0d
 		}
 		{
 			dependencies: ["20BFE5CC212846A1"]
@@ -475,7 +408,7 @@
 			y: -8.0d
 		}
 		{
-			dependencies: ["3404A51BDD44F573"]
+			dependencies: ["7AE73F1CCDFAE186"]
 			id: "77C90C64BB8C698F"
 			shape: "square"
 			tasks: [{

@@ -1,5 +1,6 @@
 ServerEvents.recipes(e => {
 	const { deploying, filling, sequenced_assembly } = e.recipes.create
+	const transitionalItem = 'minecraft:written_book'
 
 	// 电元素II
 	e.custom({
@@ -18,7 +19,7 @@ ServerEvents.recipes(e => {
 			"nbt": { StoredEnchantments: [{ id: "the_forgotten_dimensions:electric_aspect", lvl: 2 }] }
 		}],
 		"loops": 1,
-		"transitionalItem": { "item": "minecraft:book" }
+		"transitionalItem": { "item": transitionalItem }
 	})
 
 	// 电元素V
@@ -37,7 +38,7 @@ ServerEvents.recipes(e => {
 			},
 			{
 				"type": "create_new_age:energising",
-				"energy_needed": 4000000,
+				"energy_needed": 25000,
 				"ingredients": [{ "item": "minecraft:enchanted_book" }],
 				"results": [{ "item": "minecraft:enchanted_book" }]
 			}
@@ -47,7 +48,7 @@ ServerEvents.recipes(e => {
 			"nbt": { StoredEnchantments: [{ id: "the_forgotten_dimensions:electric_aspect", lvl: 5 }] }
 		}],
 		"loops": 1,
-		"transitionalItem": { "item": "minecraft:book" }
+		"transitionalItem": { "item": transitionalItem }
 	})
 
 	// 电元素X
@@ -74,7 +75,7 @@ ServerEvents.recipes(e => {
 			},
 			{
 				"type": "create_new_age:energising",
-				"energy_needed": 200000000,
+				"energy_needed": 100000,
 				"ingredients": [{ "item": "minecraft:enchanted_book" }],
 				"results": [{ "item": "minecraft:enchanted_book" }]
 			}
@@ -84,7 +85,7 @@ ServerEvents.recipes(e => {
 			"nbt": { StoredEnchantments: [{ id: "the_forgotten_dimensions:electric_aspect", lvl: 10 }] }
 		}],
 		"loops": 1,
-		"transitionalItem": { "item": "minecraft:book" }
+		"transitionalItem": { "item": transitionalItem }
 	})
 
 	// 保护II
@@ -121,7 +122,7 @@ ServerEvents.recipes(e => {
 			"nbt": { StoredEnchantments: [{ id: "'minecraft:protection", lvl: 2 }] }
 		}],
 		"loops": 1,
-		"transitionalItem": { "item": "minecraft:book" }
+		"transitionalItem": { "item": transitionalItem }
 	})
 
 	// 保护V
@@ -148,7 +149,7 @@ ServerEvents.recipes(e => {
 			},
 			{
 				"type": "create_new_age:energising",
-				"energy_needed": 10000000,
+				"energy_needed": 10000,
 				"ingredients": [{ "item": "minecraft:enchanted_book" }],
 				"results": [{ "item": "minecraft:enchanted_book" }]
 			}
@@ -158,7 +159,7 @@ ServerEvents.recipes(e => {
 			"nbt": { StoredEnchantments: [{ id: "minecraft:protection", lvl: 5 }] }
 		}],
 		"loops": 1,
-		"transitionalItem": { "item": "minecraft:book" }
+		"transitionalItem": { "item": transitionalItem }
 	})
 
 	// 火焰保护II
@@ -189,7 +190,7 @@ ServerEvents.recipes(e => {
 			"nbt": { StoredEnchantments: [{ id: "minecraft:fire_protection", lvl: 2 }] }
 		}],
 		"loops": 1,
-		"transitionalItem": { "item": "minecraft:book" }
+		"transitionalItem": { "item": transitionalItem }
 	})
 
 	// 火焰保护V
@@ -216,7 +217,7 @@ ServerEvents.recipes(e => {
 			},
 			{
 				"type": "create_new_age:energising",
-				"energy_needed": 1000000,
+				"energy_needed": 10000,
 				"ingredients": [{ "item": "minecraft:enchanted_book" }],
 				"results": [{ "item": "minecraft:enchanted_book" }]
 			}
@@ -226,7 +227,7 @@ ServerEvents.recipes(e => {
 			"nbt": { StoredEnchantments: [{ id: "minecraft:fire_protection", lvl: 2 }] }
 		}],
 		"loops": 1,
-		"transitionalItem": { "item": "minecraft:book" }
+		"transitionalItem": { "item": transitionalItem }
 	})
 
 	// 抢夺II
@@ -257,7 +258,7 @@ ServerEvents.recipes(e => {
 			"nbt": { StoredEnchantments: [{ id: "minecraft:looting", lvl: 2 }] }
 		}],
 		"loops": 1,
-		"transitionalItem": { "item": "minecraft:book" }
+		"transitionalItem": { "item": transitionalItem }
 	})
 
 	// 抢夺IV
@@ -296,7 +297,7 @@ ServerEvents.recipes(e => {
 			"nbt": { StoredEnchantments: [{ id: "minecraft:looting", lvl: 4 }] }
 		}],
 		"loops": 1,
-		"transitionalItem": { "item": "minecraft:book" }
+		"transitionalItem": { "item": transitionalItem }
 	})
 
 	// 抢夺VI
@@ -323,7 +324,7 @@ ServerEvents.recipes(e => {
 			},
 			{
 				"type": "create_new_age:energising",
-				"energy_needed": 10000000,
+				"energy_needed": 20000,
 				"ingredients": [{ "item": "minecraft:enchanted_book" }],
 				"results": [{ "item": "minecraft:enchanted_book" }]
 			},
@@ -341,10 +342,41 @@ ServerEvents.recipes(e => {
 			"nbt": { StoredEnchantments: [{ id: "minecraft:looting", lvl: 6 }] }
 		}],
 		"loops": 1,
-		"transitionalItem": { "item": "minecraft:book" }
+		"transitionalItem": { "item": transitionalItem }
 	})
 
 	// 时运II
+	e.custom({
+		"type": "create:sequenced_assembly",
+		"ingredient": { "item": "minecraft:book" },
+		"sequence": [
+			{
+				"type": "create:deploying",
+				"ingredients": [
+					{ "item": "minecraft:enchanted_book" },
+					{ "tag": "forge:gems/lapis" }
+				],
+				"results": [{ "item": "minecraft:enchanted_book" }]
+			},
+			{
+				"type": "create:filling",
+				"ingredients": [{ "item": "minecraft:enchanted_book" },
+				{
+					"amount": 1000,
+					"fluid": "kubejs:experience"
+				}],
+				"results": [{ "item": "minecraft:enchanted_book" }]
+			}
+		],
+		"results": [{
+			"item": "minecraft:enchanted_book",
+			"nbt": { StoredEnchantments: [{ id: "minecraft:fortune", lvl: 2 }] }
+		}],
+		"loops": 1,
+		"transitionalItem": { "item": transitionalItem }
+	})
+
+	// 时运IV
 	e.custom({
 		"type": "create:sequenced_assembly",
 		"ingredient": { "item": "minecraft:book" },
@@ -380,38 +412,7 @@ ServerEvents.recipes(e => {
 			"nbt": { StoredEnchantments: [{ id: "minecraft:fortune", lvl: 4 }] }
 		}],
 		"loops": 1,
-		"transitionalItem": { "item": "minecraft:book" }
-	})
-
-	// 时运IV
-	e.custom({
-		"type": "create:sequenced_assembly",
-		"ingredient": { "item": "minecraft:book" },
-		"sequence": [
-			{
-				"type": "create:deploying",
-				"ingredients": [
-					{ "item": "minecraft:enchanted_book" },
-					{ "tag": "forge:gems/lapis" }
-				],
-				"results": [{ "item": "minecraft:enchanted_book" }]
-			},
-			{
-				"type": "create:filling",
-				"ingredients": [{ "item": "minecraft:enchanted_book" },
-				{
-					"amount": 1000,
-					"fluid": "kubejs:experience"
-				}],
-				"results": [{ "item": "minecraft:enchanted_book" }]
-			}
-		],
-		"results": [{
-			"item": "minecraft:enchanted_book",
-			"nbt": { StoredEnchantments: [{ id: "minecraft:fortune", lvl: 4 }] }
-		}],
-		"loops": 1,
-		"transitionalItem": { "item": "minecraft:book" }
+		"transitionalItem": { "item": transitionalItem }
 	})
 
 	// 时运VI
@@ -438,7 +439,7 @@ ServerEvents.recipes(e => {
 			},
 			{
 				"type": "create_new_age:energising",
-				"energy_needed": 10000000,
+				"energy_needed": 20000,
 				"ingredients": [{ "item": "minecraft:enchanted_book" }],
 				"results": [{ "item": "minecraft:enchanted_book" }]
 			},
@@ -456,7 +457,7 @@ ServerEvents.recipes(e => {
 			"nbt": { StoredEnchantments: [{ id: "minecraft:fortune", lvl: 6 }] }
 		}],
 		"loops": 1,
-		"transitionalItem": { "item": "minecraft:book" }
+		"transitionalItem": { "item": transitionalItem }
 	})
 
 	// 效率IV
@@ -487,7 +488,7 @@ ServerEvents.recipes(e => {
 			"nbt": { StoredEnchantments: [{ id: "minecraft:efficiency", lvl: 4 }] }
 		}],
 		"loops": 1,
-		"transitionalItem": { "item": "minecraft:book" }
+		"transitionalItem": { "item": transitionalItem }
 	})
 
 	// 效率VII
@@ -526,7 +527,7 @@ ServerEvents.recipes(e => {
 			"nbt": { StoredEnchantments: [{ id: "minecraft:efficiency", lvl: 7 }] }
 		}],
 		"loops": 1,
-		"transitionalItem": { "item": "minecraft:book" }
+		"transitionalItem": { "item": transitionalItem }
 	})
 
 	// 效率X
@@ -553,7 +554,7 @@ ServerEvents.recipes(e => {
 			},
 			{
 				"type": "create_new_age:energising",
-				"energy_needed": 10000000,
+				"energy_needed": 30000,
 				"ingredients": [{ "item": "minecraft:enchanted_book" }],
 				"results": [{ "item": "minecraft:enchanted_book" }]
 			},
@@ -571,7 +572,7 @@ ServerEvents.recipes(e => {
 			"nbt": { StoredEnchantments: [{ id: "minecraft:efficiency", lvl: 10 }] }
 		}],
 		"loops": 1,
-		"transitionalItem": { "item": "minecraft:book" }
+		"transitionalItem": { "item": transitionalItem }
 	})
 
 	// 精准采集
@@ -606,7 +607,7 @@ ServerEvents.recipes(e => {
 			},
 			{
 				"type": "create_new_age:energising",
-				"energy_needed": 10000000,
+				"energy_needed": 10000,
 				"ingredients": [{ "item": "minecraft:enchanted_book" }],
 				"results": [{ "item": "minecraft:enchanted_book" }]
 			}
@@ -616,7 +617,7 @@ ServerEvents.recipes(e => {
 			"nbt": { StoredEnchantments: [{ id: "minecraft:silk_touch", lvl: 1 }] }
 		}],
 		"loops": 1,
-		"transitionalItem": { "item": "minecraft:book" }
+		"transitionalItem": { "item": transitionalItem }
 	})
 
 	// 经验修补
@@ -651,7 +652,7 @@ ServerEvents.recipes(e => {
 			},
 			{
 				"type": "create_new_age:energising",
-				"energy_needed": 500000000,
+				"energy_needed": 2222,
 				"ingredients": [{ "item": "minecraft:enchanted_book" }],
 				"results": [{ "item": "minecraft:enchanted_book" }]
 			}
@@ -661,7 +662,7 @@ ServerEvents.recipes(e => {
 			"nbt": { StoredEnchantments: [{ id: "minecraft:mending", lvl: 1 }] }
 		}],
 		"loops": 1,
-		"transitionalItem": { "item": "minecraft:book" }
+		"transitionalItem": { "item": transitionalItem }
 	})
 
 	// 力量V
@@ -692,7 +693,7 @@ ServerEvents.recipes(e => {
 			"nbt": { StoredEnchantments: [{ id: "minecraft:power", lvl: 5 }] }
 		}],
 		"loops": 1,
-		"transitionalItem": { "item": "minecraft:book" }
+		"transitionalItem": { "item": transitionalItem }
 	})
 
 	// 力量VII
@@ -729,7 +730,7 @@ ServerEvents.recipes(e => {
 			"nbt": { StoredEnchantments: [{ id: "minecraft:power", lvl: 7 }] }
 		}],
 		"loops": 1,
-		"transitionalItem": { "item": "minecraft:book" }
+		"transitionalItem": { "item": transitionalItem }
 	})
 
 	// 力量XIV
@@ -768,7 +769,7 @@ ServerEvents.recipes(e => {
 			"nbt": { StoredEnchantments: [{ id: "minecraft:power", lvl: 14 }] }
 		}],
 		"loops": 1,
-		"transitionalItem": { "item": "minecraft:book" }
+		"transitionalItem": { "item": transitionalItem }
 	})
 
 	// 冰霜之触II
@@ -778,7 +779,7 @@ ServerEvents.recipes(e => {
 	], 'minecraft:book', [
 		deploying('minecraft:enchanted_book', ['minecraft:enchanted_book', 'minecraft:ice']),
 		filling('minecraft:enchanted_book', ['minecraft:enchanted_book', Fluid.of('kubejs:experience', 1000)])
-	]).loops(1).transitionalItem('minecraft:book')
+	]).loops(1).transitionalItem(transitionalItem)
 
 	// 冰霜之触V
 	sequenced_assembly([
@@ -787,19 +788,19 @@ ServerEvents.recipes(e => {
 	], 'minecraft:book', [
 		deploying('minecraft:enchanted_book', ['minecraft:enchanted_book', 'minecraft:blue_ice']),
 		filling('minecraft:enchanted_book', ['minecraft:enchanted_book', Fluid.of('kubejs:experience', 1000)]),
-		filling('minecraft:enchanted_book', ['minecraft:enchanted_book', Fluid.of('ad_astra:cryo_fuel', 1000)])
-	]).loops(1).transitionalItem('minecraft:book')
+		filling('minecraft:enchanted_book', ['minecraft:enchanted_book', Fluid.of('minecraft:water', 1000)])
+	]).loops(1).transitionalItem(transitionalItem)
 
 	// 冰霜之触X
 	sequenced_assembly([
 		Item.of('minecraft:enchanted_book')
 			.enchant('the_forgotten_dimensions:ice_aspect', 10)
 	], 'minecraft:book', [
-		filling('minecraft:enchanted_book', ['minecraft:enchanted_book', Fluid.of('ad_astra:cryo_fuel', 1000)]),
+		filling('minecraft:enchanted_book', ['minecraft:enchanted_book', Fluid.of('minecraft:water', 1000)]),
 		filling('minecraft:enchanted_book', ['minecraft:enchanted_book', Fluid.of('kubejs:experience', 1000)]),
-		filling('minecraft:enchanted_book', ['minecraft:enchanted_book', Fluid.of('ad_astra:cryo_fuel', 1000)]),
+		filling('minecraft:enchanted_book', ['minecraft:enchanted_book', Fluid.of('minecraft:water', 1000)]),
 		deploying('minecraft:enchanted_book', ['minecraft:enchanted_book', 'minecraft:blue_ice']),
-	]).loops(1).transitionalItem('minecraft:book')
+	]).loops(1).transitionalItem(transitionalItem)
 
 	// 锋利IV
 	sequenced_assembly([
@@ -808,7 +809,7 @@ ServerEvents.recipes(e => {
 	], 'minecraft:book', [
 		deploying('minecraft:enchanted_book', ['minecraft:enchanted_book', '#forge:gems/quartz']),
 		filling('minecraft:enchanted_book', ['minecraft:enchanted_book', Fluid.of('kubejs:experience', 1000)])
-	]).loops(1).transitionalItem('minecraft:book')
+	]).loops(1).transitionalItem(transitionalItem)
 
 	// 锋利VIII
 	sequenced_assembly([
@@ -818,7 +819,7 @@ ServerEvents.recipes(e => {
 		deploying('minecraft:enchanted_book', ['minecraft:enchanted_book', '#forge:storage_blocks/quartz']),
 		filling('minecraft:enchanted_book', ['minecraft:enchanted_book', Fluid.of('kubejs:experience', 1000)]),
 		deploying('minecraft:enchanted_book', ['minecraft:enchanted_book', 'minecraft:diamond_sword']),
-	]).loops(1).transitionalItem('minecraft:book')
+	]).loops(1).transitionalItem(transitionalItem)
 
 	// 锋利XVI
 	sequenced_assembly([
@@ -829,7 +830,7 @@ ServerEvents.recipes(e => {
 		filling('minecraft:enchanted_book', ['minecraft:enchanted_book', Fluid.of('kubejs:experience', 1000)]),
 		deploying('minecraft:enchanted_book', ['minecraft:enchanted_book', 'botania:mana_quartz']),
 		deploying('minecraft:enchanted_book', ['minecraft:enchanted_book', 'botania:lens_damage'])
-	]).loops(1).transitionalItem('minecraft:book')
+	]).loops(1).transitionalItem(transitionalItem)
 
 	// 火焰附加II
 	sequenced_assembly([
@@ -838,7 +839,7 @@ ServerEvents.recipes(e => {
 	], 'minecraft:book', [
 		deploying('minecraft:enchanted_book', ['minecraft:enchanted_book', 'minecraft:blaze_powder']),
 		filling('minecraft:enchanted_book', ['minecraft:enchanted_book', Fluid.of('kubejs:experience', 1000)])
-	]).loops(1).transitionalItem('minecraft:book')
+	]).loops(1).transitionalItem(transitionalItem)
 
 	// 火焰附加V
 	sequenced_assembly([
@@ -848,7 +849,7 @@ ServerEvents.recipes(e => {
 		filling('minecraft:enchanted_book', ['minecraft:enchanted_book', Fluid.of('minecraft:lava', 1000)]),
 		filling('minecraft:enchanted_book', ['minecraft:enchanted_book', Fluid.of('kubejs:experience', 1000)]),
 		deploying('minecraft:enchanted_book', ['minecraft:enchanted_book', 'minecraft:fire_charge'])
-	]).loops(1).transitionalItem('minecraft:book')
+	]).loops(1).transitionalItem(transitionalItem)
 
 	// 火焰附加X
 	sequenced_assembly([
@@ -859,7 +860,7 @@ ServerEvents.recipes(e => {
 		filling('minecraft:enchanted_book', ['minecraft:enchanted_book', Fluid.of('kubejs:experience', 1000)]),
 		deploying('minecraft:enchanted_book', ['minecraft:enchanted_book', 'minecraft:magma_cream']),
 		deploying('minecraft:enchanted_book', ['minecraft:enchanted_book', 'botania:orechid_ignem'])
-	]).loops(1).transitionalItem('minecraft:book')
+	]).loops(1).transitionalItem(transitionalItem)
 
 	// 冰霜保护II
 	sequenced_assembly([
@@ -868,7 +869,7 @@ ServerEvents.recipes(e => {
 	], 'minecraft:book', [
 		deploying('minecraft:enchanted_book', ['minecraft:enchanted_book', 'minecraft:snow_block']),
 		filling('minecraft:enchanted_book', ['minecraft:enchanted_book', Fluid.of('kubejs:experience', 1000)])
-	]).loops(1).transitionalItem('minecraft:book')
+	]).loops(1).transitionalItem(transitionalItem)
 
 	// 冰霜保护V
 	sequenced_assembly([
@@ -877,7 +878,7 @@ ServerEvents.recipes(e => {
 	], 'minecraft:book', [
 		deploying('minecraft:enchanted_book', ['minecraft:enchanted_book', 'twilightforest:arctic_fur_block']),
 		filling('minecraft:enchanted_book', ['minecraft:enchanted_book', Fluid.of('kubejs:experience', 1000)])
-	]).loops(1).transitionalItem('minecraft:book')
+	]).loops(1).transitionalItem(transitionalItem)
 
 	// 激流III
 	sequenced_assembly([
@@ -886,7 +887,7 @@ ServerEvents.recipes(e => {
 	], 'minecraft:book', [
 		deploying('minecraft:enchanted_book', ['minecraft:enchanted_book', 'minecraft:prismarine']),
 		filling('minecraft:enchanted_book', ['minecraft:enchanted_book', Fluid.of('kubejs:experience', 1000)])
-	]).loops(1).transitionalItem('minecraft:book')
+	]).loops(1).transitionalItem(transitionalItem)
 
 	// 激流VI
 	sequenced_assembly([
@@ -896,7 +897,7 @@ ServerEvents.recipes(e => {
 		deploying('minecraft:enchanted_book', ['minecraft:enchanted_book', 'minecraft:trident']),
 		filling('minecraft:enchanted_book', ['minecraft:enchanted_book', Fluid.of('kubejs:experience', 1000)]),
 		deploying('minecraft:enchanted_book', ['minecraft:enchanted_book', 'minecraft:dark_prismarine'])
-	]).loops(1).transitionalItem('minecraft:book')
+	]).loops(1).transitionalItem(transitionalItem)
 
 	// 激流IX
 	sequenced_assembly([
@@ -907,7 +908,7 @@ ServerEvents.recipes(e => {
 		filling('minecraft:enchanted_book', ['minecraft:enchanted_book', Fluid.of('kubejs:experience', 1000)]),
 		deploying('minecraft:enchanted_book', ['minecraft:enchanted_book', 'minecraft:dark_prismarine']),
 		deploying('minecraft:enchanted_book', ['minecraft:enchanted_book', 'botania:dodge_ring'])
-	]).loops(1).transitionalItem('minecraft:book')
+	]).loops(1).transitionalItem(transitionalItem)
 
 	// 忠诚III
 	sequenced_assembly([
@@ -916,7 +917,7 @@ ServerEvents.recipes(e => {
 	], 'minecraft:book', [
 		deploying('minecraft:enchanted_book', ['minecraft:enchanted_book', 'botania:thorn_chakram']),
 		filling('minecraft:enchanted_book', ['minecraft:enchanted_book', Fluid.of('kubejs:experience', 1000)])
-	]).loops(1).transitionalItem('minecraft:book')
+	]).loops(1).transitionalItem(transitionalItem)
 
 	// 忠诚VI
 	sequenced_assembly([
@@ -926,7 +927,7 @@ ServerEvents.recipes(e => {
 		deploying('minecraft:enchanted_book', ['minecraft:enchanted_book', 'minecraft:sea_lantern']),
 		filling('minecraft:enchanted_book', ['minecraft:enchanted_book', Fluid.of('kubejs:experience', 1000)]),
 		deploying('minecraft:enchanted_book', ['minecraft:enchanted_book', 'botania:thorn_chakram'])
-	]).loops(1).transitionalItem('minecraft:book')
+	]).loops(1).transitionalItem(transitionalItem)
 
 	// 忠诚IX
 	sequenced_assembly([
@@ -936,7 +937,7 @@ ServerEvents.recipes(e => {
 		deploying('minecraft:enchanted_book', ['minecraft:enchanted_book', 'botania:flare_chakram']),
 		filling('minecraft:enchanted_book', ['minecraft:enchanted_book', Fluid.of('kubejs:experience', 1000)]),
 		deploying('minecraft:enchanted_book', ['minecraft:enchanted_book', 'minecraft:sea_lantern'])
-	]).loops(1).transitionalItem('minecraft:book')
+	]).loops(1).transitionalItem(transitionalItem)
 
 	// 穿刺V
 	sequenced_assembly([
@@ -945,7 +946,7 @@ ServerEvents.recipes(e => {
 	], 'minecraft:book', [
 		deploying('minecraft:enchanted_book', ['minecraft:enchanted_book', 'botania:lens_damage']),
 		filling('minecraft:enchanted_book', ['minecraft:enchanted_book', Fluid.of('kubejs:experience', 1000)])
-	]).loops(1).transitionalItem('minecraft:book')
+	]).loops(1).transitionalItem(transitionalItem)
 
 	// 穿刺X
 	sequenced_assembly([
@@ -955,7 +956,7 @@ ServerEvents.recipes(e => {
 		deploying('minecraft:enchanted_book', ['minecraft:enchanted_book', 'minecraft:dark_prismarine']),
 		filling('minecraft:enchanted_book', ['minecraft:enchanted_book', Fluid.of('kubejs:experience', 1000)]),
 		deploying('minecraft:enchanted_book', ['minecraft:enchanted_book', 'botania:lens_damage'])
-	]).loops(1).transitionalItem('minecraft:book')
+	]).loops(1).transitionalItem(transitionalItem)
 
 	// 穿刺XV
 	sequenced_assembly([
@@ -966,5 +967,5 @@ ServerEvents.recipes(e => {
 		filling('minecraft:enchanted_book', ['minecraft:enchanted_book', Fluid.of('kubejs:experience', 1000)]),
 		deploying('minecraft:enchanted_book', ['minecraft:enchanted_book', 'botania:lens_damage']),
 		deploying('minecraft:enchanted_book', ['minecraft:enchanted_book', 'botania:mining_ring'])
-	]).loops(1).transitionalItem('minecraft:book')
+	]).loops(1).transitionalItem(transitionalItem)
 })

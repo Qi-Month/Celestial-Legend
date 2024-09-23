@@ -1,7 +1,7 @@
 {
 	id: "33685FB08352CAD6"
 	loot_size: 1
-	order_index: 11
+	order_index: 9
 	rewards: [
 		{ count: 2, item: "botania:elementium_ingot" }
 		{ count: 2, item: "botania:pixie_dust" }

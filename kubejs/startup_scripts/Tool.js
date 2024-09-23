@@ -6,13 +6,6 @@ StartupEvents.registry('item', e => {
 		Use, // 耐久
 		Speed, // 挖掘速度
 		Setlevel // 工具等级
-		/*
-		*0木或金
-		*1石
-		*2铁
-		*3钻
-		*4合金
-		*/
 	) => {
 		e.create(Name, Type)
 			.attackDamageBaseline(Damage)

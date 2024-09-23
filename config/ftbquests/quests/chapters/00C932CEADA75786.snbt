@@ -125,34 +125,6 @@
 		}
 		{
 			can_repeat: true
-			icon: {
-				Count: 1b
-				id: "ec_tf_plugin:knight_metal_katana"
-				tag: {
-					Damage: 0
-				}
-			}
-			id: "1A4A94A4DA9344BD"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "6254B62F594FB2A2"
-				table_id: 9066948471408071124L
-				team_reward: true
-				type: "random"
-			}]
-			tasks: [{
-				consume_items: true
-				count: 2L
-				id: "602330AA587CCA93"
-				item: "kubejs:mooncoin"
-				type: "item"
-			}]
-			title: "低级随机武器"
-			x: 3.0d
-			y: 3.5d
-		}
-		{
-			can_repeat: true
 			icon: "aquamirae:pirate_pouch"
 			id: "68F8F31CBB6ACE39"
 			rewards: [{
@@ -251,7 +223,7 @@
 		}
 		{
 			can_repeat: true
-			icon: "expanded_combat:allay"
+			icon: "minecraft:egg"
 			id: "531E5823FB06A644"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -456,7 +428,7 @@
 				type: "item"
 			}]
 			title: "元素材料"
-			x: 7.5d
+			x: 6.0d
 			y: 1.5d
 		}
 		{
@@ -479,29 +451,6 @@
 			title: "简单弹药"
 			x: 6.0d
 			y: -0.5d
-		}
-		{
-			can_repeat: true
-			dependencies: ["7B61C9362B765165"]
-			icon: "ad_astra:mars_globe"
-			id: "246CEB3D5C3407B2"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "60051C4CADB478E7"
-				table_id: 6370167231344993546L
-				team_reward: true
-				type: "choice"
-			}]
-			tasks: [{
-				consume_items: true
-				count: 5L
-				id: "091B7068D143F1CB"
-				item: "kubejs:mooncoin"
-				type: "item"
-			}]
-			title: "外星矿物"
-			x: 6.0d
-			y: 1.5d
 		}
 		{
 			can_repeat: true
@@ -528,12 +477,12 @@
 				type: "item"
 			}]
 			title: "传送物品购买"
-			x: 6.0d
+			x: 3.0d
 			y: 3.5d
 		}
 		{
 			can_repeat: true
-			icon: "kubejs:subatomic_ingot"
+			icon: "kubejs:award_ticket"
 			id: "3E5220DDBB85FE43"
 			rewards: [
 				{
@@ -621,6 +570,7 @@
 			y: -2.0d
 		}
 		{
+			can_repeat: true
 			icon: "minecraft:ender_pearl"
 			id: "7B6A8E399EACAEBD"
 			rewards: [{
@@ -679,7 +629,48 @@
 				item: "kubejs:mooncoin"
 				type: "item"
 			}]
+			title: "难度控制"
 			x: 9.0d
+			y: -0.5d
+		}
+		{
+			can_repeat: true
+			icon: "alexscaves:scarlet_neodymium_ingot"
+			id: "2D810279C861650E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3A52958182CF416E"
+				table_id: 550437464830808058L
+				type: "choice"
+			}]
+			tasks: [{
+				count: 2L
+				id: "32D0F2945846C806"
+				item: { Count: 2b, id: "kubejs:mooncoin" }
+				type: "item"
+			}]
+			title: "赤青钕锭"
+			x: 10.5d
+			y: -0.5d
+		}
+		{
+			can_repeat: true
+			id: "72D30331DF6B96AD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "722A623292C08906"
+				table_id: 2188816297148344262L
+				type: "choice"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "2725A9B7AFCD820F"
+				item: "kubejs:mooncoin"
+				type: "item"
+			}]
+			title: "特别的蘑菇"
+			x: 12.0d
 			y: -0.5d
 		}
 	]

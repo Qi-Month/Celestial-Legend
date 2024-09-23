@@ -1,7 +1,7 @@
 {
 	id: "3ABA8D39C0337BF5"
 	loot_size: 1
-	order_index: 25
+	order_index: 23
 	rewards: [
 		{ item: "twilightforest:fiery_ingot" }
 		{ item: "twilightforest:armor_shard_cluster" }

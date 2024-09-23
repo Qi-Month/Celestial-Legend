@@ -1,7 +1,7 @@
 {
 	id: "5503F9459BD35218"
 	loot_size: 1
-	order_index: 35
+	order_index: 32
 	rewards: [
 		{
 			item: {
@@ -12,20 +12,6 @@
 					Unbreakable: 1b
 					display: {
 						Name: "{\"text\":\"\\u00A7e雪王靴子\"}"
-					}
-					itemModifier: "celestial_forge:legend"
-				}
-			}
-		}
-		{
-			item: {
-				Count: 1b
-				id: "ec_tf_plugin:yeti_gauntlet"
-				tag: {
-					Damage: 0
-					Unbreakable: 1b
-					display: {
-						Name: "{\"text\":\"\\u00A7e雪王拳套\"}"
 					}
 					itemModifier: "celestial_forge:legend"
 				}

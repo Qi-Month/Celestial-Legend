@@ -1,0 +1,11 @@
+{
+	id: "1E603CD34E1CE7C6"
+	loot_size: 1
+	order_index: 38
+	rewards: [
+		{ item: "l2artifacts:explosive_fungus" }
+		{ item: "l2artifacts:petrified_fungus" }
+		{ item: "l2artifacts:nutritious_fungus" }
+	]
+	title: "特别的蘑菇"
+}

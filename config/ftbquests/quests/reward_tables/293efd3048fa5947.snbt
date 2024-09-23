@@ -1,7 +1,7 @@
 {
 	id: "293EFD3048FA5947"
 	loot_size: 1
-	order_index: 22
+	order_index: 20
 	rewards: [
 		{ item: "aquamirae:fin" }
 		{ item: "aquamirae:esca" }

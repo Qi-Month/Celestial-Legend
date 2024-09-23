@@ -18,6 +18,7 @@ Ponder.tags(e => {
 		'coke_oven',
 		'diesel_generator'
 	]
-	e.createTag(`${ie}structure`, `${ie}hammer`, '结构', '多方块机器', StructuresArray.map(Structures => `${ie}${Structures}`)
+	e.createTag(`${ie}structure`, `${ie}hammer`, '结构', '多方块机器',
+		StructuresArray.map(Structures => `${ie}${Structures}`)
 	)
 })

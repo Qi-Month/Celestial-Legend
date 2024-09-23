@@ -95,7 +95,7 @@ ServerEvents.recipes(e => {
 		F: 'minecraft:flint',
 		S: '#forge:sand'
 	})
-	
+
 	// 雪块
 	compacting('minecraft:powder_snow_bucket', [
 		Fluid.of('kubejs:powder_snow', 1000)
@@ -106,8 +106,18 @@ ServerEvents.recipes(e => {
 		'create:experience_nugget'
 	]).heated()
 
+	compacting(Fluid.of('kubejs:experience', 54), [
+		'create:experience_block'
+	]).heated()
+
 	emptying([Fluid.of('kubejs:experience', 250), 'minecraft:book'], [
 		'minecraft:enchanted_book'
+	])
+
+	// 瓶装经验
+	filling('kubejs:experience_bucket', [
+		'minecraft:glass_bottle',
+		Fluid.of('kubejs:experience', 1000)
 	])
 
 	// 细雪
@@ -176,6 +186,39 @@ ServerEvents.recipes(e => {
 		])
 	]).loops(2).transitionalItem('create:precision_mechanism')
 
+	// 催化石
+	mechanical_crafting('kubejs:tfd_catalytic_stone', [
+		'ABCDA',
+		'EFGFE',
+		'ADHIA'
+	], {
+		A: '#forge:gems/fluix',
+		B: '#forge:ingots/signalum',
+		C: 'ae2:singularity',
+		D: 'create:shadow_steel',
+		E: 'rftoolsbase:infused_enderpearl',
+		F: '#forge:ingots/brass',
+		G: 'botania:gaia_ingot',
+		H: 'immersiveengineering:logic_circuit',
+		I: '#forge:ingots/lumium'
+	})
+
+	e.custom({
+		"type": "botania:runic_altar",
+		"ingredients": [
+			{ "item": "l2complements:explosion_shard" },
+			{ "item": "l2complements:eternium_ingot" },
+			{ "item": "l2complements:storm_core" },
+			{ "item": "l2hostility:miracle_powder" },
+			{ "item": "cataclysm:witherite_ingot" },
+			{ "item": "celestial_core:death_essence" },
+			{ "item": "botania:gaia_ingot" },
+			{ "tag": "forge:ingots/oratchalcum" }
+		],
+		"mana": 20000,
+		"output": { "item": "kubejs:tfd_catalytic_stone" }
+	})
+
 	// 石磨(粉)
 	const Milling = {
 		'thermal:iron_dust': '#forge:ingots/iron',
@@ -200,9 +243,9 @@ ServerEvents.recipes(e => {
 		'thermal:sapphire_dust': '#forge:gems/sapphire',
 		'thermal:nickel_dust': '#forge:ingots/nickel'
 	}
-	Object.entries(Milling).forEach(([
-		Output, Input
-	]) => { milling([Output], [Input]) })
+	Object.entries(Milling).forEach(([Output, Input]) => {
+		milling([Output], [Input])
+	})
 
 	// 铜剑
 	shaped('kubejs:copper_sword', [

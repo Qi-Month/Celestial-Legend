@@ -1,7 +1,7 @@
 {
 	id: "0EB4F2E85E17A5BE"
 	loot_size: 1
-	order_index: 29
+	order_index: 27
 	rewards: [
 		{ item: "kubejs:mooncoin", random_bonus: 1, weight: 1.5999999f }
 		{ item: "kubejs:mooncoin", random_bonus: 4, weight: 1.5f }

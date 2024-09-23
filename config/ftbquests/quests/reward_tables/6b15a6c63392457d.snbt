@@ -1,7 +1,7 @@
 {
 	id: "6B15A6C63392457D"
 	loot_size: 1
-	order_index: 24
+	order_index: 22
 	rewards: [
 		{ item: "minecraft:chicken_spawn_egg" }
 		{ item: "minecraft:sheep_spawn_egg" }

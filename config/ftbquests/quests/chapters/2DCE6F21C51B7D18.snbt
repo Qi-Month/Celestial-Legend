@@ -5,11 +5,11 @@
 	group: "09EE0DA8FC2DE922"
 	icon: "the_forgotten_dimensions:froslog_sapling"
 	id: "2DCE6F21C51B7D18"
-	order_index: 9
+	order_index: 7
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["7B61C9362B765165"]
+			dependencies: ["150DE632F53722B4"]
 			id: "6FCFFFFC7C8035CC"
 			rewards: [
 				{
@@ -53,19 +53,6 @@
 			title: "访问维度：冰封之地"
 			x: -1.0d
 			y: -1.0d
-		}
-		{
-			dependencies: ["6FCFFFFC7C8035CC"]
-			description: ["有许多错漏的一本书，不可尽信"]
-			id: "0F6174E1F442917C"
-			subtitle: "介绍了维度中的一些生物和Boss，还有具体的生存建议和发展流程等"
-			tasks: [{
-				id: "7D520D2EC3444603"
-				item: "the_forgotten_dimensions:permafrost_guide"
-				type: "item"
-			}]
-			x: -2.0d
-			y: 0.5d
 		}
 		{
 			dependencies: ["6FCFFFFC7C8035CC"]
@@ -133,23 +120,6 @@
 			}]
 			x: 3.0d
 			y: -1.0d
-		}
-		{
-			dependencies: ["0F6174E1F442917C"]
-			id: "5E1B640BCC8A6DC9"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "1C2D83AE93788108"
-				table_id: 2462882013908997816L
-				type: "random"
-			}]
-			tasks: [{
-				biome: "the_forgotten_dimensions:dense_mendalum_forest"
-				id: "0555CFCC5C3E1D11"
-				type: "biome"
-			}]
-			x: -4.0d
-			y: 1.5d
 		}
 		{
 			dependencies: ["1A54B8DEE306F5EA"]
@@ -894,29 +864,27 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["750EFCA798C23B45"]
-			id: "7B61C9362B765165"
+			id: "17793BF839CEDD71"
+			subtitle: "冰封之地传送门框的组成方块，可以从主世界上空生成的空岛遗迹上挖取或是手动合成"
 			tasks: [{
-				id: "4FCF6DB8CEE72A90"
-				item: {
-					Count: 1b
-					id: "ad_astra:tier_4_rocket"
-					tag: { }
-				}
-				type: "item"
-			}]
-			x: -3.0d
-			y: -1.0d
-		}
-		{
-			dependencies: ["235F152EDD7DFA88"]
-			id: "750EFCA798C23B45"
-			tasks: [{
-				id: "05BED7FA2D7A47BA"
-				item: "ad_astra:calorite_engine"
+				count: 14L
+				id: "5F26D3D2C4552230"
+				item: { Count: 14b, id: "the_forgotten_dimensions:skyrium_bricks" }
 				type: "item"
 			}]
 			x: -5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["17793BF839CEDD71"]
+			id: "150DE632F53722B4"
+			subtitle: "有了它，你便可以激活冰封之地的传送门了"
+			tasks: [{
+				id: "5F31420CFC0868CF"
+				item: "kubejs:tfd_catalytic_stone"
+				type: "item"
+			}]
+			x: -3.0d
 			y: -1.0d
 		}
 	]

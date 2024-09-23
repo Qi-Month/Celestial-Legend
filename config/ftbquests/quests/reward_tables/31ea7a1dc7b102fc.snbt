@@ -1,7 +1,7 @@
 {
 	id: "31EA7A1DC7B102FC"
 	loot_size: 1
-	order_index: 23
+	order_index: 21
 	rewards: [
 		{ count: 8, item: "minecraft:coal" }
 		{ count: 4, item: "minecraft:quartz" }

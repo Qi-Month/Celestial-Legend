@@ -1,7 +1,7 @@
 {
 	id: "3F772EF11B9AA6BE"
 	loot_size: 1
-	order_index: 34
+	order_index: 31
 	rewards: [
 		{ count: 64, item: "minecraft:arrow" }
 		{
@@ -25,45 +25,12 @@
 		{ count: 16, item: "alexscaves:depth_charge" }
 		{ count: 16, item: "immersiveengineering:homing" }
 		{ count: 16, item: "immersiveengineering:flare" }
-		{
-			count: 4
-			item: {
-				Count: 1b
-				id: "expanded_combat:tipped_netherite_arrow"
-				tag: {
-					Potion: "minecraft:strong_poison"
-				}
-			}
-		}
-		{
-			count: 16
-			item: {
-				Count: 1b
-				id: "expanded_combat:tipped_iron_arrow"
-				tag: {
-					Potion: "minecraft:strong_harming"
-				}
-			}
-		}
-		{
-			count: 8
-			item: {
-				Count: 1b
-				id: "expanded_combat:tipped_diamond_arrow"
-				tag: {
-					Potion: "minecraft:strong_harming"
-				}
-			}
-		}
 		{ count: 16, item: "cataclysm:void_scatter_arrow" }
 		{ count: 16, item: "the_forgotten_dimensions:metallic_snow_arrow" }
 		{ count: 8, item: "the_forgotten_dimensions:true_ice_arrow" }
 		{ count: 8, item: "the_forgotten_dimensions:thunderite_arrow" }
 		{ count: 16, item: "the_forgotten_dimensions:skylite_arrow" }
 		{ count: 32, item: "ars_nouveau:pierce_arrow" }
-		{ count: 32, item: "expanded_combat:iron_arrow" }
-		{ count: 16, item: "expanded_combat:diamond_arrow" }
-		{ count: 8, item: "expanded_combat:netherite_arrow" }
 		{ count: 32, item: "minecraft:spectral_arrow" }
 		{ count: 8, item: "alexscaves:seeking_arrow" }
 		{

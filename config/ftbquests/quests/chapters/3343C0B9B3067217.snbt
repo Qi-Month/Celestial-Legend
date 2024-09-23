@@ -42,12 +42,6 @@
 					type: "random"
 				}
 				{
-					exclude_from_claim_all: true
-					id: "322F402B2DE170AB"
-					table_id: 4729708197500817057L
-					type: "random"
-				}
-				{
 					id: "3BDC4658F4BC98D9"
 					table_id: 3105433937550230083L
 					type: "random"
@@ -212,7 +206,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "56FD6954C5206766"
-					table_id: 9066948471408071124L
 					type: "random"
 				}
 				{
@@ -891,12 +884,6 @@
 					type: "item"
 				}
 				{
-					exclude_from_claim_all: true
-					id: "5A11556026A522CE"
-					table_id: 9066948471408071124L
-					type: "random"
-				}
-				{
 					id: "4C67FC8FDE4A7C42"
 					item: "l2artifacts:random_1"
 					type: "item"
@@ -1213,7 +1200,6 @@
 				{
 					exclude_from_claim_all: true
 					id: "11F7FEFA38C51FE4"
-					table_id: 4729708197500817057L
 					type: "choice"
 				}
 				{
@@ -1429,24 +1415,9 @@
 			]
 			subtitle: "是先有的不死鸟蛋，还是现有的不死鸟？"
 			tasks: [{
-				id: "53E1EC9B67DBA65C"
-				item: {
-					Count: 1b
-					ForgeCaps: {
-						Parent: {
-							Items: [ ]
-							Size: 9
-						}
-					}
-					id: "the_forgotten_dimensions:a_guide_to_dimensions"
-					tag: {
-						Inventory: {
-							Items: [ ]
-							Size: 9
-						}
-					}
-				}
-				type: "item"
+				id: "6294DBAB3C854BE8"
+				title: "元素世界"
+				type: "checkmark"
 			}]
 			x: 6.0d
 			y: 3.5d
@@ -2003,12 +1974,6 @@
 			dependencies: ["0D226E91349E5E65"]
 			id: "72205F3A4646CBA9"
 			rewards: [
-				{
-					exclude_from_claim_all: true
-					id: "53BD2C75E377A115"
-					table_id: 9066948471408071124L
-					type: "random"
-				}
 				{
 					id: "0CA4A9B284980545"
 					item: "l2artifacts:random_1"

@@ -1,7 +1,7 @@
 {
 	id: "4C1196ED20758AE0"
 	loot_size: 1
-	order_index: 37
+	order_index: 34
 	rewards: [
 		{ item: "alexscaves:raygun" }
 		{ item: "pillagers_gun:assault_rifle" }

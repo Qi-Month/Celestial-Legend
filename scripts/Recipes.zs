@@ -4,8 +4,6 @@ craftingTable.remove(<item:rats:marbled_cheese_golem_core>);
 
 <tag:items:the_forgotten_dimensions:log>.add(<item:the_forgotten_dimensions:fros_log>, <item:the_forgotten_dimensions:mendalum_log>, <item:the_forgotten_dimensions:mendalum_log>);
 
-craftingTable.addShapeless("new_tag_test", <item:the_forgotten_dimensions:a_guide_to_dimensions>, [<tag:items:the_forgotten_dimensions:log>,<item:minecraft:book>,<tag:items:the_forgotten_dimensions:log>]);
-craftingTable.addShapeless("new_tag_test2", <item:the_forgotten_dimensions:permafrost_guide>, [<item:the_forgotten_dimensions:frozen_dirt>,<item:minecraft:book>]);
 craftingTable.addShapeless("shapeless_example_1", <item:the_forgotten_dimensions:raw_metallic_snow>, [<item:minecraft:raw_iron>, <item:minecraft:snow_block>]);
 craftingTable.addShapeless("shapeless_example_2", <item:the_forgotten_dimensions:snowincho_fur>, [<item:minecraft:leather>, <item:minecraft:blue_ice>]);
 craftingTable.addShapeless("shapeless_example_3", <item:twilightforest:arctic_fur>, [<item:l2complements:hard_ice>, <item:the_forgotten_dimensions:snowincho_fur>]);
@@ -26,32 +24,20 @@ craftingTable.addShaped("marbled_cheese_golem_core", <item:rats:marbled_cheese_g
     [<item:rats:marbled_cheese>, <item:rats:gem_of_ratlantis>, <item:rats:marbled_cheese>],
     [<item:rats:marbled_cheese>, <item:cataclysm:ignitium_ingot>, <item:rats:marbled_cheese>]
 ]);
-craftingTable.remove(<item:expanded_combat:gold_quiver>);
-craftingTable.addShaped("gold_quiver", <item:expanded_combat:gold_quiver>, [
-    [<item:ars_nouveau:magebloom_fiber>, <item:ars_nouveau:glyph_touch>, <item:minecraft:air>],
-    [<item:ars_nouveau:glyph_projectile>, <item:minecraft:air>, <item:ars_nouveau:glyph_orbit>],
-    [<item:create_new_age:overcharged_gold>, <item:ars_nouveau:glyph_self>, <item:minecraft:air>]
-]);
 craftingTable.remove(<item:aquamirae:three_bolt_leggings>);
 craftingTable.addShaped("aquamirae", <item:aquamirae:three_bolt_leggings>, [
-    [<item:ad_astra:steel_block>, <item:the_forgotten_dimensions:snowincho_fur>, <item:ad_astra:steel_block>],
+    [<item:the_forgotten_dimensions:snowincho_fur>],
     [<item:the_forgotten_dimensions:snowincho_fur>, <item:minecraft:air>, <item:the_forgotten_dimensions:snowincho_fur>],
     [<item:the_forgotten_dimensions:snowincho_fur>, <item:minecraft:air>, <item:the_forgotten_dimensions:snowincho_fur>]
 ]);
 craftingTable.remove(<item:aquamirae:three_bolt_boots>);
 craftingTable.addShaped("aquamirae1", <item:aquamirae:three_bolt_boots>, [
-    [<item:ad_astra:steel_block>, <item:minecraft:air>, <item:ad_astra:steel_block>],
+    [<item:minecraft:air>],
     [<item:the_forgotten_dimensions:snowincho_fur>, <item:minecraft:air>, <item:the_forgotten_dimensions:snowincho_fur>]
-]);
-craftingTable.remove(<item:ec_aquamirae_plugin:three-bolt_gauntlet>);
-craftingTable.addShaped("aquamirae2", <item:ec_aquamirae_plugin:three-bolt_gauntlet>, [
-    [<item:ad_astra:steel_block>, <item:the_forgotten_dimensions:snowincho_fur>, <item:minecraft:air>],
-    [<item:the_forgotten_dimensions:snowincho_fur>, <item:minecraft:air>, <item:minecraft:air>]
 ]);
 craftingTable.remove(<item:aquamirae:three_bolt_suit>);
 craftingTable.addShaped("aquamirae3", <item:aquamirae:three_bolt_suit>, [
-    [<item:ad_astra:steel_block>, <item:ad_astra:steel_block>, <item:ad_astra:steel_block>],
-	[<item:ad_astra:oxygen_tank>, <item:the_forgotten_dimensions:snowincho_fur>, <item:ad_astra:oxygen_tank>],
+	[<item:the_forgotten_dimensions:snowincho_fur>],
     [<item:the_forgotten_dimensions:snowincho_fur>,<item:the_forgotten_dimensions:snowincho_fur>, <item:the_forgotten_dimensions:snowincho_fur>]
 ]);
 craftingTable.addShaped("charm1", <item:twilightforest:charm_of_life_1>, [
@@ -133,12 +119,7 @@ craftingTable.remove(<item:immersiveengineering:armor_faraday_chestplate>);
 craftingTable.remove(<item:immersiveengineering:armor_faraday_leggings>);
 craftingTable.remove(<item:immersiveengineering:armor_faraday_boots>);
 craftingTable.remove(<item:immersiveengineering:plate_aluminum>);
-craftingTable.remove(<item:ad_astra:iron_plate>);
 craftingTable.remove(<item:immersiveengineering:plate_iron>);
-craftingTable.remove(<item:ad_astra:steel_plate>);
-craftingTable.remove(<item:ad_astra:desh_plate>);
-craftingTable.remove(<item:ad_astra:ostrum_plate>);
-craftingTable.remove(<item:ad_astra:calorite_plate>);
 craftingTable.remove(<item:immersiveengineering:plate_steel>);
 craftingTable.remove(<item:immersiveengineering:plate_copper>);
 craftingTable.remove(<item:immersiveengineering:plate_silver>);
@@ -169,16 +150,16 @@ smithing.addTransformRecipe("st1", <item:the_forgotten_dimensions:raw_thunderite
         {
             "item": "ae2:quartz_bricks"
         },
-		{
+		    {
             "item": "botania:rune_winter"
         },
-		{
+		    {
             "item": "botania:rune_water"
         },
         {
             "item": "botania:mana_bottle"
         },
-		{
+		    {
             "item": "ae2:quartz_bricks"
         }
     ]
@@ -193,16 +174,16 @@ smithing.addTransformRecipe("st1", <item:the_forgotten_dimensions:raw_thunderite
         {
             "item": "ae2:sky_stone_brick"
         },
-		{
+	    	{
             "item": "botania:rune_fire"
         },
-		{
+	    	{
             "item": "botania:rune_summer"
         },
         {
             "item": "immersiveengineering:redstone_acid_bucket"
         },
-		{
+	    	{
             "item": "ae2:sky_stone_brick"
         }
     ]

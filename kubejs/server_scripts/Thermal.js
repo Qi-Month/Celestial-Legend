@@ -43,9 +43,8 @@ ServerEvents.recipes(e => {
 
 	//末影锭
 	mixing('thermal:enderium_ingot', [
-		'#forge:ingots/netherite',
-		'#forge:gems/diamond',
-		'2x #forge:ender_pearls',
+		'#forge:ingots/gold',
+		'#forge:ender_pearls',
 		'minecraft:chorus_fruit',
 		'blue_skies:charoite'
 	]).superheated()

@@ -33,15 +33,6 @@ ServerEvents.tags('entity_type', e => {
 		'the_forgotten_dimensions:ice_phoenix'
 	])
 
-	e.add('ad_astra:live_without_oxygen', [
-		'cataclysm:the_watcher',
-		'alexsmobs:void_worm',
-		'alexsmobs:farseer',
-		'alexscaves:ferrouslime',
-		'alexscaves:teletor',
-		'alexscaves:notor',
-		'alexscaves:nucleeper'
-	])
 })
 // Item
 ServerEvents.tags('item', e => {
@@ -65,32 +56,16 @@ ServerEvents.tags('item', e => {
 		'#forge:cobblestone'
 	])
 
-	// AD电缆
-	e.add('ad_astra:cable', [
-		'ad_astra:steel_cable',
-		'ad_astra:desh_cable'
-	])
-
-	// AD引擎
-	e.add('ad_astra:engine', [
-		'ad_astra:steel_engine',
-		'ad_astra:desh_engine',
-		'ad_astra:ostrum_engine',
-		'ad_astra:calorite_engine'
-	])
-
-	// AD储罐
-	e.add('ad_astra:tank', [
-		'ad_astra:steel_tank',
-		'ad_astra:desh_tank',
-		'ad_astra:ostrum_tank',
-		'ad_astra:calorite_tank'
-	])
-
 	// 赤&青
 	e.add('alexscaves:alloy_ingot', [
 		'alexscaves:azure_neodymium_ingot',
 		'alexscaves:scarlet_neodymium_ingot'
+	])
+
+	// 蔚蓝最终奖杯
+	e.add('blue_skies:trophy', [
+		'blue_skies:summoner_trophy',
+		'blue_skies:starlit_crusher_trophy'
 	])
 
 	// 土豆

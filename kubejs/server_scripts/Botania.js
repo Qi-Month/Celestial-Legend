@@ -40,19 +40,18 @@ ServerEvents.recipes(e => {
 		"output": { "item": "twilightforest:liveroot" }
 	})
 
-	// 魔法水晶
+	// 盖亚水晶
 	mechanical_crafting('4x botania:gaia_pylon', [
 		' S ',
 		'PND',
-		'TEC'
+		' EC'
 	], {
 		S: '#forge:ingots/steeleaf',
 		P: 'botania:pixie_dust',
 		N: 'botania:natura_pylon',
 		D: '#forge:gems/dragonstone',
-		T: 'blue_skies:summoner_trophy',
 		E: '#forge:ingots/elementium',
-		C: 'blue_skies:starlit_crusher_trophy'
+		C: '#blue_skies:trophy'
 	}).id('botania:gaia_pylon')
 
 	// 词典

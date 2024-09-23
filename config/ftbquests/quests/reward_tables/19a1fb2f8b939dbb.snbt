@@ -1,7 +1,7 @@
 {
 	id: "19A1FB2F8B939DBB"
 	loot_size: 1
-	order_index: 19
+	order_index: 17
 	rewards: [
 		{ count: 4, item: "blue_skies:raw_horizonite" }
 		{ count: 4, item: "blue_skies:raw_ventium" }

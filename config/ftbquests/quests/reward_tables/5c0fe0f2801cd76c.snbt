@@ -1,7 +1,7 @@
 {
 	id: "5C0FE0F2801CD76C"
 	loot_size: 1
-	order_index: 10
+	order_index: 8
 	rewards: [
 		{ item: "botania:rune_water" }
 		{ item: "botania:rune_fire" }

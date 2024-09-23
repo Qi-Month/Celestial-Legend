@@ -1,0 +1,10 @@
+{
+	id: "07A38BF53A4E8FFA"
+	loot_size: 1
+	order_index: 37
+	rewards: [
+		{ item: "alexscaves:scarlet_neodymium_ingot" }
+		{ item: "alexscaves:azure_neodymium_ingot" }
+	]
+	title: "赤青钕锭"
+}

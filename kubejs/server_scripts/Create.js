@@ -47,8 +47,7 @@ ServerEvents.recipes(e => {
 
 	// 暗影钢
 	mixing('2x create:shadow_steel', [
-		'alexscaves:azure_neodymium_ingot',
-		'alexscaves:scarlet_neodymium_ingot',
+		'#alexscaves:alloy_ingot',
 		'#forge:ingots/enderium',
 		'cataclysm:enderite_ingot',
 		'#forge:ingots/ironwood'
@@ -116,7 +115,7 @@ ServerEvents.recipes(e => {
 	}).id('create:crafting/kinetics/fluid_tank')
 
 	// 粉碎轮
-	mechanical_crafting('2x create:c	rushing_wheel', [
+	mechanical_crafting('2x create:crushing_wheel', [
 		' AAA ',
 		'AAPAA',
 		'APPPA',
@@ -152,8 +151,7 @@ ServerEvents.recipes(e => {
 	], {
 		G: '#forge:glass',
 		I: '#forge:ingots/iron',
-		S: '#forge:ingots/signalum',
-		P: 'ad_astra:solar_panel'
+		S: '#forge:ingots/signalum'
 	}).id('create_new_age:shaped/basic_solar_plate')
 
 	// 锅炉加热器
@@ -197,7 +195,7 @@ ServerEvents.recipes(e => {
 		pressing('create_new_age:nuclear_fuel', [
 			'create_new_age:nuclear_fuel'
 		])
-	]).loops(1).transitionalItem('ad_astra:iron_plate')
+	]).loops(1).transitionalItem('minecraft:iron_ingot')
 
 	// 核反应堆砖块
 	e.custom({

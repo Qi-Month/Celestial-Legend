@@ -1,7 +1,7 @@
 {
 	id: "2B18B7B6811FC243"
 	loot_size: 1
-	order_index: 16
+	order_index: 14
 	rewards: [
 		{ item: "alexscaves:pewen_boat" }
 		{ item: "minecraft:cherry_boat" }

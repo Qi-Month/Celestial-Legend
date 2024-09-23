@@ -33,6 +33,12 @@ ServerEvents.recipes(e => {
 		stonecutting
 	} = e.recipes.minecraft
 
+// 钢锭
+	mixing('2x immersiveengineering:ingot_steel', [
+		'#forge:coal_coke',
+		'#forge:ingots/ironwood'
+	]).superheated()
+	
 	// 木杆
 	shaped('immersiveengineering:treated_post', [
 		'T',
@@ -169,7 +175,7 @@ ServerEvents.recipes(e => {
 		"additives": [{ "tag": "forge:dusts/coal_coke" }],
 		"energy": 204800,
 		"input": { "tag": "forge:ingots/iron" },
-		"results": [{ "item": "ad_astra:steel_ingot" }],
+		"results": [{ "tag": "forge:ingots/steel" }],
 		"slag": { "tag": "forge:slag" },
 		"time": 400
 	}).id('immersiveengineering:arcfurnace/steel')
@@ -180,7 +186,7 @@ ServerEvents.recipes(e => {
 		"additives": [{ "tag": "forge:dusts/coal_coke" }],
 		"energy": 1843200,
 		"input": { "tag": "forge:storage/iron" },
-		"results": [{ "item": "ad_astra:steel_block" }],
+		"results": [{ "tag": "forge:storage/steel" }],
 		"slag": { "tag": "forge:slag" },
 		"time": 3600
 	}).id('immersiveengineering:arcfurnace/steel_block')

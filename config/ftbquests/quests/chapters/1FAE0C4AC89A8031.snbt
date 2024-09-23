@@ -20,6 +20,7 @@
 				"6D980A5A10D7863C"
 				"5AA25122CC79271A"
 			]
+			dependency_requirement: "one_completed"
 			id: "5C743CAAD084BE88"
 			rewards: [
 				{
@@ -467,31 +468,6 @@
 			title: "古代的强大科技"
 			x: 14.0d
 			y: -3.0d
-		}
-		{
-			dependencies: ["58CC968B520276A5"]
-			description: ["准备制作火箭吧"]
-			id: "08B46CB89465F5F8"
-			rewards: [
-				{
-					id: "34FDBE55000AB309"
-					item: "celestial_artifacts:thunder_ring"
-					type: "item"
-				}
-				{
-					count: 2
-					id: "58716CE1DE554A9B"
-					item: "thermal:signalum_ingot"
-					type: "item"
-				}
-			]
-			tasks: [{
-				id: "12E4FDC0068A63C0"
-				item: "ad_astra:nasa_workbench"
-				type: "item"
-			}]
-			x: 16.0d
-			y: -1.0d
 		}
 		{
 			dependencies: ["2D8996D9D3FDB22F"]

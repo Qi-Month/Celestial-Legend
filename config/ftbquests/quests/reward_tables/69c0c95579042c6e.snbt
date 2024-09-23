@@ -1,7 +1,7 @@
 {
 	id: "69C0C95579042C6E"
 	loot_size: 1
-	order_index: 39
+	order_index: 36
 	rewards: [
 		{ item: "l2hostility:bottle_of_sanity" }
 		{ item: "l2hostility:bottle_of_curse" }

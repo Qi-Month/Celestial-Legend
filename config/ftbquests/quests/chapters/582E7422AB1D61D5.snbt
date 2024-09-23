@@ -261,7 +261,7 @@
 				type: "item"
 			}]
 			title: "信素"
-			x: 8.0d
+			x: 7.8d
 			y: 0.0d
 		}
 		{
@@ -343,7 +343,7 @@
 				item: "ae2:crafting_terminal"
 				type: "item"
 			}]
-			x: 7.5d
+			x: 8.0d
 			y: -4.0d
 		}
 		{
@@ -486,8 +486,8 @@
 				type: "item"
 			}]
 			title: "寻找合金巨兽"
-			x: 12.5d
-			y: -6.0d
+			x: 13.5d
+			y: -6.5d
 		}
 		{
 			dependencies: ["3FC6CE318F9617CC"]
@@ -709,6 +709,32 @@
 			}]
 			x: 2.0d
 			y: 2.0d
+		}
+		{
+			dependencies: ["3284F90C7393E20B"]
+			hide_dependency_lines: true
+			id: "1B7529436DA105E7"
+			subtitle: "你可以使用信素等材料制作欲望刻蚀板，它能够为你反转灾厄之册的欲望诅咒效果"
+			tasks: [{
+				id: "2AFFFC4056D9E8EC"
+				item: "celestial_artifacts:desire_etching"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5D0C9AB52BE2EE3B"]
+			hide_dependency_lines: true
+			id: "1453622008102258"
+			subtitle: "你可以使用流明制作稀有级的古遗物经验瓶，它能够为你的古遗物提高等级"
+			tasks: [{
+				id: "43C76F3F8F14EB33"
+				item: "l2artifacts:artifact_experience_2"
+				type: "item"
+			}]
+			x: 17.5d
+			y: -2.0d
 		}
 	]
 	title: "初入蔚蓝"

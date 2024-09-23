@@ -43,15 +43,6 @@
 		{
 			item: {
 				Count: 1b
-				id: "ad_astra:space_boots"
-				tag: {
-					Damage: 0
-				}
-			}
-		}
-		{
-			item: {
-				Count: 1b
 				id: "alexscaves:hazmat_boots"
 				tag: {
 					Damage: 0

@@ -1,7 +1,7 @@
 {
 	id: "511540ABF3506AE6"
 	loot_size: 1
-	order_index: 31
+	order_index: 29
 	rewards: [
 		{
 			item: {
@@ -343,32 +343,6 @@
 					Unbreakable: 1b
 					display: {
 						Name: "{\"text\":\"\\u00A7d真·迷雾玫瑰\"}"
-					}
-				}
-			}
-			only_one: true
-		}
-		{
-			item: {
-				Count: 1b
-				id: "ec_lec_plugin:witherite_quiver"
-				tag: {
-					AttributeModifiers: [{
-						Amount: 1.5d
-						AttributeName: "l2damagetracker:bow_strength"
-						Name: "Extra C30.1"
-						Operation: 2
-						Slot: "offhand"
-						UUID: [I;
-							-1150384809
-							471289574
-							-1905895533
-							-1649841348
-						]
-					}]
-					Unbreakable: 1b
-					display: {
-						Name: "{\"text\":\"\\u00A7d凋零弹药库\"}"
 					}
 				}
 			}

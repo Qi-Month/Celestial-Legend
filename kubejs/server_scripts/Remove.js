@@ -9,7 +9,6 @@ ServerEvents.recipes(e => {
 		'projecte:condenser_mk1',
 		'projecte:condenser_mk2',
 		'projecte:item.pe_time_watch',
-		'immersiveengineering:ingot_steel'
 	]
 	Remove_Item.forEach(Item => {
 		e.remove({ output: Item })
@@ -22,7 +21,6 @@ ServerEvents.recipes(e => {
 		'thermal:machines/smelter/smelter_glass_obsidian',
 		'immersiveengineering:crafting/treated_wood_horizontal',
 		'thermal:fire_charge/electrum_ingot_2',
-		'botania:elven_trade/lexicon_elven',
 		'immersiveengineering:smelting/ingot_hop_graphite_from_blasting',
 		'immersiveengineering:smelting/ingot_hop_graphite',
 		'thermal:furnace_365216125',
@@ -33,7 +31,6 @@ ServerEvents.recipes(e => {
 		'thermal:lumium_dust_4',
 		'createaddition:mixing/netherrack',
 		'thermal:fire_charge/lumium_ingot_4',
-		'ad_astra:recipes/steel_ingot_from_blasting_iron_ingot',
 		'thermal:fire_charge/enderium_ingot_2',
 		'thermal:enderium_dust_2',
 		'create:crushing/asurine',
